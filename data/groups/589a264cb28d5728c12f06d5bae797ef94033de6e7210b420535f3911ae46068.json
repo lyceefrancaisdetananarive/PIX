@@ -1,0 +1,362 @@
+{
+  "name": "4M5 SVT",
+  "level": "4e",
+  "studentCount": 7,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 4e": "ULCJER549"
+  },
+  "students": [
+    {
+      "id": "houssein_rudy_anjaratiana",
+      "name": "HOUSSEIN Rudy Anjaratiana",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T08:10:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "ULCJER549",
+          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T08:10:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "nathoo_mael",
+      "name": "Nathoo Mael",
+      "classe": "",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-24T09:28:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "ULCJER549",
+          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-24T09:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "orsot_dessi_amelie_lea_kissi",
+      "name": "ORSOT-DESSI Amélie Léa Kissi",
+      "classe": "1G7",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "ULCJER549",
+          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.91,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ramanamihantatsoarana_beniaina_olivier",
+      "name": "RAMANAMIHANTATSOARANA Beniaina Olivier",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-24T09:11:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "ULCJER549",
+          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-24T09:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.97,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "ramorasata_herinirina_irinah",
+      "name": "RAMORASATA Herinirina Irinah",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T06:00:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "ULCJER549",
+          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-25T06:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "razafindrabe_teddy_emmanuel_ambinintsoa",
+      "name": "RAZAFINDRABE Teddy Emmanuel Ambinintsoa",
+      "classe": "1G7",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-31T13:05:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "ULCJER549",
+          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-31T13:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.97,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "razafindramboa_zachary_adolphe",
+      "name": "RAZAFINDRAMBOA Zachary Adolphe",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-24T09:30:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "ULCJER549",
+          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-24T09:30:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    }
+  ]
+}

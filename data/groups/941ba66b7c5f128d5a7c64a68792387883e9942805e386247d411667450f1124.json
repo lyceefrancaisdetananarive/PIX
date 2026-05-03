@@ -1,0 +1,773 @@
+{
+  "name": "5M4 TECHNO",
+  "level": "5e",
+  "studentCount": 15,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 5e": "BJZEMY613",
+    "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)": "LHVGKL572"
+  },
+  "students": [
+    {
+      "id": "aboullait_nayl",
+      "name": "ABOULLAIT Nayl",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": null,
+          "partage": false,
+          "progress": 0.8,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ahmed_ben_said_bachir_wael_sam",
+      "name": "AHMED BEN SAID BACHIR Waël Sam",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:54:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:54:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "andriamiharivolamena_fenosoa_fiducia",
+      "name": "ANDRIAMIHARIVOLAMENA Fenosoa Fiducia",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:45:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:45:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.93,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "andrianarisoa_lucas_denis_martino",
+      "name": "ANDRIANARISOA Lucas Denis Martino",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:52:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "andriamanana_ethan",
+      "name": "Andriamanana Ethan",
+      "classe": "",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:53:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:53:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.73,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "blanchet_estelle_manon",
+      "name": "BLANCHET Estelle Manon",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:43:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:43:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "cassam_hassan",
+      "name": "Cassam Hassan",
+      "classe": "",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:43:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:43:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "iavilisy_louis",
+      "name": "Iavilisy Louis",
+      "classe": "",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:47:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:47:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "LHVGKL572",
+          "campaignName": "5M4 TECHNO -- Protection et sécurité",
+          "date": null,
+          "partage": false,
+          "progress": 0.54,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "kramo_maeva",
+      "name": "Kramo Maeva",
+      "classe": "",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:44:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "ming_sebastien_maminiaina",
+      "name": "MING Sébastien Maminiaina",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:50:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:50:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "rabenantenaina_mael",
+      "name": "RABENANTENAINA Maël",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:44:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.93,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "rajaonah_iloniaina_ethan",
+      "name": "RAJAONAH Iloniaina Ethan",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:45:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:45:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "repesse_malo_philippe_benoit",
+      "name": "REPESSE Malo Philippe Benoît",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:52:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "rotrou_voahanginiaina_said",
+      "name": "ROTROU Voahanginiaina Saïd",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:59:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.93,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "vasram_hannah",
+      "name": "VASRAM Hannah",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:44:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ]
+    }
+  ]
+}

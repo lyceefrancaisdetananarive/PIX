@@ -1,38 +1,62 @@
 # Codes d'accès classes — PIX LFT
 
-> ⚠ **Document interne — ne pas committer dans un repo public si tu changes les codes.**
-> Ces mots permettent l'accès aux données détaillées de chaque groupe.
+> ⚠ **Document interne — à distribuer aux élèves de chaque groupe ou à leurs professeurs principaux.**
 
-À distribuer aux **élèves de chaque groupe** ou à **leurs professeurs principaux**.
 Saisie : un seul mot, sans accent (la casse est ignorée).
 
-## 5ème (cycle 4)
+---
 
-| Groupe Pix Orga | Code | Hash SHA-256 |
-|---|---|---|
-| 5M1 SVT       | **MICROSCOPE**     | `4b1323df…07c21e6` |
-| 5M2 TECHNO    | **ARDUINO**        | `42566beb…43432d4d` |
-| 5M3 SVT       | **CHLOROPHYLLE**   | `9f2018da…9c886a82` |
-| 5M5 SVT       | **MITOCHONDRIE**   | `b0f9dff9…d9927152` |
-| 5SVT1         | **PHOTOSYNTHESE**  | `6c4f3e0c…446e89ca` |
-| 5 TECHNO 1    | **PROTOTYPE**      | (voir `data/classes.json`) |
-| 5 TECHNO 2    | **CIRCUIT**        | (voir `data/classes.json`) |
-| 5M7 P.1       | **BINAIRE**        | (voir `data/classes.json`) |
-| 5M7 P.2       | **ALGORITHME**     | (voir `data/classes.json`) |
+## 5ème (cycle 4) — 11 groupes
 
-## 3ème (cycle 4)
+| Groupe Pix Orga | Code |
+|---|---|
+| 5M1 SVT       | **MICROSCOPE**     |
+| 5M2 TECHNO    | **ARDUINO**        |
+| 5M3 SVT       | **CHLOROPHYLLE**   |
+| 5M4 TECHNO    | **SOUDURE**        |
+| 5M5 SVT       | **MITOCHONDRIE**   |
+| 5M6 TECHNO    | **ENGRENAGE**      |
+| 5SVT1         | **PHOTOSYNTHESE**  |
+| 5 TECHNO 1    | **PROTOTYPE**      |
+| 5 TECHNO 2    | **CIRCUIT**        |
+| 5M7 P.1       | **BINAIRE**        |
+| 5M7 P.2       | **ALGORITHME**     |
 
-| Groupe Pix Orga | Code | Hash SHA-256 |
-|---|---|---|
-| 3M4 SVT       | **GENETIQUE**      | (voir `data/classes.json`) |
-| 3 TECHNO 2    | **RASPBERRY**      | (voir `data/classes.json`) |
+## 4ème (cycle 4) — 11 groupes
+
+| Groupe Pix Orga | Code |
+|---|---|
+| 4M1 SVT       | **CELLULE**        |
+| 4M2 TECHNO    | **MOTEUR**         |
+| 4M3 SVT       | **ATOME**          |
+| 4M4 TECHNO    | **CAPTEUR**        |
+| 4M5 SVT       | **MOLECULE**       |
+| 4M6 TECHNO    | **ROBOT**          |
+| 4 TECHNO 1    | **ROUAGE**         |
+| 4 TECHNO 2    | **DIODE**          |
+| 4 TECHNO 3    | **SONDE**          |
+| 4M7 P.1       | **PIXEL**          |
+| 4M7 P.2       | **ELECTRON**       |
+
+## 3ème (cycle 4) — 8 groupes
+
+| Groupe Pix Orga | Code |
+|---|---|
+| 3M1           | **BLACKBERRY**     |
+| 3M2           | **ESP32**          |
+| 3M3           | **MICROBIT**       |
+| 3M4 SVT       | **GENETIQUE**      |
+| 3M5           | **SERVOMOTEUR**    |
+| 3M6           | **MICROCHIP**      |
+| 3M7           | **SOLENOIDE**      |
+| 3 TECHNO 2    | **RASPBERRY**      |
 
 ---
 
 ## Modifier un code
 
-1. Édite le mapping `GROUP_CODES` dans `scripts/build-data.py`.
-2. Regénère les données : `python3 scripts/build-data.py`.
+1. Édite le mapping `GROUP_CODES` dans [`scripts/build-data.py`](../scripts/build-data.py).
+2. Régénère les données : `python3 scripts/build-data.py`.
 3. Le hash et le nom du fichier dans `data/groups/` changent automatiquement.
 4. Mets à jour ce document.
 5. Commit & push.
@@ -45,8 +69,6 @@ echo -n "ARDUINO" | shasum -a 256
 ```
 
 Le code est mis en majuscules avant hashage (cf. `js/auth.js`).
-
----
 
 ## Conseils de distribution
 

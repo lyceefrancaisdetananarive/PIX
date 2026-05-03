@@ -41,16 +41,38 @@ STUDENT_LIST = SOURCE_ROOT / "Liste des élèves par classes.xlsx"
 
 # Mapping groupe Pix Orga (= nom du dossier) -> code d'accès
 GROUP_CODES = {
+    # ── 5ème ───────────────────────────────────────────────────
     "5M1 SVT":      "MICROSCOPE",
     "5M2 TECHNO":   "ARDUINO",
     "5M3 SVT":      "CHLOROPHYLLE",
+    "5M4 TECHNO":   "SOUDURE",
     "5M5 SVT":      "MITOCHONDRIE",
+    "5M6 TECHNO":   "ENGRENAGE",
     "5SVT1":        "PHOTOSYNTHESE",
     "5 TECHNO 1":   "PROTOTYPE",
     "5 TECHNO 2":   "CIRCUIT",
     "5M7 P.1":      "BINAIRE",
     "5M7 P.2":      "ALGORITHME",
+    # ── 4ème ───────────────────────────────────────────────────
+    "4M1 SVT":      "CELLULE",
+    "4M2 TECHNO":   "MOTEUR",
+    "4M3 SVT":      "ATOME",
+    "4M4 TECHNO":   "CAPTEUR",
+    "4M5 SVT":      "MOLECULE",
+    "4M6 TECHNO":   "ROBOT",
+    "4 TECHNO 1":   "ROUAGE",
+    "4 TECHNO 2":   "DIODE",
+    "4 TECHNO 3":   "SONDE",
+    "4M7 P.1":      "PIXEL",
+    "4M7 P.2":      "ELECTRON",
+    # ── 3ème ───────────────────────────────────────────────────
+    "3M1":          "BLACKBERRY",
+    "3M2":          "ESP32",
+    "3M3":          "MICROBIT",
     "3M4 SVT":      "GENETIQUE",
+    "3M5":          "SERVOMOTEUR",
+    "3M6":          "MICROCHIP",
+    "3M7":          "SOLENOIDE",
     "3 TECHNO 2":   "RASPBERRY",
 }
 
@@ -487,9 +509,19 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
     # Tri par score décroissant
     students.sort(key=lambda s: (-s["pix"], s["name"]))
 
+    # Détection du niveau d'après le préfixe du nom de dossier
+    if group_name.startswith("3"):
+        level = "3e"
+    elif group_name.startswith("4"):
+        level = "4e"
+    elif group_name.startswith("6"):
+        level = "6e"
+    else:
+        level = "5e"
+
     return {
         "name": group_name,
-        "level": "3e" if group_name.startswith("3") else "5e",
+        "level": level,
         "studentCount": len(students),
         "certifiableCount": sum(1 for s in students if s["certifiable"]),
         "averagePix": round(sum(s["pix"] for s in students) / len(students)) if students else 0,

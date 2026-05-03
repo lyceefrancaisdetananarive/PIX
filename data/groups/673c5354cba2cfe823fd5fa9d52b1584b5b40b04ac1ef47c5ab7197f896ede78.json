@@ -1,0 +1,512 @@
+{
+  "name": "4M6 TECHNO",
+  "level": "4e",
+  "studentCount": 10,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 4e": "UHWSKR152"
+  },
+  "students": [
+    {
+      "id": "kassim_bandjee_zahra",
+      "name": "KASSIM BANDJEE Zahra",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-17T08:01:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2025-12-17T08:01:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.82,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "maleck_waliyah",
+      "name": "MALECK Waliyah",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T08:14:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2026-03-25T08:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "mohsin_raza_keyaan",
+      "name": "MOHSIN RAZA Keyaan",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.68,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "merally_isham",
+      "name": "Merally Isham",
+      "classe": "",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-17T08:20:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2025-12-17T08:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.41,
+          "palier": 1
+        }
+      ]
+    },
+    {
+      "id": "rambinintsoa_raphael_anay",
+      "name": "RAMBININTSOA Raphaël Anay",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.47,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "randriambola_karl_eliot",
+      "name": "RANDRIAMBOLA Karl Eliot",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T07:23:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2026-03-25T07:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.82,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "robert_jade_volatsara_aicha_gilberte",
+      "name": "ROBERT Jade Volatsara Aïcha Gilberte",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.91,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ratovondrajao_mathias",
+      "name": "Ratovondrajao Mathias",
+      "classe": "",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T08:17:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2026-03-25T08:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "tia_ambre_rakotomanga",
+      "name": "Tia Ambre Rakotomanga",
+      "classe": "",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-17T08:31:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2025-12-17T08:31:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "ye_sebastien_vindoube",
+      "name": "YE Sebastien Vindoube",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T07:29:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2026-03-25T07:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 2
+        }
+      ]
+    }
+  ]
+}

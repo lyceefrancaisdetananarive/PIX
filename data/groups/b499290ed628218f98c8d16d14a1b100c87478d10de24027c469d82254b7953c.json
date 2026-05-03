@@ -1,0 +1,512 @@
+{
+  "name": "4 TECHNO 3",
+  "level": "4e",
+  "studentCount": 10,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 4e": "GPABJF149"
+  },
+  "students": [
+    {
+      "id": "angibault_marcel",
+      "name": "ANGIBAULT Marcel",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T14:13:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T14:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "bezandry_tristan_bradley",
+      "name": "BEZANDRY Tristan Bradley",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T14:05:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T14:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "biny_kilian",
+      "name": "BINY Kilian",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T13:56:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T13:56:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "bressot_florian_amedee",
+      "name": "BRESSOT Florian Amédée",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T13:46:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T13:46:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "dormag_cesaire",
+      "name": "Dormag Cesaire",
+      "classe": "",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T13:55:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T13:55:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "houmadi_elisah",
+      "name": "Houmadi Elisah",
+      "classe": "",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-24T11:00:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-24T11:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "issoufaly_karim",
+      "name": "ISSOUFALY Karim",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-15T13:46:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2025-12-15T13:46:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "jaozandry_matthieu",
+      "name": "JAOZANDRY Matthieu",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T14:19:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T14:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "mosa_n_diaye_laurieann",
+      "name": "Mosa N'diaye Laurieann",
+      "classe": "",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-15T14:11:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2025-12-15T14:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.65,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "roberrto_roberto",
+      "name": "Roberrto Roberto",
+      "classe": "",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T13:51:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T13:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        }
+      ]
+    }
+  ]
+}

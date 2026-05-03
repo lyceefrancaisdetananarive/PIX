@@ -2,6 +2,14 @@
   "podium": [
     {
       "rank": 1,
+      "name": "Degueurce Franck",
+      "classe": "",
+      "group": "3M1",
+      "pix": 537,
+      "level": "Expert"
+    },
+    {
+      "rank": 2,
       "name": "TSHINKENKE Sacha Muyaya",
       "classe": "5M3",
       "group": "5M3 SVT",
@@ -9,26 +17,18 @@
       "level": "Avancé"
     },
     {
-      "rank": 2,
-      "name": "RAZANAMALALA Jemilah Francine Safosy",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 381,
-      "level": "Avancé"
-    },
-    {
       "rank": 3,
-      "name": "LIAGRE BURNOD Eglantine Agnès Majo",
-      "classe": "5M7",
-      "group": "5M7 P.2",
-      "pix": 339,
+      "name": "RANAIVOSOA Irina Marcelle",
+      "classe": "3M2",
+      "group": "3M2",
+      "pix": 436,
       "level": "Avancé"
     }
   ],
   "stats": {
-    "totalGroups": 11,
-    "totalStudents": 182,
-    "totalCertifiable": 155,
-    "averagePix": 141
+    "totalGroups": 30,
+    "totalStudents": 440,
+    "totalCertifiable": 222,
+    "averagePix": 137
   }
 }
