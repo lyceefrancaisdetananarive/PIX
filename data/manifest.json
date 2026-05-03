@@ -1,36 +1,78 @@
 {
-  "generatedAt": "2026-05-03T19:38:07.693493+00:00",
+  "generatedAt": "2026-05-03T19:54:11.389901+00:00",
   "version": 1,
   "pixLevels": [
     {
-      "slug": "novice",
-      "label": "Novice",
+      "slug": "non-certifie",
+      "label": "Non certifié",
+      "short": "—",
       "min": 0,
-      "max": 47
+      "max": 63,
+      "image": "niveau-1.svg"
     },
     {
-      "slug": "debutant",
-      "label": "Débutant",
-      "min": 48,
-      "max": 143
+      "slug": "novice-1",
+      "label": "Novice 1",
+      "short": "N1",
+      "min": 64,
+      "max": 127,
+      "image": "niveau-1.svg"
     },
     {
-      "slug": "independant",
-      "label": "Indépendant",
-      "min": 144,
-      "max": 287
+      "slug": "novice-2",
+      "label": "Novice 2",
+      "short": "N2",
+      "min": 128,
+      "max": 255,
+      "image": "niveau-2.svg"
     },
     {
-      "slug": "avance",
-      "label": "Avancé",
-      "min": 288,
-      "max": 511
+      "slug": "independant-1",
+      "label": "Indépendant 1",
+      "short": "I1",
+      "min": 256,
+      "max": 383,
+      "image": "niveau-3.svg"
     },
     {
-      "slug": "expert",
-      "label": "Expert",
+      "slug": "independant-2",
+      "label": "Indépendant 2",
+      "short": "I2",
+      "min": 384,
+      "max": 511,
+      "image": "niveau-4.svg"
+    },
+    {
+      "slug": "avance-1",
+      "label": "Avancé 1",
+      "short": "A1",
       "min": 512,
-      "max": 1024
+      "max": 639,
+      "image": "niveau-5.svg"
+    },
+    {
+      "slug": "avance-2",
+      "label": "Avancé 2",
+      "short": "A2",
+      "min": 640,
+      "max": 767,
+      "image": "niveau-6.svg"
+    },
+    {
+      "slug": "expert-1",
+      "label": "Expert 1",
+      "short": "E1",
+      "min": 768,
+      "max": 895,
+      "image": "niveau-7.svg"
+    },
+    {
+      "slug": "expert-2",
+      "label": "Expert 2",
+      "short": "E2",
+      "min": 896,
+      "max": 1024,
+      "image": "niveau-8.svg"
     }
   ],
   "domains": [

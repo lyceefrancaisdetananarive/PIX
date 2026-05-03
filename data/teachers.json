@@ -1,0 +1,59 @@
+{
+  "teachers": {
+    "7de48dbbb93347f8f880c7e3355ce9b29a5e6f4629c3c34927d2b23f7e1b3197": {
+      "name": "DEGUEURCE Franck",
+      "slug": "degueurce_franck",
+      "groups": [
+        "3M1",
+        "3M5",
+        "3 TECHNO 2"
+      ]
+    },
+    "c2b04e8f745f785f87bd99c15c350a9a8ccae2236f4ec4a6a70979ee3da2b855": {
+      "name": "HUOT Laurent",
+      "slug": "huot_laurent",
+      "groups": [
+        "3M2",
+        "3M3",
+        "3M6",
+        "3M7"
+      ]
+    },
+    "3c3ed271cd258995038a3a85adb62b5df365629cc434a8a21491afed06ff0294": {
+      "name": "RAFALIARISON Max",
+      "slug": "rafaliarison_max",
+      "groups": [
+        "5M1 SVT",
+        "5M2 TECHNO",
+        "5M3 SVT",
+        "5M5 SVT",
+        "5SVT1",
+        "5 TECHNO 1",
+        "5 TECHNO 2",
+        "5M7 P.1",
+        "5M7 P.2",
+        "3M4 SVT",
+        "3 TECHNO 2"
+      ]
+    },
+    "a21bc6a630c3db3a251efc7af658928cb1ad3ae3d5c67a9ad8b9b2a9b472c1f3": {
+      "name": "RAKOTOARIMANANA Ranja",
+      "slug": "rakotoarimanana_ranja",
+      "groups": [
+        "4M1 SVT",
+        "4M2 TECHNO",
+        "4M3 SVT",
+        "4M4 TECHNO",
+        "4M5 SVT",
+        "4M6 TECHNO",
+        "4 TECHNO 1",
+        "4 TECHNO 2",
+        "4 TECHNO 3",
+        "4M7 P.1",
+        "4M7 P.2",
+        "5M4 TECHNO",
+        "5M6 TECHNO"
+      ]
+    }
+  }
+}

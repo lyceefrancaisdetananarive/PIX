@@ -18,6 +18,8 @@
 
 const STORAGE_KEY = "pix-lft.unlocked-hash";
 const STORAGE_NAME = "pix-lft.unlocked-name";
+const STORAGE_TEACHER = "pix-lft.teacher-hash";
+const STORAGE_TEACHER_NAME = "pix-lft.teacher-name";
 
 export async function sha256Hex(text) {
   const data = new TextEncoder().encode(text.trim().toUpperCase());
@@ -27,14 +29,33 @@ export async function sha256Hex(text) {
     .join("");
 }
 
-export async function tryUnlock(code, classesIndex) {
+/**
+ * Tente de déverrouiller : essaie d'abord les codes PROFS puis les codes ÉLÈVES.
+ * Retourne :
+ *   { type: "teacher", hash, meta }   pour un code prof
+ *   { type: "student", hash, meta }   pour un code élève
+ *   null                              si aucun match
+ */
+export async function tryUnlock(code, classesIndex, teachersIndex) {
   const hash = await sha256Hex(code);
-  const meta = classesIndex.groups[hash];
-  if (!meta) return null;
-  // Mémorise pour la page classe (ne survit pas à la fermeture d'onglet)
-  sessionStorage.setItem(STORAGE_KEY, hash);
-  sessionStorage.setItem(STORAGE_NAME, meta.name);
-  return { hash, meta };
+
+  // 1. Code PROF (priorité — vue globale)
+  const teacher = teachersIndex?.teachers?.[hash];
+  if (teacher) {
+    sessionStorage.setItem(STORAGE_TEACHER, hash);
+    sessionStorage.setItem(STORAGE_TEACHER_NAME, teacher.name);
+    return { type: "teacher", hash, meta: teacher };
+  }
+
+  // 2. Code ÉLÈVE
+  const group = classesIndex?.groups?.[hash];
+  if (group) {
+    sessionStorage.setItem(STORAGE_KEY, hash);
+    sessionStorage.setItem(STORAGE_NAME, group.name);
+    return { type: "student", hash, meta: group };
+  }
+
+  return null;
 }
 
 export function getUnlockedHash() {
@@ -45,7 +66,21 @@ export function getUnlockedName() {
   return sessionStorage.getItem(STORAGE_NAME);
 }
 
+export function getTeacherHash() {
+  return sessionStorage.getItem(STORAGE_TEACHER);
+}
+
+export function getTeacherName() {
+  return sessionStorage.getItem(STORAGE_TEACHER_NAME);
+}
+
+export function isTeacher() {
+  return !!sessionStorage.getItem(STORAGE_TEACHER);
+}
+
 export function lock() {
   sessionStorage.removeItem(STORAGE_KEY);
   sessionStorage.removeItem(STORAGE_NAME);
+  sessionStorage.removeItem(STORAGE_TEACHER);
+  sessionStorage.removeItem(STORAGE_TEACHER_NAME);
 }

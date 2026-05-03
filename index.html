@@ -40,6 +40,14 @@
 
   <div class="app-bg" aria-hidden="true"></div>
 
+  <!-- Sprite Phosphor : chargé une fois, référencé par <use> -->
+  <div hidden aria-hidden="true" id="ph-sprite-host"></div>
+  <script>
+    fetch("assets/icons/sprite.svg").then(r => r.text()).then(s => {
+      document.getElementById("ph-sprite-host").innerHTML = s;
+    });
+  </script>
+
   <header class="site-header">
     <a href="index.html" class="site-header__brand" aria-label="Accueil PIX LFT">
       <img src="assets/logos/lft.png" alt="" class="site-header__logo" width="44" height="44">
@@ -70,7 +78,7 @@
     <!-- ─── PODIUM TOP 3 ───────────────────────────────────── -->
     <section class="container section reveal" aria-labelledby="podium-title">
       <header class="section-title">
-        <span class="section-title__eyebrow">🏆 Top 3 du collège</span>
+        <span class="section-title__eyebrow"><svg class="icon" aria-hidden="true"><use href="#ph-trophy"/></svg> Top 3 du collège</span>
         <h2 class="section-title__heading" id="podium-title">Les meilleurs scores Pix LFT</h2>
       </header>
       <p class="section-intro">
@@ -88,53 +96,136 @@
       <p class="section-intro" id="global-stats" style="margin-top: var(--space-6); margin-bottom: 0;"></p>
     </section>
 
-    <!-- ─── COMPRENDRE PIX : JAUGE DES NIVEAUX ────────────── -->
+    <!-- ─── COMPRENDRE PIX : 8 NIVEAUX OFFICIELS ──────────── -->
     <section class="container section reveal" aria-labelledby="levels-title">
       <header class="section-title">
-        <span class="section-title__eyebrow">🎯 Niveaux Pix</span>
-        <h2 class="section-title__heading" id="levels-title">Où vous situez-vous ?</h2>
+        <span class="section-title__eyebrow"><svg class="icon" aria-hidden="true"><use href="#ph-target"/></svg> Niveaux Pix officiels</span>
+        <h2 class="section-title__heading" id="levels-title">Comprendre vos résultats</h2>
       </header>
       <p class="section-intro">
-        Le score Pix mesure vos compétences numériques en pix (de 0 à 1024).
-        Glissez le curseur pour explorer les 5 niveaux officiels Pix.
+        Pix mesure vos compétences numériques sur une échelle de <strong>0 à 1024 pix</strong>
+        (plafond effectif actuel : 895). Au-dessus de <strong>64 pix</strong>, vous décrochez
+        l'un des <strong>8 niveaux officiels</strong>. Faites glisser le curseur pour explorer.
       </p>
 
       <div class="glass glass-bevel" style="padding: var(--space-7) var(--space-6);">
-        <div class="gauge" id="demo-gauge">
-          <div class="gauge__header">
-            <div>
-              <span class="gauge__score" id="demo-gauge-value">200</span>
-              <span class="gauge__score-unit">pix</span>
+        <div class="level-explorer">
+          <!-- Illustration plante (change selon le niveau) -->
+          <div class="level-explorer__plant">
+            <img src="assets/levels/niveau-4.svg" alt="" id="demo-plant" width="180" height="220" loading="lazy">
+          </div>
+
+          <!-- Score + libellé + slider + description -->
+          <div class="level-explorer__panel">
+            <div class="gauge__header">
+              <div>
+                <span class="gauge__score" id="demo-gauge-value">300</span>
+                <span class="gauge__score-unit">pix</span>
+              </div>
+              <span class="gauge__level-name" id="demo-gauge-level">Indépendant 1</span>
             </div>
-            <span class="gauge__level-name" id="demo-gauge-level">Indépendant</span>
+
+            <div class="gauge__bar" aria-hidden="true">
+              <div class="gauge__fill" id="demo-gauge-fill" style="width: 33%;"></div>
+              <div class="gauge__threshold" style="left: 7.15%;" title="Seuil de certification : 64 pix"></div>
+            </div>
+
+            <input type="range" min="0" max="1024" step="1" value="300" id="demo-gauge-slider"
+                   aria-label="Score Pix — faites glisser pour voir les niveaux"
+                   style="width: 100%; margin-top: var(--space-4); accent-color: var(--pix-blue);">
+
+            <p class="level-explorer__desc" id="demo-gauge-desc">
+              Vous avez des pratiques numériques simples en autonomie dans la plupart des
+              situations courantes.
+            </p>
           </div>
-          <div class="gauge__bar">
-            <div class="gauge__fill" id="demo-gauge-fill" style="width: 20%;"></div>
-          </div>
-          <div class="gauge__levels">
-            <div class="gauge__level-step"><strong>Novice</strong>0 – 47</div>
-            <div class="gauge__level-step"><strong>Débutant</strong>48 – 143</div>
-            <div class="gauge__level-step"><strong>Indépendant</strong>144 – 287</div>
-            <div class="gauge__level-step"><strong>Avancé</strong>288 – 511</div>
-            <div class="gauge__level-step"><strong>Expert</strong>512 +</div>
-          </div>
-          <input type="range" min="0" max="1024" value="200" id="demo-gauge-slider"
-                 aria-label="Démonstration : faites glisser pour voir les niveaux Pix"
-                 style="width: 100%; margin-top: var(--space-5); accent-color: var(--pix-blue);">
         </div>
+
+        <!-- Tableau récapitulatif des 8 niveaux -->
+        <div class="level-grid" role="list">
+          <article class="level-card" role="listitem" data-min="64" data-max="127">
+            <img src="assets/levels/niveau-1.svg" alt="" loading="lazy" width="64" height="80">
+            <div>
+              <h3>Novice 1</h3>
+              <p class="level-card__range">64 – 127 pix</p>
+              <p class="level-card__hint">Pratiques numériques simples avec aide</p>
+            </div>
+          </article>
+          <article class="level-card" role="listitem" data-min="128" data-max="255">
+            <img src="assets/levels/niveau-2.svg" alt="" loading="lazy" width="64" height="80">
+            <div>
+              <h3>Novice 2</h3>
+              <p class="level-card__range">128 – 255 pix</p>
+              <p class="level-card__hint">Recherches, mails, mots de passe</p>
+            </div>
+          </article>
+          <article class="level-card" role="listitem" data-min="256" data-max="383">
+            <img src="assets/levels/niveau-3.svg" alt="" loading="lazy" width="64" height="80">
+            <div>
+              <h3>Indépendant 1</h3>
+              <p class="level-card__range">256 – 383 pix</p>
+              <p class="level-card__hint">Autonomie sur situations courantes</p>
+            </div>
+          </article>
+          <article class="level-card" role="listitem" data-min="384" data-max="511">
+            <img src="assets/levels/niveau-4.svg" alt="" loading="lazy" width="64" height="80">
+            <div>
+              <h3>Indépendant 2</h3>
+              <p class="level-card__range">384 – 511 pix</p>
+              <p class="level-card__hint">Vocabulaire technique, sécurité</p>
+            </div>
+          </article>
+          <article class="level-card" role="listitem" data-min="512" data-max="639">
+            <img src="assets/levels/niveau-5.svg" alt="" loading="lazy" width="64" height="80">
+            <div>
+              <h3>Avancé 1</h3>
+              <p class="level-card__range">512 – 639 pix</p>
+              <p class="level-card__hint">Outils spécialisés, aide aux autres</p>
+            </div>
+          </article>
+          <article class="level-card" role="listitem" data-min="640" data-max="767">
+            <img src="assets/levels/niveau-6.svg" alt="" loading="lazy" width="64" height="80">
+            <div>
+              <h3>Avancé 2</h3>
+              <p class="level-card__range">640 – 767 pix</p>
+              <p class="level-card__hint">Création, programmation, partage</p>
+            </div>
+          </article>
+          <article class="level-card" role="listitem" data-min="768" data-max="895">
+            <img src="assets/levels/niveau-7.svg" alt="" loading="lazy" width="64" height="80">
+            <div>
+              <h3>Expert 1</h3>
+              <p class="level-card__range">768 – 895 pix</p>
+              <p class="level-card__hint">Analyse, méthode, situations complexes</p>
+            </div>
+          </article>
+          <article class="level-card level-card--top" role="listitem" data-min="896" data-max="1024">
+            <img src="assets/levels/niveau-8.svg" alt="" loading="lazy" width="64" height="80">
+            <div>
+              <h3>Expert 2</h3>
+              <p class="level-card__range">896 – 1024 pix*</p>
+              <p class="level-card__hint">Documenter et partager des solutions</p>
+            </div>
+          </article>
+        </div>
+
+        <p style="font-size: var(--text-xs); color: var(--text-muted); text-align: center; margin-top: var(--space-4);">
+          * Le score maximum effectif est actuellement plafonné à <strong>895 pix</strong> par Pix.
+          Un score inférieur à 64 pix ne donne aucun niveau certifié.
+        </p>
       </div>
     </section>
 
     <!-- ─── COMPRENDRE PIX : 4 BLOCS PÉDAGOGIQUES ────────── -->
     <section class="container section reveal" aria-labelledby="learn-title">
       <header class="section-title">
-        <span class="section-title__eyebrow">📚 Comprendre Pix</span>
+        <span class="section-title__eyebrow"><svg class="icon" aria-hidden="true"><use href="#ph-graduation-cap"/></svg> Comprendre Pix</span>
         <h2 class="section-title__heading" id="learn-title">L'essentiel pour réussir sa certification</h2>
       </header>
 
       <div class="cards-grid">
         <article class="info-card glass glass-bevel glass-hoverable">
-          <div class="info-card__icon" aria-hidden="true">✓</div>
+          <div class="info-card__icon" aria-hidden="true"><svg class="icon icon--lg" style="color: white;"><use href="#ph-check-circle"/></svg></div>
           <h3 class="info-card__title">Comment devenir certifiable&nbsp;?</h3>
           <div class="info-card__body">
             <p>Pour être <strong>certifiable en 3ème</strong>, il faut avoir atteint au minimum&nbsp;:</p>
@@ -147,7 +238,7 @@
         </article>
 
         <article class="info-card glass glass-bevel glass-hoverable">
-          <div class="info-card__icon info-card__icon--magenta" aria-hidden="true">🗓</div>
+          <div class="info-card__icon info-card__icon--magenta" aria-hidden="true"><svg class="icon icon--lg" style="color: white;"><use href="#ph-calendar-check"/></svg></div>
           <h3 class="info-card__title">Le jour de la certification</h3>
           <div class="info-card__body">
             <ul>
@@ -161,7 +252,7 @@
         </article>
 
         <article class="info-card glass glass-bevel glass-hoverable">
-          <div class="info-card__icon info-card__icon--yellow" aria-hidden="true">⚠</div>
+          <div class="info-card__icon info-card__icon--yellow" aria-hidden="true"><svg class="icon icon--lg"><use href="#ph-warning"/></svg></div>
           <h3 class="info-card__title">Points de vigilance</h3>
           <div class="info-card__body">
             <ul>
@@ -174,7 +265,7 @@
         </article>
 
         <article class="info-card glass glass-bevel glass-hoverable">
-          <div class="info-card__icon info-card__icon--green" aria-hidden="true">🚀</div>
+          <div class="info-card__icon info-card__icon--green" aria-hidden="true"><svg class="icon icon--lg" style="color: white;"><use href="#ph-rocket-launch"/></svg></div>
           <h3 class="info-card__title">Rejoindre un parcours</h3>
           <div class="info-card__body">
             <ul>
@@ -192,7 +283,7 @@
     <!-- ─── VIGNETTES VIDÉOS ───────────────────────────────── -->
     <section class="container section reveal" aria-labelledby="videos-title">
       <header class="section-title">
-        <span class="section-title__eyebrow">📹 Tutoriels vidéos</span>
+        <span class="section-title__eyebrow"><svg class="icon" aria-hidden="true"><use href="#ph-video-camera"/></svg> Tutoriels vidéos</span>
         <h2 class="section-title__heading" id="videos-title">Apprenez en images</h2>
       </header>
       <p class="section-intro">
@@ -200,22 +291,35 @@
       </p>
 
       <div class="cards-grid">
-        <a href="https://www.youtube.com/watch?v=1B8fBmLIsh8" target="_blank" rel="noopener noreferrer"
-           class="video-card" aria-label="Vidéo officielle Pix : Cultivez vos compétences numériques"
-           style="background-image: linear-gradient(180deg, rgba(0,59,115,0) 0%, rgba(0,59,115,0.85) 100%), url('https://i.ytimg.com/vi/1B8fBmLIsh8/hqdefault.jpg'); background-size: cover; background-position: center;">
+        <div class="video-card video-card--embed"
+             data-video-id="1B8fBmLIsh8"
+             data-title="Pix, cultivez vos compétences numériques"
+             role="button" tabindex="0"
+             aria-label="Lire la vidéo : Pix, cultivez vos compétences numériques">
+          <img class="video-card__thumb" loading="lazy"
+               src="https://i.ytimg.com/vi/1B8fBmLIsh8/hqdefault.jpg"
+               alt="">
           <div class="video-card__play" aria-hidden="true"></div>
           <div class="video-card__title">Pix, cultivez vos compétences numériques</div>
-        </a>
-        <a href="https://www.youtube.com/watch?v=gHuCeWiaTxM" target="_blank" rel="noopener noreferrer"
-           class="video-card" aria-label="Vidéo officielle Pix : La Certification Pix"
-           style="background-image: linear-gradient(180deg, rgba(0,59,115,0) 0%, rgba(0,59,115,0.85) 100%), url('https://i.ytimg.com/vi/gHuCeWiaTxM/hqdefault.jpg'); background-size: cover; background-position: center;">
+        </div>
+
+        <div class="video-card video-card--embed"
+             data-video-id="gHuCeWiaTxM"
+             data-title="La Certification Pix"
+             role="button" tabindex="0"
+             aria-label="Lire la vidéo : La Certification Pix">
+          <img class="video-card__thumb" loading="lazy"
+               src="https://i.ytimg.com/vi/gHuCeWiaTxM/hqdefault.jpg"
+               alt="">
           <div class="video-card__play" aria-hidden="true"></div>
           <div class="video-card__title">La Certification Pix</div>
-        </a>
+        </div>
+
         <a href="https://www.youtube.com/@Pix_Numerique" target="_blank" rel="noopener noreferrer"
-           class="video-card" aria-label="Toutes les vidéos officielles sur la chaîne Pix">
+           class="video-card video-card--channel"
+           aria-label="Toutes les vidéos officielles sur la chaîne Pix">
           <div class="video-card__play" aria-hidden="true"></div>
-          <div class="video-card__title">Plus de tutoriels Pix sur YouTube&nbsp;→</div>
+          <div class="video-card__title">Plus de tutoriels<br>sur la chaîne Pix &nbsp;<svg class="icon"><use href="#ph-arrow-right"/></svg></div>
         </a>
       </div>
     </section>
@@ -223,7 +327,7 @@
     <!-- ─── ACCÈS PAR CODE CLASSE ──────────────────────────── -->
     <section class="container section reveal" aria-labelledby="access-title">
       <header class="section-title">
-        <span class="section-title__eyebrow">🔐 Accès classe</span>
+        <span class="section-title__eyebrow"><svg class="icon" aria-hidden="true"><use href="#ph-lock-key"/></svg> Accès classe</span>
         <h2 class="section-title__heading" id="access-title">Consulter les résultats de votre classe</h2>
       </header>
       <p class="section-intro">
@@ -232,7 +336,7 @@
       </p>
 
       <form class="code-form glass glass-bevel" id="code-form" autocomplete="off" novalidate>
-        <div class="code-form__lock" aria-hidden="true">🔒</div>
+        <div class="code-form__lock" aria-hidden="true"><svg class="icon icon--xl" style="color: white;"><use href="#ph-lock-key"/></svg></div>
         <h3 class="code-form__title">Entrez le code de votre classe</h3>
         <p class="code-form__hint">Un seul mot, en référence au programme de Technologie ou de SVT.</p>
 

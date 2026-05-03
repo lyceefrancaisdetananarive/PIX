@@ -1,8 +1,24 @@
-# Codes d'accès classes — PIX LFT
+# Codes d'accès — PIX LFT
 
-> ⚠ **Document interne — à distribuer aux élèves de chaque groupe ou à leurs professeurs principaux.**
+> Document interne — à distribuer aux élèves de chaque groupe ou aux profs Techno.
 
 Saisie : un seul mot, sans accent (la casse est ignorée).
+
+---
+
+## 👨‍🏫 Codes ENSEIGNANTS (accès TOTAL aux 30 classes)
+
+| Enseignant | Code | Niveau enseigné |
+|---|---|---|
+| **DEGUEURCE Franck**       | **MERCURE** | 3ème (3M1, 3M5, 3 TECHNO 1) |
+| **HUOT Laurent**           | **SATURNE** | 3ème (3M2 SVT, 3M3 TECHNO, 3M6 SVT, 3M7 TECHNO, 3SVT1) + SNT/NSI |
+| **RAFALIARISON Max**       | **JUPITER** | 5ème (tous) + 3M4 SVT + 3 TECHNO 2 |
+| **RAKOTOARIMANANA Ranja**  | **NEPTUNE** | 4ème (tous) + 5M4 TECHNO + 5M6 TECHNO |
+
+> Les 4 codes profs ouvrent la **page dashboard enseignant** (`teacher.html`),
+> qui liste les 30 groupes. Les groupes assurés par le prof sont marqués
+> "À ma charge". Le prof peut cliquer sur n'importe quelle classe pour voir
+> le détail des élèves (mêmes données qu'avec le code élève direct).
 
 ---
 

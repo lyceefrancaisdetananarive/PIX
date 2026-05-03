@@ -6,7 +6,7 @@
  *   - validation du code classe
  */
 
-import { loadPublic, loadClasses, levelFor } from "./data-loader.js";
+import { loadPublic, loadClasses, loadTeachers, levelFor } from "./data-loader.js";
 import { tryUnlock } from "./auth.js";
 import { renderPodium } from "./podium.js";
 import { renderGauge } from "./pix-gauge.js";
@@ -34,23 +34,67 @@ async function initPodium() {
   }
 }
 
-// ─── Jauge démo (slider) ───────────────────────────────────────
+// ─── Explorateur de niveaux Pix (slider + plante + description) ──
+const LEVEL_DESCRIPTIONS = {
+  "non-certifie":  "Score non certifié. Un score inférieur à 64 pix ne donne aucun niveau Pix officiel. Continuez à pratiquer pour atteindre Novice 1.",
+  "novice-1":      "Pratiques numériques simples avec besoin d'aide. Vous savez vous repérer dans les interfaces que vous avez déjà utilisées (tablette, téléphone, ordinateur).",
+  "novice-2":      "Pratiques numériques simples, avec aide quand la situation se complique. Recherches sur le Web, e-mails, mots de passe sécurisés.",
+  "independant-1": "Autonomie sur situations courantes. Recherche approfondie, activités collaboratives, fonctionnalités courantes des logiciels usuels.",
+  "independant-2": "À l'aise dans toutes les situations courantes. Vérification de la fiabilité des informations, création multi-formats, sécurité, vie privée.",
+  "avance-1":      "Pratiques avancées, vous pouvez aider d'autres personnes. Outils spécialisés, analyse de données, paramétrage d'environnements.",
+  "avance-2":      "Pratiques approfondies, créatives et sécurisées. Vous pouvez accompagner la montée en compétences d'autres personnes (programmation, automatisation).",
+  "expert-1":      "Pratiques optimisées face à des situations complexes et nouvelles. Analyse de besoins, évaluation de solutions, esprit critique sur les enjeux.",
+  "expert-2":      "Capacité à documenter et partager vos solutions à des problèmes nouveaux et spécifiques.",
+};
+
 function initDemoGauge() {
   const slider = document.getElementById("demo-gauge-slider");
   const valueEl = document.getElementById("demo-gauge-value");
   const levelEl = document.getElementById("demo-gauge-level");
   const fillEl = document.getElementById("demo-gauge-fill");
+  const plantEl = document.getElementById("demo-plant");
+  const descEl = document.getElementById("demo-gauge-desc");
   if (!slider) return;
 
   const update = (pix) => {
     const lvl = levelFor(pix);
     valueEl.textContent = pix;
     levelEl.textContent = lvl.label;
-    levelEl.style.color = `var(--level-${lvl.slug})`;
-    fillEl.style.width = `${(pix / 1024) * 100}%`;
+    if (fillEl) fillEl.style.width = `${(pix / 1024) * 100}%`;
+    if (plantEl) {
+      const newSrc = `assets/levels/${lvl.image}`;
+      if (!plantEl.src.endsWith(lvl.image)) {
+        plantEl.style.transform = "scale(0.92)";
+        plantEl.style.opacity = "0.6";
+        setTimeout(() => {
+          plantEl.src = newSrc;
+          plantEl.style.transform = "scale(1)";
+          plantEl.style.opacity = "1";
+        }, 160);
+      }
+    }
+    if (descEl) descEl.textContent = LEVEL_DESCRIPTIONS[lvl.slug] || "";
+
+    // Surligne la carte niveau correspondante
+    document.querySelectorAll(".level-card").forEach((c) => {
+      const min = parseInt(c.dataset.min, 10);
+      const max = parseInt(c.dataset.max, 10);
+      c.classList.toggle("is-active", pix >= min && pix <= max);
+    });
   };
 
   slider.addEventListener("input", (e) => update(parseInt(e.target.value, 10)));
+
+  // Permet aussi de cliquer sur une carte de niveau pour positionner le slider
+  document.querySelectorAll(".level-card").forEach((card) => {
+    card.style.cursor = "pointer";
+    card.addEventListener("click", () => {
+      const target = parseInt(card.dataset.min, 10) + 30;
+      slider.value = target;
+      update(target);
+    });
+  });
+
   update(parseInt(slider.value, 10));
 }
 
@@ -97,6 +141,7 @@ async function initCodeForm() {
   if (!form) return;
 
   let classesIndex = null;
+  let teachersIndex = null;
 
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -110,13 +155,19 @@ async function initCodeForm() {
 
     try {
       if (!classesIndex) classesIndex = await loadClasses();
-      const result = await tryUnlock(code, classesIndex);
+      if (!teachersIndex) teachersIndex = await loadTeachers().catch(() => ({ teachers: {} }));
+
+      const result = await tryUnlock(code, classesIndex, teachersIndex);
       if (result) {
         // Animation de succès
         input.style.borderColor = "var(--success)";
         input.style.background = "rgba(24, 117, 60, 0.06)";
         setTimeout(() => {
-          window.location.href = `classe.html#${result.hash}`;
+          if (result.type === "teacher") {
+            window.location.href = `teacher.html#${result.hash}`;
+          } else {
+            window.location.href = `classe.html#${result.hash}`;
+          }
         }, 320);
       } else {
         showError("Code inconnu. Vérifiez auprès de votre professeur.");
@@ -141,8 +192,39 @@ async function initCodeForm() {
   });
 }
 
+// ─── Vidéos embed (lecture sur place via iframe YouTube) ────────
+function initVideoEmbeds() {
+  document.querySelectorAll(".video-card--embed").forEach((card) => {
+    const play = () => {
+      if (card.classList.contains("is-playing")) return;
+      const id = card.dataset.videoId;
+      const title = card.dataset.title || "Vidéo Pix";
+      if (!id) return;
+      const iframe = document.createElement("iframe");
+      iframe.className = "video-card__iframe";
+      iframe.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1`;
+      iframe.title = title;
+      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy = "strict-origin-when-cross-origin";
+      card.appendChild(iframe);
+      card.classList.add("is-playing");
+      card.removeAttribute("role");
+      card.removeAttribute("tabindex");
+    };
+    card.addEventListener("click", play);
+    card.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        play();
+      }
+    });
+  });
+}
+
 // ─── Boot ──────────────────────────────────────────────────────
 initPodium();
 initDemoGauge();
+initVideoEmbeds();
 initReveal();
 initCodeForm();

@@ -8,7 +8,7 @@
  */
 
 import { loadGroup, loadClasses, levelFor } from "./data-loader.js";
-import { getUnlockedHash } from "./auth.js";
+import { getUnlockedHash, isTeacher, getTeacherName } from "./auth.js";
 import { applyFilters } from "./filters.js";
 import { renderGauge } from "./pix-gauge.js";
 import { escapeHtml } from "./podium.js";
@@ -21,10 +21,16 @@ let groupName = "";
 async function init() {
   const hashFromUrl = window.location.hash.replace("#", "").trim();
   const hashFromSession = getUnlockedHash();
+  const teacherMode = isTeacher();
 
-  // Le hash dans l'URL doit correspondre à celui en session
-  // (sinon : tentative d'accès direct sans avoir saisi le code)
-  if (!hashFromUrl || !HEX_RE.test(hashFromUrl) || hashFromUrl !== hashFromSession) {
+  // Accès autorisé si :
+  //  - on est en mode prof (vue toutes classes), OU
+  //  - le hash URL correspond au hash débloqué en session (mode élève normal)
+  const allowed =
+    HEX_RE.test(hashFromUrl) &&
+    (teacherMode || hashFromUrl === hashFromSession);
+
+  if (!hashFromUrl || !allowed) {
     redirectHome();
     return;
   }
@@ -44,7 +50,7 @@ async function init() {
     groupName = meta.name;
     allStudents = groupData.students || [];
 
-    renderBanner(meta);
+    renderBanner(meta, teacherMode);
     renderTable();
     bindToolbar();
     bindModal();
@@ -63,11 +69,21 @@ function redirectHome() {
 }
 
 // ─── Bandeau classe + stats ────────────────────────────────────
-function renderBanner(meta) {
+function renderBanner(meta, teacherMode) {
   document.title = `${meta.name} — PIX LFT`;
   document.getElementById("classe-name").textContent = meta.name;
-  document.getElementById("classe-level").textContent =
-    meta.level === "3e" ? "Niveau 3ème · Cycle 4" : "Niveau 5ème · Cycle 4";
+
+  const levelLabels = { "3e": "Niveau 3ème", "4e": "Niveau 4ème", "5e": "Niveau 5ème", "6e": "Niveau 6ème" };
+  const levelText = (levelLabels[meta.level] || "Cycle 4") + " · Cycle 4";
+  document.getElementById("classe-level").textContent = levelText;
+
+  // Bouton retour : vers le dashboard prof ou vers l'accueil
+  const backBtn = document.querySelector(".classe-banner__back");
+  if (backBtn && teacherMode) {
+    backBtn.setAttribute("href", `teacher.html#${sessionStorage.getItem("pix-lft.teacher-hash")}`);
+    backBtn.setAttribute("aria-label", "Retour au dashboard enseignant");
+    backBtn.title = "← Retour au dashboard enseignant";
+  }
 
   const certifPct = meta.studentCount > 0
     ? Math.round((meta.certifiableCount / meta.studentCount) * 100)
@@ -119,7 +135,7 @@ function renderTable() {
       const badge = isEmpty
         ? '<span class="badge badge--muted">Aucun résultat</span>'
         : s.certifiable
-          ? '<span class="badge badge--success">✓ Certifiable</span>'
+          ? '<span class="badge badge--success"><svg class="icon"><use href="#ph-check-circle"/></svg> Certifiable</span>'
           : '<span class="badge badge--warning">En cours</span>';
 
       const pix = isEmpty
@@ -232,11 +248,11 @@ function openModal(id) {
   const certBadge = document.getElementById("modal-cert-badge");
   if (student.certifiable) {
     certBadge.innerHTML = `
-      <span class="badge badge--success">✓ Certifiable — ${student.competencesCertifiables} compétences niveau 1+</span>
+      <span class="badge badge--success"><svg class="icon"><use href="#ph-check-circle"/></svg> Certifiable — ${student.competencesCertifiables} compétences niveau 1+</span>
     `;
   } else if (student.pix > 0) {
     certBadge.innerHTML = `
-      <span class="badge badge--warning">⏳ En cours — ${student.competencesCertifiables} compétences validées sur 5 minimum</span>
+      <span class="badge badge--warning"><svg class="icon"><use href="#ph-warning"/></svg> En cours — ${student.competencesCertifiables} compétences validées sur 5 minimum</span>
     `;
   } else {
     certBadge.innerHTML = `<span class="badge badge--muted">Aucune Collecte effectuée</span>`;
@@ -291,7 +307,7 @@ function openModal(id) {
           <span class="code-rattrapage__label">${escapeHtml(c.name)}</span>
           <span class="code-rattrapage__code">${escapeHtml(c.code)}</span>
           <button type="button" class="code-rattrapage__copy" data-code="${escapeHtml(c.code)}" data-idx="${i}">
-            Copier
+            <svg class="icon"><use href="#ph-copy"/></svg> Copier
           </button>
         </div>
       `)
@@ -301,10 +317,10 @@ function openModal(id) {
       btn.addEventListener("click", async () => {
         try {
           await navigator.clipboard.writeText(btn.dataset.code);
-          btn.textContent = "✓ Copié";
+          btn.innerHTML = '<svg class="icon"><use href="#ph-check-circle"/></svg> Copié';
           btn.classList.add("is-copied");
           setTimeout(() => {
-            btn.textContent = "Copier";
+            btn.innerHTML = '<svg class="icon"><use href="#ph-copy"/></svg> Copier';
             btn.classList.remove("is-copied");
           }, 1600);
         } catch {

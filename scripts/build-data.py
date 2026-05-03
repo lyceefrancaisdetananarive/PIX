@@ -43,8 +43,38 @@ STUDENT_LIST = SOURCE_ROOT / "Liste des élèves par classes.xlsx"
 # Ces comptes sont totalement exclus du site (podium, tableaux, stats).
 # Format : "NOM PRENOM" en majuscules sans accent (clé normalisée).
 EXCLUDED_ACCOUNTS = {
-    "DEGUEURCE FRANCK",   # Enseignant Techno
-    # ajoutez ici les autres profs au fur et à mesure
+    "DEGUEURCE FRANCK",       # Enseignant Techno (3e)
+    "HUOT LAURENT",           # Enseignant Techno + SNT/NSI (3e/2de/1e)
+    "RAFALIARISON MAX",       # Enseignant Techno (5e + 3e)
+    "RAKOTOARIMANANA RANJA",  # Enseignant Techno (4e + 5e)
+}
+
+# Codes d'accès "enseignant" : permettent de voir TOUTES les classes
+# (vue dashboard avec accès global aux résultats).
+# Distincts des codes élèves : univers "planètes" pour les distinguer
+# clairement des codes Techno/SVT.
+TEACHER_CODES = {
+    "DEGUEURCE Franck":       "MERCURE",
+    "HUOT Laurent":           "SATURNE",
+    "RAFALIARISON Max":       "JUPITER",
+    "RAKOTOARIMANANA Ranja":  "NEPTUNE",
+}
+
+# Quels groupes Pix Orga chaque enseignant assure (extrait des EDT 2025-2026).
+# Sert d'indicateur visuel sur le dashboard prof.
+TEACHER_GROUPS = {
+    "DEGUEURCE Franck": ["3M1", "3M5", "3 TECHNO 2"],  # 3M1 P.1+P.2, 3M5 TECHNO, 3TECHNO1 (≈3 TECHNO 2 dans nos groupes)
+    "HUOT Laurent":     ["3M2", "3M3", "3M6", "3M7"],  # 3M2 SVT, 3M3 TECHNO, 3M6 SVT, 3M7 TECHNO, 3SVT1
+    "RAFALIARISON Max": [
+        "5M1 SVT", "5M2 TECHNO", "5M3 SVT", "5M5 SVT", "5SVT1",
+        "5 TECHNO 1", "5 TECHNO 2", "5M7 P.1", "5M7 P.2",
+        "3M4 SVT", "3 TECHNO 2",
+    ],
+    "RAKOTOARIMANANA Ranja": [
+        "4M1 SVT", "4M2 TECHNO", "4M3 SVT", "4M4 TECHNO", "4M5 SVT", "4M6 TECHNO",
+        "4 TECHNO 1", "4 TECHNO 2", "4 TECHNO 3", "4M7 P.1", "4M7 P.2",
+        "5M4 TECHNO", "5M6 TECHNO",
+    ],
 }
 
 # Mapping groupe Pix Orga (= nom du dossier) -> code d'accès
@@ -122,16 +152,21 @@ DOMAIN_SLUGS = {
     "Environnement numérique": "environnement",
 }
 
-# Niveaux Pix officiels (fourchettes en pix)
+# Niveaux Pix OFFICIELS (source : pix.fr/aide/comprendre-vos-resultats)
+# 8 niveaux ; un score < 64 ne donne aucun niveau certifié.
 PIX_LEVELS = [
-    {"slug": "novice",      "label": "Novice",      "min": 0,    "max": 47},
-    {"slug": "debutant",    "label": "Débutant",    "min": 48,   "max": 143},
-    {"slug": "independant", "label": "Indépendant", "min": 144,  "max": 287},
-    {"slug": "avance",      "label": "Avancé",      "min": 288,  "max": 511},
-    {"slug": "expert",      "label": "Expert",      "min": 512,  "max": 1024},
+    {"slug": "non-certifie", "label": "Non certifié", "short": "—",       "min": 0,   "max": 63,   "image": "niveau-1.svg"},
+    {"slug": "novice-1",     "label": "Novice 1",     "short": "N1",      "min": 64,  "max": 127,  "image": "niveau-1.svg"},
+    {"slug": "novice-2",     "label": "Novice 2",     "short": "N2",      "min": 128, "max": 255,  "image": "niveau-2.svg"},
+    {"slug": "independant-1","label": "Indépendant 1","short": "I1",      "min": 256, "max": 383,  "image": "niveau-3.svg"},
+    {"slug": "independant-2","label": "Indépendant 2","short": "I2",      "min": 384, "max": 511,  "image": "niveau-4.svg"},
+    {"slug": "avance-1",     "label": "Avancé 1",     "short": "A1",      "min": 512, "max": 639,  "image": "niveau-5.svg"},
+    {"slug": "avance-2",     "label": "Avancé 2",     "short": "A2",      "min": 640, "max": 767,  "image": "niveau-6.svg"},
+    {"slug": "expert-1",     "label": "Expert 1",     "short": "E1",      "min": 768, "max": 895,  "image": "niveau-7.svg"},
+    {"slug": "expert-2",     "label": "Expert 2",     "short": "E2",      "min": 896, "max": 1024, "image": "niveau-8.svg"},
 ]
 
-PIX_MAX = 1024  # plafond théorique cycle 4
+PIX_MAX = 1024  # plafond théorique (le score effectif est plafonné à 895 actuellement)
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -584,6 +619,17 @@ def main() -> int:
     # classes.json
     with open(DATA_DIR / "classes.json", "w", encoding="utf-8") as f:
         json.dump({"groups": classes_index}, f, ensure_ascii=False, indent=2)
+
+    # teachers.json (codes profs hashés + leurs groupes assurés)
+    teachers_index = {}
+    for full_name, code in TEACHER_CODES.items():
+        teachers_index[sha256_hex(code)] = {
+            "name": full_name,
+            "slug": slugify(full_name),
+            "groups": TEACHER_GROUPS.get(full_name, []),
+        }
+    with open(DATA_DIR / "teachers.json", "w", encoding="utf-8") as f:
+        json.dump({"teachers": teachers_index}, f, ensure_ascii=False, indent=2)
 
     # students-public.json (Top 3 + stats globales)
     podium = sorted(

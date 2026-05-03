@@ -1,8 +1,14 @@
 /*
- * Rendu du podium Top 3.
+ * Rendu du podium Top 3 — version premium :
+ * - 1ère place : grande, centrale, couronne, halo doré, animation
+ * - 2e et 3e   : encadrant la 1ère, plus petites mais distinctes (argent/bronze)
  */
 
-const MEDALS = ["🥇", "🥈", "🥉"];
+const MEDAL_DATA = [
+  { icon: "ph-crown-simple", color: "gold",   label: "1ère place" },
+  { icon: "ph-medal",        color: "silver", label: "2ème place" },
+  { icon: "ph-medal",        color: "bronze", label: "3ème place" },
+];
 
 export function renderPodium(container, podium) {
   if (!podium || podium.length === 0) {
@@ -15,36 +21,62 @@ export function renderPodium(container, podium) {
     return;
   }
 
-  // Ordre visuel : 2e, 1er, 3e (le 1er au centre, en hauteur)
-  const layoutOrder = [];
-  if (podium[1]) layoutOrder.push(podium[1]);
-  if (podium[0]) layoutOrder.push(podium[0]);
-  if (podium[2]) layoutOrder.push(podium[2]);
+  const first = podium[0];
+  const second = podium[1];
+  const third = podium[2];
 
-  container.innerHTML = layoutOrder
-    .map((entry) => {
-      const medal = MEDALS[entry.rank - 1] ?? "🎖";
-      const meta = [entry.classe, entry.group].filter(Boolean).join(" · ");
-      return `
-        <article class="podium__step podium__step--rank-${entry.rank} glass-bevel">
-          <div class="podium__medal" aria-hidden="true">${medal}</div>
-          <div class="podium__rank">${ordinal(entry.rank)} place</div>
-          <div class="podium__name">${escapeHtml(entry.name)}</div>
-          <div class="podium__meta">${escapeHtml(meta)}</div>
-          <div class="podium__score">
-            <span>${entry.pix}</span>
-            <span class="podium__score-unit">pix</span>
-          </div>
-        </article>
-      `;
-    })
-    .join("");
+  container.innerHTML = `
+    <div class="podium-premium">
+      ${second ? renderSide(second, "second") : '<div></div>'}
+      ${first ? renderFirst(first) : ''}
+      ${third ? renderSide(third, "third") : '<div></div>'}
+    </div>
+  `;
 
   container.removeAttribute("aria-busy");
 }
 
-function ordinal(n) {
-  return n === 1 ? "1ère" : `${n}ème`;
+function renderFirst(entry) {
+  const meta = [entry.classe, entry.group].filter(Boolean).join(" · ");
+  return `
+    <article class="podium-first glass-bevel" aria-label="1ère place">
+      <div class="podium-first__halo" aria-hidden="true"></div>
+      <div class="podium-first__crown" aria-hidden="true">
+        <svg class="icon icon--3xl"><use href="#ph-crown-simple"/></svg>
+      </div>
+      <div class="podium-first__rank">1ère place</div>
+      <h3 class="podium-first__name">${escapeHtml(entry.name)}</h3>
+      <div class="podium-first__meta">${escapeHtml(meta)}</div>
+      <div class="podium-first__score">
+        <span class="podium-first__score-value">${entry.pix}</span>
+        <span class="podium-first__score-unit">pix</span>
+      </div>
+      <div class="podium-first__level">${escapeHtml(entry.level)}</div>
+      <div class="podium-first__sparkles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </article>
+  `;
+}
+
+function renderSide(entry, position) {
+  const data = MEDAL_DATA[entry.rank - 1] ?? MEDAL_DATA[entry.rank > 3 ? 2 : 0];
+  const meta = [entry.classe, entry.group].filter(Boolean).join(" · ");
+  return `
+    <article class="podium-side podium-side--${position} podium-side--${data.color} glass-bevel"
+             aria-label="${data.label}">
+      <div class="podium-side__medal" aria-hidden="true">
+        <svg class="icon icon--2xl"><use href="#${data.icon}"/></svg>
+      </div>
+      <div class="podium-side__rank">${data.label}</div>
+      <h3 class="podium-side__name">${escapeHtml(entry.name)}</h3>
+      <div class="podium-side__meta">${escapeHtml(meta)}</div>
+      <div class="podium-side__score">
+        <span>${entry.pix}</span>
+        <span class="podium-side__score-unit">pix</span>
+      </div>
+    </article>
+  `;
 }
 
 export function escapeHtml(s) {

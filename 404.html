@@ -12,9 +12,11 @@
 </head>
 <body>
   <div class="app-bg" aria-hidden="true"></div>
+  <div hidden aria-hidden="true" id="ph-sprite-host"></div>
+  <script>fetch("assets/icons/sprite.svg").then(r=>r.text()).then(s=>{document.getElementById("ph-sprite-host").innerHTML=s});</script>
   <main class="container section" style="display: grid; place-items: center; min-height: 90vh;">
     <div class="glass glass-bevel" style="padding: var(--space-8); text-align: center; max-width: 540px;">
-      <div style="font-size: 96px; line-height: 1; margin-bottom: var(--space-4);">🧭</div>
+      <div style="margin-bottom: var(--space-4); color: var(--lft-blue);"><svg class="icon icon--3xl"><use href="#ph-compass"/></svg></div>
       <h1 class="hero__title" style="font-size: var(--text-3xl);">Page introuvable</h1>
       <p style="color: var(--text-secondary); margin: var(--space-4) 0 var(--space-6);">
         Cette page n'existe pas ou n'est plus disponible.

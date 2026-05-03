@@ -26,6 +26,9 @@
 
   <div class="app-bg" aria-hidden="true"></div>
 
+  <div hidden aria-hidden="true" id="ph-sprite-host"></div>
+  <script>fetch("assets/icons/sprite.svg").then(r=>r.text()).then(s=>{document.getElementById("ph-sprite-host").innerHTML=s});</script>
+
   <header class="site-header">
     <a href="index.html" class="site-header__brand" aria-label="Accueil PIX LFT">
       <img src="assets/logos/lft.png" alt="" class="site-header__logo" width="44" height="44">
@@ -44,7 +47,9 @@
 
     <div class="classe-banner glass glass-bevel" id="classe-banner">
       <div class="classe-banner__title">
-        <a href="index.html" class="classe-banner__back" aria-label="Retour à l'accueil">←</a>
+        <a href="index.html" class="classe-banner__back" aria-label="Retour à l'accueil">
+          <svg class="icon icon--lg"><use href="#ph-arrow-left"/></svg>
+        </a>
         <div>
           <h1 id="classe-name">Chargement…</h1>
           <span class="classe-banner__level" id="classe-level"></span>
@@ -93,7 +98,9 @@
   <!-- Modal détail élève -->
   <div class="modal-backdrop" id="student-modal" role="dialog" aria-modal="true" aria-labelledby="modal-name" aria-hidden="true">
     <article class="modal glass glass-strong">
-      <button class="modal__close" id="modal-close" aria-label="Fermer le détail">✕</button>
+      <button class="modal__close" id="modal-close" aria-label="Fermer le détail">
+        <svg class="icon"><use href="#ph-arrow-left"/></svg>
+      </button>
       <header class="modal__header">
         <h2 class="modal__name" id="modal-name"></h2>
         <p class="modal__meta" id="modal-meta"></p>
