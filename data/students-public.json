@@ -2,14 +2,6 @@
   "podium": [
     {
       "rank": 1,
-      "name": "Degueurce Franck",
-      "classe": "",
-      "group": "3M1",
-      "pix": 537,
-      "level": "Expert"
-    },
-    {
-      "rank": 2,
       "name": "TSHINKENKE Sacha Muyaya",
       "classe": "5M3",
       "group": "5M3 SVT",
@@ -17,18 +9,26 @@
       "level": "Avancé"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "RANAIVOSOA Irina Marcelle",
       "classe": "3M2",
       "group": "3M2",
       "pix": 436,
       "level": "Avancé"
+    },
+    {
+      "rank": 3,
+      "name": "HASSANALY Husain",
+      "classe": "3M1",
+      "group": "3M1",
+      "pix": 400,
+      "level": "Avancé"
     }
   ],
   "stats": {
     "totalGroups": 30,
-    "totalStudents": 440,
-    "totalCertifiable": 222,
-    "averagePix": 137
+    "totalStudents": 439,
+    "totalCertifiable": 221,
+    "averagePix": 135
   }
 }

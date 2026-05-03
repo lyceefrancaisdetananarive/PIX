@@ -39,6 +39,14 @@ GROUPS_DIR = DATA_DIR / "groups"
 
 STUDENT_LIST = SOURCE_ROOT / "Liste des élèves par classes.xlsx"
 
+# Liste des comptes Pix qui ne sont PAS des élèves (enseignants, comptes de test).
+# Ces comptes sont totalement exclus du site (podium, tableaux, stats).
+# Format : "NOM PRENOM" en majuscules sans accent (clé normalisée).
+EXCLUDED_ACCOUNTS = {
+    "DEGUEURCE FRANCK",   # Enseignant Techno
+    # ajoutez ici les autres profs au fur et à mesure
+}
+
 # Mapping groupe Pix Orga (= nom du dossier) -> code d'accès
 GROUP_CODES = {
     # ── 5ème ───────────────────────────────────────────────────
@@ -316,6 +324,8 @@ def process_collecte_rows(rows: list) -> dict:
         if not nom and not prenom:
             continue
         key = normalize_name(f"{nom} {prenom}")
+        if key in EXCLUDED_ACCOUNTS:
+            continue
         date_str = row.get("Date et heure de l'envoi (Europe/Paris)", "")
         date = parse_date_fr(date_str)
         envoi = row.get("Envoi (O/N)", "").strip().upper() == "OUI"
@@ -399,6 +409,8 @@ def process_parcours_csv(rows: list, group_name: str) -> dict:
         if not nom and not prenom:
             continue
         key = normalize_name(f"{nom} {prenom}")
+        if key in EXCLUDED_ACCOUNTS:
+            continue
 
         date_str = row.get("Date et heure du partage (Europe/Paris)", "") or row.get(
             "Date et heure de début (Europe/Paris)", ""
