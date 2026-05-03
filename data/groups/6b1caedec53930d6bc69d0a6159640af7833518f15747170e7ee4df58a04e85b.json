@@ -1,0 +1,2048 @@
+{
+  "name": "5M7 P.2",
+  "level": "5e",
+  "studentCount": 12,
+  "certifiableCount": 12,
+  "averagePix": 176,
+  "parcoursCodes": {
+    "EMI - cycle 4": "FLLJSD998",
+    "Technologie - Début de cycle 4 : Manipuler les fichiers": "EEWXRV693",
+    "Parcours de rentrée 5e": "JLHPCK922",
+    "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)": "SYLBTY718",
+    "Technologie - Début de cycle 4 : Sécuriser son environnement numérique": "VQXTEU253",
+    "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données": "VYEKAD842",
+    "Cybersécurité - Cycle 4 (MAJ 2025)": "KDPFMZ328"
+  },
+  "students": [
+    {
+      "id": "liagre_burnod_eglantine_agnes_majo",
+      "name": "LIAGRE BURNOD Eglantine Agnès Majo",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 339,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 71
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 95
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 81
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 60
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 32
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Développer des documents multimedia": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        }
+      },
+      "lastUpdate": "2026-04-08T11:02:00",
+      "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-03-04T09:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T08:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:02:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T10:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-08T09:50:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.93,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "poncin_marcel",
+      "name": "Poncin Marcel",
+      "classe": "",
+      "group": "5M7 P.2",
+      "pix": 245,
+      "certifiable": true,
+      "competencesCertifiables": 12,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 63
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 93
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 18
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 35
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 36
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Collaborer": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        }
+      },
+      "lastUpdate": "2026-04-29T10:20:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T09:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:10:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-03-04T09:08:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T09:02:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T09:56:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-03T13:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "seidou_maeline",
+      "name": "SEIDOU Maeline",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 206,
+      "certifiable": true,
+      "competencesCertifiables": 8,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 45
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 97
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 24
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 37
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 3
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 2
+        }
+      },
+      "lastUpdate": "2026-04-29T09:58:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T09:57:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:30:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-03-04T09:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.89,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T09:03:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-15T10:36:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T10:32:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.89,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "turpain_louane_tia",
+      "name": "TURPAIN Louane Tia",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 190,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 38
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 72
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 16
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 38
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 26
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 4
+        }
+      },
+      "lastUpdate": "2026-04-01T10:34:00",
+      "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-03-04T09:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.78,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T09:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:12:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.66,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T10:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-08T09:54:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "tillement_jade_tiah",
+      "name": "TILLEMENT Jade Tiah",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 187,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 55
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 62
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 16
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 37
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 17
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 5
+        }
+      },
+      "lastUpdate": "2026-04-29T09:56:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T09:50:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-03-04T09:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.78,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T09:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:10:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T10:01:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.89,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-05T20:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "traore_fatimata_zahra",
+      "name": "TRAORE Fatimata Zahra",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 177,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 47
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 66
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 21
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 27
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 16
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 4
+        }
+      },
+      "lastUpdate": "2026-04-29T09:53:00",
+      "parcours": [
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-04-29T10:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T09:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:39:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T09:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.62,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-11-05T09:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-08T09:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.93,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "ramonjavelo_kanto_abigail",
+      "name": "RAMONJAVELO Kanto Abigaïl",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 175,
+      "certifiable": true,
+      "competencesCertifiables": 8,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 58
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 58
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 18
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 31
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 10
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 8
+        }
+      },
+      "lastUpdate": "2026-04-29T09:53:00",
+      "parcours": [
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-04-29T10:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T09:48:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:27:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T09:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.75,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T10:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.77,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-06T18:36:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "pless_romane",
+      "name": "PLESS Romane",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 159,
+      "certifiable": true,
+      "competencesCertifiables": 7,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 40
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 70
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 11
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 34
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 4
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 3
+        }
+      },
+      "lastUpdate": "2026-04-29T10:23:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-04-29T10:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-04-29T10:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T09:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:30:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.86,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:12:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.62,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T10:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.66,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-06T21:45:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "randrianarivelo_anae_irintsoa",
+      "name": "RANDRIANARIVELO Anaé Irintsoa",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 138,
+      "certifiable": true,
+      "competencesCertifiables": 6,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 57
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 46
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 5
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 26
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 4
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Interagir": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 2
+        }
+      },
+      "lastUpdate": "2026-04-29T09:59:00",
+      "parcours": [
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-04-29T10:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.61,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T09:58:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-07T18:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T11:04:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-08T10:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "souchaud_valentino_kinga",
+      "name": "SOUCHAUD Valentino Kinga",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 136,
+      "certifiable": true,
+      "competencesCertifiables": 6,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 33
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 45
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 16
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 35
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 7
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Gérer des données": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 6
+        }
+      },
+      "lastUpdate": "2026-04-01T10:45:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T10:07:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.75,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-03-04T10:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.78,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T09:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.86,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T12:12:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.86,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-08T10:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.93,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "nambiar_udit_vijesh",
+      "name": "NAMBIAR Udit Vijesh",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 90,
+      "certifiable": true,
+      "competencesCertifiables": 5,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 1,
+          "pix": 15
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 28
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 20
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 21
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 6
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Gérer des données": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Interagir": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 5
+        }
+      },
+      "lastUpdate": "2025-12-10T09:25:00",
+      "parcours": [
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:08:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.66,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-11-05T09:08:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.71,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-08T10:12:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.73,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "razaali_amber_layla_zaib",
+      "name": "RAZAALI Amber Layla Zaîb",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 70,
+      "certifiable": true,
+      "competencesCertifiables": 6,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 1,
+          "pix": 24
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 1,
+          "pix": 19
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 5
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 20
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 2
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 2
+        }
+      },
+      "lastUpdate": "2026-04-29T10:00:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T09:56:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.63,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.28,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-03-04T09:46:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.44,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T09:37:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.34,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T10:01:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.51,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-08T10:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 2
+        }
+      ]
+    }
+  ]
+}

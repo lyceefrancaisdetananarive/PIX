@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tableau de bord pédagogique Pix du Lycée Français de Tananarive — résultats, certifiabilité et parcours numériques des élèves de collège.">
+  <meta name="theme-color" content="#003B73">
+
+  <title>PIX LFT — Tableau de bord pédagogique</title>
+
+  <link rel="icon" type="image/png" href="assets/logos/lft.png">
+  <link rel="preload" href="assets/fonts/Marianne-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Marianne-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/marianne.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/glass.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+  <div class="app-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand" aria-label="Accueil PIX LFT">
+      <img src="assets/logos/lft.png" alt="" class="site-header__logo">
+      <div>
+        <div class="site-header__title">PIX · LFT</div>
+        <div class="site-header__subtitle">Tableau de bord pédagogique</div>
+      </div>
+    </a>
+    <div class="site-header__partners" aria-label="Partenaires institutionnels">
+      <img src="assets/logos/aefe.jpg" alt="AEFE" class="site-header__partner-logo">
+      <img src="assets/logos/pix.svg" alt="Pix" class="site-header__partner-logo">
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ─── HERO ───────────────────────────────────────────── -->
+    <section class="container hero">
+      <span class="hero__eyebrow">Lycée Français de Tananarive · 2025-2026</span>
+      <h1 class="hero__title">Suivez votre parcours Pix en classe</h1>
+      <p class="hero__subtitle">
+        Résultats, certifiabilité et progression de chaque élève du collège.
+        Consultez le podium ci-dessous, comprenez votre niveau Pix
+        et accédez à votre classe avec le code transmis par votre professeur.
+      </p>
+    </section>
+
+    <!-- ─── PODIUM TOP 3 ───────────────────────────────────── -->
+    <section class="container section reveal" aria-labelledby="podium-title">
+      <header class="section-title">
+        <span class="section-title__eyebrow">🏆 Top 3 du collège</span>
+        <h2 class="section-title__heading" id="podium-title">Les meilleurs scores Pix LFT</h2>
+      </header>
+      <p class="section-intro">
+        Bravo aux trois élèves de la 6ème à la 3ème ayant le score Pix global le plus élevé,
+        toutes campagnes Collecte confondues.
+      </p>
+
+      <div class="podium glass glass-bevel" id="podium" aria-busy="true">
+        <div class="loader" id="podium-loader">
+          <div class="loader__spinner"></div>
+          <span>Chargement du podium…</span>
+        </div>
+      </div>
+
+      <p class="section-intro" id="global-stats" style="margin-top: var(--space-6); margin-bottom: 0;"></p>
+    </section>
+
+    <!-- ─── COMPRENDRE PIX : JAUGE DES NIVEAUX ────────────── -->
+    <section class="container section reveal" aria-labelledby="levels-title">
+      <header class="section-title">
+        <span class="section-title__eyebrow">🎯 Niveaux Pix</span>
+        <h2 class="section-title__heading" id="levels-title">Où vous situez-vous ?</h2>
+      </header>
+      <p class="section-intro">
+        Le score Pix mesure vos compétences numériques en pix (de 0 à 1024).
+        Glissez le curseur pour explorer les 5 niveaux officiels Pix.
+      </p>
+
+      <div class="glass glass-bevel" style="padding: var(--space-7) var(--space-6);">
+        <div class="gauge" id="demo-gauge">
+          <div class="gauge__header">
+            <div>
+              <span class="gauge__score" id="demo-gauge-value">200</span>
+              <span class="gauge__score-unit">pix</span>
+            </div>
+            <span class="gauge__level-name" id="demo-gauge-level">Indépendant</span>
+          </div>
+          <div class="gauge__bar">
+            <div class="gauge__fill" id="demo-gauge-fill" style="width: 20%;"></div>
+          </div>
+          <div class="gauge__levels">
+            <div class="gauge__level-step"><strong>Novice</strong>0 – 47</div>
+            <div class="gauge__level-step"><strong>Débutant</strong>48 – 143</div>
+            <div class="gauge__level-step"><strong>Indépendant</strong>144 – 287</div>
+            <div class="gauge__level-step"><strong>Avancé</strong>288 – 511</div>
+            <div class="gauge__level-step"><strong>Expert</strong>512 +</div>
+          </div>
+          <input type="range" min="0" max="1024" value="200" id="demo-gauge-slider"
+                 aria-label="Démonstration : faites glisser pour voir les niveaux Pix"
+                 style="width: 100%; margin-top: var(--space-5); accent-color: var(--pix-blue);">
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── COMPRENDRE PIX : 4 BLOCS PÉDAGOGIQUES ────────── -->
+    <section class="container section reveal" aria-labelledby="learn-title">
+      <header class="section-title">
+        <span class="section-title__eyebrow">📚 Comprendre Pix</span>
+        <h2 class="section-title__heading" id="learn-title">L'essentiel pour réussir sa certification</h2>
+      </header>
+
+      <div class="cards-grid">
+        <article class="info-card glass glass-bevel glass-hoverable">
+          <div class="info-card__icon" aria-hidden="true">✓</div>
+          <h3 class="info-card__title">Comment devenir certifiable&nbsp;?</h3>
+          <div class="info-card__body">
+            <p>Pour être <strong>certifiable en 3ème</strong>, il faut avoir atteint au minimum&nbsp;:</p>
+            <ul>
+              <li><strong>Le niveau&nbsp;1</strong> dans au moins <strong>5 compétences</strong> du CRCN</li>
+              <li>Un profil suffisamment <strong>diversifié</strong> sur les 5 domaines</li>
+            </ul>
+            <p>Plus vous accumulez de pix, plus vous montez en niveau et augmentez vos chances de réussite&nbsp;!</p>
+          </div>
+        </article>
+
+        <article class="info-card glass glass-bevel glass-hoverable">
+          <div class="info-card__icon info-card__icon--magenta" aria-hidden="true">🗓</div>
+          <h3 class="info-card__title">Le jour de la certification</h3>
+          <div class="info-card__body">
+            <ul>
+              <li>Présentez-vous <strong>15 min avant</strong> avec une pièce d'identité</li>
+              <li>Connectez-vous à <strong>pix.fr</strong> avec vos identifiants</li>
+              <li>Activez l'extension <strong>Pix Companion</strong> (obligatoire)</li>
+              <li>Répondez à <strong>16 à 48 questions</strong> selon votre profil</li>
+              <li>Durée totale&nbsp;: environ <strong>1h45</strong></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="info-card glass glass-bevel glass-hoverable">
+          <div class="info-card__icon info-card__icon--yellow" aria-hidden="true">⚠</div>
+          <h3 class="info-card__title">Points de vigilance</h3>
+          <div class="info-card__body">
+            <ul>
+              <li><strong>Avant&nbsp;:</strong> assurez-vous d'avoir validé Pix Companion sur Chrome / Firefox</li>
+              <li><strong>Pendant&nbsp;:</strong> ne fermez aucun onglet, restez sur l'épreuve</li>
+              <li><strong>Internet&nbsp;:</strong> en cas de coupure, votre progression est sauvegardée</li>
+              <li><strong>Triche&nbsp;:</strong> toute aide extérieure entraîne l'annulation</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="info-card glass glass-bevel glass-hoverable">
+          <div class="info-card__icon info-card__icon--green" aria-hidden="true">🚀</div>
+          <h3 class="info-card__title">Rejoindre un parcours</h3>
+          <div class="info-card__body">
+            <ul>
+              <li>Connectez-vous à votre compte sur <strong>pix.fr</strong></li>
+              <li>Cliquez sur <strong>« J'ai un code »</strong></li>
+              <li>Saisissez le <strong>code campagne</strong> donné par votre professeur</li>
+              <li>Réalisez le parcours, puis <strong>partagez vos résultats</strong></li>
+            </ul>
+            <p>Les codes de rattrapage sont visibles sur votre fiche élève.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ─── VIGNETTES VIDÉOS ───────────────────────────────── -->
+    <section class="container section reveal" aria-labelledby="videos-title">
+      <header class="section-title">
+        <span class="section-title__eyebrow">📹 Tutoriels vidéos</span>
+        <h2 class="section-title__heading" id="videos-title">Apprenez en images</h2>
+      </header>
+      <p class="section-intro">
+        Sélection de vidéos officielles Pix pour vous guider pas à pas.
+      </p>
+
+      <div class="cards-grid">
+        <a href="https://www.youtube.com/@Pix_officiel" target="_blank" rel="noopener noreferrer"
+           class="video-card" aria-label="Vidéo : Pix, c'est quoi ?">
+          <div class="video-card__play" aria-hidden="true"></div>
+          <div class="video-card__title">Pix, c'est quoi&nbsp;?</div>
+        </a>
+        <a href="https://www.youtube.com/@Pix_officiel" target="_blank" rel="noopener noreferrer"
+           class="video-card" aria-label="Vidéo : Comment se déroule la certification Pix ?">
+          <div class="video-card__play" aria-hidden="true"></div>
+          <div class="video-card__title">Comment se déroule la certification&nbsp;?</div>
+        </a>
+        <a href="https://www.youtube.com/@Pix_officiel" target="_blank" rel="noopener noreferrer"
+           class="video-card" aria-label="Vidéo : Pix Companion, l'extension obligatoire">
+          <div class="video-card__play" aria-hidden="true"></div>
+          <div class="video-card__title">Pix Companion, l'extension obligatoire</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ─── ACCÈS PAR CODE CLASSE ──────────────────────────── -->
+    <section class="container section reveal" aria-labelledby="access-title">
+      <header class="section-title">
+        <span class="section-title__eyebrow">🔐 Accès classe</span>
+        <h2 class="section-title__heading" id="access-title">Consulter les résultats de votre classe</h2>
+      </header>
+      <p class="section-intro">
+        Saisissez le code unique de votre groupe (un mot, transmis par votre professeur) pour
+        accéder aux résultats détaillés de votre classe.
+      </p>
+
+      <form class="code-form glass glass-bevel" id="code-form" autocomplete="off" novalidate>
+        <div class="code-form__lock" aria-hidden="true">🔒</div>
+        <h3 class="code-form__title">Entrez le code de votre classe</h3>
+        <p class="code-form__hint">Un seul mot, en référence au programme de Technologie ou de SVT.</p>
+
+        <div class="code-form__row">
+          <label for="code-input" class="sr-only">Code classe</label>
+          <input
+            type="text"
+            id="code-input"
+            class="code-input"
+            placeholder="Ex : ARDUINO"
+            autocapitalize="characters"
+            spellcheck="false"
+            inputmode="text"
+            aria-describedby="code-error"
+            required>
+          <button type="submit" class="btn btn--primary">Déverrouiller</button>
+        </div>
+
+        <div class="code-form__error" id="code-error" role="alert" aria-live="polite">
+          Code inconnu. Vérifiez auprès de votre professeur.
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__partners">
+      <img src="assets/logos/lft.png" alt="Lycée Français de Tananarive" class="site-footer__partner-logo">
+      <div class="site-footer__sep" aria-hidden="true"></div>
+      <img src="assets/logos/aefe.jpg" alt="AEFE" class="site-footer__partner-logo">
+      <div class="site-footer__sep" aria-hidden="true"></div>
+      <img src="assets/logos/pix.svg" alt="Pix" class="site-footer__partner-logo">
+    </div>
+    <p>Lycée Français de Tananarive · Établissement en gestion directe AEFE · Année scolaire 2025-2026</p>
+    <p class="site-footer__legal">Données pédagogiques issues de Pix Orga. Affichage à but pédagogique uniquement.</p>
+  </footer>
+
+  <script type="module" src="js/main-home.js"></script>
+</body>
+</html>

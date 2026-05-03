@@ -1,0 +1,81 @@
+{
+  "groups": {
+    "4b1323df287e7912f1495556fe52f422b5e5e80459de8867e8cc2ce6407c21e6": {
+      "name": "5M1 SVT",
+      "level": "5e",
+      "studentCount": 27,
+      "certifiableCount": 21,
+      "averagePix": 128
+    },
+    "42566bebf7acabb1701120c4b6f4f735e873b2e7f3d289ef99fa9c7e43432d4d": {
+      "name": "5M2 TECHNO",
+      "level": "5e",
+      "studentCount": 14,
+      "certifiableCount": 13,
+      "averagePix": 146
+    },
+    "9f2018dafe5dd5ec24260cca66b9962eafad2c1c8789e744ca5e170a9c886a82": {
+      "name": "5M3 SVT",
+      "level": "5e",
+      "studentCount": 14,
+      "certifiableCount": 10,
+      "averagePix": 141
+    },
+    "b0f9dff95286ec89b885a4aa3d9b4967f55f48452c1be04a1524a04cd9927152": {
+      "name": "5M5 SVT",
+      "level": "5e",
+      "studentCount": 15,
+      "certifiableCount": 14,
+      "averagePix": 121
+    },
+    "6c4f3e0c9826314a32584c0a802465d43f32d78b486d32827a01156d446e89ca": {
+      "name": "5SVT1",
+      "level": "5e",
+      "studentCount": 16,
+      "certifiableCount": 15,
+      "averagePix": 161
+    },
+    "c6d6ef4b7208b364be4e41b7b198fbc7b66ec0dc2db75d9b7d301c58fd4d7729": {
+      "name": "5 TECHNO 1",
+      "level": "5e",
+      "studentCount": 18,
+      "certifiableCount": 16,
+      "averagePix": 121
+    },
+    "c6f204a6593e00c7f875ac9da3964f7e36c3dc9e65257476192093c933d995d1": {
+      "name": "5 TECHNO 2",
+      "level": "5e",
+      "studentCount": 19,
+      "certifiableCount": 12,
+      "averagePix": 95
+    },
+    "7fe4869528e243e2f4d8a9d200ed9c2b813b269c7f36c24ced368d87ef3c1770": {
+      "name": "5M7 P.1",
+      "level": "5e",
+      "studentCount": 14,
+      "certifiableCount": 10,
+      "averagePix": 117
+    },
+    "6b1caedec53930d6bc69d0a6159640af7833518f15747170e7ee4df58a04e85b": {
+      "name": "5M7 P.2",
+      "level": "5e",
+      "studentCount": 12,
+      "certifiableCount": 12,
+      "averagePix": 176
+    },
+    "97ba29238fce58fc306d57d3dec02bc32dec651bef76054980f4cf3d68fe5ddb": {
+      "name": "3M4 SVT",
+      "level": "3e",
+      "studentCount": 15,
+      "certifiableCount": 15,
+      "averagePix": 171
+    },
+    "d7cf4e8ee9fcef0077c7ffae81d78e7a5ba26ba0b066b4bd956cb4c7d3736fd4": {
+      "name": "3 TECHNO 2",
+      "level": "3e",
+      "studentCount": 18,
+      "certifiableCount": 17,
+      "averagePix": 153
+    }
+  }
+}

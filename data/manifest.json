@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-05-03T17:43:52.251012+00:00",
+  "version": 1,
+  "pixLevels": [
+    {
+      "slug": "novice",
+      "label": "Novice",
+      "min": 0,
+      "max": 47
+    },
+    {
+      "slug": "debutant",
+      "label": "Débutant",
+      "min": 48,
+      "max": 143
+    },
+    {
+      "slug": "independant",
+      "label": "Indépendant",
+      "min": 144,
+      "max": 287
+    },
+    {
+      "slug": "avance",
+      "label": "Avancé",
+      "min": 288,
+      "max": 511
+    },
+    {
+      "slug": "expert",
+      "label": "Expert",
+      "min": 512,
+      "max": 1024
+    }
+  ],
+  "domains": [
+    {
+      "slug": "info",
+      "label": "Information et données",
+      "competences": [
+        "Mener une recherche et une veille d’information",
+        "Gérer des données",
+        "Traiter des données"
+      ]
+    },
+    {
+      "slug": "communication",
+      "label": "Communication et collaboration",
+      "competences": [
+        "Interagir",
+        "Partager et publier",
+        "Collaborer",
+        "S’insérer dans le monde numérique"
+      ]
+    },
+    {
+      "slug": "creation",
+      "label": "Création de contenu",
+      "competences": [
+        "Développer des documents textuels",
+        "Développer des documents multimedia",
+        "Adapter les documents à leur finalité",
+        "Programmer"
+      ]
+    },
+    {
+      "slug": "protection",
+      "label": "Protection et sécurité",
+      "competences": [
+        "Sécuriser l’environnement numérique",
+        "Protéger les données personnelles et la vie privée",
+        "Protéger la santé, le bien-être et l’environnement"
+      ]
+    },
+    {
+      "slug": "environnement",
+      "label": "Environnement numérique",
+      "competences": [
+        "Résoudre des problèmes techniques",
+        "Construire un environnement numérique"
+      ]
+    }
+  ]
+}

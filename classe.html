@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vue détaillée d'une classe — Tableau de bord PIX LFT.">
+  <meta name="theme-color" content="#003B73">
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>Classe — PIX LFT</title>
+
+  <link rel="icon" type="image/png" href="assets/logos/lft.png">
+  <link rel="preload" href="assets/fonts/Marianne-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Marianne-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/marianne.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/glass.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+  <div class="app-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="index.html" class="site-header__brand" aria-label="Accueil PIX LFT">
+      <img src="assets/logos/lft.png" alt="" class="site-header__logo">
+      <div>
+        <div class="site-header__title">PIX · LFT</div>
+        <div class="site-header__subtitle">Tableau de bord pédagogique</div>
+      </div>
+    </a>
+    <div class="site-header__partners">
+      <img src="assets/logos/aefe.jpg" alt="AEFE" class="site-header__partner-logo">
+      <img src="assets/logos/pix.svg" alt="Pix" class="site-header__partner-logo">
+    </div>
+  </header>
+
+  <main id="main" class="container section">
+
+    <div class="classe-banner glass glass-bevel" id="classe-banner">
+      <div class="classe-banner__title">
+        <a href="index.html" class="classe-banner__back" aria-label="Retour à l'accueil">←</a>
+        <div>
+          <h1 id="classe-name">Chargement…</h1>
+          <span class="classe-banner__level" id="classe-level"></span>
+        </div>
+      </div>
+      <div class="classe-stats" id="classe-stats" aria-label="Statistiques de la classe">
+        <!-- rempli dynamiquement -->
+      </div>
+    </div>
+
+    <div class="toolbar glass glass-bevel" role="region" aria-label="Filtres et tri">
+      <div class="toolbar__group">
+        <label for="search-input">Rechercher&nbsp;:</label>
+        <input type="search" id="search-input" placeholder="Nom de l'élève…" autocomplete="off">
+      </div>
+      <div class="toolbar__group">
+        <label for="sort-select">Trier par&nbsp;:</label>
+        <select id="sort-select">
+          <option value="pix-desc">Score Pix (décroissant)</option>
+          <option value="pix-asc">Score Pix (croissant)</option>
+          <option value="name-asc">Nom (A → Z)</option>
+          <option value="name-desc">Nom (Z → A)</option>
+          <option value="cert-first">Certifiables en premier</option>
+        </select>
+      </div>
+      <div class="toolbar__group">
+        <label for="filter-cert">Statut&nbsp;:</label>
+        <select id="filter-cert">
+          <option value="all">Tous les élèves</option>
+          <option value="certifiable">Certifiables uniquement</option>
+          <option value="not-certifiable">Non certifiables</option>
+          <option value="no-data">Sans données</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="glass glass-bevel students-table-wrapper" id="students-container" aria-busy="true">
+      <div class="loader">
+        <div class="loader__spinner"></div>
+        <span>Déchiffrement et chargement des élèves…</span>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Modal détail élève -->
+  <div class="modal-backdrop" id="student-modal" role="dialog" aria-modal="true" aria-labelledby="modal-name" aria-hidden="true">
+    <article class="modal glass glass-strong">
+      <button class="modal__close" id="modal-close" aria-label="Fermer le détail">✕</button>
+      <header class="modal__header">
+        <h2 class="modal__name" id="modal-name"></h2>
+        <p class="modal__meta" id="modal-meta"></p>
+      </header>
+
+      <section class="modal__section" aria-labelledby="modal-score-title">
+        <h3 class="modal__section-title" id="modal-score-title">Score Pix global</h3>
+        <div class="gauge" id="modal-gauge">
+          <div class="gauge__header">
+            <div>
+              <span class="gauge__score" id="modal-gauge-value">0</span>
+              <span class="gauge__score-unit">pix</span>
+            </div>
+            <span class="gauge__level-name" id="modal-gauge-level"></span>
+          </div>
+          <div class="gauge__bar">
+            <div class="gauge__fill" id="modal-gauge-fill"></div>
+          </div>
+        </div>
+        <div id="modal-cert-badge" style="margin-top: var(--space-3); text-align: center;"></div>
+      </section>
+
+      <section class="modal__section" aria-labelledby="modal-domains-title">
+        <h3 class="modal__section-title" id="modal-domains-title">Maîtrise par domaine CRCN</h3>
+        <div class="domains-grid" id="modal-domains"></div>
+      </section>
+
+      <section class="modal__section" aria-labelledby="modal-parcours-title">
+        <h3 class="modal__section-title" id="modal-parcours-title">Parcours réalisés</h3>
+        <div class="parcours-list" id="modal-parcours"></div>
+      </section>
+
+      <section class="modal__section" aria-labelledby="modal-codes-title">
+        <h3 class="modal__section-title" id="modal-codes-title">Codes de rattrapage</h3>
+        <div id="modal-codes"></div>
+      </section>
+    </article>
+  </div>
+
+  <script type="module" src="js/main-classe.js"></script>
+</body>
+</html>

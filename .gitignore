@@ -1,0 +1,32 @@
+# Système macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Node (au cas où)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs / env
+*.log
+.env
+.env.local
+
+# Données privées (ne JAMAIS committer)
+# Les CSV et XLSX sont dans le dossier parent — au cas où ils seraient
+# copiés ici par erreur, on les exclut explicitement.
+*.csv
+*.xlsx
+*.xls
+*.ods

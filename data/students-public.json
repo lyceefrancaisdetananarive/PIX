@@ -1,0 +1,34 @@
+{
+  "podium": [
+    {
+      "rank": 1,
+      "name": "TSHINKENKE Sacha Muyaya",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 440,
+      "level": "Avancé"
+    },
+    {
+      "rank": 2,
+      "name": "RAZANAMALALA Jemilah Francine Safosy",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 381,
+      "level": "Avancé"
+    },
+    {
+      "rank": 3,
+      "name": "LIAGRE BURNOD Eglantine Agnès Majo",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 339,
+      "level": "Avancé"
+    }
+  ],
+  "stats": {
+    "totalGroups": 11,
+    "totalStudents": 182,
+    "totalCertifiable": 155,
+    "averagePix": 141
+  }
+}

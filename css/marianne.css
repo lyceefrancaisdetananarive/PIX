@@ -1,0 +1,45 @@
+/*
+ * Police Marianne (typographie officielle de l'État français)
+ * Version 2022, fichiers servis localement (pas de CDN, RGPD-safe)
+ * Licence : libre de droits pour usage public
+ */
+
+@font-face {
+  font-family: "Marianne";
+  src: url("../assets/fonts/Marianne-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Marianne";
+  src: url("../assets/fonts/Marianne-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Marianne";
+  src: url("../assets/fonts/Marianne-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Marianne";
+  src: url("../assets/fonts/Marianne-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Marianne";
+  src: url("../assets/fonts/Marianne-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
