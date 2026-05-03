@@ -1,0 +1,21 @@
+{
+  "name": "PIX LFT — Tableau de bord pédagogique",
+  "short_name": "PIX LFT",
+  "description": "Résultats Pix Orga des élèves du collège du Lycée Français de Tananarive (AEFE).",
+  "start_url": "/PIX/",
+  "scope": "/PIX/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#eef3fb",
+  "theme_color": "#003b73",
+  "lang": "fr",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "assets/logos/lft.png",
+      "sizes": "375x375",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

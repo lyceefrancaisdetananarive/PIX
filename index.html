@@ -3,14 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Tableau de bord pédagogique Pix du Lycée Français de Tananarive — résultats, certifiabilité et parcours numériques des élèves de collège.">
+  <meta name="description" content="Tableau de bord pédagogique Pix du Lycée Français de Tananarive (AEFE) — résultats, certifiabilité et parcours numériques des élèves de 5ème et 3ème.">
   <meta name="theme-color" content="#003B73">
+  <meta name="author" content="Lycée Français de Tananarive">
 
   <title>PIX LFT — Tableau de bord pédagogique</title>
 
+  <!-- Open Graph (réseaux sociaux) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PIX LFT — Tableau de bord pédagogique">
+  <meta property="og:description" content="Résultats, certifiabilité et parcours Pix des élèves du collège du LFT.">
+  <meta property="og:url" content="https://lyceefrancaisdetananarive.github.io/PIX/">
+  <meta property="og:image" content="https://lyceefrancaisdetananarive.github.io/PIX/assets/logos/lft.png">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="PIX LFT">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Manifest PWA -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="canonical" href="https://lyceefrancaisdetananarive.github.io/PIX/">
+
   <link rel="icon" type="image/png" href="assets/logos/lft.png">
+  <link rel="apple-touch-icon" href="assets/logos/lft.png">
+
   <link rel="preload" href="assets/fonts/Marianne-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/Marianne-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="data/students-public.json" as="fetch" crossorigin>
 
   <link rel="stylesheet" href="css/marianne.css">
   <link rel="stylesheet" href="css/theme.css">
@@ -24,15 +42,15 @@
 
   <header class="site-header">
     <a href="index.html" class="site-header__brand" aria-label="Accueil PIX LFT">
-      <img src="assets/logos/lft.png" alt="" class="site-header__logo">
+      <img src="assets/logos/lft.png" alt="" class="site-header__logo" width="44" height="44">
       <div>
         <div class="site-header__title">PIX · LFT</div>
         <div class="site-header__subtitle">Tableau de bord pédagogique</div>
       </div>
     </a>
     <div class="site-header__partners" aria-label="Partenaires institutionnels">
-      <img src="assets/logos/aefe.jpg" alt="AEFE" class="site-header__partner-logo">
-      <img src="assets/logos/pix.svg" alt="Pix" class="site-header__partner-logo">
+      <img src="assets/logos/aefe.jpg" alt="AEFE" class="site-header__partner-logo" width="64" height="32" loading="lazy">
+      <img src="assets/logos/pix.svg" alt="Pix" class="site-header__partner-logo" width="42" height="32" loading="lazy">
     </div>
   </header>
 
@@ -182,20 +200,22 @@
       </p>
 
       <div class="cards-grid">
-        <a href="https://www.youtube.com/@Pix_officiel" target="_blank" rel="noopener noreferrer"
-           class="video-card" aria-label="Vidéo : Pix, c'est quoi ?">
+        <a href="https://www.youtube.com/watch?v=1B8fBmLIsh8" target="_blank" rel="noopener noreferrer"
+           class="video-card" aria-label="Vidéo officielle Pix : Cultivez vos compétences numériques"
+           style="background-image: linear-gradient(180deg, rgba(0,59,115,0) 0%, rgba(0,59,115,0.85) 100%), url('https://i.ytimg.com/vi/1B8fBmLIsh8/hqdefault.jpg'); background-size: cover; background-position: center;">
           <div class="video-card__play" aria-hidden="true"></div>
-          <div class="video-card__title">Pix, c'est quoi&nbsp;?</div>
+          <div class="video-card__title">Pix, cultivez vos compétences numériques</div>
         </a>
-        <a href="https://www.youtube.com/@Pix_officiel" target="_blank" rel="noopener noreferrer"
-           class="video-card" aria-label="Vidéo : Comment se déroule la certification Pix ?">
+        <a href="https://www.youtube.com/watch?v=gHuCeWiaTxM" target="_blank" rel="noopener noreferrer"
+           class="video-card" aria-label="Vidéo officielle Pix : La Certification Pix"
+           style="background-image: linear-gradient(180deg, rgba(0,59,115,0) 0%, rgba(0,59,115,0.85) 100%), url('https://i.ytimg.com/vi/gHuCeWiaTxM/hqdefault.jpg'); background-size: cover; background-position: center;">
           <div class="video-card__play" aria-hidden="true"></div>
-          <div class="video-card__title">Comment se déroule la certification&nbsp;?</div>
+          <div class="video-card__title">La Certification Pix</div>
         </a>
-        <a href="https://www.youtube.com/@Pix_officiel" target="_blank" rel="noopener noreferrer"
-           class="video-card" aria-label="Vidéo : Pix Companion, l'extension obligatoire">
+        <a href="https://www.youtube.com/@Pix_Numerique" target="_blank" rel="noopener noreferrer"
+           class="video-card" aria-label="Toutes les vidéos officielles sur la chaîne Pix">
           <div class="video-card__play" aria-hidden="true"></div>
-          <div class="video-card__title">Pix Companion, l'extension obligatoire</div>
+          <div class="video-card__title">Plus de tutoriels Pix sur YouTube&nbsp;→</div>
         </a>
       </div>
     </section>
@@ -241,11 +261,11 @@
 
   <footer class="site-footer">
     <div class="site-footer__partners">
-      <img src="assets/logos/lft.png" alt="Lycée Français de Tananarive" class="site-footer__partner-logo">
+      <img src="assets/logos/lft.png" alt="Lycée Français de Tananarive" class="site-footer__partner-logo" width="40" height="40" loading="lazy">
       <div class="site-footer__sep" aria-hidden="true"></div>
-      <img src="assets/logos/aefe.jpg" alt="AEFE" class="site-footer__partner-logo">
+      <img src="assets/logos/aefe.jpg" alt="AEFE" class="site-footer__partner-logo" width="80" height="40" loading="lazy">
       <div class="site-footer__sep" aria-hidden="true"></div>
-      <img src="assets/logos/pix.svg" alt="Pix" class="site-footer__partner-logo">
+      <img src="assets/logos/pix.svg" alt="Pix" class="site-footer__partner-logo" width="53" height="40" loading="lazy">
     </div>
     <p>Lycée Français de Tananarive · Établissement en gestion directe AEFE · Année scolaire 2025-2026</p>
     <p class="site-footer__legal">Données pédagogiques issues de Pix Orga. Affichage à but pédagogique uniquement.</p>

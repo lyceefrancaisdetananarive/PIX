@@ -1024,6 +1024,34 @@
 }
 .skip-link:focus { top: var(--space-3); }
 
+/* Mode contraste élevé : surfaces opaques + texte sombre garanti */
+@media (prefers-contrast: more) {
+  .hero__title,
+  .classe-banner h1 {
+    background: none;
+    -webkit-text-fill-color: var(--lft-blue);
+    color: var(--lft-blue);
+  }
+  .glass, .glass-strong, .glass-subtle, .video-card {
+    background: white;
+    border-color: var(--text-primary);
+  }
+  .pix-pill { background: var(--lft-blue); }
+}
+
+/* Print : version sobre sans glassmorphism */
+@media print {
+  .app-bg, .video-card__play, .code-form, .toolbar, .modal-backdrop {
+    display: none !important;
+  }
+  body { background: white; color: black; }
+  .glass, .glass-strong, .glass-subtle {
+    background: white !important;
+    border: 1px solid #ddd !important;
+    backdrop-filter: none !important;
+  }
+}
+
 /* ─────────────────────────────────────────────────────────────
  * Loader
  * ───────────────────────────────────────────────────────────── */

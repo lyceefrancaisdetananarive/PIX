@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /classe.html
+Disallow: /data/groups/
+
+Sitemap: https://lyceefrancaisdetananarive.github.io/PIX/sitemap.xml
