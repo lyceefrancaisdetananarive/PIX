@@ -7,7 +7,7 @@
  *   - ouvre la modal détail élève au clic
  */
 
-import { loadGroup, loadClasses, levelFor } from "./data-loader.js";
+import { loadGroup, loadClasses, levelFor, PIX_LEVELS } from "./data-loader.js";
 import { getUnlockedHash, isTeacher, getTeacherName } from "./auth.js";
 import { applyFilters } from "./filters.js";
 import { renderGauge } from "./pix-gauge.js";
@@ -138,9 +138,13 @@ function renderTable() {
           ? '<span class="badge badge--success"><svg class="icon"><use href="#ph-check-circle"/></svg> Certifiable</span>'
           : '<span class="badge badge--warning">En cours</span>';
 
+      const lvl = !isEmpty ? levelFor(s.pix) : null;
+      const lvlBadge = lvl && lvl.slug !== "non-certifie"
+        ? `<span class="pix-level-pill pix-level-pill--${lvl.slug}">${escapeHtml(lvl.short)}</span>`
+        : "";
       const pix = isEmpty
         ? '<span class="pix-pill pix-pill--muted">—</span>'
-        : `<span class="pix-pill"><span>${s.pix}</span><span class="pix-pill__unit">pix</span></span>`;
+        : `<span class="pix-pill"><span>${s.pix}</span><span class="pix-pill__unit">pix</span></span>${lvlBadge}`;
 
       return `
         <tr class="${cls}" data-id="${escapeHtml(s.id)}" tabindex="${isEmpty ? -1 : 0}"
