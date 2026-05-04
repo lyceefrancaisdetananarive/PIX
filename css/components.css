@@ -2315,26 +2315,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: var(--space-6);
-  margin-bottom: var(--space-5);
+  gap: var(--space-7);
+  margin-bottom: var(--space-6);
   flex-wrap: wrap;
 }
 .site-footer__partner-logo {
-  height: 44px;
+  height: 72px;
   width: auto;
-  opacity: 0.7;
-  transition: opacity 0.3s var(--ease-smooth), transform 0.3s var(--ease-smooth);
-  filter: grayscale(0.2);
+  opacity: 0.85;
+  transition: opacity 0.3s var(--ease-smooth), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  filter: grayscale(0.1);
 }
 .site-footer__partner-logo:hover {
   opacity: 1;
-  transform: translateY(-2px);
+  transform: translateY(-3px) scale(1.04);
   filter: grayscale(0);
 }
 .site-footer__sep {
   width: 1px;
-  height: 28px;
-  background: linear-gradient(180deg, transparent, rgba(0, 59, 115, 0.2), transparent);
+  height: 48px;
+  background: linear-gradient(180deg, transparent, rgba(0, 59, 115, 0.22), transparent);
+}
+
+@media (max-width: 640px) {
+  .site-footer__partners { gap: var(--space-5); }
+  .site-footer__partner-logo { height: 56px; }
+  .site-footer__sep { height: 36px; }
 }
 .site-footer p {
   margin: 0;
