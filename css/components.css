@@ -335,6 +335,7 @@
 
 .podium-mini__first {
   position: relative;
+  isolation: isolate;
   padding: var(--space-4) var(--space-2) var(--space-3);
   text-align: center;
   border-radius: 14px;
@@ -344,12 +345,60 @@
   border: 1.5px solid rgba(255, 196, 0, 0.5);
   box-shadow: 0 12px 24px -8px rgba(255, 159, 0, 0.25), inset 0 1px 0 rgba(255,255,255,0.95);
   transform: translateY(-12px);
+  cursor: default;
+  overflow: hidden;
 }
+
+/* Hover individuel sur la 1ère place */
+.podium-mini__first:hover {
+  transform: translateY(-20px) scale(1.04);
+  border-color: rgba(255, 196, 0, 0.85);
+  box-shadow:
+    0 24px 40px -10px rgba(255, 159, 0, 0.4),
+    0 0 0 1px rgba(255, 196, 0, 0.3),
+    inset 0 1px 0 rgba(255,255,255,1);
+  z-index: 2;
+}
+.podium-mini__first:hover .podium-mini__crown {
+  animation: crownLoop 1.6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+.podium-mini__first:hover .podium-mini__score {
+  transform: scale(1.06);
+  box-shadow:
+    0 10px 22px -2px rgba(61, 104, 255, 0.6),
+    0 0 0 3px rgba(61, 104, 255, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+.podium-mini__first:hover .podium-mini__level {
+  background: linear-gradient(135deg, #ffc400, #ff9f00);
+  color: white;
+  box-shadow: 0 4px 10px -2px rgba(255, 159, 0, 0.4);
+}
+
+/* Petit sparkle qui apparaît au hover */
+.podium-mini__first::before,
+.podium-mini__first::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffc400, transparent 70%);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+.podium-mini__first::before { top: 18%; left: 12%; }
+.podium-mini__first::after { top: 28%; right: 14%; }
+.podium-mini__first:hover::before { animation: sparkleFloat 1.8s ease-in-out infinite; }
+.podium-mini__first:hover::after  { animation: sparkleFloat 1.8s ease-in-out 0.6s infinite; }
+
 .podium-mini__crown {
   display: inline-flex;
   color: #ffc400;
   filter: drop-shadow(0 4px 8px rgba(255, 159, 0, 0.5));
   margin-bottom: var(--space-2);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .podium-mini__name {
   font-size: 13px;
@@ -408,18 +457,90 @@
 }
 
 .podium-mini__side {
+  position: relative;
+  isolation: isolate;
   padding: var(--space-3) var(--space-2);
   text-align: center;
   border-radius: 12px;
   background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
   border: 1px solid rgba(255, 255, 255, 0.7);
   box-shadow: 0 4px 12px -4px rgba(0, 59, 115, 0.1);
+  cursor: default;
+  overflow: hidden;
 }
 .podium-mini__side--silver { border-top: 3px solid #c0c0c0; }
 .podium-mini__side--bronze { border-top: 3px solid #cd7f32; }
-.podium-mini__medal { display: inline-flex; margin-bottom: 6px; }
+.podium-mini__medal {
+  display: inline-flex;
+  margin-bottom: 6px;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
 .podium-mini__side--silver .podium-mini__medal { color: #909090; }
 .podium-mini__side--bronze .podium-mini__medal { color: #b8763a; }
+
+/* Hover individuel 2e place — argent */
+.podium-mini__side--silver:hover {
+  transform: translateY(-6px);
+  border-top-color: #e8e8e8;
+  box-shadow:
+    0 16px 28px -8px rgba(160, 160, 160, 0.35),
+    inset 0 0 20px -5px rgba(255, 255, 255, 0.6);
+  z-index: 2;
+}
+.podium-mini__side--silver:hover .podium-mini__medal {
+  transform: rotate(-12deg) scale(1.15);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.2));
+}
+.podium-mini__side--silver:hover .podium-mini__score {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px -2px rgba(61, 104, 255, 0.5);
+}
+
+/* Hover individuel 3e place — bronze */
+.podium-mini__side--bronze:hover {
+  transform: translateY(-6px);
+  border-top-color: #e69e6c;
+  box-shadow:
+    0 16px 28px -8px rgba(184, 118, 58, 0.35),
+    inset 0 0 20px -5px rgba(255, 220, 180, 0.5);
+  z-index: 2;
+}
+.podium-mini__side--bronze:hover .podium-mini__medal {
+  transform: rotate(12deg) scale(1.15);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.2));
+}
+.podium-mini__side--bronze:hover .podium-mini__score {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px -2px rgba(61, 104, 255, 0.5);
+}
+
+/* Reflet diagonal au hover (effet Apple "shine") */
+.podium-mini__side::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 60%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+}
+.podium-mini__side:hover::after { transform: translateX(120%); }
+
+@keyframes crownLoop {
+  0%, 100% { transform: rotate(0deg) translateY(0); }
+  25%      { transform: rotate(-6deg) translateY(-2px); }
+  75%      { transform: rotate(6deg) translateY(-2px); }
+}
+
+@keyframes sparkleFloat {
+  0%, 100% { opacity: 0; transform: translateY(0) scale(0.8); }
+  50%      { opacity: 1; transform: translateY(-6px) scale(1.4); }
+}
 
 .podium-mini-empty {
   grid-column: 1 / -1;
