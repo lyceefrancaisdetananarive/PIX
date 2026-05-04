@@ -79,6 +79,54 @@ function renderSide(entry, position) {
   `;
 }
 
+// ─── Mini-podium (3 colonnes côte à côte) ──────────────────────
+export function renderPodiumMini(container, podium) {
+  if (!podium || podium.length === 0) return;
+
+  const items = [];
+  if (podium[1]) items.push(renderMiniRank(podium[1], 2));
+  if (podium[0]) items.push(renderMiniFirst(podium[0]));
+  if (podium[2]) items.push(renderMiniRank(podium[2], 3));
+
+  container.innerHTML = items.join("");
+}
+
+function renderMiniFirst(entry) {
+  const meta = entry.classe || entry.group || "";
+  return `
+    <div class="podium-mini__first" aria-label="1ère place">
+      <div class="podium-mini__crown" aria-hidden="true">
+        <svg class="icon icon--xl"><use href="#ph-crown-simple"/></svg>
+      </div>
+      <div class="podium-mini__name">${escapeHtml(entry.name)}</div>
+      <div class="podium-mini__meta">${escapeHtml(meta)}</div>
+      <div class="podium-mini__score">
+        <span class="podium-mini__score-value">${entry.pix}</span>
+        <span class="podium-mini__score-unit">pix</span>
+      </div>
+      ${entry.level ? `<div class="podium-mini__level">${escapeHtml(entry.level)}</div>` : ""}
+    </div>
+  `;
+}
+
+function renderMiniRank(entry, rank) {
+  const meta = entry.classe || entry.group || "";
+  const data = MEDAL_DATA[rank - 1];
+  return `
+    <div class="podium-mini__side podium-mini__side--${data.color}" aria-label="${data.label}">
+      <div class="podium-mini__medal" aria-hidden="true">
+        <svg class="icon icon--lg"><use href="#${data.icon}"/></svg>
+      </div>
+      <div class="podium-mini__name podium-mini__name--side">${escapeHtml(entry.name)}</div>
+      <div class="podium-mini__meta">${escapeHtml(meta)}</div>
+      <div class="podium-mini__score podium-mini__score--side">
+        <span class="podium-mini__score-value">${entry.pix}</span>
+        <span class="podium-mini__score-unit">pix</span>
+      </div>
+    </div>
+  `;
+}
+
 export function escapeHtml(s) {
   if (s == null) return "";
   return String(s)

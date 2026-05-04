@@ -8,48 +8,40 @@
 
 import { loadPublic, loadClasses, loadTeachers, levelFor } from "./data-loader.js";
 import { tryUnlock } from "./auth.js";
-import { renderPodium } from "./podium.js";
+import { renderPodium, renderPodiumMini } from "./podium.js";
 import { renderGauge } from "./pix-gauge.js";
 
-// ─── Chargement public (3 podiums + stats + onglets) ───────────
+// ─── Chargement public (3 mini-podiums simultanés + stats) ─────
 async function initPodium() {
-  const container = document.getElementById("podium");
+  const grid = document.getElementById("podiums-grid");
   const statsEl = document.getElementById("global-stats");
-  const tabs = document.querySelectorAll(".cycle-tab");
 
   try {
     const data = await loadPublic();
-    let currentCycle = "cycle4";
 
-    const renderForCycle = (cycle) => {
-      const entry = data.podiums?.[cycle];
-      if (!entry) return;
-      renderPodium(container, entry.podium);
-      // Si vide
-      if (!entry.podium.length) {
-        container.innerHTML = `
-          <div class="podium-empty glass-bevel">
-            <svg class="icon icon--3xl" aria-hidden="true" style="color: var(--text-muted); opacity: 0.6;"><use href="#ph-info"/></svg>
-            <h3>Aucun score à afficher</h3>
-            <p>Les élèves de ${entry.label} n'ont pas encore réalisé de campagne <em>Collecte</em>.<br>
-               Le podium s'actualisera dès les premiers résultats.</p>
+    // Render simultané des 3 podiums
+    const cycles = [
+      { id: "cycle3", el: document.getElementById("podium-cycle3"), label: "Cycle 3" },
+      { id: "cycle4", el: document.getElementById("podium-cycle4"), label: "Cycle 4" },
+      { id: "lycee",  el: document.getElementById("podium-lycee"),  label: "Lycée" },
+    ];
+
+    cycles.forEach(({ id, el }) => {
+      const entry = data.podiums?.[id];
+      const podium = entry?.podium || [];
+      if (podium.length === 0) {
+        el.innerHTML = `
+          <div class="podium-mini-empty">
+            <svg class="icon icon--xl" aria-hidden="true" style="color: var(--text-muted); opacity: 0.6;"><use href="#ph-info"/></svg>
+            <p>Aucun score<br>à afficher</p>
           </div>
         `;
-        container.removeAttribute("aria-busy");
+      } else {
+        renderPodiumMini(el, podium);
       }
-    };
-
-    tabs.forEach((tab) => {
-      tab.addEventListener("click", () => {
-        const c = tab.dataset.cycle;
-        if (c === currentCycle) return;
-        currentCycle = c;
-        tabs.forEach((t) => t.setAttribute("aria-selected", t === tab ? "true" : "false"));
-        renderForCycle(c);
-      });
     });
 
-    renderForCycle(currentCycle);
+    grid.removeAttribute("aria-busy");
 
     if (statsEl && data.stats) {
       const renseignesPct = data.stats.totalStudents > 0
@@ -64,8 +56,8 @@ async function initPodium() {
     }
   } catch (err) {
     console.error(err);
-    container.innerHTML = `<p style="text-align:center; padding: var(--space-7); color: var(--danger);">Erreur de chargement des données.</p>`;
-    container.removeAttribute("aria-busy");
+    grid.innerHTML = `<p style="text-align:center; padding: var(--space-7); color: var(--danger);">Erreur de chargement des données.</p>`;
+    grid.removeAttribute("aria-busy");
   }
 }
 
