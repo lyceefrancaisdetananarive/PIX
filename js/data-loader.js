@@ -18,9 +18,11 @@ async function fetchJson(path) {
 
 export const loadPublic = () => fetchJson("data/students-public.json");
 export const loadClasses = () => fetchJson("data/classes.json");
+export const loadAdminClasses = () => fetchJson("data/admin-classes.json");
 export const loadTeachers = () => fetchJson("data/teachers.json");
 export const loadManifest = () => fetchJson("data/manifest.json");
 export const loadGroup = (hashHex) => fetchJson(`data/groups/${hashHex}.json`);
+export const loadAdminClass = (hashHex) => fetchJson(`data/admin/${hashHex}.json`);
 
 /* Niveaux Pix OFFICIELS (source : pix.fr/aide/comprendre-vos-resultats)
    8 niveaux. Un score < 64 ne donne aucun niveau certifié. */

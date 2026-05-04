@@ -7,7 +7,7 @@
  *   - ouvre la modal détail élève au clic
  */
 
-import { loadGroup, loadClasses, levelFor, PIX_LEVELS } from "./data-loader.js";
+import { loadGroup, loadClasses, loadAdminClass, loadAdminClasses, levelFor, PIX_LEVELS } from "./data-loader.js";
 import { getUnlockedHash, isTeacher, getTeacherName } from "./auth.js";
 import { applyFilters } from "./filters.js";
 import { renderGauge } from "./pix-gauge.js";
@@ -19,41 +19,59 @@ let allStudents = [];
 let groupName = "";
 
 async function init() {
-  const hashFromUrl = window.location.hash.replace("#", "").trim();
+  const rawHash = window.location.hash.replace("#", "").trim();
   const hashFromSession = getUnlockedHash();
   const teacherMode = isTeacher();
 
+  // Détection du mode :
+  //   - Préfixe "adm-" : vue par classe administrative (réservé aux profs)
+  //   - Sinon : vue par groupe Pix Orga (élève ou prof)
+  const isAdminMode = rawHash.startsWith("adm-");
+  const hashFromUrl = isAdminMode ? rawHash.slice(4) : rawHash;
+
   // Accès autorisé si :
-  //  - on est en mode prof (vue toutes classes), OU
-  //  - le hash URL correspond au hash débloqué en session (mode élève normal)
+  //  - mode admin classe : seulement si prof connecté
+  //  - mode groupe : prof OU code élève correspondant au hash
   const allowed =
     HEX_RE.test(hashFromUrl) &&
-    (teacherMode || hashFromUrl === hashFromSession);
+    (
+      (isAdminMode && teacherMode) ||
+      (!isAdminMode && (teacherMode || hashFromUrl === hashFromSession))
+    );
 
-  if (!hashFromUrl || !allowed) {
+  if (!rawHash || !allowed) {
     redirectHome();
     return;
   }
 
   try {
-    const [classesIndex, groupData] = await Promise.all([
-      loadClasses(),
-      loadGroup(hashFromUrl),
-    ]);
+    if (isAdminMode) {
+      const data = await loadAdminClass(hashFromUrl);
+      if (!data) { redirectHome(); return; }
 
-    const meta = classesIndex.groups[hashFromUrl];
-    if (!meta) {
-      redirectHome();
-      return;
+      groupName = data.name;
+      allStudents = data.students || [];
+
+      renderBanner({ ...data, isAdminClass: true }, teacherMode);
+      renderTable();
+      bindToolbar();
+      bindModal();
+    } else {
+      const [classesIndex, groupData] = await Promise.all([
+        loadClasses(),
+        loadGroup(hashFromUrl),
+      ]);
+      const meta = classesIndex.groups[hashFromUrl];
+      if (!meta) { redirectHome(); return; }
+
+      groupName = meta.name;
+      allStudents = groupData.students || [];
+
+      renderBanner(meta, teacherMode);
+      renderTable();
+      bindToolbar();
+      bindModal();
     }
-
-    groupName = meta.name;
-    allStudents = groupData.students || [];
-
-    renderBanner(meta, teacherMode);
-    renderTable();
-    bindToolbar();
-    bindModal();
   } catch (err) {
     console.error(err);
     document.getElementById("students-container").innerHTML = `
@@ -82,7 +100,10 @@ function renderBanner(meta, teacherMode) {
     "1e": "Classe de 1ère · Lycée",
     "tale": "Classe de Terminale · Lycée",
   };
-  const levelText = levelLabels[meta.level] || "Cycle 4";
+  let levelText = levelLabels[meta.level] || "Cycle 4";
+  if (meta.isAdminClass && meta.relatedGroups && meta.relatedGroups.length > 0) {
+    levelText += ` · ${meta.relatedGroups.length} groupe${meta.relatedGroups.length > 1 ? "s" : ""} Pix Orga`;
+  }
   document.getElementById("classe-level").textContent = levelText;
 
   // Bouton retour : vers le dashboard prof ou vers l'accueil

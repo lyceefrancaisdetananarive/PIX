@@ -1,0 +1,1043 @@
+{
+  "name": "2DE2",
+  "level": "2nde",
+  "cycle": "lycee",
+  "studentCount": 30,
+  "scoredCount": 1,
+  "missingCount": 29,
+  "certifiableCount": 1,
+  "averagePix": 216,
+  "relatedGroups": [
+    "2DE2",
+    "4M1 SVT",
+    "5 TECHNO 2"
+  ],
+  "students": [
+    {
+      "id": "cliquennois_haritiana",
+      "name": "CLIQUENNOIS Haritiana",
+      "classe": "2DE2",
+      "group": "5 TECHNO 2",
+      "pix": 216,
+      "certifiable": true,
+      "competencesCertifiables": 12,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 48
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 85
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 34
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 40
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 9
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Collaborer": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 7
+        }
+      },
+      "lastUpdate": "2026-04-03T14:08:00",
+      "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "BERZZY458",
+          "campaignName": "5 TECHNO 2 -- EMI",
+          "date": "2026-04-03T14:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "MHTBVX416",
+          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique (Fin de cycle 4)",
+          "date": "2026-03-06T13:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "BVJHJP321",
+          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T13:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "SVHVVK995",
+          "campaignName": "5 TECHNO 2 -- Manipuler les fichiers",
+          "date": "2026-02-06T14:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "VNKVQU798",
+          "campaignName": "5 TECHNO 2 -- Cybersécurité",
+          "date": "2025-11-21T13:27:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.55,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "ALCZRJ876",
+          "campaignName": "5 TECHNO 2 -- Protection & sécurité",
+          "date": "2025-10-17T14:43:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "VSESFV171",
+          "campaignName": "5 TECHNO 2 -- Parcours de rentrée 5e",
+          "date": "2025-10-03T13:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.93,
+          "palier": 3
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "andrianainarivelo_irina_hasinay",
+      "name": "ANDRIANAINARIVELO Irina Hasinay",
+      "classe": "2DE2",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:38:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:38:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "bokossy_imara_ines",
+      "name": "BOKOSSY Imara Inès",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T20:49:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": "2025-11-02T20:49:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.65,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "dague_nathan_ilson",
+      "name": "DAGUE Nathan Ilson",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-04T21:35:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": "2025-11-04T21:35:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.78,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "giuliani_marcel_maurice",
+      "name": "GIULIANI Marcel Maurice",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T18:18:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": "2025-11-02T18:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "julian_gustave_aina",
+      "name": "JULIAN Gustave Aina",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.76,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "jurgensen_eliana_emma",
+      "name": "JURGENSEN Eliana Emma",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.71,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "kaval_kenyl",
+      "name": "KAVAL Kenyl",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T16:18:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": "2025-11-02T16:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "nirina_cindy_alan",
+      "name": "NIRINA CINDY Alan",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T19:58:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": "2025-11-02T19:58:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.62,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "raharijaona_mirindra_marie",
+      "name": "RAHARIJAONA Mirindra Marie",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T10:07:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": "2025-11-02T10:07:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rason_irintsoa_cornell_abraham",
+      "name": "RASON Irintsoa Cornell Abraham",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.63,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "retita_charles_victor",
+      "name": "RETITA Charles Victor",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.85,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "stuart_sidney_anthony",
+      "name": "STUART Sidney Anthony",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-05T12:27:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "UMHBAY584",
+          "campaignName": "2de2 Parcours de Rentrée",
+          "date": "2025-10-05T12:27:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.4,
+          "palier": 1
+        }
+      ]
+    },
+    {
+      "id": "abdealy_nael",
+      "name": "ABDEALY Naël",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "andriamanantena_miaina_tiana_theodore",
+      "name": "ANDRIAMANANTENA Miaina Tiana Théodore",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "andrianavalomahaleo_maherizo",
+      "name": "ANDRIANAVALOMAHALEO Maherizo",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "coudert_sarah",
+      "name": "COUDERT Sarah",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fock_man_yee_chloe",
+      "name": "FOCK MAN YEE Chloé",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "harison_marine",
+      "name": "HARISON Marine",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "harison_miah",
+      "name": "HARISON Miah",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hildenbrand_anne_laure_marie",
+      "name": "HILDENBRAND Anne-Laure Marie",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "issa_goumar_abdoul_rachid",
+      "name": "ISSA GOUMAR Abdoul Rachid",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "raharijaona_timothy_lantoniaina",
+      "name": "RAHARIJAONA Timothy Lantoniaina",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "raherimanjato_ryan_toussaint_augier",
+      "name": "RAHERIMANJATO Ryan Toussaint Augier",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randriamihoatra_mihaja_soamialy_sarobidy",
+      "name": "RANDRIAMIHOATRA MIHAJA Soamialy Sarobidy",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafindrafahatra_ny_antsa_sarah",
+      "name": "RAZAFINDRAFAHATRA Ny Antsa Sarah",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafindrazaka_leo_kantonirina",
+      "name": "RAZAFINDRAZAKA Léo Kantonirina",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rodriguez_randrianandrasana_fonceta_harena",
+      "name": "RODRIGUEZ RANDRIANANDRASANA Fonceta Harena",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "traore_tata_imane",
+      "name": "TRAORE Tata Imane",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "vikash_trushti",
+      "name": "VIKASH Trushti",
+      "classe": "2DE2",
+      "group": "2DE2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

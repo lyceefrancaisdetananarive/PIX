@@ -1,0 +1,1098 @@
+{
+  "name": "4M1",
+  "level": "4e",
+  "cycle": "cycle4",
+  "studentCount": 29,
+  "scoredCount": 0,
+  "missingCount": 29,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "relatedGroups": [
+    "4 TECHNO 1",
+    "4M1 SVT"
+  ],
+  "students": [
+    {
+      "id": "andriambololona_riviere_joe_nathan",
+      "name": "ANDRIAMBOLOLONA RIVIERE Joe Nathan",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:37:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:37:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.97,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "bon_elodie_axelle",
+      "name": "BON Elodie Axelle",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T06:48:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": "2026-03-25T06:48:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "cogne_louisa_norosoa",
+      "name": "COGNE Louisa Norosoa",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T06:44:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": "2026-03-25T06:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "couringa_ludovic",
+      "name": "COURINGA Ludovic",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.0,
+          "maitrise": 0.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.41,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "delage_hugo",
+      "name": "DELAGE Hugo",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.85,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "faber_adriaan_mathis",
+      "name": "FABER Adriaan Mathis",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.85,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "goulamhoussen_lanah_alyssa",
+      "name": "GOULAMHOUSSEN Lanah Alyssa",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.97,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "laillier_camille",
+      "name": "LAILLIER Camille",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:23:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "mbeloson_tamara_laety",
+      "name": "MBELOSON Tamara Laety",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:38:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:38:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "mifsud_manambitana_ajaina_sainah",
+      "name": "MIFSUD Manambitana Ajaina Sainah",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:40:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:40:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rajaona_kaliana_chloe",
+      "name": "RAJAONA Kaliana Chloé",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:29:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "rakotofiringa_abby_alexandra",
+      "name": "RAKOTOFIRINGA Abby Alexandra",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:55:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:55:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "ramparany_kevin",
+      "name": "RAMPARANY Kevin",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:30:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:30:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "ranaivo_rabenja_mathis",
+      "name": "RANAIVO RABENJA Mathis",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-30T14:58:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2025-12-30T14:58:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "randriamaholy_nantua_aimee_kaliana",
+      "name": "RANDRIAMAHOLY Nantua Aimée Kaliana",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T07:04:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T07:04:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "riviere_andrianarison_nathanael",
+      "name": "RIVIERE Andrianarison Nathanael",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:41:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:41:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.85,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "soudakar_krish",
+      "name": "SOUDAKAR Krish",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:33:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:33:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "yu_zhi_ning_ciara",
+      "name": "YU Zhi Ning Ciara",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-26T06:29:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.97,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "andrianainarivelo_raharintsoa_heja",
+      "name": "ANDRIANAINARIVELO RAHARINTSOA Heja",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fanodira_ranjamanana_valencia_maya",
+      "name": "FANODIRA Ranjamanana Valencia Maya",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fedder_cindy_bella",
+      "name": "FEDDER Cindy Bella",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "galdeano_tariq",
+      "name": "GALDEANO Tariq",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "haidaraly_nolan",
+      "name": "HAIDARALY Nolan",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "laborde_quentin",
+      "name": "LABORDE Quentin",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "nathoo_ashick_houssen_mehdi_ali",
+      "name": "NATHOO ASHICK HOUSSEN Mehdi Ali",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rabemananjara_hermann_honore_teddy",
+      "name": "RABEMANANJARA Hermann Honoré Teddy",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rasoanirina_odriana",
+      "name": "RASOANIRINA Odriana",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "soundardjee_nael",
+      "name": "SOUNDARDJEE Naël",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "yang_zijin",
+      "name": "YANG Zijin",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

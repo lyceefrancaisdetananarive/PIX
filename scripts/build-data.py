@@ -801,6 +801,98 @@ def main() -> int:
     with open(DATA_DIR / "classes.json", "w", encoding="utf-8") as f:
         json.dump({"groups": classes_index}, f, ensure_ascii=False, indent=2)
 
+    # ─── admin-classes.json : agrégation par CLASSE ADMINISTRATIVE Pronote ───
+    # Pour le dashboard prof, on regroupe les élèves par classe admin (pas par groupe Pix).
+    # Une classe (ex: "5M1") peut contenir des élèves répartis dans plusieurs groupes
+    # Pix Orga (ex: "5M1 SVT", "5 TECHNO 1").
+    admin_dir = DATA_DIR / "admin"
+    admin_dir.mkdir(parents=True, exist_ok=True)
+
+    # Collecte : { classe -> { fullName -> student_record } }
+    by_classe = {}
+    for s in all_students:
+        cls = s.get("classe", "").strip()
+        if not cls:
+            continue
+        bucket = by_classe.setdefault(cls, {})
+        existing = bucket.get(s["name"])
+        # Si plusieurs records pour le même élève (présent dans 2 groupes Pix Orga),
+        # on garde celui avec le score le plus élevé / le plus de parcours
+        if existing is None:
+            bucket[s["name"]] = s
+        else:
+            ex_score = (existing["pix"], len(existing.get("parcours", [])))
+            new_score = (s["pix"], len(s.get("parcours", [])))
+            if new_score > ex_score:
+                bucket[s["name"]] = s
+
+    # Aussi : ajouter les élèves Pronote qui n'apparaissent dans aucun groupe Pix Orga
+    # (cas du lycée par ex.)
+    for cls, entries in _STUDENT_BY_CLASS_CACHE.items():
+        bucket = by_classe.setdefault(cls, {})
+        for entry in entries:
+            if entry["fullName"] in bucket:
+                continue
+            if normalize_name(entry["fullName"]) in EXCLUDED_ACCOUNTS:
+                continue
+            bucket[entry["fullName"]] = {
+                "id": slugify(entry["fullName"]),
+                "name": entry["fullName"],
+                "classe": cls,
+                "group": "",  # aucun groupe Pix Orga
+                "pix": 0,
+                "certifiable": False,
+                "competencesCertifiables": 0,
+                "status": "non_renseigne",
+                "domains": {},
+                "competences": {},
+                "lastUpdate": None,
+                "parcours": [],
+            }
+
+    admin_index = {}
+    for cls, students_dict in by_classe.items():
+        students_list = list(students_dict.values())
+        # Tri : score desc puis partiel puis non renseignés
+        def sort_key(s):
+            bucket_id = 0 if s.get("status") == "renseigne" else (1 if s.get("status") == "partiel" else 2)
+            return (bucket_id, -s["pix"], s["name"])
+        students_list.sort(key=sort_key)
+
+        # Niveau via le nom de la classe
+        admin_level = detect_level(cls)
+        admin_cycle = group_cycle(cls)
+
+        scored = [s for s in students_list if s["pix"] > 0]
+        # Groupes Pix Orga rattachés à cette classe (utile pour les profs)
+        related_groups = sorted({
+            s["group"] for s in students_list if s.get("group")
+        })
+
+        meta = {
+            "name": cls,
+            "level": admin_level,
+            "cycle": admin_cycle,
+            "studentCount": len(students_list),
+            "scoredCount": len(scored),
+            "missingCount": len(students_list) - len(scored),
+            "certifiableCount": sum(1 for s in students_list if s["certifiable"]),
+            "averagePix": round(sum(s["pix"] for s in scored) / len(scored)) if scored else 0,
+            "relatedGroups": related_groups,
+        }
+
+        cls_hash = sha256_hex(f"adm:{cls}")
+        admin_index[cls_hash] = meta
+
+        # Fichier détail classe admin
+        with open(admin_dir / f"{cls_hash}.json", "w", encoding="utf-8") as f:
+            json.dump({**meta, "students": students_list}, f, ensure_ascii=False, indent=2)
+
+    with open(DATA_DIR / "admin-classes.json", "w", encoding="utf-8") as f:
+        json.dump({"classes": admin_index}, f, ensure_ascii=False, indent=2)
+
+    print(f"   → {len(admin_index)} classes administratives agrégées (admin-classes.json + admin/*.json)")
+
     # teachers.json (codes profs hashés + leurs groupes assurés)
     teachers_index = {}
     for full_name, code in TEACHER_CODES.items():

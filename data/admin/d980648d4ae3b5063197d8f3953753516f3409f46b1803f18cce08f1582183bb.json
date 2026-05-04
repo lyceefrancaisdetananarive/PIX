@@ -1,0 +1,441 @@
+{
+  "name": "TPROVENTE",
+  "level": "tale",
+  "cycle": "lycee",
+  "studentCount": 14,
+  "scoredCount": 2,
+  "missingCount": 12,
+  "certifiableCount": 2,
+  "averagePix": 322,
+  "relatedGroups": [
+    "1PRO COMMUN",
+    "TPRO VENTE"
+  ],
+  "students": [
+    {
+      "id": "velia_anita",
+      "name": "VELIA Anita",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 482,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 94
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 7,
+          "pix": 190
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 85
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 72
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 41
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Interagir": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Partager et publier": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Collaborer": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 5,
+          "pix": 41
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Développer des documents multimedia": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 18
+        }
+      },
+      "lastUpdate": "2026-01-29T16:06:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "vendeville_maeva_christina",
+      "name": "VENDEVILLE Maeva Christina",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 162,
+      "certifiable": true,
+      "competencesCertifiables": 10,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 52
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 40
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 37
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 26
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 7
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 7
+        }
+      },
+      "lastUpdate": "2025-12-15T16:01:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "cuvelier_fernand_nasolo",
+      "name": "CUVELIER Fernand Nasolo",
+      "classe": "TPROVENTE",
+      "group": "1PRO COMMUN",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-01-30T06:01:00",
+      "parcours": [
+        {
+          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
+          "code": "RKKXCE915",
+          "campaignName": "numérique espace d'inclusion 1PRO",
+          "date": "2026-02-03T09:08:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.55,
+          "palier": 0
+        },
+        {
+          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
+          "code": "DHTUZR435",
+          "campaignName": "Education citoyenne numérique 1PRO",
+          "date": "2026-01-30T06:01:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "bernardin_iardy_ntsoa",
+      "name": "BERNARDIN Iardy Ntsoa",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "cadic_johann_niaina_francis",
+      "name": "CADIC Johann Niaina Francis",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "dimbiraza_gaetano_lucas_simon",
+      "name": "DIMBIRAZA Gaetano Lucas Simon",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "morel_kea_gabriel",
+      "name": "MOREL Kéa Gabriel",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rafidison_clinton",
+      "name": "RAFIDISON Clinton",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ralamboarivony_claudio_mathieu",
+      "name": "RALAMBOARIVONY Claudio Mathieu",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ralamboson_andriamirija",
+      "name": "RALAMBOSON Andriamirija",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ralimanana_tsinjonavalona_fanaperana",
+      "name": "RALIMANANA Tsinjonavalona Fanaperana",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ratsimbazafy_carinah_louisette",
+      "name": "RATSIMBAZAFY Carinah Louisette",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "sabit_mamod_shaima",
+      "name": "SABIT MAMOD Shaïma",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "veronique_angela",
+      "name": "VERONIQUE Angela",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

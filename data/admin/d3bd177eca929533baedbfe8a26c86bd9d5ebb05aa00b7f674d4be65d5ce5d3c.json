@@ -1,0 +1,661 @@
+{
+  "name": "2DE4",
+  "level": "2nde",
+  "cycle": "lycee",
+  "studentCount": 25,
+  "scoredCount": 0,
+  "missingCount": 25,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "relatedGroups": [
+    "2DE4"
+  ],
+  "students": [
+    {
+      "id": "diallo_el_hadji_abdoulaye",
+      "name": "DIALLO El Hadji Abdoulaye",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T17:11:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "GWNSFN765",
+          "campaignName": "2de4 Parcours de Rentrée",
+          "date": "2025-11-03T17:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.85,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "nourbay_zahra",
+      "name": "NOURBAY Zahra",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T22:34:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "GWNSFN765",
+          "campaignName": "2de4 Parcours de Rentrée",
+          "date": "2025-11-02T22:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.75,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "ranc_evan_gregory",
+      "name": "RANC Evan Gregory",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T08:24:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "GWNSFN765",
+          "campaignName": "2de4 Parcours de Rentrée",
+          "date": "2025-11-02T08:24:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.9,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "randria_tamisoa_marina",
+      "name": "RANDRIA Tamisoa Marina",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-06T09:51:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "GWNSFN765",
+          "campaignName": "2de4 Parcours de Rentrée",
+          "date": "2025-10-06T09:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.81,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "razafindrakoto_mathys",
+      "name": "RAZAFINDRAKOTO Mathys",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T11:52:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "GWNSFN765",
+          "campaignName": "2de4 Parcours de Rentrée",
+          "date": "2025-11-02T11:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.6,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rougevin_baville_nicodeme_marie_jean_theophile",
+      "name": "ROUGEVIN-BÂVILLE Nicodème Marie Jean Théophile",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T17:34:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "GWNSFN765",
+          "campaignName": "2de4 Parcours de Rentrée",
+          "date": "2025-11-03T17:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.73,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "seidou_ilian",
+      "name": "SEIDOU Ilian",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "GWNSFN765",
+          "campaignName": "2de4 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.14,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "taheraly_bourhanoudine",
+      "name": "TAHERALY Bourhanoudine",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T20:30:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "GWNSFN765",
+          "campaignName": "2de4 Parcours de Rentrée",
+          "date": "2025-11-03T20:30:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "andrianirina_benja_mahefa",
+      "name": "ANDRIANIRINA Benja Mahefa",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "cameron_madason_kenzi_leando",
+      "name": "CAMERON-MADASON Kenzi Leando",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "di_tria_chiara_maria_nirina",
+      "name": "DI TRIA Chiara Maria Nirina",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lanoe_solveig_soa_anne",
+      "name": "LANOE Solveig Soa-Anne",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "maidel_lukas",
+      "name": "MAIDEL Lukas",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "marmolejo_jad",
+      "name": "MARMOLEJO, Jad",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "molou_zayan",
+      "name": "MOLOU Zayan",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "moncheaux_elyse_anae_soa",
+      "name": "MONCHEAUX Elyse Anaé Soa",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "portafaix_gabrielle_lou_mialy",
+      "name": "PORTAFAIX Gabrielle Lou Mialy",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rabetsitonta_alyssia_mirantsoa",
+      "name": "RABETSITONTA Alyssia Mirantsoa",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rafamatanantsoa_aurelie",
+      "name": "RAFAMATANANTSOA Aurélie",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randrianasolo_harintsoa_yrinah",
+      "name": "RANDRIANASOLO Harintsoa Yrinah",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ravoahangy_andriatiana_anjatia_nihomeva",
+      "name": "RAVOAHANGY ANDRIATIANA Anjatia Nihomeva",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "reznar_ricky_jonas_robert",
+      "name": "REZNAR Ricky Jonas Robert",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "saadallah_hedi",
+      "name": "SAADALLAH Hedi",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "sefoudine_moustafa",
+      "name": "SEFOUDINE Moustafa",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "valentin_selena_marie_miley",
+      "name": "VALENTIN Selena Marie Miley",
+      "classe": "2DE4",
+      "group": "2DE4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

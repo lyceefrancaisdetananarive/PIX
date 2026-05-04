@@ -1,0 +1,778 @@
+{
+  "name": "4M6",
+  "level": "4e",
+  "cycle": "cycle4",
+  "studentCount": 28,
+  "scoredCount": 0,
+  "missingCount": 28,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "relatedGroups": [
+    "4 TECHNO 3",
+    "4M6 TECHNO"
+  ],
+  "students": [
+    {
+      "id": "biny_kilian",
+      "name": "BINY Kilian",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T13:56:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T13:56:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "bressot_florian_amedee",
+      "name": "BRESSOT Florian Amédée",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T13:46:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T13:46:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "issoufaly_karim",
+      "name": "ISSOUFALY Karim",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-15T13:46:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2025-12-15T13:46:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "kassim_bandjee_zahra",
+      "name": "KASSIM BANDJEE Zahra",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-17T08:01:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2025-12-17T08:01:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.82,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "maleck_waliyah",
+      "name": "MALECK Waliyah",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T08:14:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2026-03-25T08:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "mohsin_raza_keyaan",
+      "name": "MOHSIN RAZA Keyaan",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.68,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rambinintsoa_raphael_anay",
+      "name": "RAMBININTSOA Raphaël Anay",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.47,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "randriambola_karl_eliot",
+      "name": "RANDRIAMBOLA Karl Eliot",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T07:23:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2026-03-25T07:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.82,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "robert_jade_volatsara_aicha_gilberte",
+      "name": "ROBERT Jade Volatsara Aïcha Gilberte",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.91,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ye_sebastien_vindoube",
+      "name": "YE Sebastien Vindoube",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T07:29:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "UHWSKR152",
+          "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
+          "date": "2026-03-25T07:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "arifhoussen_shakir",
+      "name": "ARIFHOUSSEN Shakir",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ayala_donna",
+      "name": "AYALA Donna",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "bayant_ethan",
+      "name": "BAYANT Ethan",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "demigne_margaux_capucine_aimee",
+      "name": "DEMIGNE Margaux Capucine Aimée",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "di_sangro_yasri_izais_leo",
+      "name": "DI SANGRO Yasri Izaïs Léo",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fomba_louis_clement",
+      "name": "FOMBA Louis Clément",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "grand_marin_gaetan_camille",
+      "name": "GRAND Marin Gaëtan Camille",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "houmadi_fitahiana_elisah",
+      "name": "HOUMADI Fitahiana Elisah",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "issoufaly_djivan_zayane",
+      "name": "ISSOUFALY DJIVAN Zayane",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "merally_djiva_isham",
+      "name": "MERALLY DJIVA Isham",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "moutou_shaina_marley",
+      "name": "MOUTOU Shaina Marley",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotomanga_tia_ambre",
+      "name": "RAKOTOMANGA Tia Ambre",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ratovondrajao_tojoniaina_mathias_a",
+      "name": "RATOVONDRAJAO Tojoniaina Mathias A",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "sahmarani_ludovic",
+      "name": "SAHMARANI Ludovic",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "saleman_nael_abbas",
+      "name": "SALEMAN Nael Abbas",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "shan_jia_ai",
+      "name": "SHAN Jia Ai",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "triballier_linda_anjara",
+      "name": "TRIBALLIER Linda Anjara",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "verdier_raphael",
+      "name": "VERDIER Raphaël",
+      "classe": "4M6",
+      "group": "4M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}
