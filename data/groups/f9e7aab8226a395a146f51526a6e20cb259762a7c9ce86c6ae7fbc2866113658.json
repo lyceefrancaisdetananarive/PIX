@@ -1,0 +1,890 @@
+{
+  "name": "1PRO AGORA",
+  "level": "1e",
+  "cycle": "lycee",
+  "studentCount": 32,
+  "scoredCount": 0,
+  "missingCount": 32,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 1ère Pro": "RFFZPZ957"
+  },
+  "students": [
+    {
+      "id": "armand_joyice",
+      "name": "Armand Joyice",
+      "classe": "",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-04T15:29:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": "2025-11-04T15:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.57,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "chauveau_fabienne",
+      "name": "CHAUVEAU Fabienne",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": "2025-11-03T15:48:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.5,
+          "palier": 1
+        },
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.7,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "cotche_louis_rayan",
+      "name": "COTCHE Louis Rayan",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-06T07:47:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": "2025-10-06T07:47:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.68,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "delattre_david_alfred",
+      "name": "DELATTRE David Alfred",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.5,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "harilala_julie_hosea",
+      "name": "HARILALA Julie Hosea",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T19:20:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": "2025-11-03T19:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.36,
+          "palier": 1
+        }
+      ]
+    },
+    {
+      "id": "lauret_landry_ronaldinoh",
+      "name": "LAURET Landry Ronaldinoh",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T19:44:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": "2025-11-03T19:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.62,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "marie_aline_diompanjava",
+      "name": "Marie Aline Diompanjava",
+      "classe": "",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T16:36:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": "2025-11-03T16:36:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rajoeliarisoa_maminiaina_thierry",
+      "name": "RAJOELIARISOA Maminiaina Thierry",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.41,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rasoamampionona_christophe_tahirinjanahary_james",
+      "name": "RASOAMAMPIONONA Christophe Tahirinjanahary James",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.77,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "restanio_alan_michel",
+      "name": "RESTANIO Alan Michel",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.67,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ye_fernand_lowian",
+      "name": "YE Fernand Lowian",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": "2025-10-06T16:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 3
+        },
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.85,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "cotche_louis_rayan",
+      "name": "COTCHE Louis Rayan",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "delattre_david_alfred",
+      "name": "DELATTRE David Alfred",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "diompanjava_marie_aline",
+      "name": "DIOMPANJAVA Marie Aline",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "harilala_julie_hosea",
+      "name": "HARILALA Julie Hosea",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hubail_martin_jean_daniel",
+      "name": "HUBAIL Martin Jean Daniel",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "julia_abelardo_auguste",
+      "name": "JULIA Abelardo Auguste",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "koffi_grace_berenice",
+      "name": "KOFFI Grace Berenice",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lauret_landry_ronaldinoh",
+      "name": "LAURET Landry Ronaldinoh",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "manganera_joyice_armand",
+      "name": "MANGANERA Joyice Armand",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajoeliarisoa_maminiaina_thierry",
+      "name": "RAJOELIARISOA Maminiaina Thierry",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotondrahety_isayan_martchelah",
+      "name": "RAKOTONDRAHETY Isayan Martchelah",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramakavelo_fitiavana_cassandra",
+      "name": "RAMAKAVELO Fitiavana Cassandra",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randrianarison_cedric",
+      "name": "RANDRIANARISON Cédric",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randrianarison_loic_brandel_masy",
+      "name": "RANDRIANARISON Loic Brandel Masy",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rasoamampionona_christophe_tahirinjanahary_james",
+      "name": "RASOAMAMPIONONA Christophe Tahirinjanahary James",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafimaharavo_daniel_raphael",
+      "name": "RAZAFIMAHARAVO Daniel Raphaël",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "solofo_hafaliana_jaspy_natacha",
+      "name": "SOLOFO Hafaliana Jaspy Natacha",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "thomas_erwan_mahery_loic",
+      "name": "THOMAS Erwan Mahery Loïc",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "verdier_yohan_anjara",
+      "name": "VERDIER Yohan Anjara",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ye_fernand_lowian",
+      "name": "YE Fernand Lowian",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "zhou_xiaojun",
+      "name": "ZHOU Xiaojun",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

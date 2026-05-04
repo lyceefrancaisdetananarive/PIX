@@ -1,9 +1,12 @@
 {
   "name": "4 TECHNO 2",
   "level": "4e",
-  "studentCount": 16,
+  "cycle": "cycle4",
+  "studentCount": 27,
+  "scoredCount": 15,
+  "missingCount": 12,
   "certifiableCount": 2,
-  "averagePix": 53,
+  "averagePix": 56,
   "parcoursCodes": {
     "Cybersécurité - Cycle 4 (MAJ 2025)": "VPFPAN678",
     "Parcours de rentrée 4e": "GNJUYH475"
@@ -132,7 +135,8 @@
           "maitrise": 0.88,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "vasta_azra_nirvana",
@@ -257,7 +261,8 @@
           "maitrise": 0.85,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "kassamaly_daya_aniah_farida",
@@ -382,7 +387,8 @@
           "maitrise": 0.79,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "bonnin_mathis",
@@ -507,7 +513,8 @@
           "maitrise": 0.82,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "nomena_andre_vaniala_ornela",
@@ -632,7 +639,8 @@
           "maitrise": 0.79,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "dubuisson_gwennael_karimu_martin",
@@ -757,7 +765,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "dupre_leonard",
@@ -882,7 +891,8 @@
           "maitrise": 0.88,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "pai_yu_ming_liang",
@@ -1007,7 +1017,8 @@
           "maitrise": 0.85,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "irfan_ali_hadi",
@@ -1132,7 +1143,8 @@
           "maitrise": 0.74,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "colignon_arthur",
@@ -1267,7 +1279,8 @@
           "maitrise": 0.91,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rabenarison_toky_beranger",
@@ -1402,7 +1415,8 @@
           "maitrise": 0.91,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "perrin_leo",
@@ -1527,7 +1541,8 @@
           "maitrise": 0.88,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "fenoussoa_tsito",
@@ -1652,7 +1667,8 @@
           "maitrise": 0.91,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "sam_roxane_shivamony_gulizer",
@@ -1777,7 +1793,8 @@
           "maitrise": 0.82,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "laponterique_maelle",
@@ -1902,7 +1919,8 @@
           "maitrise": 0.71,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ferrer_teo",
@@ -1912,6 +1930,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1953,6 +1972,160 @@
           "palier": 3
         }
       ]
+    },
+    {
+      "id": "cong_yuman",
+      "name": "CONG Yuman",
+      "classe": "4M3",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "dubuisson_gwennael_karimu_martin",
+      "name": "DUBUISSON Gwennaël Karimu Martin",
+      "classe": "4M4",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fenoussoa_tsitohaina_stephane",
+      "name": "FENOUSSOA TSITOHAINA Stephane",
+      "classe": "4M3",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ferrer_medubi_teo",
+      "name": "FERRER MEDUBI Teo",
+      "classe": "4M3",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "irfan_ali_hadi",
+      "name": "IRFAN Ali Hadi",
+      "classe": "4M3",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "kassamaly_daya_aniah_farida",
+      "name": "KASSAMALY DAYA Aniah Farida",
+      "classe": "4M4",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "nomena_andre_vaniala_ornela",
+      "name": "NOMENA ANDRE Vaniala  Ornela",
+      "classe": "4M3",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "pai_yu_ming_liang",
+      "name": "PAI Yu-Ming Liang",
+      "classe": "4M4",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rabenarison_toky_beranger",
+      "name": "RABENARISON Toky Béranger",
+      "classe": "4M4",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "sam_roxane_shivamony_gulizer",
+      "name": "SAM Roxane Shivamony Gülizer",
+      "classe": "4M3",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "vasta_azra_nirvana",
+      "name": "VASTA Azra Nirvana",
+      "classe": "4M4",
+      "group": "4 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

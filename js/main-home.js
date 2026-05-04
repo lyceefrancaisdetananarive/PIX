@@ -11,20 +11,55 @@ import { tryUnlock } from "./auth.js";
 import { renderPodium } from "./podium.js";
 import { renderGauge } from "./pix-gauge.js";
 
-// ─── Chargement public (podium + stats) ────────────────────────
+// ─── Chargement public (3 podiums + stats + onglets) ───────────
 async function initPodium() {
   const container = document.getElementById("podium");
   const statsEl = document.getElementById("global-stats");
+  const tabs = document.querySelectorAll(".cycle-tab");
+
   try {
     const data = await loadPublic();
-    renderPodium(container, data.podium);
+    let currentCycle = "cycle4";
+
+    const renderForCycle = (cycle) => {
+      const entry = data.podiums?.[cycle];
+      if (!entry) return;
+      renderPodium(container, entry.podium);
+      // Si vide
+      if (!entry.podium.length) {
+        container.innerHTML = `
+          <div class="podium-empty glass-bevel">
+            <svg class="icon icon--3xl" aria-hidden="true" style="color: var(--text-muted); opacity: 0.6;"><use href="#ph-info"/></svg>
+            <h3>Aucun score à afficher</h3>
+            <p>Les élèves de ${entry.label} n'ont pas encore réalisé de campagne <em>Collecte</em>.<br>
+               Le podium s'actualisera dès les premiers résultats.</p>
+          </div>
+        `;
+        container.removeAttribute("aria-busy");
+      }
+    };
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const c = tab.dataset.cycle;
+        if (c === currentCycle) return;
+        currentCycle = c;
+        tabs.forEach((t) => t.setAttribute("aria-selected", t === tab ? "true" : "false"));
+        renderForCycle(c);
+      });
+    });
+
+    renderForCycle(currentCycle);
 
     if (statsEl && data.stats) {
+      const renseignesPct = data.stats.totalStudents > 0
+        ? Math.round((data.stats.totalScored / data.stats.totalStudents) * 100)
+        : 0;
       statsEl.innerHTML = `
-        <strong>${data.stats.totalStudents}</strong> élèves suivis ·
+        <strong>${data.stats.totalStudents}</strong> élèves au total ·
+        <strong>${data.stats.totalScored}</strong> avec score Pix (${renseignesPct}%) ·
         <strong>${data.stats.totalCertifiable}</strong> certifiables ·
-        moyenne de <strong>${data.stats.averagePix}</strong> pix ·
-        <strong>${data.stats.totalGroups}</strong> groupes
+        <strong>${data.stats.totalGroups}</strong> groupes répartis sur 3 cycles
       `;
     }
   } catch (err) {

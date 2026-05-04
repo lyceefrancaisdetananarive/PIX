@@ -1,7 +1,10 @@
 {
   "name": "4M2 TECHNO",
   "level": "4e",
-  "studentCount": 13,
+  "cycle": "cycle4",
+  "studentCount": 24,
+  "scoredCount": 0,
+  "missingCount": 24,
   "certifiableCount": 0,
   "averagePix": 0,
   "parcoursCodes": {
@@ -16,6 +19,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -66,6 +70,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -116,6 +121,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -166,6 +172,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -216,6 +223,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -266,6 +274,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -316,6 +325,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -366,6 +376,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -416,6 +427,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -466,6 +478,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -516,6 +529,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -566,6 +580,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -616,6 +631,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -657,6 +673,160 @@
           "palier": 0
         }
       ]
+    },
+    {
+      "id": "andriatsivohony_fitahiana",
+      "name": "ANDRIATSIVOHONY Fitahiana",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "bihan_warenn_evan",
+      "name": "BIHAN Warenn Evan",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ha_quang_nguyen_miantsa_yolanne",
+      "name": "HA QUANG NGUYEN Miantsa Yolanne",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ha_quang_nguyen_ny_avo_ryan",
+      "name": "HA QUANG NGUYEN Ny Avo Ryan",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "kessaria_abdeali",
+      "name": "KESSARIA Abdeali",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lambert_keyrra_besoa_kune",
+      "name": "LAMBERT Keyrra Besoa Kune",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "leung_ethan",
+      "name": "LEUNG Ethan",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "mac_lai_tsiong_nambinina_dave",
+      "name": "MAC LAI TSIONG Nambinina Dave",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ralarioely_aurora",
+      "name": "RALARIOELY Aurora",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ravoniandro_laura_stephanie",
+      "name": "RAVONIANDRO Laura Stephanie",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafintsambaina_abigael_irinamalala",
+      "name": "RAZAFINTSAMBAINA Abigaël Irinamalala",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

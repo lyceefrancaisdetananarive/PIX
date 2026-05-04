@@ -1,7 +1,10 @@
 {
   "name": "5M3 SVT",
   "level": "5e",
-  "studentCount": 14,
+  "cycle": "cycle4",
+  "studentCount": 25,
+  "scoredCount": 14,
+  "missingCount": 11,
   "certifiableCount": 10,
   "averagePix": 141,
   "parcoursCodes": {
@@ -176,7 +179,8 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "lai_chin_kon_gregory",
@@ -341,7 +345,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "hermann_meva_anais",
@@ -506,7 +511,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ramarson_fiadanana_tanteraka",
@@ -671,7 +677,8 @@
           "maitrise": 0.67,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "honorine_arthuria_tsarafofo_boisseau",
@@ -836,7 +843,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ramparany_giovanni",
@@ -1001,7 +1009,8 @@
           "maitrise": 0.4,
           "palier": 1
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rakotoarivelo_andy_ashley",
@@ -1166,7 +1175,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "nkom_benny",
@@ -1331,7 +1341,8 @@
           "maitrise": 1.0,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "paulmier_elisa",
@@ -1496,7 +1507,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ramarokoto_tiamy",
@@ -1661,7 +1673,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "kondoma_anais",
@@ -1826,7 +1839,8 @@
           "maitrise": 0.6,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ratovoherindrainy_ranto_loic_robson",
@@ -1991,7 +2005,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "jubin_anjara_camille",
@@ -2156,7 +2171,8 @@
           "maitrise": 0.4,
           "palier": 1
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "sugino_kazui",
@@ -2311,7 +2327,162 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "hermann_meva_anais",
+      "name": "HERMANN Meva Anais",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "honorine_arthuria_tsarafofo_boisseau",
+      "name": "HONORINE Arthuria Tsarafofo Boisseau",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "jubin_anjara_camille",
+      "name": "JUBIN Anjara Camille",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "kondoma_kakasi_anais",
+      "name": "KONDOMA KAKASI Anaïs",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "nkom_nkom_benny_mark_johran",
+      "name": "NKOM NKOM Benny Mark Johran",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoarivelo_andy_ashley",
+      "name": "RAKOTOARIVELO Andy  Ashley",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramarokoto_ny_aiko_tiamy",
+      "name": "RAMAROKOTO Ny Aiko Tiamy",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramarson_fiadanana_tanteraka",
+      "name": "RAMARSON Fiadanana Tanteraka",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramparany_haris_giovanni_jean_chrisostomes",
+      "name": "RAMPARANY HARIS Giovanni Jean Chrisostomes",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ratovoherindrainy_ranto_loic_robson",
+      "name": "RATOVOHERINDRAINY Ranto Loïc Robson",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "tshinkenke_sacha_muyaya",
+      "name": "TSHINKENKE Sacha Muyaya",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

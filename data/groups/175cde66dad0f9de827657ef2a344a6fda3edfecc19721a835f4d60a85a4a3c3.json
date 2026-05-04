@@ -1,7 +1,10 @@
 {
   "name": "3M6",
   "level": "3e",
+  "cycle": "cycle4",
   "studentCount": 5,
+  "scoredCount": 5,
+  "missingCount": 0,
   "certifiableCount": 4,
   "averagePix": 186,
   "parcoursCodes": {},
@@ -108,7 +111,8 @@
         }
       },
       "lastUpdate": "2026-01-12T08:03:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "razaali_laith_abbas",
@@ -212,7 +216,8 @@
         }
       },
       "lastUpdate": "2025-12-17T15:38:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "freslon_charline_andrian",
@@ -316,7 +321,8 @@
         }
       },
       "lastUpdate": "2026-01-16T06:17:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "cartoon_late",
@@ -420,7 +426,8 @@
         }
       },
       "lastUpdate": "2025-12-04T12:28:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rajosefa_jaylan",
@@ -524,7 +531,8 @@
         }
       },
       "lastUpdate": "2026-04-03T10:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     }
   ]
 }

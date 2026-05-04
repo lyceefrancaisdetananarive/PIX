@@ -1,0 +1,1437 @@
+{
+  "name": "6M4",
+  "level": "6e",
+  "cycle": "cycle3",
+  "studentCount": 22,
+  "scoredCount": 0,
+  "missingCount": 22,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours 6e Initiation aux compétences numériques EFE 25": "NUEXHF925"
+  },
+  "students": [
+    {
+      "id": "andriamasy_ryan_nirinay_jacques",
+      "name": "ANDRIAMASY Ryan Nirinay Jacques",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-05T12:14:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "andrianaivoson_izijah",
+      "name": "ANDRIANAIVOSON Izijah",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-10T13:16:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T13:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-03T14:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "amblard_naelys",
+      "name": "Amblard Naelys",
+      "classe": "",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-10T13:19:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T13:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-03T14:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "barouti_jessie_mischael",
+      "name": "BAROUTI Jessie Mischaël",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.56,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "billaud_mickael",
+      "name": "BILLAUD Mickaël",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T07:08:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-23T07:08:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-03T14:26:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "boyer_chanpen_chloe",
+      "name": "Boyer Chanpen Chloe",
+      "classe": "",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-10T13:19:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T13:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "clement_maxime_tsiresy",
+      "name": "CLEMENT Maxime Tsiresy",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-10T13:09:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T13:09:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T13:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "chanpen_chloe",
+      "name": "Chanpen Chloe",
+      "classe": "",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.56,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "fong_ciara_niaina_michaella",
+      "name": "FONG Ciara Niaina Michaella",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-10T13:31:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T13:31:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "hassanaly_umme_hani",
+      "name": "HASSANALY Umme Hani",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-05T12:22:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.68,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.68,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:10:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.68,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T11:58:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.6,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "koffi_providence",
+      "name": "Koffi Providence",
+      "classe": "",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.32,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "libaud_gaspard_raoul_andre",
+      "name": "LIBAUD Gaspard Raoul André",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-10T13:10:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T13:10:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T13:07:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:12:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:10:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-03T14:24:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-03T14:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "nourbhay_ikiane",
+      "name": "NOURBHAY Ikiane",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T11:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-03T12:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-03T12:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.6,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.92,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "nkomnkom_emmanuel",
+      "name": "Nkomnkom Emmanuel",
+      "classe": "",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-11T08:00:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-11T08:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-05T12:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rakotondrasoa_miha",
+      "name": "RAKOTONDRASOA Miha",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-03T14:21:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-03T14:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.44,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "razafindramanitra_yuri",
+      "name": "RAZAFINDRAMANITRA Yuri",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-10T11:21:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T11:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rasoamampionona_nephlima",
+      "name": "Rasoamampionona Nephlima",
+      "classe": "",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-12T13:24:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-12T13:24:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-12T13:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-12T13:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-12T13:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-12T13:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-12T13:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-03T12:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.68,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "safotsy_asllan_mourdjee",
+      "name": "SAFOTSY Asllan Mourdjée",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.88,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "vencatasamy_ryan",
+      "name": "VENCATASAMY Ryan",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T13:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.12,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.24,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "wauquier_zoe_maely_karen",
+      "name": "WAUQUIER Zoe Maely Karen",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T11:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.92,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "welmant_cathie",
+      "name": "Welmant Cathie",
+      "classe": "",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.6,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "zoula_fabrice_hosee",
+      "name": "ZOULA Fabrice Hosée",
+      "classe": "6M4",
+      "group": "6M4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": "2026-03-10T11:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.24,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "NUEXHF925",
+          "campaignName": "Sensibilisation PIX 6M4",
+          "date": null,
+          "partage": false,
+          "progress": 0.28,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    }
+  ]
+}

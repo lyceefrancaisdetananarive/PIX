@@ -1,0 +1,1528 @@
+{
+  "name": "6M3",
+  "level": "6e",
+  "cycle": "cycle3",
+  "studentCount": 23,
+  "scoredCount": 0,
+  "missingCount": 23,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours 6e Initiation aux compétences numériques EFE 25": "GAUUTU454"
+  },
+  "students": [
+    {
+      "id": "auvin_malala_eva_megane_rollande_ines",
+      "name": "AUVIN Malala Eva Megane Rollande Ines",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": null,
+          "partage": false,
+          "progress": 0.88,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "andramasy_kayrra",
+      "name": "Andramasy Kayrra",
+      "classe": "",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-12T06:12:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:12:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:07:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T07:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T07:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "barinia_maharo_jordy",
+      "name": "BARINIA Maharo Jordy",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-05T12:12:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T12:12:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T09:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "carpaye_aiden_angel_nirina",
+      "name": "CARPAYE Aiden Angel Nirina",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-17T12:22:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-17T12:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T11:53:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T07:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.52,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "chastan_lucas",
+      "name": "CHASTAN Lucas",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": null,
+          "partage": false,
+          "progress": 0.8,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "emrith_sahla",
+      "name": "EMRITH Sahla",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.52,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T07:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.4,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": null,
+          "partage": false,
+          "progress": 0.88,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "gagneux_aymeric_nirina",
+      "name": "GAGNEUX Aymeric Nirina",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-12T06:07:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:07:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "gonnet_eva_clementine",
+      "name": "GONNET Eva Clémentine",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": null,
+          "partage": false,
+          "progress": 0.52,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "hardy_luke",
+      "name": "HARDY Luke",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-12T06:22:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:06:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.68,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "heng_yohan",
+      "name": "Heng Yohan",
+      "classe": "",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-12T06:07:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T06:07:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T07:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "kassou_mamode_ehsaane_aalam_razi_hussein",
+      "name": "KASSOU MAMODE Ehsaane Aalam Razi Hussein",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T07:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T07:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T07:12:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": null,
+          "partage": false,
+          "progress": 0.96,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "lombardin_nolan_hicham",
+      "name": "LOMBARDIN Nolan Hicham",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-04-30T07:50:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-04-30T07:50:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-26T06:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "makela_nathanael",
+      "name": "MAKELA Nathanaël",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-10T14:24:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-10T14:24:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "millerioux_francis_luc_gabriel",
+      "name": "MILLERIOUX Francis Luc Gabriel",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T09:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.52,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": null,
+          "partage": false,
+          "progress": 0.6,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "pambu_magloire_massembo",
+      "name": "PAMBU Magloire Massembo",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": null,
+          "partage": false,
+          "progress": 0.88,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "poutot_mathys_kiady",
+      "name": "POUTOT Mathys Kiady",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-19T08:56:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-19T08:56:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-19T08:47:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rajaobelina_mahenika",
+      "name": "RAJAOBELINA Mahenika",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-05T09:28:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T09:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ramanantsoa_louna_kaloy",
+      "name": "RAMANANTSOA Louna Kaloy",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-04-30T10:05:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-04-30T10:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ranaivo_mitia",
+      "name": "Ranaivo Mitia",
+      "classe": "",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-19T08:33:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T12:06:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T11:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": null,
+          "partage": false,
+          "progress": 0.8,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "sulemanji_kiara",
+      "name": "SULEMANJI Kiara",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-19T08:54:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-19T08:54:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-19T08:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-19T08:48:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "tifaire_rinambaly_aina",
+      "name": "TIFAIRE RINAMBALY Aina",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-04-30T10:15:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-04-30T10:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.4,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "tolojanahary_angelo_clement",
+      "name": "TOLOJANAHARY Angelo Clément",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-12T13:20:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T13:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-12T13:03:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T13:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T13:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T12:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T12:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T12:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-05T11:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "young_lea",
+      "name": "YOUNG Léa",
+      "classe": "6M3",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-19T08:53:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-19T08:53:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-19T08:49:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-03-19T08:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 0
+        }
+      ]
+    }
+  ]
+}

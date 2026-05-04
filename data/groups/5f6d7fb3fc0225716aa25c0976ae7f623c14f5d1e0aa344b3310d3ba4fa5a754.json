@@ -1,0 +1,1176 @@
+{
+  "name": "1G8",
+  "level": "1e",
+  "cycle": "lycee",
+  "studentCount": 38,
+  "scoredCount": 0,
+  "missingCount": 38,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 1ère": "UZZKMV973"
+  },
+  "students": [
+    {
+      "id": "andrianaivoravelona_sophiane_soamiary",
+      "name": "ANDRIANAIVORAVELONA Sophiane Soamiary",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T19:16:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-03T19:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "auguste_nomenjanahary_kenza",
+      "name": "AUGUSTE Nomenjanahary Kenza",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-05T09:15:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-10-05T09:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "chevalier_lou",
+      "name": "Chevalier Lou",
+      "classe": "",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T16:26:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-03T16:26:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.77,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "de_vathaire_elodie_miangaly",
+      "name": "DE VATHAIRE Elodie Miangaly",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T21:11:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-02T21:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.89,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "joycia_evane_zafindrazandry",
+      "name": "Joycia Evane Zafindrazandry",
+      "classe": "",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T21:27:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-03T21:27:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "lovasoa_hoareau_nasya",
+      "name": "LOVASOA Hoareau Nasya",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T18:24:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-03T18:24:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "maiorana_alessandra_soa_audrey",
+      "name": "MAIORANA Alessandra Soa Audrey",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T16:41:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-03T16:41:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rajaonson_laure_anne_mirantsoa",
+      "name": "RAJAONSON Laure-Anne Mirantsoa",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-27T08:46:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-10-27T08:46:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "ranaivoson_miavo",
+      "name": "RANAIVOSON Miavo",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T21:11:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-02T21:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rarivoson_hajamaharo",
+      "name": "RARIVOSON Hajamaharo",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-28T18:45:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-10-28T18:45:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.78,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "ratovondrajao_nathan_nomen_iavo",
+      "name": "RATOVONDRAJAO Nathan Nomen'iavo",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T19:50:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-03T19:50:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "razafindrakoto_maelle_alicia",
+      "name": "RAZAFINDRAKOTO Maelle Alicia",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T17:07:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-03T17:07:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "rakotonirina_maelle",
+      "name": "Rakotonirina Maelle",
+      "classe": "",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T17:20:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-03T17:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.68,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "sambotody_maiwane_marie",
+      "name": "SAMBOTODY Maïwane Marie",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-31T10:24:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-10-31T10:24:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.66,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "toussaint_ella_lee",
+      "name": "TOUSSAINT Ella Lee",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T14:29:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-03T14:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "zhang_shan_calmina",
+      "name": "ZHANG SHAN Calmina",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-06T08:18:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-10-06T08:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "zhang_cheng_bo",
+      "name": "Zhang Cheng Bo",
+      "classe": "",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-05T18:47:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "UZZKMV973",
+          "campaignName": "1G8 Parcours de Rentrée",
+          "date": "2025-11-05T18:47:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.57,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "andrianaivoravelona_sophiane_soamiary",
+      "name": "ANDRIANAIVORAVELONA Sophiane Soamiary",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "auguste_nomenjanahary_kenza",
+      "name": "AUGUSTE Nomenjanahary Kenza",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "be_masy_niry_aissa_melanie",
+      "name": "BE MASY NIRY Aïssa Mélanie",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "chevalier_gingembre_lou_ines_chantal",
+      "name": "CHEVALIER GINGEMBRE Lou Inès Chantal",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "de_vathaire_elodie_miangaly",
+      "name": "DE VATHAIRE Elodie Miangaly",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "gagneux_clovis_tiavina",
+      "name": "GAGNEUX Clovis Tiavina",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hassim_ayaan",
+      "name": "HASSIM Ayaan",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "maiorana_alessandra_soa_audrey",
+      "name": "MAIORANA Alessandra Soa Audrey",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "miora_zonilaina_leonie",
+      "name": "MIORA ZONILAINA Léonie",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ndalana_joma_yanniola_caritha",
+      "name": "NDALANA Joma Yanniola Caritha",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "niaina_elza_tahiry",
+      "name": "NIAINA Elza Tahiry",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajaonson_laure_anne_mirantsoa",
+      "name": "RAJAONSON Laure-Anne Mirantsoa",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotonirina_mirana_maelle",
+      "name": "RAKOTONIRINA Mirana Maelle",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ratovondrajao_nathan_nomen_iavo",
+      "name": "RATOVONDRAJAO Nathan Nomen'iavo",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "raveloniaina_nisedra_tsiresy_ismael",
+      "name": "RAVELONIAINA Nisedra Tsiresy Ismaël",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafimahatratra_arilaza",
+      "name": "RAZAFIMAHATRATRA Arilaza",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafindrakoto_maelle_alicia",
+      "name": "RAZAFINDRAKOTO Maelle Alicia",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "solofoson_kaliana_maiya",
+      "name": "SOLOFOSON Kaliana Maiya",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "sy_aminata",
+      "name": "SY Aminata",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "zafindrazandry_joycia_evane",
+      "name": "ZAFINDRAZANDRY Joycia Evane",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "zhang_chengbo",
+      "name": "ZHANG Chengbo",
+      "classe": "1G8",
+      "group": "1G8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

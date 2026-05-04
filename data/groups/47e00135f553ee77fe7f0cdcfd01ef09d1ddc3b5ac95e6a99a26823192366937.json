@@ -1,9 +1,12 @@
 {
   "name": "4M4 TECHNO",
   "level": "4e",
-  "studentCount": 23,
+  "cycle": "cycle4",
+  "studentCount": 34,
+  "scoredCount": 11,
+  "missingCount": 23,
   "certifiableCount": 5,
-  "averagePix": 55,
+  "averagePix": 116,
   "parcoursCodes": {
     "Cybersécurité - Cycle 4 (MAJ 2025)": "PERYWE418",
     "Parcours de rentrée 4e": "KPUYUY861"
@@ -132,7 +135,8 @@
           "maitrise": 0.94,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "sauveaux_thyane_tolojanahary",
@@ -257,7 +261,8 @@
           "maitrise": 0.88,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ramangason_tsiory_fitahiantsoa",
@@ -382,7 +387,8 @@
           "maitrise": 0.91,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ramiaramanana_lilya_anja_fitia",
@@ -507,7 +513,8 @@
           "maitrise": 0.94,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rakotoarison_tsikinirina_marie_fionah",
@@ -632,7 +639,8 @@
           "maitrise": 0.94,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "moncheaux_mathis_handy_eito",
@@ -757,7 +765,8 @@
           "maitrise": 0.97,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "singh_lakshmi_anandi",
@@ -882,7 +891,8 @@
           "maitrise": 0.71,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rakotoniaina_christiana_anjaratia",
@@ -1007,7 +1017,8 @@
           "maitrise": 0.91,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "manjakatsitohaina_josoa_israel",
@@ -1132,7 +1143,8 @@
           "maitrise": 0.74,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "barday_alyssa",
@@ -1247,7 +1259,8 @@
           "maitrise": 0.68,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "nourbay_melam",
@@ -1392,7 +1405,8 @@
           "maitrise": 0.65,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "allaoui_roumaissa",
@@ -1402,6 +1416,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1462,6 +1477,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1522,6 +1538,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1582,6 +1599,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1642,6 +1660,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1692,6 +1711,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1742,6 +1762,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1792,6 +1813,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1842,6 +1864,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1892,6 +1915,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1952,6 +1976,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -2002,6 +2027,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -2053,6 +2079,160 @@
           "palier": 3
         }
       ]
+    },
+    {
+      "id": "belhassane_graux_yanis",
+      "name": "BELHASSANE GRAUX Yanis",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "loray_camille_tahiry",
+      "name": "LORAY Camille Tahiry",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "moncheaux_mathis_handy_eito",
+      "name": "MONCHEAUX Mathis Handy Eito",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoniaina_christiana_anjaratia",
+      "name": "RAKOTONIAINA Christiana Anjaratia",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramangason_tsiory_fitahiantsoa",
+      "name": "RAMANGASON Tsiory Fitahiantsoa",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramiaramanana_lilya_anja_fitia",
+      "name": "RAMIARAMANANA Lilya Anja Fitia",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rasoarahona_valinkiry_ambre",
+      "name": "RASOARAHONA Valinkiry Ambre",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rolin_yarron_dylan_claude",
+      "name": "ROLIN Yarrön Dylan Claude",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "sauveaux_thyane_tolojanahary",
+      "name": "SAUVEAUX Thyane Tolojanahary",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "singh_lakshmi_anandi",
+      "name": "SINGH Lakshmi Anandi",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "vivet_mael_manatany",
+      "name": "VIVET Maël Manatany",
+      "classe": "4M4",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

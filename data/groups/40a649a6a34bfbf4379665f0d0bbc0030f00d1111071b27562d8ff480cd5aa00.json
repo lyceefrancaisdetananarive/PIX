@@ -1,7 +1,10 @@
 {
   "name": "4M7 P.2",
   "level": "4e",
-  "studentCount": 10,
+  "cycle": "cycle4",
+  "studentCount": 23,
+  "scoredCount": 0,
+  "missingCount": 23,
   "certifiableCount": 0,
   "averagePix": 0,
   "parcoursCodes": {
@@ -16,6 +19,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -66,6 +70,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -116,6 +121,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -166,6 +172,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -216,6 +223,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -266,6 +274,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -316,6 +325,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -366,6 +376,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -416,6 +427,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -466,6 +478,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -507,6 +520,188 @@
           "palier": 2
         }
       ]
+    },
+    {
+      "id": "firdoche_houssen_shezan_raza",
+      "name": "FIRDOCHE HOUSSEN Shezan Raza",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hassanaly_aziz_houssen",
+      "name": "HASSANALY Aziz Houssen",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "le_bras_mahery_raphael",
+      "name": "LE BRAS Mahery Raphaël",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lo_tsy_heng_ciara_rajaomilison",
+      "name": "LO TSY HENG Ciara Rajaomilison",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ouedraogo_lucas_ariel_emmanuel",
+      "name": "OUEDRAOGO Lucas Ariel Emmanuel",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rabemanantsoa_mathieu_arniaina",
+      "name": "RABEMANANTSOA Mathieu Arniaina",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rahma_arckan",
+      "name": "RAHMA Arckan",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rahma_fatihah",
+      "name": "RAHMA Fatihah",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoarison_matthieu_marimpitiavana",
+      "name": "RAKOTOARISON Matthieu Marimpitiavana",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramanantsoa_fiona",
+      "name": "RAMANANTSOA Fiona",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramarosaona_iona_soa",
+      "name": "RAMAROSAONA Iona Soa",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ranaivo_thomas_vincent_zosoa",
+      "name": "RANAIVO Thomas Vincent Zosoa",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randrianavalona_tiary_nathan",
+      "name": "RANDRIANAVALONA Tiary Nathan",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

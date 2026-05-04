@@ -1,7 +1,10 @@
 {
   "name": "3M2",
   "level": "3e",
+  "cycle": "cycle4",
   "studentCount": 7,
+  "scoredCount": 7,
+  "missingCount": 0,
   "certifiableCount": 6,
   "averagePix": 184,
   "parcoursCodes": {},
@@ -108,7 +111,8 @@
         }
       },
       "lastUpdate": "2025-12-14T09:57:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "alibhai_aliya",
@@ -212,7 +216,8 @@
         }
       },
       "lastUpdate": "2025-12-05T17:39:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "ahmedaly_ophelie",
@@ -316,7 +321,8 @@
         }
       },
       "lastUpdate": "2025-12-09T05:45:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "ratsimbazafy_kaloina_ornella",
@@ -420,7 +426,8 @@
         }
       },
       "lastUpdate": "2026-03-05T16:24:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "soundardjee_anna",
@@ -524,7 +531,8 @@
         }
       },
       "lastUpdate": "2025-12-03T19:51:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "apostolos_yaelle_aurore",
@@ -628,7 +636,8 @@
         }
       },
       "lastUpdate": "2025-12-02T15:19:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rajaonary_noanne_irina",
@@ -732,7 +741,8 @@
         }
       },
       "lastUpdate": "2026-01-30T14:43:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     }
   ]
 }

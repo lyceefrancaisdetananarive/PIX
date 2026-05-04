@@ -1,7 +1,10 @@
 {
   "name": "4 TECHNO 1",
   "level": "4e",
-  "studentCount": 11,
+  "cycle": "cycle4",
+  "studentCount": 28,
+  "scoredCount": 0,
+  "missingCount": 28,
   "certifiableCount": 0,
   "averagePix": 0,
   "parcoursCodes": {
@@ -16,6 +19,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -66,6 +70,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -116,6 +121,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -166,6 +172,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -216,6 +223,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -266,6 +274,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -326,6 +335,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -376,6 +386,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -426,6 +437,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -476,6 +488,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -526,6 +539,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -567,6 +581,244 @@
           "palier": 3
         }
       ]
+    },
+    {
+      "id": "bon_elodie_axelle",
+      "name": "BON Elodie Axelle",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "bourgarel_emma_haja",
+      "name": "BOURGAREL Emma Haja",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "choungmo_fofack_zafimihary_joy_nathan",
+      "name": "CHOUNGMO FOFACK Zafimihary Joy-Nathan",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "cliquet_alexandre_hary_fy",
+      "name": "CLIQUET Alexandre Hary Fy",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "cogne_louisa_norosoa",
+      "name": "COGNE Louisa Norosoa",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "cus_marina_lysiane",
+      "name": "CUS Marina Lysiane",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "faber_adriaan_mathis",
+      "name": "FABER Adriaan Mathis",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fanodira_ranjamanana_valencia_maya",
+      "name": "FANODIRA Ranjamanana Valencia Maya",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fedder_cindy_bella",
+      "name": "FEDDER Cindy Bella",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fung_yee_kenzy_luis",
+      "name": "FUNG YEE Kenzy Luis",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "galdeano_tariq",
+      "name": "GALDEANO Tariq",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "goulamhoussen_lanah_alyssa",
+      "name": "GOULAMHOUSSEN Lanah Alyssa",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "haidaraly_nolan",
+      "name": "HAIDARALY Nolan",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "kondoma_asingalembi_nzenze_elie",
+      "name": "KONDOMA ASINGALEMBI NZENZE Elie",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "laborde_quentin",
+      "name": "LABORDE Quentin",
+      "classe": "4M1",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoarison_princia_melodie",
+      "name": "RAKOTOARISON Princia Mélodie",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "reznar_melissa_grace_janina",
+      "name": "REZNAR Mélissa Grace Janina",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

@@ -1,34 +1,88 @@
 {
-  "podium": [
-    {
-      "rank": 1,
-      "name": "TSHINKENKE Sacha Muyaya",
-      "classe": "5M3",
-      "group": "5M3 SVT",
-      "pix": 440,
-      "level": "Indépendant 2"
+  "podiums": {
+    "cycle3": {
+      "label": "Cycle 3 · 6ème",
+      "podium": []
     },
-    {
-      "rank": 2,
-      "name": "RANAIVOSOA Irina Marcelle",
-      "classe": "3M2",
-      "group": "3M2",
-      "pix": 436,
-      "level": "Indépendant 2"
+    "cycle4": {
+      "label": "Cycle 4 · 5e/4e/3e",
+      "podium": [
+        {
+          "rank": 1,
+          "name": "TSHINKENKE Sacha Muyaya",
+          "classe": "5M3",
+          "group": "5M3 SVT",
+          "pix": 440,
+          "level": "Indépendant 2"
+        },
+        {
+          "rank": 2,
+          "name": "RANAIVOSOA Irina Marcelle",
+          "classe": "3M2",
+          "group": "3M2",
+          "pix": 436,
+          "level": "Indépendant 2"
+        },
+        {
+          "rank": 3,
+          "name": "HASSANALY Husain",
+          "classe": "3M1",
+          "group": "3M1",
+          "pix": 400,
+          "level": "Indépendant 2"
+        }
+      ]
     },
-    {
-      "rank": 3,
-      "name": "HASSANALY Husain",
-      "classe": "3M1",
-      "group": "3M1",
-      "pix": 400,
-      "level": "Indépendant 2"
+    "lycee": {
+      "label": "Lycée · 2nde/1e/Term.",
+      "podium": [
+        {
+          "rank": 1,
+          "name": "RAKOTOMALALA Maëlie",
+          "classe": "TG6",
+          "group": "TG6",
+          "pix": 676,
+          "level": "Avancé 2"
+        },
+        {
+          "rank": 2,
+          "name": "RALAMBOFIRINGA Ethan Tiavina Herizo",
+          "classe": "TG4",
+          "group": "TG4",
+          "pix": 626,
+          "level": "Avancé 1"
+        },
+        {
+          "rank": 3,
+          "name": "Leong-nane Maëlys",
+          "classe": "",
+          "group": "TG6",
+          "pix": 604,
+          "level": "Avancé 1"
+        }
+      ]
     }
-  ],
+  },
   "stats": {
-    "totalGroups": 30,
-    "totalStudents": 439,
-    "totalCertifiable": 221,
-    "averagePix": 135
+    "totalGroups": 72,
+    "totalStudents": 2161,
+    "totalScored": 490,
+    "totalMissing": 1671,
+    "totalCertifiable": 408,
+    "averagePix": 196,
+    "byCycle": {
+      "cycle3": {
+        "label": "Cycle 3 · 6ème",
+        "students": 162
+      },
+      "cycle4": {
+        "label": "Cycle 4 · 5e/4e/3e",
+        "students": 742
+      },
+      "lycee": {
+        "label": "Lycée · 2nde/1e/Term.",
+        "students": 1257
+      }
+    }
   }
 }

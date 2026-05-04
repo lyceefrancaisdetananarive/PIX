@@ -75,25 +75,38 @@
       </p>
     </section>
 
-    <!-- ─── PODIUM TOP 3 ───────────────────────────────────── -->
+    <!-- ─── PODIUMS PAR CYCLE ──────────────────────────────── -->
     <section class="container section reveal" aria-labelledby="podium-title">
       <header class="section-title">
-        <span class="section-title__eyebrow"><svg class="icon" aria-hidden="true"><use href="#ph-trophy"/></svg> Top 3 du collège</span>
+        <span class="section-title__eyebrow"><svg class="icon" aria-hidden="true"><use href="#ph-trophy"/></svg> Top 3 par cycle</span>
         <h2 class="section-title__heading" id="podium-title">Les meilleurs scores Pix LFT</h2>
+        <p class="section-title__sub">Bravo aux meilleurs scores Pix dans chaque cycle pédagogique, toutes campagnes Collecte confondues.</p>
       </header>
-      <p class="section-intro">
-        Bravo aux trois élèves de la 6ème à la 3ème ayant le score Pix global le plus élevé,
-        toutes campagnes Collecte confondues.
-      </p>
 
-      <div class="podium glass glass-bevel" id="podium" aria-busy="true">
+      <!-- Onglets de cycle -->
+      <div class="cycle-tabs" role="tablist" aria-label="Cycle pédagogique">
+        <button type="button" class="cycle-tab" role="tab" data-cycle="cycle4" aria-selected="true">
+          <span class="cycle-tab__label">Cycle 4</span>
+          <span class="cycle-tab__sub">5e · 4e · 3e</span>
+        </button>
+        <button type="button" class="cycle-tab" role="tab" data-cycle="cycle3" aria-selected="false">
+          <span class="cycle-tab__label">Cycle 3</span>
+          <span class="cycle-tab__sub">6ème</span>
+        </button>
+        <button type="button" class="cycle-tab" role="tab" data-cycle="lycee" aria-selected="false">
+          <span class="cycle-tab__label">Lycée</span>
+          <span class="cycle-tab__sub">2nde · 1ère · Term.</span>
+        </button>
+      </div>
+
+      <div class="podium" id="podium" aria-busy="true">
         <div class="loader" id="podium-loader">
           <div class="loader__spinner"></div>
           <span>Chargement du podium…</span>
         </div>
       </div>
 
-      <p class="section-intro" id="global-stats" style="margin-top: var(--space-6); margin-bottom: 0;"></p>
+      <p class="section-intro" id="global-stats" style="margin-top: var(--space-7); margin-bottom: 0;"></p>
     </section>
 
     <!-- ─── COMPRENDRE PIX : 8 NIVEAUX OFFICIELS ──────────── -->

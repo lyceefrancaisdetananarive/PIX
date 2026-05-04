@@ -1,0 +1,753 @@
+{
+  "name": "1PRO VENTE",
+  "level": "1e",
+  "cycle": "lycee",
+  "studentCount": 21,
+  "scoredCount": 0,
+  "missingCount": 21,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 1ère Pro": "PUMLBL373"
+  },
+  "students": [
+    {
+      "id": "aboudou_ofelia",
+      "name": "ABOUDOU Ofélia",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T15:46:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": "2025-11-03T15:46:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.51,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "botra_adriana",
+      "name": "BOTRA Adriana",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T14:17:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": "2025-11-03T14:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.39,
+          "palier": 1
+        }
+      ]
+    },
+    {
+      "id": "brugnaro_giovanni_geoffray",
+      "name": "BRUGNARO Giovanni Geoffray",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.36,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "crechet_laure_niaina",
+      "name": "CRECHET Laure Niaina",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T14:24:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": "2025-11-03T14:24:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "delezinier_alice_sarika",
+      "name": "DELEZINIER Alice Sarika",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T14:15:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": "2025-11-03T14:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.31,
+          "palier": 1
+        }
+      ]
+    },
+    {
+      "id": "dussaye_lorenzo",
+      "name": "DUSSAYE Lorenzo",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T14:21:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": "2025-11-03T14:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.6,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "hachime_mohamed_el_djonaid",
+      "name": "HACHIME Mohamed El Djonaid",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.55,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "karnezis_georges_steven",
+      "name": "KARNEZIS Georges Steven",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.44,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "mac_siou_tsong_sherina",
+      "name": "MAC SIOU TSONG Sherina",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T14:16:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": "2025-11-03T14:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.5,
+          "palier": 1
+        }
+      ]
+    },
+    {
+      "id": "nomenjanahary_wesley",
+      "name": "Nomenjanahary Wesley",
+      "classe": "",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T14:09:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": "2025-11-03T14:09:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.52,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rasoanantenaina_brayan",
+      "name": "RASOANANTENAINA Brayan",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.45,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "tao_camille",
+      "name": "TAO Camille",
+      "classe": "6M5",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "PUMLBL373",
+          "campaignName": "1PRO VENTE Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.35,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "brugnaro_giovanni_geoffray",
+      "name": "BRUGNARO Giovanni Geoffray",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "delezinier_alice_sarika",
+      "name": "DELEZINIER Alice Sarika",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "etienne_clara",
+      "name": "ETIENNE Clara",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "karnezis_georges_steven",
+      "name": "KARNEZIS Georges Steven",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "mandina_angelot",
+      "name": "MANDINA Angelot",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "moinet_tao_jean",
+      "name": "MOINET Tao Jean",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "nomenjanahary_jean_wesley",
+      "name": "NOMENJANAHARY Jean Wesley",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafiarisoa_safidy_hery_faniry_soa_jose",
+      "name": "RAZAFIARISOA Safidy Hery Faniry Soa José",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "soety_kevin_dauphin",
+      "name": "SOETY Kevin Dauphin",
+      "classe": "1PROVENTE",
+      "group": "1PRO VENTE",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

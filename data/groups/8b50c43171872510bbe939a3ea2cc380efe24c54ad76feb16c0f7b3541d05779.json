@@ -1,9 +1,12 @@
 {
   "name": "4M3 SVT",
   "level": "4e",
-  "studentCount": 16,
+  "cycle": "cycle4",
+  "studentCount": 32,
+  "scoredCount": 12,
+  "missingCount": 20,
   "certifiableCount": 6,
-  "averagePix": 66,
+  "averagePix": 88,
   "parcoursCodes": {
     "Cybersécurité - Cycle 4 (MAJ 2025)": "JGWEUQ998",
     "Parcours de rentrée 4e": "GMXCRW365"
@@ -132,7 +135,8 @@
           "maitrise": 0.88,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "randriampierenana_irina_christiana",
@@ -257,7 +261,8 @@
           "maitrise": 0.72,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "andrianirina_finaritra_lindsay",
@@ -382,7 +387,8 @@
           "maitrise": 1.0,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ramiandrison_tahiana",
@@ -507,7 +513,8 @@
           "maitrise": 0.97,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rakololahy_aube",
@@ -632,7 +639,8 @@
           "maitrise": 0.79,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rasoamampionona_nethanya",
@@ -757,7 +765,8 @@
           "maitrise": 0.71,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rajaobna_kaliana",
@@ -882,7 +891,8 @@
           "maitrise": 0.79,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ranaivo_fitia",
@@ -1007,7 +1017,8 @@
           "maitrise": 0.76,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "wauters_kamiel_ladji",
@@ -1132,7 +1143,8 @@
           "maitrise": 0.88,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rasoanaivo_miaro_nantenaina",
@@ -1257,7 +1269,8 @@
           "maitrise": 0.91,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ramstein_paul_issa",
@@ -1382,7 +1395,8 @@
           "maitrise": 0.76,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "lestrelin_julien_alun",
@@ -1507,7 +1521,8 @@
           "maitrise": 0.76,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "joshi_ishani",
@@ -1517,6 +1532,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1577,6 +1593,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1627,6 +1644,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1677,6 +1695,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1718,6 +1737,230 @@
           "palier": 2
         }
       ]
+    },
+    {
+      "id": "bakar_anna",
+      "name": "BAKAR Anna",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "joshi_deep_ishani",
+      "name": "JOSHI DEEP Ishani",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "khan_ahmad_choudhry",
+      "name": "KHAN Ahmad Choudhry",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lestrelin_julien_alun",
+      "name": "LESTRELIN Julien Alun",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ndremanjary_austan_mbolagnony_samuel",
+      "name": "NDREMANJARY Austan Mbolagnony Samuel",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rabarison_ruth_chloe",
+      "name": "RABARISON Ruth Chloé",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajaona_kaliana_jade",
+      "name": "RAJAONA Kaliana Jade",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramiandrison_michael_tahiana",
+      "name": "RAMIANDRISON Michael Tahiana",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramstein_paul_issa",
+      "name": "RAMSTEIN Paul Issa",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ranaivo_maminirina_fitiavana",
+      "name": "RANAIVO Maminirina Fitiavana",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randriampierenana_irina_christiana",
+      "name": "RANDRIAMPIERENANA Irina Christiana",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rasoamampionona_miharitsimba_nethanya_smitt",
+      "name": "RASOAMAMPIONONA Miharitsimba Nethanya Smitt",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rasoanaivo_miaro_nantenaina",
+      "name": "RASOANAIVO Miaro Nantenaina",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ravandison_elkane_ilo",
+      "name": "RAVANDISON Elkane Ilo",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "wauters_kamiel_ladji",
+      "name": "WAUTERS Kamiel Ladji",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "zheng_xiyuan",
+      "name": "ZHENG Xiyuan",
+      "classe": "4M3",
+      "group": "4M3 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

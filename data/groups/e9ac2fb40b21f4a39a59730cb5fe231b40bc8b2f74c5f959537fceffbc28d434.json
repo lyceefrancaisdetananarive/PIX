@@ -1,10 +1,15 @@
 {
   "name": "3M5",
   "level": "3e",
-  "studentCount": 23,
+  "cycle": "cycle4",
+  "studentCount": 28,
+  "scoredCount": 23,
+  "missingCount": 5,
   "certifiableCount": 15,
   "averagePix": 161,
-  "parcoursCodes": {},
+  "parcoursCodes": {
+    "Français - Cycle 4": "JGMHFM539"
+  },
   "students": [
     {
       "id": "petitpierre_mahitsy_david",
@@ -108,7 +113,8 @@
         }
       },
       "lastUpdate": "2026-02-09T13:29:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "mohamed_ismael",
@@ -212,7 +218,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "randriamaholy_ramaroson_vincent_anjara",
@@ -316,7 +323,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:35:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "guezellot_elisa_safidy",
@@ -420,7 +428,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:29:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "hery_chen_noah_jian_long",
@@ -524,7 +533,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rabehavana_volasoa_josephah_carmen",
@@ -628,7 +638,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:09:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "andriamasy_aaron",
@@ -732,7 +743,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:29:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "goulamhoussen_yohan",
@@ -836,7 +848,19 @@
         }
       },
       "lastUpdate": "2026-03-31T09:32:00",
-      "parcours": []
+      "parcours": [
+        {
+          "name": "Français - Cycle 4",
+          "code": "JGMHFM539",
+          "campaignName": "3M5",
+          "date": "2026-02-10T08:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.82,
+          "palier": 0
+        }
+      ],
+      "status": "renseigne"
     },
     {
       "id": "vola_jamie",
@@ -940,7 +964,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:09:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "demigne_leonie_louise_patricia",
@@ -1044,7 +1069,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "havrez_celestin",
@@ -1148,7 +1174,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "alexandre_ze_paul_wardjino",
@@ -1252,7 +1279,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:27:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "abdoul_nael",
@@ -1356,7 +1384,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:27:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "goulamabasse_inaya_fatema",
@@ -1460,7 +1489,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "mac_siou_tsong_shaleyana",
@@ -1564,7 +1594,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "karim_inaya",
@@ -1668,7 +1699,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "fedder_aaron_phillip",
@@ -1772,7 +1804,8 @@
         }
       },
       "lastUpdate": "2026-02-10T08:19:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "gervais_matthieu_asandratsoa",
@@ -1876,7 +1909,8 @@
         }
       },
       "lastUpdate": "2026-02-10T08:18:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "yangoua_heremo_maelle_elodie",
@@ -1980,7 +2014,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "nkom_ruben",
@@ -2084,7 +2119,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:12:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "laumonier_margot",
@@ -2188,7 +2224,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "znaidi_eya",
@@ -2292,7 +2329,8 @@
         }
       },
       "lastUpdate": "2026-02-09T14:07:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "massembo_manasseh_prosper_malonda",
@@ -2396,7 +2434,263 @@
         }
       },
       "lastUpdate": "2026-02-09T14:11:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "andriamahefarivo_ambinintsoa_ashley",
+      "name": "ANDRIAMAHEFARIVO Ambinintsoa Ashley",
+      "classe": "3M1",
+      "group": "3M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-02-10T12:18:00",
+      "parcours": [
+        {
+          "name": "Français - Cycle 4",
+          "code": "JGMHFM539",
+          "campaignName": "3M5",
+          "date": "2026-02-10T12:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.49,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "chen_lois",
+      "name": "Chen Lois",
+      "classe": "",
+      "group": "3M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-02-10T12:16:00",
+      "parcours": [
+        {
+          "name": "Français - Cycle 4",
+          "code": "JGMHFM539",
+          "campaignName": "3M5",
+          "date": "2026-02-10T12:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "darmsy_ladha_shabbir_abbas",
+      "name": "DARMSY LADHA Shabbir Abbas",
+      "classe": "3M1",
+      "group": "3M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-02-10T12:13:00",
+      "parcours": [
+        {
+          "name": "Français - Cycle 4",
+          "code": "JGMHFM539",
+          "campaignName": "3M5",
+          "date": "2026-02-10T12:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.9,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "hassanaly_husain",
+      "name": "HASSANALY Husain",
+      "classe": "3M1",
+      "group": "3M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-02-10T12:06:00",
+      "parcours": [
+        {
+          "name": "Français - Cycle 4",
+          "code": "JGMHFM539",
+          "campaignName": "3M5",
+          "date": "2026-02-10T12:06:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.9,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rakotoarijaona_riana_matthieu",
+      "name": "RAKOTOARIJAONA Riana Matthieu",
+      "classe": "3M1",
+      "group": "3M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-02-10T12:11:00",
+      "parcours": [
+        {
+          "name": "Français - Cycle 4",
+          "code": "JGMHFM539",
+          "campaignName": "3M5",
+          "date": "2026-02-10T12:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.9,
+          "palier": 0
+        }
+      ]
     }
   ]
 }

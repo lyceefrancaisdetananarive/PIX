@@ -1,0 +1,1819 @@
+{
+  "name": "TG1",
+  "level": "tale",
+  "cycle": "lycee",
+  "studentCount": 38,
+  "scoredCount": 14,
+  "missingCount": 24,
+  "certifiableCount": 14,
+  "averagePix": 296,
+  "parcoursCodes": {},
+  "students": [
+    {
+      "id": "dupont_loukian",
+      "name": "Dupont Loukian",
+      "classe": "",
+      "group": "TG1",
+      "pix": 438,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 7,
+          "pix": 113
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 7,
+          "pix": 134
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 4,
+          "pix": 89
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 39
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 4,
+          "pix": 63
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Gérer des données": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Interagir": {
+          "niveau": 5,
+          "pix": 42
+        },
+        "Partager et publier": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Développer des documents multimedia": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Programmer": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Construire un environnement numérique": {
+          "niveau": 4,
+          "pix": 34
+        }
+      },
+      "lastUpdate": "2026-01-21T09:51:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "leteve_mathieu",
+      "name": "LETEVE Mathieu",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 384,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 5,
+          "pix": 100
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 5,
+          "pix": 103
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 71
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 62
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 48
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Gérer des données": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Partager et publier": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 23
+        }
+      },
+      "lastUpdate": "2026-02-01T16:07:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "morize_estee_alixe",
+      "name": "MORIZE Estée Alixe",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 355,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 5,
+          "pix": 106
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 5,
+          "pix": 106
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 67
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 53
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 23
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 5,
+          "pix": 42
+        },
+        "Gérer des données": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Interagir": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Partager et publier": {
+          "niveau": 5,
+          "pix": 43
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 18
+        }
+      },
+      "lastUpdate": "2026-02-01T20:39:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "rauscher_noe_gautier",
+      "name": "RAUSCHER Noé Gautier",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 344,
+      "certifiable": true,
+      "competencesCertifiables": 14,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 5,
+          "pix": 100
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 96
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 70
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 57
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 21
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 5,
+          "pix": 43
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 39
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 16
+        }
+      },
+      "lastUpdate": "2025-12-02T13:16:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "molinaro_leo_jaojoby",
+      "name": "MOLINARO Léo Jaojoby",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 336,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 89
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 86
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 76
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 48
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 37
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 22
+        }
+      },
+      "lastUpdate": "2026-01-27T09:45:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "maleck_soufyane",
+      "name": "MALECK Soufyane",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 320,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 79
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 88
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 76
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 52
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 25
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 39
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 18
+        }
+      },
+      "lastUpdate": "2025-12-02T17:09:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "rajaonarison_noa_todisoa",
+      "name": "RAJAONARISON Noa Todisoa",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 320,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 68
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 92
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 70
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 48
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 42
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 38
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 20
+        }
+      },
+      "lastUpdate": "2025-12-12T06:18:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "baxoubhay_batoul",
+      "name": "BAXOUBHAY Batoul",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 286,
+      "certifiable": true,
+      "competencesCertifiables": 13,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 78
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 97
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 45
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 33
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 33
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Collaborer": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 16
+        }
+      },
+      "lastUpdate": "2026-01-30T05:41:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "joubert_carlia_maeva",
+      "name": "JOUBERT Carlia Maeva",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 270,
+      "certifiable": true,
+      "competencesCertifiables": 14,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 74
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 80
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 42
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 44
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 30
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Construire un environnement numérique": {
+          "niveau": 3,
+          "pix": 24
+        }
+      },
+      "lastUpdate": "2025-12-07T12:41:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "ramahaleomiarantsoa_fandresena_ny_mino_razafimbelo",
+      "name": "RAMAHALEOMIARANTSOA Fandresena Ny Mino Razafimbelo",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 257,
+      "certifiable": true,
+      "competencesCertifiables": 14,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 76
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 62
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 58
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 44
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 17
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 13
+        }
+      },
+      "lastUpdate": "2025-12-12T06:11:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "rajaonarifetra_mika_andrianomena",
+      "name": "RAJAONARIFETRA Mika Andrianomena",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 226,
+      "certifiable": true,
+      "competencesCertifiables": 13,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 64
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 57
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 47
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 38
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 20
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        }
+      },
+      "lastUpdate": "2026-02-03T18:05:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "lapeyronnie_joris_pierre_michel_tiaray",
+      "name": "LAPEYRONNIE Joris Pierre Michel Tiaray",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 222,
+      "certifiable": true,
+      "competencesCertifiables": 12,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 72
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 60
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 41
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 37
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 12
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        }
+      },
+      "lastUpdate": "2025-12-12T05:55:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "ramanandraibe_oceane_irina",
+      "name": "RAMANANDRAIBE Océane Irina",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 211,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 47
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 74
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 45
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 30
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 15
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        }
+      },
+      "lastUpdate": "2026-01-26T12:17:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "rakotobe_marina_soanavalona",
+      "name": "RAKOTOBE Marina Soanavalona",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 168,
+      "certifiable": true,
+      "competencesCertifiables": 6,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 41
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 71
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 27
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 16
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 13
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Gérer des données": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 4
+        }
+      },
+      "lastUpdate": "2026-01-22T05:52:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "amegbo_maelle_efa",
+      "name": "AMEGBO Maëlle Efa",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "andriamanana_andrianome_princy_ulrich",
+      "name": "ANDRIAMANANA ANDRIANOME Princy Ulrich",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "chan_hong_men_friziane_athenah",
+      "name": "CHAN HONG MEN Friziane Athénah",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "feno_ma_yo_eloanne_jamsye",
+      "name": "FENO MA YO Eloanne Jamsye",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "grange_andry_alexandre",
+      "name": "GRANGÉ Andry Alexandre",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hardy_loukian",
+      "name": "HARDY Loukian",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "joubert_carlia_maeva",
+      "name": "JOUBERT Carlia Maeva",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "jules_danilo_toky_ratsifa",
+      "name": "JULES Danilo Toky Ratsifa",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lapeyronnie_joris_pierre_michel_tiaray",
+      "name": "LAPEYRONNIE Joris Pierre Michel Tiaray",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "le_ble_maeva_france_veronique",
+      "name": "LE BLE Maéva France Véronique",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "molinaro_leo_jaojoby",
+      "name": "MOLINARO Léo Jaojoby",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "morize_estee_alixe",
+      "name": "MORIZE Estée Alixe",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "mulot_naiaty",
+      "name": "MULOT Naïaty",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "philip_philae",
+      "name": "PHILIP Philaé",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajaonarison_noa_todisoa",
+      "name": "RAJAONARISON Noa Todisoa",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotobe_marina_soanavalona",
+      "name": "RAKOTOBE Marina Soanavalona",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramahaleomiarantsoa_fandresena_ny_mino_razafimbelo",
+      "name": "RAMAHALEOMIARANTSOA Fandresena Ny Mino Razafimbelo",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramanandraibe_oceane_irina",
+      "name": "RAMANANDRAIBE Océane Irina",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randrianekena_kathia_soatina",
+      "name": "RANDRIANEKENA Kathia Soatina",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rasolojaona_miahy_tia",
+      "name": "RASOLOJAONA Miahy Tia",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ratsimandresy_mihaja_toavina",
+      "name": "RATSIMANDRESY Mihaja Toavina",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rauscher_noe_gautier",
+      "name": "RAUSCHER Noé Gautier",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "raveloson_loic_youri",
+      "name": "RAVELOSON Loïc Youri",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "soety_nathalie_georgia",
+      "name": "SOETY Nathalie Georgia",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

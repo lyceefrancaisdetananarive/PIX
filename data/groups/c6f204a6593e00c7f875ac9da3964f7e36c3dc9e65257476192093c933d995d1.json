@@ -1,9 +1,12 @@
 {
   "name": "5 TECHNO 2",
   "level": "5e",
-  "studentCount": 19,
+  "cycle": "cycle4",
+  "studentCount": 28,
+  "scoredCount": 16,
+  "missingCount": 12,
   "certifiableCount": 12,
-  "averagePix": 95,
+  "averagePix": 113,
   "parcoursCodes": {
     "Cybersécurité - Cycle 4 (MAJ 2025)": "VNKVQU798",
     "EMI - cycle 4": "BERZZY458",
@@ -187,7 +190,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "cliquennois_haritiana",
@@ -362,7 +366,8 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "germain_margot",
@@ -537,7 +542,8 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "huynh_kimberley_fitiavana",
@@ -712,7 +718,8 @@
           "maitrise": 1.0,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "gely_marin_mahery",
@@ -887,7 +894,8 @@
           "maitrise": 0.67,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "duperrier_scarlett",
@@ -1062,7 +1070,8 @@
           "maitrise": 0.6,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "adalgo_giovanela",
@@ -1237,7 +1246,8 @@
           "maitrise": 0.66,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "david_arthur",
@@ -1412,7 +1422,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "hamilcaro_abigael",
@@ -1587,7 +1598,8 @@
           "maitrise": 0.6,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "guichard_louisia_r_mila",
@@ -1762,7 +1774,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "bourelly_remy",
@@ -1937,7 +1950,8 @@
           "maitrise": 0.53,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "bizimov_alexandre",
@@ -2082,7 +2096,8 @@
           "maitrise": 0.73,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "hgo_wai_kit_hugo",
@@ -2257,7 +2272,8 @@
           "maitrise": 0.6,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "bouchaud_lena",
@@ -2422,7 +2438,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "kassamaly_leena",
@@ -2587,7 +2604,8 @@
           "maitrise": 0.67,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "an_shangwan",
@@ -2742,7 +2760,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "kassamaly_daya_ylan",
@@ -2752,6 +2771,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -2802,6 +2822,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -2852,6 +2873,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -2893,6 +2915,132 @@
           "palier": 0
         }
       ]
+    },
+    {
+      "id": "bizimov_gilles_alexandre_davidovitch",
+      "name": "BIZIMOV-GILLES Alexandre Davidovitch",
+      "classe": "5M6",
+      "group": "5 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "cliquennois_razakanirina_soatiana_jeanne_harisoa",
+      "name": "CLIQUENNOIS RAZAKANIRINA Soatiana Jeanne Harisoa",
+      "classe": "5M5",
+      "group": "5 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "eugene_norbert_keanu",
+      "name": "EUGENE NORBERT Keanu",
+      "classe": "5M6",
+      "group": "5 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "gely_marin_mahery",
+      "name": "GELY Marin Mahery",
+      "classe": "5M5",
+      "group": "5 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "germain_fanomezantsoa_sue_margot",
+      "name": "GERMAIN Fanomezantsoa Sue Margot",
+      "classe": "5M6",
+      "group": "5 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "guichard_louisia_r_mila",
+      "name": "GUICHARD Louisia R'mila",
+      "classe": "5M6",
+      "group": "5 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hamilcaro_bonnet_abigael_margueritte",
+      "name": "HAMILCARO BONNET Abigaël Margueritte",
+      "classe": "5M5",
+      "group": "5 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "huo_wai_kit_hugo_matthew",
+      "name": "HUO WAI KIT Hugo Matthew",
+      "classe": "5M5",
+      "group": "5 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "huynh_kimberley_fitiavana",
+      "name": "HUYNH Kimberley Fitiavana",
+      "classe": "5M6",
+      "group": "5 TECHNO 2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

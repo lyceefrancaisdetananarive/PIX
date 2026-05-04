@@ -1,7 +1,10 @@
 {
   "name": "5M5 SVT",
   "level": "5e",
-  "studentCount": 15,
+  "cycle": "cycle4",
+  "studentCount": 24,
+  "scoredCount": 15,
+  "missingCount": 9,
   "certifiableCount": 14,
   "averagePix": 121,
   "parcoursCodes": {
@@ -176,7 +179,8 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "andriavoninarivo_fanomezantsoa_manankasina",
@@ -341,7 +345,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ranaivozanany_sitraka_ny_avo",
@@ -506,7 +511,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "badouraly_keya",
@@ -671,7 +677,8 @@
           "maitrise": 0.73,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "andrianony_kiady",
@@ -836,7 +843,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "randrianekena_lucas_tefy",
@@ -1001,7 +1009,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "zafindravaka_emi_fitia",
@@ -1166,7 +1175,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "n_takpe_tonya_ketura_phoebe",
@@ -1331,7 +1341,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "song_harena_keziah",
@@ -1496,7 +1507,8 @@
           "maitrise": 0.67,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "andriamihangy_georges",
@@ -1661,7 +1673,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "valton_samuel",
@@ -1826,7 +1839,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "nomenjanahary_jason",
@@ -1991,7 +2005,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "manevy_heloise_salome",
@@ -2136,7 +2151,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rakotonanahary_manarivo_lucas",
@@ -2301,7 +2317,8 @@
           "maitrise": 0.67,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rakotoharijaona_kiona_reiko",
@@ -2446,7 +2463,134 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "andrianony_rabenoro_maxime_kiady",
+      "name": "ANDRIANONY RABENORO Maxime Kiady",
+      "classe": "5M5",
+      "group": "5M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "andriavoninarivo_fanomezantsoa_manankasina",
+      "name": "ANDRIAVONINARIVO Fanomezantsoa Manankasina",
+      "classe": "5M5",
+      "group": "5M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "manevy_heloise_salome",
+      "name": "MANEVY Héloïse Salomé",
+      "classe": "5M5",
+      "group": "5M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "n_takpe_tonya_ketura_phoebe",
+      "name": "N'TAKPE Tonya Ketura Phoebé",
+      "classe": "5M5",
+      "group": "5M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "nomenjanahary_andry_ny_aina_jason",
+      "name": "NOMENJANAHARY Andry Ny Aina Jason",
+      "classe": "5M5",
+      "group": "5M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoharijaona_kiona_reiko",
+      "name": "RAKOTOHARIJAONA Kiona Reiko",
+      "classe": "5M5",
+      "group": "5M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ranaivozanany_sitraka_ny_avo",
+      "name": "RANAIVOZANANY Sitraka Ny Avo",
+      "classe": "5M5",
+      "group": "5M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randrianekena_lucas_tefy",
+      "name": "RANDRIANEKENA Lucas Tefy",
+      "classe": "5M5",
+      "group": "5M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "zafindravaka_emi_fitia",
+      "name": "ZAFINDRAVAKA Emi Fitia",
+      "classe": "5M5",
+      "group": "5M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

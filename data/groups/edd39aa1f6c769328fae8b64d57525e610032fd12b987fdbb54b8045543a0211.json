@@ -1,7 +1,10 @@
 {
   "name": "3M1",
   "level": "3e",
+  "cycle": "cycle4",
   "studentCount": 27,
+  "scoredCount": 27,
+  "missingCount": 0,
   "certifiableCount": 22,
   "averagePix": 175,
   "parcoursCodes": {},
@@ -108,7 +111,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:17:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "chen_lois",
@@ -212,7 +216,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:18:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "bordes_aaron_nantenaina",
@@ -316,7 +321,8 @@
         }
       },
       "lastUpdate": "2026-03-31T07:46:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "ramarosahanina_christianno",
@@ -420,7 +426,8 @@
         }
       },
       "lastUpdate": "2026-03-31T07:51:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "dablin_ines_lalaina",
@@ -524,7 +531,8 @@
         }
       },
       "lastUpdate": "2026-03-31T07:51:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "tianjara_marie_amelia",
@@ -628,7 +636,8 @@
         }
       },
       "lastUpdate": "2026-03-31T07:53:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "triballier_cindy_nirina",
@@ -732,7 +741,8 @@
         }
       },
       "lastUpdate": "2026-03-31T07:52:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rakotonanahary_tiary_maxime",
@@ -836,7 +846,8 @@
         }
       },
       "lastUpdate": "2026-03-31T07:27:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "andrianaharison_kate",
@@ -940,7 +951,8 @@
         }
       },
       "lastUpdate": "2026-03-31T07:51:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "chen_qiuting",
@@ -1044,7 +1056,8 @@
         }
       },
       "lastUpdate": "2025-12-15T18:06:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "randrianantenaina_yann",
@@ -1148,7 +1161,8 @@
         }
       },
       "lastUpdate": "2026-03-31T07:53:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "randriamahazo_rohan",
@@ -1252,7 +1266,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:00:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "darmsy_ladha_shabbir_abbas",
@@ -1356,7 +1371,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:18:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rakotoarijaona_riana_matthieu",
@@ -1460,7 +1476,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:18:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "voos_teylo",
@@ -1564,7 +1581,8 @@
         }
       },
       "lastUpdate": "2025-11-04T06:47:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "delas_enzo_reman_nicolas",
@@ -1668,7 +1686,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:20:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "zaulfikaraly_alyan",
@@ -1772,7 +1791,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:19:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "hoinville_abby_mino",
@@ -1876,7 +1896,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:18:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "leung_tack_jason_christiano",
@@ -1980,7 +2001,8 @@
         }
       },
       "lastUpdate": "2026-03-31T07:39:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "robson_mizaramana_matthieu",
@@ -2084,7 +2106,8 @@
         }
       },
       "lastUpdate": "2025-11-04T12:13:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "andriamahefarivo_ambinintsoa_ashley",
@@ -2188,7 +2211,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:22:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "chan_wai_meily",
@@ -2292,7 +2316,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:20:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "hugot_adam_antoine_aime",
@@ -2396,7 +2421,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:00:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "wang_xichen",
@@ -2500,7 +2526,8 @@
         }
       },
       "lastUpdate": "2026-01-13T06:53:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "yavarhoussen_muhammad_mujtaba",
@@ -2604,7 +2631,8 @@
         }
       },
       "lastUpdate": "2026-02-10T12:19:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "faure_alize_marie_eleonora",
@@ -2708,7 +2736,8 @@
         }
       },
       "lastUpdate": "2026-02-10T07:01:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rajaonarivony_shannon_irina",
@@ -2812,7 +2841,8 @@
         }
       },
       "lastUpdate": "2026-02-10T06:47:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     }
   ]
 }

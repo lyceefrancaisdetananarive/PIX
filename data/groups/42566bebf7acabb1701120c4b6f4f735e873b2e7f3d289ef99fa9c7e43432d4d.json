@@ -1,7 +1,10 @@
 {
   "name": "5M2 TECHNO",
   "level": "5e",
-  "studentCount": 14,
+  "cycle": "cycle4",
+  "studentCount": 26,
+  "scoredCount": 14,
+  "missingCount": 12,
   "certifiableCount": 13,
   "averagePix": 146,
   "parcoursCodes": {
@@ -176,7 +179,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "houssein_tijanny_mylan_aime",
@@ -341,7 +345,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rasoamanana_rasambaharinosy_joshua",
@@ -496,7 +501,8 @@
           "maitrise": 0.96,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "cornec_hugo",
@@ -661,7 +667,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rajaoarinelina_suu_palestine",
@@ -826,7 +833,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ckenny_randriantsoa",
@@ -991,7 +999,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "chang_wonjohn",
@@ -1156,7 +1165,8 @@
           "maitrise": 0.4,
           "palier": 1
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "dobigny_naellie_tillit_chirstiane",
@@ -1311,7 +1321,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "andriamanantena_rubia_tianina",
@@ -1476,7 +1487,8 @@
           "maitrise": 0.6,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ndroso_nomenjanahary_junot",
@@ -1641,7 +1653,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "randriamahenina_andrianampoina_toky_anthony",
@@ -1806,7 +1819,8 @@
           "maitrise": 0.67,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rakotomalala_marialice",
@@ -1971,7 +1985,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "rakotomalala_alexia_irina",
@@ -2126,7 +2141,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "themistocle_shania_franciolla",
@@ -2281,7 +2297,176 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "andriamanantena_rubia_tianina",
+      "name": "ANDRIAMANANTENA Rubia Tianina",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "chang_wonjohn",
+      "name": "CHANG Wonjohn",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "dobigny_naellie_tillit_chirstiane",
+      "name": "DOBIGNY Naellie Tillit Chirstiane",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "houssein_tijanny_mylan_aime",
+      "name": "HOUSSEIN Tijanny Mylan Aimé",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "le_naour_alma_louise",
+      "name": "LE NAOUR Alma Louise",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ndroso_nomenjanahary_junot",
+      "name": "NDROSO Nomenjanahary Junot",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajaoarinelina_rochedereux_suu_palestine_gabrielle",
+      "name": "RAJAOARINELINA-ROCHEDEREUX Suu-Palestine Gabrielle",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotomalala_alexia_irina",
+      "name": "RAKOTOMALALA Alexia Irina",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randriantsoa_rovatiana_ckenny",
+      "name": "RANDRIANTSOA Rovatiana Ckenny",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rasoamanana_rasambaharinosy_joshua",
+      "name": "RASOAMANANA Rasambaharinosy Joshua",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "sodio_enin_benjamin",
+      "name": "SODIO Enin Benjamin",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "themistocle_shania_franciolla",
+      "name": "THEMISTOCLE Shania Françiolla",
+      "classe": "5M2",
+      "group": "5M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

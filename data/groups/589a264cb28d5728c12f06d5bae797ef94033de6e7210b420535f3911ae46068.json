@@ -1,7 +1,10 @@
 {
   "name": "4M5 SVT",
   "level": "4e",
-  "studentCount": 7,
+  "cycle": "cycle4",
+  "studentCount": 25,
+  "scoredCount": 0,
+  "missingCount": 25,
   "certifiableCount": 0,
   "averagePix": 0,
   "parcoursCodes": {
@@ -16,6 +19,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -66,6 +70,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -116,6 +121,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -166,6 +172,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -216,6 +223,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -266,6 +274,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -316,6 +325,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -357,6 +367,258 @@
           "palier": 3
         }
       ]
+    },
+    {
+      "id": "abbassi_maina_guylaine_naima",
+      "name": "ABBASSI Maïna Guylaine Naïma",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "andrianambinina_miantsa_chloe_emmanuelle",
+      "name": "ANDRIANAMBININA Miantsa Chloé Emmanuelle",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "caneparo_alice_lenah_colette",
+      "name": "CANEPARO Alice Lenah Colette",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "diarra_aminta_asma_maleyka",
+      "name": "DIARRA Aminta Asma Maleyka",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "houssein_rudy_anjaratiana",
+      "name": "HOUSSEIN Rudy Anjaratiana",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "manikam_aldrick",
+      "name": "MANIKAM Aldrick",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "nathoo_chaick_mael_abasse",
+      "name": "NATHOO CHAICK Mael Abasse",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "orsot_dessi_maelle_juliette_seye",
+      "name": "ORSOT DESSI Maëlle Juliette Séyè",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajemison_theo_armand_dylan",
+      "name": "RAJEMISON Theo Armand Dylan",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotobe_anyra_brenda",
+      "name": "RAKOTOBE Anyra Brenda",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotomalala_tantely_miombontsoa",
+      "name": "RAKOTOMALALA Tantely Miombontsoa",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotosalama_tiary_fanilo",
+      "name": "RAKOTOSALAMA Tiary Fanilo",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramanamihantatsoarana_beniaina_olivier",
+      "name": "RAMANAMIHANTATSOARANA Beniaina Olivier",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramorasata_herinirina_irinah",
+      "name": "RAMORASATA Herinirina Irinah",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ratinaharisoa_louise_richa",
+      "name": "RATINAHARISOA Louise Richa",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafindrabe_andriambelo_manajasoa_harifaly",
+      "name": "RAZAFINDRABE ANDRIAMBELO Manajasoa Harifaly",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafindramboa_zachary_adolphe",
+      "name": "RAZAFINDRAMBOA Zachary Adolphe",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "tabary_ravinala_serge",
+      "name": "TABARY Ravinala Serge",
+      "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

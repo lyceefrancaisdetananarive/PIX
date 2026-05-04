@@ -1,7 +1,10 @@
 {
   "name": "5M6 TECHNO",
   "level": "5e",
-  "studentCount": 9,
+  "cycle": "cycle4",
+  "studentCount": 26,
+  "scoredCount": 0,
+  "missingCount": 26,
   "certifiableCount": 0,
   "averagePix": 0,
   "parcoursCodes": {
@@ -16,6 +19,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -66,6 +70,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -116,6 +121,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -166,6 +172,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -216,6 +223,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -266,6 +274,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -316,6 +325,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -366,6 +376,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -416,6 +427,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -457,6 +469,244 @@
           "palier": 2
         }
       ]
+    },
+    {
+      "id": "mascarenhas_zander_michael",
+      "name": "MASCARENHAS Zander Michaël",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "moustansir_zoeb_rahim",
+      "name": "MOUSTANSIR ZOEB Rahim",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "parizet_aymeric_niavotriniaina",
+      "name": "PARIZET Aymeric Niavotriniaina",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "pumbe_kalombo_kimberley",
+      "name": "PUMBE KALOMBO Kimberley",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rabariharivelo_noah_andriantsoavina",
+      "name": "RABARIHARIVELO Noah Andriantsoavina",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rahaingonjatovo_aniray_joshua_israel",
+      "name": "RAHAINGONJATOVO Aniray Joshua Israël",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotomanga_solofonirina_manantsoa_giovanni_tyler",
+      "name": "RAKOTOMANGA SOLOFONIRINA Manantsoa Giovanni Tyler",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotondrainibe_mathieu_aime",
+      "name": "RAKOTONDRAINIBE Mathieu Aimé",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotosalama_mialitiana_faniry",
+      "name": "RAKOTOSALAMA Mialitiana Faniry",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randriamaholy_florian_tahina",
+      "name": "RANDRIAMAHOLY Florian Tahina",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randriamanana_assad_alex",
+      "name": "RANDRIAMANANA Assad Alex",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ratsimba_rajaona_tsitohaina_israel",
+      "name": "RATSIMBA RAJAONA Tsitohaina Israel",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafimahatratra_arielle",
+      "name": "RAZAFIMAHATRATRA Arielle",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "szmurlo_harena_agathe",
+      "name": "SZMURLO Harena Agathe",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "torres_theo_enrique_johary",
+      "name": "TORRES Théo Enrique Johary",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "wang_qing",
+      "name": "WANG Qing",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "zhou_zhiqi",
+      "name": "ZHOU Zhiqi",
+      "classe": "5M6",
+      "group": "5M6 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

@@ -73,8 +73,16 @@ function renderBanner(meta, teacherMode) {
   document.title = `${meta.name} — PIX LFT`;
   document.getElementById("classe-name").textContent = meta.name;
 
-  const levelLabels = { "3e": "Niveau 3ème", "4e": "Niveau 4ème", "5e": "Niveau 5ème", "6e": "Niveau 6ème" };
-  const levelText = (levelLabels[meta.level] || "Cycle 4") + " · Cycle 4";
+  const levelLabels = {
+    "6e": "Niveau 6ème · Cycle 3",
+    "5e": "Niveau 5ème · Cycle 4",
+    "4e": "Niveau 4ème · Cycle 4",
+    "3e": "Niveau 3ème · Cycle 4",
+    "2nde": "Classe de 2nde · Lycée",
+    "1e": "Classe de 1ère · Lycée",
+    "tale": "Classe de Terminale · Lycée",
+  };
+  const levelText = levelLabels[meta.level] || "Cycle 4";
   document.getElementById("classe-level").textContent = levelText;
 
   // Bouton retour : vers le dashboard prof ou vers l'accueil
@@ -130,25 +138,35 @@ function renderTable() {
 
   const rows = filtered
     .map((s, i) => {
-      const isEmpty = s.pix === 0 && (!s.parcours || s.parcours.length === 0);
-      const cls = isEmpty ? "is-empty" : "";
-      const badge = isEmpty
-        ? '<span class="badge badge--muted">Aucun résultat</span>'
-        : s.certifiable
-          ? '<span class="badge badge--success"><svg class="icon"><use href="#ph-check-circle"/></svg> Certifiable</span>'
-          : '<span class="badge badge--warning">En cours</span>';
+      const status = s.status || (s.pix > 0 ? "renseigne" : "partiel");
+      const isMissing = status === "non_renseigne";
+      const isPartial = status === "partiel";
+      const cls = isMissing ? "is-empty" : (isPartial ? "is-partial" : "");
 
-      const lvl = !isEmpty ? levelFor(s.pix) : null;
+      let badge;
+      if (isMissing) {
+        badge = '<span class="badge badge--muted">Non renseigné</span>';
+      } else if (isPartial) {
+        badge = '<span class="badge badge--warning">Parcours en cours</span>';
+      } else if (s.certifiable) {
+        badge = '<span class="badge badge--success"><svg class="icon"><use href="#ph-check-circle"/></svg> Certifiable</span>';
+      } else {
+        badge = '<span class="badge badge--warning">En cours</span>';
+      }
+
+      const lvl = (status === "renseigne") ? levelFor(s.pix) : null;
       const lvlBadge = lvl && lvl.slug !== "non-certifie"
         ? `<span class="pix-level-pill pix-level-pill--${lvl.slug}">${escapeHtml(lvl.short)}</span>`
         : "";
-      const pix = isEmpty
-        ? '<span class="pix-pill pix-pill--muted">—</span>'
-        : `<span class="pix-pill"><span>${s.pix}</span><span class="pix-pill__unit">pix</span></span>${lvlBadge}`;
+      const pix = (status === "renseigne")
+        ? `<span class="pix-pill"><span>${s.pix}</span><span class="pix-pill__unit">pix</span></span>${lvlBadge}`
+        : '<span class="pix-pill pix-pill--muted">—</span>';
+
+      const interactive = !isMissing;
 
       return `
-        <tr class="${cls}" data-id="${escapeHtml(s.id)}" tabindex="${isEmpty ? -1 : 0}"
-            role="${isEmpty ? "" : "button"}" aria-label="Voir le détail de ${escapeHtml(s.name)}">
+        <tr class="${cls}" data-id="${escapeHtml(s.id)}" tabindex="${interactive ? 0 : -1}"
+            role="${interactive ? "button" : ""}" aria-label="${interactive ? "Voir le détail de " + escapeHtml(s.name) : "Élève non renseigné"}">
           <td><span class="student-rank">${i + 1}</span></td>
           <td><span class="student-name">${escapeHtml(s.name)}</span></td>
           <td>${escapeHtml(s.classe || "—")}</td>
@@ -177,8 +195,8 @@ function renderTable() {
   `;
   container.removeAttribute("aria-busy");
 
-  // Click + clavier sur les lignes non vides
-  container.querySelectorAll("tr[data-id]:not(.is-empty)").forEach((tr) => {
+  // Click + clavier sur les lignes non "non renseignées"
+  container.querySelectorAll('tr[data-id]:not(.is-empty)').forEach((tr) => {
     tr.addEventListener("click", () => openModal(tr.dataset.id));
     tr.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") {

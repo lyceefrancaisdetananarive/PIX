@@ -1,7 +1,10 @@
 {
   "name": "3M3",
   "level": "3e",
+  "cycle": "cycle4",
   "studentCount": 5,
+  "scoredCount": 5,
+  "missingCount": 0,
   "certifiableCount": 4,
   "averagePix": 101,
   "parcoursCodes": {},
@@ -108,7 +111,8 @@
         }
       },
       "lastUpdate": "2025-12-03T16:12:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "paulmier_emma",
@@ -212,7 +216,8 @@
         }
       },
       "lastUpdate": "2025-12-03T14:02:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "mamode_ramjee_sohane",
@@ -316,7 +321,8 @@
         }
       },
       "lastUpdate": "2025-12-04T13:15:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "dilavarhoussen_alia",
@@ -420,7 +426,8 @@
         }
       },
       "lastUpdate": "2025-12-04T06:11:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rakotoarivelo_fitia_yvhanna",
@@ -524,7 +531,8 @@
         }
       },
       "lastUpdate": "2025-12-23T05:58:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     }
   ]
 }

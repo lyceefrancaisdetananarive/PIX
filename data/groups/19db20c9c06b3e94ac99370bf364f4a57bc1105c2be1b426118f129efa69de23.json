@@ -1,7 +1,10 @@
 {
   "name": "4M7 P.1",
   "level": "4e",
-  "studentCount": 12,
+  "cycle": "cycle4",
+  "studentCount": 25,
+  "scoredCount": 12,
+  "missingCount": 13,
   "certifiableCount": 1,
   "averagePix": 59,
   "parcoursCodes": {
@@ -132,7 +135,8 @@
           "maitrise": 0.97,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "fidahoussene_hirdjee_rayane",
@@ -257,7 +261,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "andrianasolo_lucie_benie",
@@ -382,7 +387,8 @@
           "maitrise": 0.76,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "vuattoux_lucie_nomeny_marie",
@@ -507,7 +513,8 @@
           "maitrise": 0.76,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "charif_souhayl_chamsouddine",
@@ -632,7 +639,8 @@
           "maitrise": 0.85,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "randriambeloma_loic_mihary",
@@ -757,7 +765,8 @@
           "maitrise": 0.97,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "couesnon_ilann_leo_mirado",
@@ -882,7 +891,8 @@
           "maitrise": 0.82,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "annunziata_luna",
@@ -1007,7 +1017,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "boumbanda_janel",
@@ -1132,7 +1143,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "crisaci_jean_yonel",
@@ -1247,7 +1259,8 @@
           "maitrise": 0.76,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "caramla_wessley_gabriel_francis",
@@ -1372,7 +1385,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "cisse_elhadji_moukhamadou",
@@ -1487,7 +1501,190 @@
           "maitrise": 0.24,
           "palier": 1
         }
-      ]
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "andriamampianina_soatiana_audrey",
+      "name": "ANDRIAMAMPIANINA Soatiana Audrey",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "andrianasolo_lucie_benie",
+      "name": "ANDRIANASOLO Lucie Bénie",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "annunziata_mialy_luna",
+      "name": "ANNUNZIATA Mialy Luna",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "bertagna_metissia",
+      "name": "BERTAGNA Métissia",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "boumbanda_loungou_janel_pierre",
+      "name": "BOUMBANDA LOUNGOU Janel Pierre",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "caramla_wessley_gabriel_francis",
+      "name": "CARAMLA Wessley Gabriel Francis",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "charif_souhayl_chamsouddine",
+      "name": "CHARIF Souhayl Chamsouddine",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "cisse_elhadji_moukhamadou",
+      "name": "CISSE Elhadji Moukhamadou",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "couesnon_ilann_leo_mirado",
+      "name": "COUESNON Ilann Léo Mirado",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "crisaci_jean_yonel",
+      "name": "CRISACI Jean Yonel",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "da_silva_peniel_elrick_mbarack_oloushegun",
+      "name": "DA SILVA Péniel Elrick Mbarack Oloushègun",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randriambeloma_loic_mihary",
+      "name": "RANDRIAMBELOMA Loic Mihary",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "vuattoux_lucie_nomeny_marie",
+      "name": "VUATTOUX Lucie Nomeny Marie",
+      "classe": "4M7",
+      "group": "4M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

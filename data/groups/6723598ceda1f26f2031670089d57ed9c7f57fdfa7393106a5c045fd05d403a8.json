@@ -1,0 +1,921 @@
+{
+  "name": "2PRO1",
+  "level": "2nde",
+  "cycle": "lycee",
+  "studentCount": 27,
+  "scoredCount": 0,
+  "missingCount": 27,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 2nde Pro": "QSGRJH948"
+  },
+  "students": [
+    {
+      "id": "graveleau_kevin",
+      "name": "Graveleau Kevin",
+      "classe": "",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.58,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "herinoronirina_jade",
+      "name": "HERINORONIRINA Jade",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.99,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "lairon_jensen",
+      "name": "LAIRON Jensen",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-14T14:06:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": "2025-10-14T14:06:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.75,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "leap_robert_arenasoa",
+      "name": "LEAP Robert Arenasoa",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.72,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "leca_jean_emmanuel",
+      "name": "LECA Jean Emmanuel",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.51,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "manes_yann_nantenaina",
+      "name": "MANES Yann Nantenaina",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-07T07:18:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": "2025-10-07T07:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.5,
+          "palier": 1
+        }
+      ]
+    },
+    {
+      "id": "molou_sadjad_mehdi",
+      "name": "MOLOU Sadjad Mehdi",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.83,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "nomena_icha",
+      "name": "NOMENA Icha",
+      "classe": "1G6",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.72,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "pissarello_nicolas",
+      "name": "PISSARELLO Nicolas",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.42,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rafenomananirina_fitia_mandresy",
+      "name": "RAFENOMANANIRINA Fitia Mandresy",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-04T14:25:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": "2025-11-04T14:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.95,
+          "palier": 3
+        },
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": "2025-10-09T09:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.85,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "rakotoarison_eddie_pascal",
+      "name": "RAKOTOARISON Eddie Pascal",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-04T14:22:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": "2025-11-04T14:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.73,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "razakandrainy_falimaholy_ny_aina",
+      "name": "RAZAKANDRAINY Falimaholy Ny Aina",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.59,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "squillario_frederic",
+      "name": "SQUILLARIO Fréderic",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.54,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "verdier_yohan_anjara",
+      "name": "VERDIER Yohan Anjara",
+      "classe": "1PROAGORA",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-07T08:34:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde Pro",
+          "code": "QSGRJH948",
+          "campaignName": "2PRO1 Parcours de rentrée",
+          "date": "2025-10-07T08:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.7,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "aboudou_kevin",
+      "name": "ABOUDOU Kevin",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "chambon_pakita_marie",
+      "name": "CHAMBON Pakita Marie",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "manes_yann_nantenaina",
+      "name": "MANES Yann Nantenaina",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "molou_sadjad_mehdi",
+      "name": "MOLOU Sadjad Mehdi",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rafenomananirina_fitia_mandresy",
+      "name": "RAFENOMANANIRINA Fitia Mandresy",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajaonarivony_noriannah_tinasoa",
+      "name": "RAJAONARIVONY Noriannah Tinasoa",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoarison_eddie_pascal",
+      "name": "RAKOTOARISON Eddie Pascal",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ralaiavy_fitiaheninoro_ursula",
+      "name": "RALAIAVY Fitiaheninoro Ursula",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razakandrainy_falimaholy_ny_aina",
+      "name": "RAZAKANDRAINY Falimaholy Ny Aina",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "salima_richad_tomboanjara",
+      "name": "SALIMA Richad Tomboanjara",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "squillario_frederic",
+      "name": "SQUILLARIO Fréderic",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "tonnenx_harenanomena_gracia",
+      "name": "TONNENX Harenanomena Gracia",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "volia_yvania_oceane",
+      "name": "VOLIA Yvania Océane",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

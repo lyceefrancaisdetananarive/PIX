@@ -1,9 +1,12 @@
 {
   "name": "5M7 P.1",
   "level": "5e",
-  "studentCount": 14,
+  "cycle": "cycle4",
+  "studentCount": 21,
+  "scoredCount": 13,
+  "missingCount": 8,
   "certifiableCount": 10,
-  "averagePix": 117,
+  "averagePix": 126,
   "parcoursCodes": {
     "Cybersécurité - Cycle 4 (MAJ 2025)": "MWXLYX469",
     "EMI - cycle 4": "FHTMJR285",
@@ -167,7 +170,8 @@
           "maitrise": 0.73,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "andriamifidy_maellys_niaina",
@@ -322,7 +326,8 @@
           "maitrise": 1.0,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "hassim_linah_myriam",
@@ -477,7 +482,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "bakar_amedeea",
@@ -642,7 +648,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ahmed_zawaar",
@@ -817,7 +824,8 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "curran_tommy_orian_r_andria",
@@ -972,7 +980,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "duperrier_scarlett",
@@ -1076,7 +1085,8 @@
         }
       },
       "lastUpdate": "2026-04-03T14:09:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "enjalbert_alicia_lucie",
@@ -1231,7 +1241,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "randrianarivelo_anae_irintsoa",
@@ -1335,7 +1346,8 @@
         }
       },
       "lastUpdate": "2026-04-01T09:45:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "giblain_adriana_emilie",
@@ -1490,7 +1502,8 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "andrianaivoravelona_alexandre_heritiana",
@@ -1655,7 +1668,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "keshawa_kanhaya_rohan",
@@ -1820,7 +1834,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "doucey_toussaint_nahel",
@@ -1975,7 +1990,8 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "de_bailleul_charles_edward_thierry",
@@ -1985,6 +2001,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -2036,6 +2053,104 @@
           "palier": 3
         }
       ]
+    },
+    {
+      "id": "andriamifidy_maellys_niaina",
+      "name": "ANDRIAMIFIDY Maellys Niaina",
+      "classe": "5M7",
+      "group": "5M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "andrianaivoravelona_alexandre_heritiana",
+      "name": "ANDRIANAIVORAVELONA Alexandre Heritiana",
+      "classe": "5M7",
+      "group": "5M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "curran_tommy_orian_r_andria",
+      "name": "CURRAN Tommy Orian R'andria",
+      "classe": "5M7",
+      "group": "5M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "de_bailleul_charles_edward_thierry",
+      "name": "DE BAILLEUL Charles Edward Thierry",
+      "classe": "5M7",
+      "group": "5M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "enjalbert_alicia_lucie",
+      "name": "ENJALBERT Alicia Lucie",
+      "classe": "5M7",
+      "group": "5M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "giblain_adriana_emilie",
+      "name": "GIBLAIN Adriana Emilie",
+      "classe": "5M7",
+      "group": "5M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hassim_linah_myriam",
+      "name": "HASSIM Linah Myriam",
+      "classe": "5M7",
+      "group": "5M7 P.1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

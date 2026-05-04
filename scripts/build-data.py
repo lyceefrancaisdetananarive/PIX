@@ -79,7 +79,15 @@ TEACHER_GROUPS = {
 
 # Mapping groupe Pix Orga (= nom du dossier) -> code d'accès
 GROUP_CODES = {
-    # ── 5ème ───────────────────────────────────────────────────
+    # ─── Cycle 3 — 6ème ────────────────────────────────────────
+    "6M1":          "ECRAN",
+    "6M2":          "CLAVIER",
+    "6M3":          "SOURIS",
+    "6M4":          "DOSSIER",
+    "6M5":          "FICHIER",
+    "6M6":          "NAVIGATEUR",
+    "6M7":          "INTERNET",
+    # ─── Cycle 4 — 5ème ────────────────────────────────────────
     "5M1 SVT":      "MICROSCOPE",
     "5M2 TECHNO":   "ARDUINO",
     "5M3 SVT":      "CHLOROPHYLLE",
@@ -91,7 +99,7 @@ GROUP_CODES = {
     "5 TECHNO 2":   "CIRCUIT",
     "5M7 P.1":      "BINAIRE",
     "5M7 P.2":      "ALGORITHME",
-    # ── 4ème ───────────────────────────────────────────────────
+    # ─── Cycle 4 — 4ème ────────────────────────────────────────
     "4M1 SVT":      "CELLULE",
     "4M2 TECHNO":   "MOTEUR",
     "4M3 SVT":      "ATOME",
@@ -103,7 +111,7 @@ GROUP_CODES = {
     "4 TECHNO 3":   "SONDE",
     "4M7 P.1":      "PIXEL",
     "4M7 P.2":      "ELECTRON",
-    # ── 3ème ───────────────────────────────────────────────────
+    # ─── Cycle 4 — 3ème ────────────────────────────────────────
     "3M1":          "BLACKBERRY",
     "3M2":          "ESP32",
     "3M3":          "MICROBIT",
@@ -112,6 +120,79 @@ GROUP_CODES = {
     "3M6":          "MICROCHIP",
     "3M7":          "SOLENOIDE",
     "3 TECHNO 2":   "RASPBERRY",
+    # ─── Lycée — 2nde ──────────────────────────────────────────
+    "2DE1":         "SIRIUS",
+    "2DE2":         "VEGA",
+    "2DE3":         "ALTAIR",
+    "2DE4":         "POLARIS",
+    "2DE5":         "CANOPUS",
+    "2DE6":         "DENEB",
+    "2DE7":         "BETELGEUSE",
+    "2DE8":         "ANTARES",
+    "2DE9":         "RIGEL",
+    "2PRO1":        "ORION",
+    "2PRO2":        "PEGASE",
+    # ─── Lycée — 1ère ──────────────────────────────────────────
+    "1G1":          "DATABASE",
+    "1G2":          "CRYPTAGE",
+    "1G3":          "SERVEUR",
+    "1G4":          "REQUETE",
+    "1G5":          "SYNTAXE",
+    "1G6":          "BOUCLE",
+    "1G7":          "VARIABLE",
+    "1G8":          "FONCTION",
+    "1STMG1":       "MARKETING",
+    "1PRO AGORA":   "AGORA",
+    "1PRO VENTE":   "COMMERCE",
+    "1PRO COMMUN":  "CONSEIL",
+    # ─── Lycée — Terminale ─────────────────────────────────────
+    "TG1":          "COMPILATEUR",
+    "TG2":          "ASSEMBLEUR",
+    "TG3":          "KERNEL",
+    "TG4":          "PROTOCOLE",
+    "TG5":          "BANDWIDTH",
+    "TG6":          "TERMINAL",
+    "TG7":          "CONSOLE",
+    "TG8":          "CLOUD",
+    "TSTMG1":       "BUSINESS",
+    "TSTMG2":       "STRATEGIE",
+    "TPRO AGORA":   "SAVOIR",
+    "TPRO VENTE":   "SERVICE",
+}
+
+# Mapping groupe -> cycle pédagogique (pour les 3 podiums)
+def group_cycle(group_name: str) -> str:
+    if group_name.startswith("6"):
+        return "cycle3"  # 6ème
+    if group_name.startswith(("5", "4", "3")):
+        return "cycle4"  # 5e, 4e, 3e
+    return "lycee"       # 2DE, 2PRO, 1G, 1STMG, 1PRO, TG, TSTMG, TPRO
+
+# Détection du niveau (pour l'affichage)
+LEVEL_LABELS = {
+    "6e":   "Niveau 6ème",
+    "5e":   "Niveau 5ème",
+    "4e":   "Niveau 4ème",
+    "3e":   "Niveau 3ème",
+    "2nde": "Niveau 2nde",
+    "1e":   "Niveau 1ère",
+    "tale": "Niveau Terminale",
+}
+
+def detect_level(group_name: str) -> str:
+    if group_name.startswith("6"): return "6e"
+    if group_name.startswith("5"): return "5e"
+    if group_name.startswith("4"): return "4e"
+    if group_name.startswith("3"): return "3e"
+    if group_name.startswith("2DE") or group_name.startswith("2PRO"): return "2nde"
+    if group_name.startswith("1G") or group_name.startswith("1STMG") or group_name.startswith("1PRO"): return "1e"
+    if group_name.startswith("T"): return "tale"
+    return "5e"
+
+CYCLE_LABELS = {
+    "cycle3": "Cycle 3 · 6ème",
+    "cycle4": "Cycle 4 · 5e/4e/3e",
+    "lycee":  "Lycée · 2nde/1e/Term.",
 }
 
 # Référentiel CRCN : 16 compétences groupées en 5 domaines
@@ -284,11 +365,15 @@ def split_xlsx_name(full: str):
     return " ".join(family), given
 
 
+_STUDENT_BY_GROUP_CACHE = {}     # group_name -> [entries]
+_STUDENT_BY_CLASS_CACHE = {}     # classe (admin) -> [entries]
+
+
 def load_student_directory() -> dict:
-    """Retourne un index avec plusieurs clés par élève pour faciliter le matching :
-    - clé "FULL NORMALIZED NAME" (nom + tous les prénoms)
-    - clé "FAMILY FIRSTGIVEN" (nom + premier prénom seulement)
-    - clé "FAMILYNAME" seule (fallback si prénom ambigu)
+    """Retourne un index avec plusieurs clés par élève pour faciliter le matching.
+    Construit aussi en parallèle deux index secondaires :
+      _STUDENT_BY_GROUP_CACHE  pour le collège (clé = nom de groupe Pix Orga)
+      _STUDENT_BY_CLASS_CACHE  pour le lycée   (clé = classe admin)
     """
     if not STUDENT_LIST.exists():
         print(f"⚠  Liste élèves introuvable : {STUDENT_LIST}", file=sys.stderr)
@@ -297,16 +382,19 @@ def load_student_directory() -> dict:
     df = pd.read_excel(STUDENT_LIST, dtype=str)
     df = df.fillna("")
     index = {}
-    family_only = {}  # famille seule -> [entries] pour fallback
+    family_only = {}
 
     for _, row in df.iterrows():
         full = str(row.get("Élève", "")).strip()
         if not full:
             continue
+        classe = str(row.get("Classe", "")).strip()
+        groupes_raw = [g.strip() for g in str(row.get("Groupes", "")).split(",") if g.strip()]
+
         entry = {
             "fullName": full,
-            "classe": str(row.get("Classe", "")).strip(),
-            "groupes": [g.strip() for g in str(row.get("Groupes", "")).split(",") if g.strip()],
+            "classe": classe,
+            "groupes": groupes_raw,
         }
         full_key = normalize_name(full)
         index[full_key] = entry
@@ -314,17 +402,73 @@ def load_student_directory() -> dict:
         family, given = split_xlsx_name(full)
         if family and given:
             short_key = f"{family} {given[0]}"
-            # Si déjà occupé par un autre élève (homonymie), ne pas écraser
             if short_key not in index:
                 index[short_key] = entry
             family_only.setdefault(family, []).append(entry)
 
-    # Famille seule = fallback uniquement si UN SEUL élève porte ce nom
+        # Index par classe admin (lycée → c'est le seul critère)
+        if classe:
+            _STUDENT_BY_CLASS_CACHE.setdefault(classe, []).append(entry)
+
+        # Index par groupe Pix Orga (collège : élève appartient à un groupe TECHNO/SVT)
+        for g in groupes_raw:
+            _STUDENT_BY_GROUP_CACHE.setdefault(g, []).append(entry)
+
     for family, entries in family_only.items():
         if len(entries) == 1 and family not in index:
             index[family] = entries[0]
 
     return index
+
+
+def normalize_group_for_xlsx(group_name: str) -> list:
+    """Retourne la liste des clés possibles dans le XLSX correspondant au dossier groupe.
+    Le XLSX a parfois des variantes (sans espace, avec/sans tiret).
+    """
+    g = group_name.strip()
+    candidates = {g, g.replace(" ", ""), g.replace("  ", " ")}
+
+    # Variantes spécifiques observées
+    swaps = {
+        "5 TECHNO 1": ["5TECHNO1", "5 TECHNO 1"],
+        "5 TECHNO 2": ["5TECHNO2", "5 TECHNO 2"],
+        "4 TECHNO 1": ["4TECHNO1", "4 TECHNO 1"],
+        "4 TECHNO 2": ["4TECHNO2", "4 TECHNO 2"],
+        "4 TECHNO 3": ["4TECHNO3", "4 TECHNO 3"],
+        "3 TECHNO 2": ["3TECHNO2", "3 TECHNO 2"],
+        "4M1 SVT":    ["4M1SVT", "4M1 SVT"],
+        "4M4 TECHNO": ["4M4TECHNO", "4M4 TECHNO"],
+        "5M5 SVT":    ["5M5SVT", "5M5 SVT"],
+    }
+    if g in swaps:
+        return swaps[g]
+    return list(candidates)
+
+
+def expected_students(group_name: str, level: str) -> list:
+    """Retourne la liste des élèves attendus dans ce groupe d'après le XLSX :
+       - Lycée : les élèves dont la Classe admin == nom du groupe
+       - Collège : les élèves dont la liste de Groupes contient le nom du groupe
+    """
+    expected = []
+    if level in ("2nde", "1e", "tale"):
+        # Lycée : match direct sur la classe administrative
+        for variant in normalize_group_for_xlsx(group_name):
+            expected.extend(_STUDENT_BY_CLASS_CACHE.get(variant, []))
+    else:
+        # Collège : match sur la colonne Groupes
+        for variant in normalize_group_for_xlsx(group_name):
+            expected.extend(_STUDENT_BY_GROUP_CACHE.get(variant, []))
+
+    # Dédoublonne par nom
+    seen = set()
+    out = []
+    for s in expected:
+        k = normalize_name(s["fullName"])
+        if k not in seen:
+            seen.add(k)
+            out.append(s)
+    return out
 
 
 def match_student(directory: dict, csv_nom: str, csv_prenom: str):
@@ -533,7 +677,6 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
         if key in seen_keys:
             continue
         sample = recs[0]
-        # Le key est "NOM PRENOM" normalisé : tente la résolution via le référentiel
         parts = key.split(" ", 1)
         ref = match_student(directory, parts[0], parts[1] if len(parts) > 1 else "")
         full_name = ref["fullName"] if ref else proper_case(key)
@@ -546,32 +689,65 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
             "pix": 0,
             "certifiable": False,
             "competencesCertifiables": 0,
+            "status": "partiel",  # a fait des parcours mais pas de Collecte
             "domains": {slug: {"label": label, "level": 0, "pix": 0}
                         for label, slug in [(name, DOMAIN_SLUGS[name]) for name in DOMAIN_MAP]},
             "competences": {},
             "lastUpdate": sample.get("date"),
             "parcours": sorted(recs, key=lambda p: p.get("date") or "", reverse=True),
         })
+        seen_keys.add(key)
 
-    # Tri par score décroissant
-    students.sort(key=lambda s: (-s["pix"], s["name"]))
+    # Marque les élèves "complets" issus de Collecte
+    for s in students:
+        if "status" not in s:
+            s["status"] = "renseigne"
 
-    # Détection du niveau d'après le préfixe du nom de dossier
-    if group_name.startswith("3"):
-        level = "3e"
-    elif group_name.startswith("4"):
-        level = "4e"
-    elif group_name.startswith("6"):
-        level = "6e"
-    else:
-        level = "5e"
+    # Élèves de la classe (XLSX) qui n'apparaissent pas du tout dans les CSV
+    # → "non renseigné"
+    level = detect_level(group_name)
+    for entry in expected_students(group_name, level):
+        key = normalize_name(entry["fullName"])
+        if key in seen_keys or key in EXCLUDED_ACCOUNTS:
+            continue
+        students.append({
+            "id": slugify(entry["fullName"]),
+            "name": entry["fullName"],
+            "classe": entry["classe"],
+            "group": group_name,
+            "pix": 0,
+            "certifiable": False,
+            "competencesCertifiables": 0,
+            "status": "non_renseigne",
+            "domains": {},
+            "competences": {},
+            "lastUpdate": None,
+            "parcours": [],
+        })
+        seen_keys.add(key)
+
+    # Tri : élèves avec score (desc), puis partiels, puis non renseignés (alpha)
+    def sort_key(s):
+        bucket = 0 if s.get("status") == "renseigne" else (1 if s.get("status") == "partiel" else 2)
+        return (bucket, -s["pix"], s["name"])
+    students.sort(key=sort_key)
+
+    level = detect_level(group_name)
+    cycle = group_cycle(group_name)
+
+    # Calcul des moyennes UNIQUEMENT sur les élèves "renseignés" (avec score Pix)
+    scored = [s for s in students if s["pix"] > 0]
+    avg_pix = round(sum(s["pix"] for s in scored) / len(scored)) if scored else 0
 
     return {
         "name": group_name,
         "level": level,
+        "cycle": cycle,
         "studentCount": len(students),
+        "scoredCount": len(scored),
+        "missingCount": len(students) - len(scored),
         "certifiableCount": sum(1 for s in students if s["certifiable"]),
-        "averagePix": round(sum(s["pix"] for s in students) / len(students)) if students else 0,
+        "averagePix": avg_pix,
         "parcoursCodes": parcours_codes,
         "students": students,
     }
@@ -608,13 +784,18 @@ def main() -> int:
         classes_index[code_hash] = {
             "name": group_name,
             "level": result["level"],
+            "cycle": result["cycle"],
             "studentCount": result["studentCount"],
+            "scoredCount": result.get("scoredCount", 0),
+            "missingCount": result.get("missingCount", 0),
             "certifiableCount": result["certifiableCount"],
             "averagePix": result["averagePix"],
         }
 
         all_students.extend(result["students"])
-        print(f"  ✓ {group_name:15} → {result['studentCount']:3} élèves, {result['certifiableCount']:3} certifiables, moy. {result['averagePix']:3} pix")
+        miss = result.get("missingCount", 0)
+        miss_str = f" ({miss} non renseigné{'s' if miss > 1 else ''})" if miss else ""
+        print(f"  ✓ {group_name:15} → {result['studentCount']:3} élèves, {result['certifiableCount']:3} certifiables, moy. {result['averagePix']:3} pix{miss_str}")
 
     # classes.json
     with open(DATA_DIR / "classes.json", "w", encoding="utf-8") as f:
@@ -631,30 +812,51 @@ def main() -> int:
     with open(DATA_DIR / "teachers.json", "w", encoding="utf-8") as f:
         json.dump({"teachers": teachers_index}, f, ensure_ascii=False, indent=2)
 
-    # students-public.json (Top 3 + stats globales)
-    podium = sorted(
-        [s for s in all_students if s["pix"] > 0],
-        key=lambda s: -s["pix"],
-    )[:3]
-    podium_public = [
-        {
-            "rank": i + 1,
-            "name": s["name"],
-            "classe": s["classe"],
-            "group": s["group"],
-            "pix": s["pix"],
-            "level": pix_level_for(s["pix"])["label"],
-        }
-        for i, s in enumerate(podium)
-    ]
+    # students-public.json — 3 podiums par cycle
+    def make_podium(students_subset):
+        top = sorted([s for s in students_subset if s["pix"] > 0], key=lambda s: -s["pix"])[:3]
+        return [
+            {
+                "rank": i + 1,
+                "name": s["name"],
+                "classe": s["classe"],
+                "group": s["group"],
+                "pix": s["pix"],
+                "level": pix_level_for(s["pix"])["label"],
+            }
+            for i, s in enumerate(top)
+        ]
+
+    # Map group_name -> cycle pour découper all_students
+    group_cycle_map = {meta["name"]: meta["cycle"] for meta in classes_index.values()}
+
+    by_cycle = {"cycle3": [], "cycle4": [], "lycee": []}
+    for s in all_students:
+        c = group_cycle_map.get(s["group"], "cycle4")
+        by_cycle[c].append(s)
+
+    podiums = {
+        "cycle3": {"label": CYCLE_LABELS["cycle3"], "podium": make_podium(by_cycle["cycle3"])},
+        "cycle4": {"label": CYCLE_LABELS["cycle4"], "podium": make_podium(by_cycle["cycle4"])},
+        "lycee":  {"label": CYCLE_LABELS["lycee"],  "podium": make_podium(by_cycle["lycee"])},
+    }
+
+    scored_all = [s for s in all_students if s["pix"] > 0]
     stats = {
         "totalGroups": len(classes_index),
         "totalStudents": sum(c["studentCount"] for c in classes_index.values()),
+        "totalScored": len(scored_all),
+        "totalMissing": sum(c.get("missingCount", 0) for c in classes_index.values()),
         "totalCertifiable": sum(c["certifiableCount"] for c in classes_index.values()),
-        "averagePix": round(sum(s["pix"] for s in all_students) / max(1, len([s for s in all_students if s["pix"] > 0]))),
+        "averagePix": round(sum(s["pix"] for s in scored_all) / max(1, len(scored_all))),
+        "byCycle": {
+            "cycle3": {"label": CYCLE_LABELS["cycle3"], "students": len(by_cycle["cycle3"])},
+            "cycle4": {"label": CYCLE_LABELS["cycle4"], "students": len(by_cycle["cycle4"])},
+            "lycee":  {"label": CYCLE_LABELS["lycee"],  "students": len(by_cycle["lycee"])},
+        },
     }
     with open(DATA_DIR / "students-public.json", "w", encoding="utf-8") as f:
-        json.dump({"podium": podium_public, "stats": stats}, f, ensure_ascii=False, indent=2)
+        json.dump({"podiums": podiums, "stats": stats}, f, ensure_ascii=False, indent=2)
 
     # manifest.json
     manifest = {

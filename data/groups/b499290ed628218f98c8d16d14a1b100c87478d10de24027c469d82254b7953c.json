@@ -1,7 +1,10 @@
 {
   "name": "4 TECHNO 3",
   "level": "4e",
-  "studentCount": 10,
+  "cycle": "cycle4",
+  "studentCount": 28,
+  "scoredCount": 0,
+  "missingCount": 28,
   "certifiableCount": 0,
   "averagePix": 0,
   "parcoursCodes": {
@@ -16,6 +19,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -66,6 +70,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -116,6 +121,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -166,6 +172,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -216,6 +223,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -266,6 +274,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -316,6 +325,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -366,6 +376,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -416,6 +427,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -466,6 +478,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -507,6 +520,258 @@
           "palier": 3
         }
       ]
+    },
+    {
+      "id": "ayala_donna",
+      "name": "AYALA Donna",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "bayant_ethan",
+      "name": "BAYANT Ethan",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "bezandry_tristan_bradley",
+      "name": "BEZANDRY Tristan Bradley",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "bourret_mathieu_noah",
+      "name": "BOURRET Mathieu Noah",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "bressot_florian_amedee",
+      "name": "BRESSOT Florian Amédée",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "chan_hor_bien_soa_dylane",
+      "name": "CHAN HOR BIEN Soa Dylane",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "daniel_zoza_farzanah",
+      "name": "DANIEL Zoza Farzanah",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "demigne_margaux_capucine_aimee",
+      "name": "DEMIGNE Margaux Capucine Aimée",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "di_sangro_yasri_izais_leo",
+      "name": "DI SANGRO Yasri Izaïs Léo",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "dupuis_edgard_pierre_denis",
+      "name": "DUPUIS Edgard Pierre Denis",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fomba_louis_clement",
+      "name": "FOMBA Louis Clément",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "gbetnkom_cesaire_sylan",
+      "name": "GBETNKOM Cesaire Sylan",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "grand_marin_gaetan_camille",
+      "name": "GRAND Marin Gaëtan Camille",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "houmadi_fitahiana_elisah",
+      "name": "HOUMADI Fitahiana Elisah",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "issoufaly_djivan_zayane",
+      "name": "ISSOUFALY DJIVAN Zayane",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "mosa_ndiaye_anjarameva_moana_laurieann",
+      "name": "MOSA NDIAYE Anjarameva Moana Laurieann",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "moungali_beniriko_leopold_fernand_beniriko",
+      "name": "MOUNGALI BENIRIKO Léopold Fernand Beniriko",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "shan_jia_ai",
+      "name": "SHAN Jia Ai",
+      "classe": "4M6",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

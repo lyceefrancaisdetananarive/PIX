@@ -1,9 +1,12 @@
 {
   "name": "3M4 SVT",
   "level": "3e",
-  "studentCount": 24,
+  "cycle": "cycle4",
+  "studentCount": 36,
+  "scoredCount": 11,
+  "missingCount": 25,
   "certifiableCount": 9,
-  "averagePix": 65,
+  "averagePix": 142,
   "parcoursCodes": {
     "Cybersécurité - Cycle 4 (MAJ 2025)": "YTLYRX138",
     "EMI - cycle 4": "VGBDZF671",
@@ -154,7 +157,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "randriamahazo_rohan",
@@ -258,7 +262,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:26:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "ramaharobandro_samuel_iary",
@@ -362,7 +367,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:34:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rasolofo_rakotondrainibe_soaniriako_landisoarojo",
@@ -466,7 +472,8 @@
         }
       },
       "lastUpdate": "2026-02-10T08:18:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "ramamonjisoa_theo_nirintsoa",
@@ -570,7 +577,8 @@
         }
       },
       "lastUpdate": "2026-02-10T08:32:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "chanming_jade",
@@ -674,7 +682,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:10:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rasolofonjatovo_maria_soanala",
@@ -809,7 +818,8 @@
           "maitrise": 0.74,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "hugot_adam_antoine_aime",
@@ -913,7 +923,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:33:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "rabemanantsoa_nathan_artiana",
@@ -1017,7 +1028,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:31:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "radert_sacha_hasambarana",
@@ -1121,7 +1133,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:32:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "ramarson_fanilo_tsitohaina",
@@ -1225,7 +1238,8 @@
         }
       },
       "lastUpdate": "2026-03-31T09:32:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "badouraly_zahra",
@@ -1235,6 +1249,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1315,6 +1330,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1385,6 +1401,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1445,6 +1462,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1515,6 +1533,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1595,6 +1614,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1675,6 +1695,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1745,6 +1766,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1815,6 +1837,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1895,6 +1918,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1975,6 +1999,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -2045,6 +2070,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -2125,6 +2151,7 @@
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
@@ -2196,6 +2223,174 @@
           "palier": 0
         }
       ]
+    },
+    {
+      "id": "dimbiniaina_soatiamihanta_lemarie",
+      "name": "DIMBINIAINA Soatiamihanta Lemarie",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "djiva_shazana_fatema",
+      "name": "DJIVA Shazana Fatema",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fabriano_jeffrey_mario",
+      "name": "FABRIANO Jeffrey Mario",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hassim_ylias_mathias",
+      "name": "HASSIM Ylias Mathias",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hoareau_mathurin_christiano_mandresy",
+      "name": "HOAREAU Mathurin Christiano Mandresy",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "jakoba_caroline_suzy",
+      "name": "JAKOBA Caroline Suzy",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "leung_poui_fong_lana_loann",
+      "name": "LEUNG POUI FONG Lana Loann",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "liu_yuexin_maluna",
+      "name": "LIU Yuexin Maluna",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "malde_kara_dylan_nilene",
+      "name": "MALDE KARA Dylan Nilène",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rabibisoa_lohan_faly",
+      "name": "RABIBISOA Lohan Faly",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rasolofonjatovo_maria_soanala",
+      "name": "RASOLOFONJATOVO Maria Soanala",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razanamalala_jemilah_francine_safosy",
+      "name": "RAZANAMALALA Jemilah Francine Safosy",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }

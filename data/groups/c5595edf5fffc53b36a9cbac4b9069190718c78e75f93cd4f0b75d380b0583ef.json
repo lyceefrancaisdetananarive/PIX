@@ -1,9 +1,12 @@
 {
   "name": "3M7",
   "level": "3e",
+  "cycle": "cycle4",
   "studentCount": 12,
+  "scoredCount": 10,
+  "missingCount": 2,
   "certifiableCount": 7,
-  "averagePix": 134,
+  "averagePix": 161,
   "parcoursCodes": {},
   "students": [
     {
@@ -108,7 +111,8 @@
         }
       },
       "lastUpdate": "2026-03-31T06:59:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "goulamaly_alan",
@@ -212,7 +216,8 @@
         }
       },
       "lastUpdate": "2025-12-15T08:27:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "andriamifidy_ratanisoa_miahy",
@@ -316,7 +321,8 @@
         }
       },
       "lastUpdate": "2025-12-03T15:36:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "kieffer_peterson_zinder",
@@ -420,7 +426,8 @@
         }
       },
       "lastUpdate": "2025-12-02T18:33:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "suire_oriane",
@@ -524,7 +531,8 @@
         }
       },
       "lastUpdate": "2026-04-03T10:06:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "pandjou_mohamed_raza",
@@ -628,7 +636,8 @@
         }
       },
       "lastUpdate": "2025-12-02T15:58:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "le_bras_timothe_tojo",
@@ -732,7 +741,8 @@
         }
       },
       "lastUpdate": "2026-03-31T06:58:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "gizy_arnaud_mathieu",
@@ -836,7 +846,8 @@
         }
       },
       "lastUpdate": "2025-12-04T13:06:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "bakar_maria",
@@ -940,7 +951,8 @@
         }
       },
       "lastUpdate": "2025-12-03T08:04:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "le_groumellec_paula_paul",
@@ -1044,7 +1056,8 @@
         }
       },
       "lastUpdate": "2025-12-12T08:05:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "neryah_assly",
@@ -1148,7 +1161,8 @@
         }
       },
       "lastUpdate": "2025-12-05T13:46:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     },
     {
       "id": "thabet_hedi",
@@ -1252,7 +1266,8 @@
         }
       },
       "lastUpdate": "2026-03-05T17:27:00",
-      "parcours": []
+      "parcours": [],
+      "status": "renseigne"
     }
   ]
 }

@@ -148,7 +148,7 @@ function renderGroupCard(group) {
     ? Math.round((group.certifiableCount / group.studentCount) * 100)
     : 0;
 
-  const levelLabel = { "3e": "3ème", "4e": "4ème", "5e": "5ème", "6e": "6ème" }[group.level] || "";
+  const levelLabel = { "6e": "6e", "5e": "5e", "4e": "4e", "3e": "3e", "2nde": "2", "1e": "1", "tale": "T" }[group.level] || "";
   const isMine = teacherGroups.some((g) => g.hash === group.hash);
 
   return `

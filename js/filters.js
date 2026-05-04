@@ -9,9 +9,10 @@ export function applyFilters(students, { search = "", sort = "pix-desc", cert = 
 
   let out = students.filter((s) => {
     if (q && !normalize(s.name).includes(normalize(q))) return false;
+    const status = s.status || (s.pix > 0 ? "renseigne" : "partiel");
     if (cert === "certifiable" && !s.certifiable) return false;
-    if (cert === "not-certifiable" && (s.certifiable || s.pix === 0)) return false;
-    if (cert === "no-data" && s.pix > 0) return false;
+    if (cert === "not-certifiable" && (s.certifiable || status === "non_renseigne")) return false;
+    if (cert === "no-data" && status !== "non_renseigne") return false;
     return true;
   });
 

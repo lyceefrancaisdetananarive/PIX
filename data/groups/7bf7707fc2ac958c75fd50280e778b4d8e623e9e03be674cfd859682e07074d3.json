@@ -1,0 +1,955 @@
+{
+  "name": "1G7",
+  "level": "1e",
+  "cycle": "lycee",
+  "studentCount": 34,
+  "scoredCount": 0,
+  "missingCount": 34,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 1ère": "PUVFYQ847"
+  },
+  "students": [
+    {
+      "id": "fidahoussene_hirdjee_ayaana",
+      "name": "FIDAHOUSSENE HIRDJEE Ayaana",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.74,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "goulamhoussen_mathias",
+      "name": "Goulamhoussen Mathias",
+      "classe": "",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-27T21:16:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-10-27T21:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "hoossen_bapikee_rania",
+      "name": "HOOSSEN BAPIKEE Rania",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T17:28:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-11-02T17:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.81,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "houssenbay_maria_mubaraka",
+      "name": "HOUSSENBAY Maria Mubaraka",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-27T21:35:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-10-27T21:35:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.71,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "hugot_oscar_claude_joshua",
+      "name": "HUGOT Oscar Claude Joshua",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.75,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "lindecker_manana_nirina_mariane",
+      "name": "LINDECKER Manana Nirina Mariane",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-23T21:50:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-10-23T21:50:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "mahamodraza_ines",
+      "name": "MAHAMODRAZA Ines",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T17:44:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-11-03T17:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.9,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "multon_anaelle_maeva",
+      "name": "MULTON Anaëlle Maëva",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T21:13:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-11-03T21:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.9,
+          "palier": 3
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-11-03T21:01:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.89,
+          "palier": 3
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-11-03T20:02:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "orsot_dessi_amelie_lea_kissi",
+      "name": "ORSOT-DESSI Amélie Léa Kissi",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-30T19:44:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-10-30T19:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rakotoambinina_andriamahefanirina_zafimampionona",
+      "name": "RAKOTOAMBININA Andriamahefanirina Zafimampionona",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T17:34:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-11-03T17:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.85,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "razafindrabe_teddy_emmanuel_ambinintsoa",
+      "name": "RAZAFINDRABE Teddy Emmanuel Ambinintsoa",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.32,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "regnault_de_la_mothe_eva",
+      "name": "REGNAULT DE LA MOTHE Eva",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.39,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "arifhoussen_sajid",
+      "name": "ARIFHOUSSEN Sajid",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "christian_zoza_nazia",
+      "name": "CHRISTIAN Zoza Nazia",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "dupuis_annouck_marie_claudine",
+      "name": "DUPUIS Annouck Marie Claudine",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "goulamhoussen_moufazal_mathias",
+      "name": "GOULAMHOUSSEN Moufazal Mathias",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "herimanana_mevasandry_keegan",
+      "name": "HERIMANANA Mevasandry Keegan",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hugot_oscar_claude_joshua",
+      "name": "HUGOT Oscar Claude Joshua",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "kebe_calzadilla_awa_carmen",
+      "name": "KEBE CALZADILLA Awa Carmen",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "kolo_lexane",
+      "name": "KOLO Lexane",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lapeyronie_charlotte_sarah_chloe_mahalia",
+      "name": "LAPEYRONIE Charlotte Sarah Chloé Mahalia",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lapeyronie_louise_pascale_mathilde_sariaka",
+      "name": "LAPEYRONIE Louise Pascale Mathilde Sariaka",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "leveau_pierre_louis",
+      "name": "LEVEAU Pierre Louis",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lindecker_manana_nirina_mariane",
+      "name": "LINDECKER Manana Nirina Mariane",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "multon_anaelle_maeva",
+      "name": "MULTON Anaëlle Maëva",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "njatonilaina_rovaniaina",
+      "name": "NJATONILAINA Rovaniaina",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "orsot_dessi_amelie_lea_kissi",
+      "name": "ORSOT-DESSI Amélie Léa Kissi",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoambinina_andriamahefanirina_zafimampionona",
+      "name": "RAKOTOAMBININA Andriamahefanirina Zafimampionona",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramamonjisoa_enzo_niriniaina",
+      "name": "RAMAMONJISOA Enzo Niriniaina",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randriamiarisoa_maminiaina_tsanta",
+      "name": "RANDRIAMIARISOA Maminiaina Tsanta",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafindrabe_teddy_emmanuel_ambinintsoa",
+      "name": "RAZAFINDRABE Teddy Emmanuel Ambinintsoa",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rebiere_manon_ando",
+      "name": "REBIERE Manon Ando",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "santini_mirindra_matthieu",
+      "name": "SANTINI Mirindra Matthieu",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "vikash_jeet",
+      "name": "VIKASH Jeet",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

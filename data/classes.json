@@ -1,214 +1,724 @@
 {
   "groups": {
+    "8e284758e375c8d6022caead1bc67ab5e889701dd5ce9dbb13e71ba12b101f03": {
+      "name": "6M1",
+      "level": "6e",
+      "cycle": "cycle3",
+      "studentCount": 22,
+      "scoredCount": 0,
+      "missingCount": 22,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "e5571c8af72b91933c52c111b891b05c85ce4424e24b934ef46c71eea3bdb36a": {
+      "name": "6M2",
+      "level": "6e",
+      "cycle": "cycle3",
+      "studentCount": 24,
+      "scoredCount": 0,
+      "missingCount": 24,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "acccc6e3a3107606075cf3f644efc1a421759ccda63721c9f1b451c7fd86416e": {
+      "name": "6M3",
+      "level": "6e",
+      "cycle": "cycle3",
+      "studentCount": 23,
+      "scoredCount": 0,
+      "missingCount": 23,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "599550411ddfc13b8da0932039fb4811ef19e0c7fcf22a9a71fa68e285cb7228": {
+      "name": "6M4",
+      "level": "6e",
+      "cycle": "cycle3",
+      "studentCount": 22,
+      "scoredCount": 0,
+      "missingCount": 22,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "4a0c45fbe86461cb11dd7e6bd90b33918a4db6fef3a6e17c07e578740feec429": {
+      "name": "6M5",
+      "level": "6e",
+      "cycle": "cycle3",
+      "studentCount": 24,
+      "scoredCount": 0,
+      "missingCount": 24,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "b094a16fa287819688438bd058802a566e42879b128ddb77791a1812e5327ed5": {
+      "name": "6M6",
+      "level": "6e",
+      "cycle": "cycle3",
+      "studentCount": 24,
+      "scoredCount": 0,
+      "missingCount": 24,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "0c21e780658ddc0e487c61fb424244db69d7b8fc23bd0ee9f4e1c5f8a7a8c4b5": {
+      "name": "6M7",
+      "level": "6e",
+      "cycle": "cycle3",
+      "studentCount": 23,
+      "scoredCount": 0,
+      "missingCount": 23,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
     "4b1323df287e7912f1495556fe52f422b5e5e80459de8867e8cc2ce6407c21e6": {
       "name": "5M1 SVT",
       "level": "5e",
-      "studentCount": 27,
+      "cycle": "cycle4",
+      "studentCount": 43,
+      "scoredCount": 27,
+      "missingCount": 16,
       "certifiableCount": 21,
       "averagePix": 128
     },
     "42566bebf7acabb1701120c4b6f4f735e873b2e7f3d289ef99fa9c7e43432d4d": {
       "name": "5M2 TECHNO",
       "level": "5e",
-      "studentCount": 14,
+      "cycle": "cycle4",
+      "studentCount": 26,
+      "scoredCount": 14,
+      "missingCount": 12,
       "certifiableCount": 13,
       "averagePix": 146
     },
     "9f2018dafe5dd5ec24260cca66b9962eafad2c1c8789e744ca5e170a9c886a82": {
       "name": "5M3 SVT",
       "level": "5e",
-      "studentCount": 14,
+      "cycle": "cycle4",
+      "studentCount": 25,
+      "scoredCount": 14,
+      "missingCount": 11,
       "certifiableCount": 10,
       "averagePix": 141
     },
     "941ba66b7c5f128d5a7c64a68792387883e9942805e386247d411667450f1124": {
       "name": "5M4 TECHNO",
       "level": "5e",
-      "studentCount": 15,
+      "cycle": "cycle4",
+      "studentCount": 28,
+      "scoredCount": 0,
+      "missingCount": 28,
       "certifiableCount": 0,
       "averagePix": 0
     },
     "b0f9dff95286ec89b885a4aa3d9b4967f55f48452c1be04a1524a04cd9927152": {
       "name": "5M5 SVT",
       "level": "5e",
-      "studentCount": 15,
+      "cycle": "cycle4",
+      "studentCount": 24,
+      "scoredCount": 15,
+      "missingCount": 9,
       "certifiableCount": 14,
       "averagePix": 121
     },
     "f653e72709d3d33ba9261aa98559e997ef26469a2aff2621ee6096164e6dc2c9": {
       "name": "5M6 TECHNO",
       "level": "5e",
-      "studentCount": 9,
+      "cycle": "cycle4",
+      "studentCount": 26,
+      "scoredCount": 0,
+      "missingCount": 26,
       "certifiableCount": 0,
       "averagePix": 0
     },
     "6c4f3e0c9826314a32584c0a802465d43f32d78b486d32827a01156d446e89ca": {
       "name": "5SVT1",
       "level": "5e",
-      "studentCount": 16,
+      "cycle": "cycle4",
+      "studentCount": 26,
+      "scoredCount": 16,
+      "missingCount": 10,
       "certifiableCount": 15,
       "averagePix": 161
     },
     "c6d6ef4b7208b364be4e41b7b198fbc7b66ec0dc2db75d9b7d301c58fd4d7729": {
       "name": "5 TECHNO 1",
       "level": "5e",
-      "studentCount": 18,
+      "cycle": "cycle4",
+      "studentCount": 29,
+      "scoredCount": 17,
+      "missingCount": 12,
       "certifiableCount": 16,
-      "averagePix": 121
+      "averagePix": 128
     },
     "c6f204a6593e00c7f875ac9da3964f7e36c3dc9e65257476192093c933d995d1": {
       "name": "5 TECHNO 2",
       "level": "5e",
-      "studentCount": 19,
+      "cycle": "cycle4",
+      "studentCount": 28,
+      "scoredCount": 16,
+      "missingCount": 12,
       "certifiableCount": 12,
-      "averagePix": 95
+      "averagePix": 113
     },
     "7fe4869528e243e2f4d8a9d200ed9c2b813b269c7f36c24ced368d87ef3c1770": {
       "name": "5M7 P.1",
       "level": "5e",
-      "studentCount": 14,
+      "cycle": "cycle4",
+      "studentCount": 21,
+      "scoredCount": 13,
+      "missingCount": 8,
       "certifiableCount": 10,
-      "averagePix": 117
+      "averagePix": 126
     },
     "6b1caedec53930d6bc69d0a6159640af7833518f15747170e7ee4df58a04e85b": {
       "name": "5M7 P.2",
       "level": "5e",
-      "studentCount": 12,
+      "cycle": "cycle4",
+      "studentCount": 20,
+      "scoredCount": 12,
+      "missingCount": 8,
       "certifiableCount": 12,
       "averagePix": 176
     },
     "0efff2adfb5a056028efb820a7b75d9ba981b9c38322a10bc244c6bca2dca2ad": {
       "name": "4M1 SVT",
       "level": "4e",
-      "studentCount": 17,
+      "cycle": "cycle4",
+      "studentCount": 30,
+      "scoredCount": 0,
+      "missingCount": 30,
       "certifiableCount": 0,
       "averagePix": 0
     },
     "ab5f3ff893b5bd86349c9175e45ae41d3f9f31dad63e9332756ff06a12e96d14": {
       "name": "4M2 TECHNO",
       "level": "4e",
-      "studentCount": 13,
+      "cycle": "cycle4",
+      "studentCount": 24,
+      "scoredCount": 0,
+      "missingCount": 24,
       "certifiableCount": 0,
       "averagePix": 0
     },
     "8b50c43171872510bbe939a3ea2cc380efe24c54ad76feb16c0f7b3541d05779": {
       "name": "4M3 SVT",
       "level": "4e",
-      "studentCount": 16,
+      "cycle": "cycle4",
+      "studentCount": 32,
+      "scoredCount": 12,
+      "missingCount": 20,
       "certifiableCount": 6,
-      "averagePix": 66
+      "averagePix": 88
     },
     "47e00135f553ee77fe7f0cdcfd01ef09d1ddc3b5ac95e6a99a26823192366937": {
       "name": "4M4 TECHNO",
       "level": "4e",
-      "studentCount": 23,
+      "cycle": "cycle4",
+      "studentCount": 34,
+      "scoredCount": 11,
+      "missingCount": 23,
       "certifiableCount": 5,
-      "averagePix": 55
+      "averagePix": 116
     },
     "589a264cb28d5728c12f06d5bae797ef94033de6e7210b420535f3911ae46068": {
       "name": "4M5 SVT",
       "level": "4e",
-      "studentCount": 7,
+      "cycle": "cycle4",
+      "studentCount": 25,
+      "scoredCount": 0,
+      "missingCount": 25,
       "certifiableCount": 0,
       "averagePix": 0
     },
     "673c5354cba2cfe823fd5fa9d52b1584b5b40b04ac1ef47c5ab7197f896ede78": {
       "name": "4M6 TECHNO",
       "level": "4e",
-      "studentCount": 10,
+      "cycle": "cycle4",
+      "studentCount": 22,
+      "scoredCount": 0,
+      "missingCount": 22,
       "certifiableCount": 0,
       "averagePix": 0
     },
     "b8d024eb3a109f803557be4df0830b0df645298ddf6c39ec3d64e22a2b5a1669": {
       "name": "4 TECHNO 1",
       "level": "4e",
-      "studentCount": 11,
+      "cycle": "cycle4",
+      "studentCount": 28,
+      "scoredCount": 0,
+      "missingCount": 28,
       "certifiableCount": 0,
       "averagePix": 0
     },
     "ea331bf9d4442754ff7b9da860feb41994b5b4edb23fcead740acd01549f5692": {
       "name": "4 TECHNO 2",
       "level": "4e",
-      "studentCount": 16,
+      "cycle": "cycle4",
+      "studentCount": 27,
+      "scoredCount": 15,
+      "missingCount": 12,
       "certifiableCount": 2,
-      "averagePix": 53
+      "averagePix": 56
     },
     "b499290ed628218f98c8d16d14a1b100c87478d10de24027c469d82254b7953c": {
       "name": "4 TECHNO 3",
       "level": "4e",
-      "studentCount": 10,
+      "cycle": "cycle4",
+      "studentCount": 28,
+      "scoredCount": 0,
+      "missingCount": 28,
       "certifiableCount": 0,
       "averagePix": 0
     },
     "19db20c9c06b3e94ac99370bf364f4a57bc1105c2be1b426118f129efa69de23": {
       "name": "4M7 P.1",
       "level": "4e",
-      "studentCount": 12,
+      "cycle": "cycle4",
+      "studentCount": 25,
+      "scoredCount": 12,
+      "missingCount": 13,
       "certifiableCount": 1,
       "averagePix": 59
     },
     "40a649a6a34bfbf4379665f0d0bbc0030f00d1111071b27562d8ff480cd5aa00": {
       "name": "4M7 P.2",
       "level": "4e",
-      "studentCount": 10,
+      "cycle": "cycle4",
+      "studentCount": 23,
+      "scoredCount": 0,
+      "missingCount": 23,
       "certifiableCount": 0,
       "averagePix": 0
     },
     "edd39aa1f6c769328fae8b64d57525e610032fd12b987fdbb54b8045543a0211": {
       "name": "3M1",
       "level": "3e",
+      "cycle": "cycle4",
       "studentCount": 27,
+      "scoredCount": 27,
+      "missingCount": 0,
       "certifiableCount": 22,
       "averagePix": 175
     },
     "fe99bd1eefc9d83bbd599ec5a1de94a794a28413bcc1d5a6c7c3dff1b7e9f7cb": {
       "name": "3M2",
       "level": "3e",
+      "cycle": "cycle4",
       "studentCount": 7,
+      "scoredCount": 7,
+      "missingCount": 0,
       "certifiableCount": 6,
       "averagePix": 184
     },
     "315e8fd95c2f11ae2aea87e5665f76d57280c3bca2ab065f333b6d08eb6f1d10": {
       "name": "3M3",
       "level": "3e",
+      "cycle": "cycle4",
       "studentCount": 5,
+      "scoredCount": 5,
+      "missingCount": 0,
       "certifiableCount": 4,
       "averagePix": 101
     },
     "97ba29238fce58fc306d57d3dec02bc32dec651bef76054980f4cf3d68fe5ddb": {
       "name": "3M4 SVT",
       "level": "3e",
-      "studentCount": 24,
+      "cycle": "cycle4",
+      "studentCount": 36,
+      "scoredCount": 11,
+      "missingCount": 25,
       "certifiableCount": 9,
-      "averagePix": 65
+      "averagePix": 142
     },
     "e9ac2fb40b21f4a39a59730cb5fe231b40bc8b2f74c5f959537fceffbc28d434": {
       "name": "3M5",
       "level": "3e",
-      "studentCount": 23,
+      "cycle": "cycle4",
+      "studentCount": 28,
+      "scoredCount": 23,
+      "missingCount": 5,
       "certifiableCount": 15,
       "averagePix": 161
     },
     "175cde66dad0f9de827657ef2a344a6fda3edfecc19721a835f4d60a85a4a3c3": {
       "name": "3M6",
       "level": "3e",
+      "cycle": "cycle4",
       "studentCount": 5,
+      "scoredCount": 5,
+      "missingCount": 0,
       "certifiableCount": 4,
       "averagePix": 186
     },
     "c5595edf5fffc53b36a9cbac4b9069190718c78e75f93cd4f0b75d380b0583ef": {
       "name": "3M7",
       "level": "3e",
+      "cycle": "cycle4",
       "studentCount": 12,
+      "scoredCount": 10,
+      "missingCount": 2,
       "certifiableCount": 7,
-      "averagePix": 134
+      "averagePix": 161
     },
     "d7cf4e8ee9fcef0077c7ffae81d78e7a5ba26ba0b066b4bd956cb4c7d3736fd4": {
       "name": "3 TECHNO 2",
       "level": "3e",
-      "studentCount": 18,
+      "cycle": "cycle4",
+      "studentCount": 28,
+      "scoredCount": 18,
+      "missingCount": 10,
       "certifiableCount": 17,
       "averagePix": 153
+    },
+    "c00cdf7c2a0c9f33702c75696678bd66f03c2d215de7b9f5a72d628972290fd2": {
+      "name": "2DE1",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 32,
+      "scoredCount": 0,
+      "missingCount": 32,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "60583739eb5cbaa07ffff14e12d9616a22f65f7947950620128ba9ef67cd2bdc": {
+      "name": "2DE2",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 46,
+      "scoredCount": 0,
+      "missingCount": 46,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "d24558c980ff44ee0b2a587e1a085f99ff9af06ca3a73954ad1d94654b809be9": {
+      "name": "2DE3",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 38,
+      "scoredCount": 0,
+      "missingCount": 38,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "6677868c7cf7f4ecb44c15a41efa2a5d2a1381f1d46d61fcef2efdf50080a655": {
+      "name": "2DE4",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 32,
+      "scoredCount": 0,
+      "missingCount": 32,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "e966b7eace82d3784f273b1279d18620ffe7d6258e21c2ea10f61bd504f72191": {
+      "name": "2DE5",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 30,
+      "scoredCount": 0,
+      "missingCount": 30,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "82900f07c6acb6e8cdf74c13beb16b7cf929bfdb5357d31a55c63655532ba24e": {
+      "name": "2DE6",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 33,
+      "scoredCount": 0,
+      "missingCount": 33,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "37373745b117520858cf3fa4078a7c3024b71c96c862b0ee842a34a6755ac516": {
+      "name": "2DE7",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 35,
+      "scoredCount": 0,
+      "missingCount": 35,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "b5079e3aa6608ed53ca23a2da7804912908ebce2aa7abb31fbc39d7a5dbb30f9": {
+      "name": "2DE8",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 33,
+      "scoredCount": 0,
+      "missingCount": 33,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "7d25da26de30f0c74da3c1300636088c9ed6c7865ece4a611d239a73ef999c36": {
+      "name": "2DE9",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 31,
+      "scoredCount": 0,
+      "missingCount": 31,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "6723598ceda1f26f2031670089d57ed9c7f57fdfa7393106a5c045fd05d403a8": {
+      "name": "2PRO1",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 27,
+      "scoredCount": 0,
+      "missingCount": 27,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "9d78a2a70394f2b4c70d197064fd54cdc3daf50421821bfed9f4eb62ca5dfa85": {
+      "name": "2PRO2",
+      "level": "2nde",
+      "cycle": "lycee",
+      "studentCount": 27,
+      "scoredCount": 0,
+      "missingCount": 27,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "8e66390792b30692e51e2a8c8cc72d201cf528592c72df8accfe2d9459a4eaee": {
+      "name": "1G1",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 42,
+      "scoredCount": 0,
+      "missingCount": 42,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "081bafe806ffb3fc7288228758b6e80a0c146c7ffb26b74be867f9a8d710440d": {
+      "name": "1G2",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 47,
+      "scoredCount": 0,
+      "missingCount": 47,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "bcfad5a71338f2339c95265c2e626d61a93367d13d81c466193fd73578af9893": {
+      "name": "1G3",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 39,
+      "scoredCount": 0,
+      "missingCount": 39,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "6684ba26f2b0cbc9895421a1df3184cc6dfd308280421a1bd4ef139c5338a1f4": {
+      "name": "1G4",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 35,
+      "scoredCount": 0,
+      "missingCount": 35,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "2a24a5572c941029447e8f8557be52ae12bf4cc723229f89346bd71c91a24017": {
+      "name": "1G5",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 37,
+      "scoredCount": 0,
+      "missingCount": 37,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "27b8f1e8bfa053f4c7f8557fbb4b9b2fd6f3941895398ae63ebba83a07dc7fe5": {
+      "name": "1G6",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 43,
+      "scoredCount": 0,
+      "missingCount": 43,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "7bf7707fc2ac958c75fd50280e778b4d8e623e9e03be674cfd859682e07074d3": {
+      "name": "1G7",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 34,
+      "scoredCount": 0,
+      "missingCount": 34,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "5f6d7fb3fc0225716aa25c0976ae7f623c14f5d1e0aa344b3310d3ba4fa5a754": {
+      "name": "1G8",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 38,
+      "scoredCount": 0,
+      "missingCount": 38,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "51dba5133a3bbd9873e7a1a1970e424e1368ea21c69d0722111f7bf522024f24": {
+      "name": "1STMG1",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 40,
+      "scoredCount": 0,
+      "missingCount": 40,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "f9e7aab8226a395a146f51526a6e20cb259762a7c9ce86c6ae7fbc2866113658": {
+      "name": "1PRO AGORA",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 32,
+      "scoredCount": 0,
+      "missingCount": 32,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "f0a6b382019ace966699def8fac85c322c160eb2c1e0a8bfb3434ebd59e0f6ef": {
+      "name": "1PRO VENTE",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 21,
+      "scoredCount": 0,
+      "missingCount": 21,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "7db43103e3953e16b9f8789de5529170079444a31d9babb22bbf31f4dcf88425": {
+      "name": "1PRO COMMUN",
+      "level": "1e",
+      "cycle": "lycee",
+      "studentCount": 35,
+      "scoredCount": 0,
+      "missingCount": 35,
+      "certifiableCount": 0,
+      "averagePix": 0
+    },
+    "ed2e0ac17719d8748555ffb1cefa1cefc9ff158111aa6521497ec9a05a689697": {
+      "name": "TG1",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 38,
+      "scoredCount": 14,
+      "missingCount": 24,
+      "certifiableCount": 14,
+      "averagePix": 296
+    },
+    "bbbac925d70eb3ec5ab60ab14b588ae85a6e0641a83f0106581efd397692cdd5": {
+      "name": "TG2",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 38,
+      "scoredCount": 15,
+      "missingCount": 23,
+      "certifiableCount": 15,
+      "averagePix": 291
+    },
+    "a204d4ad1de3e9b07751899e5cf4d4a3017328c41372c70fdcc8db9587bb38fb": {
+      "name": "TG3",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 37,
+      "scoredCount": 12,
+      "missingCount": 25,
+      "certifiableCount": 12,
+      "averagePix": 300
+    },
+    "56120d5f66148c9fd7b74a6757c305ac6220e10800c5d10fd49f10681c0e7b69": {
+      "name": "TG4",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 40,
+      "scoredCount": 16,
+      "missingCount": 24,
+      "certifiableCount": 16,
+      "averagePix": 343
+    },
+    "8c4a7d7d3e04c2cb2cd4318a06d450ce1bc890c537142310fd939a49702bac08": {
+      "name": "TG5",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 46,
+      "scoredCount": 28,
+      "missingCount": 18,
+      "certifiableCount": 27,
+      "averagePix": 247
+    },
+    "d0cda4072c673328fc25b9e5a1de9238c9bc8433113e0b82c4c948f9638c958b": {
+      "name": "TG6",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 41,
+      "scoredCount": 18,
+      "missingCount": 23,
+      "certifiableCount": 18,
+      "averagePix": 343
+    },
+    "98b5b495e453d6c2cd36e7e812916bc5f3264045225cf685729065387a346897": {
+      "name": "TG7",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 39,
+      "scoredCount": 17,
+      "missingCount": 22,
+      "certifiableCount": 17,
+      "averagePix": 300
+    },
+    "78122e7292652c7394b2bdcdae8124a7d24b905a8290ae68c25598e58cc03e45": {
+      "name": "TG8",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 39,
+      "scoredCount": 12,
+      "missingCount": 27,
+      "certifiableCount": 12,
+      "averagePix": 313
+    },
+    "8eb6a764bc6f20a33477008670d0d4f5026ad1d95094790864e08923aef9d82a": {
+      "name": "TSTMG1",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 37,
+      "scoredCount": 15,
+      "missingCount": 22,
+      "certifiableCount": 13,
+      "averagePix": 228
+    },
+    "443b2598058f2b13c50eaf6819cf7e8721e95f4c55f157abd82d9d01638f2a51": {
+      "name": "TSTMG2",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 44,
+      "scoredCount": 22,
+      "missingCount": 22,
+      "certifiableCount": 22,
+      "averagePix": 276
+    },
+    "ab763ffcef90f2beb1b62174138e6f5236c6c5b992c3cff88e64235e7b50d554": {
+      "name": "TPRO AGORA",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 35,
+      "scoredCount": 18,
+      "missingCount": 17,
+      "certifiableCount": 18,
+      "averagePix": 313
+    },
+    "6f3c603b812d364f8d8732d7c3d32720f9e4affcd6a0e50e52c52a0c1fdeee26": {
+      "name": "TPRO VENTE",
+      "level": "tale",
+      "cycle": "lycee",
+      "studentCount": 16,
+      "scoredCount": 3,
+      "missingCount": 13,
+      "certifiableCount": 3,
+      "averagePix": 318
     }
   }
 }

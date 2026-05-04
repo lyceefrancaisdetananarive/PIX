@@ -1,0 +1,1177 @@
+{
+  "name": "1STMG1",
+  "level": "1e",
+  "cycle": "lycee",
+  "studentCount": 40,
+  "scoredCount": 0,
+  "missingCount": 40,
+  "certifiableCount": 0,
+  "averagePix": 0,
+  "parcoursCodes": {
+    "Parcours de rentrée 1ère": "NBHSLK966"
+  },
+  "students": [
+    {
+      "id": "andriamalala_tanjona_irina",
+      "name": "ANDRIAMALALA Tanjona Irina",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.28,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "belcastro_ilonah",
+      "name": "Belcastro Ilonah",
+      "classe": "",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-12T09:14:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-10-12T09:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 3
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-10-11T11:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "fock_ethan",
+      "name": "FOCK Ethan",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.37,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "goulamhoussen_rijsson",
+      "name": "GOULAMHOUSSEN Rijsson",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.78,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "houmadi_hamza",
+      "name": "HOUMADI Hamza",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.62,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "jeanjacques_muriella_christella",
+      "name": "JEANJACQUES Muriella Christella",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T21:41:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-11-03T21:41:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.66,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "mamodaly_yowan",
+      "name": "MAMODALY Yowan",
+      "classe": "1G2",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T22:21:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-11-02T22:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.71,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "pan_ka_wai_oceane",
+      "name": "PAN Ka Wai Océane",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.38,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ponin_manarina_assia_ezrah",
+      "name": "PONIN Manarina Assia Ezrah",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T20:11:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-11-03T20:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.73,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "roger_janice",
+      "name": "ROGER Janice",
+      "classe": "1STMG2",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T21:55:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-11-03T21:55:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "raharison_even",
+      "name": "Raharison Even",
+      "classe": "",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T16:52:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-11-03T16:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "ralaiavy_eric",
+      "name": "Ralaiavy Eric",
+      "classe": "",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-25T07:01:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-10-25T07:01:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.62,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rehanna_asheley",
+      "name": "Rehanna Asheley",
+      "classe": "",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-28T13:37:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-10-28T13:37:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.71,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "shania_abidaly",
+      "name": "Shania Abidaly",
+      "classe": "",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T23:21:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-11-02T23:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "tianjara_marie_rosana",
+      "name": "TIANJARA Marie Rosana",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.78,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "zopy_augustine_wendy",
+      "name": "ZOPY Augustine Wendy",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-26T18:44:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-10-26T18:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "abidaly_shania",
+      "name": "ABIDALY Shania",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "amiraly_arshan_ali",
+      "name": "AMIRALY Arshan Ali",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "andriamparany_fifaliana_robinson_pradel",
+      "name": "ANDRIAMPARANY Fifaliana Robinson Pradel",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "andriatsimisetra_arena_hasina",
+      "name": "ANDRIATSIMISETRA Arena Hasina",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "chauvin_ramoratiana_jemsolaine",
+      "name": "CHAUVIN Ramoratiana Jemsolaine",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "combe_radilofe_maya_domoina",
+      "name": "COMBE RADILOFE Maya Domoina",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hassanaly_asheley_rehanna",
+      "name": "HASSANALY Asheley Rehanna",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "jeanjacques_muriella_christella",
+      "name": "JEANJACQUES Muriella Christella",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "mamodaly_nehane",
+      "name": "MAMODALY Nehane",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ngitarson_juann_ilhan",
+      "name": "NGITARSON Juann Ilhan",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ponin_manarina_assia_ezrah",
+      "name": "PONIN Manarina Assia Ezrah",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "raharison_andriamanarivo_even_mandresy",
+      "name": "RAHARISON ANDRIAMANARIVO Even Mandresy",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajaonarivony_nolan_harilalaina",
+      "name": "RAJAONARIVONY Nolan Harilalaina",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajpar_goulamhoussen_maya",
+      "name": "RAJPAR GOULAMHOUSSEN Maya",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoniaina_dani_valisoa",
+      "name": "RAKOTONIAINA Dani Valisoa",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotorahalahy_mendrika_jemima_mahaimitia",
+      "name": "RAKOTORAHALAHY Mendrika Jemima Mahaimitia",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ralaiavy_andrinirina_eric",
+      "name": "RALAIAVY Andrinirina Eric",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramarovavy_sahy_ilonah_jededia",
+      "name": "RAMAROVAVY Sahy  Ilonah Jededia",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "randriamiarana_harena_kaliana",
+      "name": "RANDRIAMIARANA Harena Kaliana",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "safidy_roger_fernando_loic",
+      "name": "SAFIDY Roger Fernando Loïc",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "utshudiema_daniel_alexandre_mpinda",
+      "name": "UTSHUDIEMA Daniel Alexandre Mpinda",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "welmant_hilary_lauren",
+      "name": "WELMANT Hilary Lauren",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "zhang_zijie",
+      "name": "ZHANG Zijie",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "zofeno_joshua",
+      "name": "ZOFENO Joshua",
+      "classe": "1STMG1",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    }
+  ]
+}

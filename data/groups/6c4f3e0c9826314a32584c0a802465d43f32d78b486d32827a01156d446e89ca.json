@@ -1,7 +1,10 @@
 {
   "name": "5SVT1",
   "level": "5e",
-  "studentCount": 16,
+  "cycle": "cycle4",
+  "studentCount": 26,
+  "scoredCount": 16,
+  "missingCount": 10,
   "certifiableCount": 15,
   "averagePix": 161,
   "parcoursCodes": {
@@ -176,7 +179,8 @@
           "maitrise": 1.0,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "voca_leia_irina",
@@ -341,7 +345,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "gobert_matis_mahery",
@@ -506,7 +511,8 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "fidahoussene_keyane",
@@ -671,7 +677,8 @@
           "maitrise": 0.73,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "duriez_axel",
@@ -836,7 +843,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "aschish_keya",
@@ -1001,7 +1009,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "daniel_titouan_jean",
@@ -1166,7 +1175,8 @@
           "maitrise": 0.6,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "katchera_missam",
@@ -1331,7 +1341,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "hary_yonael_debora_abigail",
@@ -1496,7 +1507,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "bucard_cindy",
@@ -1661,7 +1673,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "ramanantsoa_thomas_ilo",
@@ -1826,7 +1839,8 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "goulamhoussen_koussay_kevin",
@@ -1991,7 +2005,8 @@
           "maitrise": 0.67,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "de_vathaire_thomas_johary",
@@ -2156,7 +2171,8 @@
           "maitrise": 0.93,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "arifhoussen_kiyan",
@@ -2321,7 +2337,8 @@
           "maitrise": 0.87,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "chan_wai_logan",
@@ -2486,7 +2503,8 @@
           "maitrise": 0.8,
           "palier": 2
         }
-      ]
+      ],
+      "status": "renseigne"
     },
     {
       "id": "henderson_rebecca_holitina",
@@ -2651,7 +2669,148 @@
           "maitrise": 0.0,
           "palier": 0
         }
-      ]
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "aschish_hariche_keya",
+      "name": "ASCHISH HARICHE Keya",
+      "classe": "5M3",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "daniel_titouan_jean",
+      "name": "DANIEL Titouan Jean",
+      "classe": "5M4",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "duriez_jean_malala_axel",
+      "name": "DURIEZ Jean Malala Axel",
+      "classe": "5M4",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fidahoussene_hirdjee_keyane",
+      "name": "FIDAHOUSSENE HIRDJEE Keyane",
+      "classe": "5M4",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "gobert_matis_mahery",
+      "name": "GOBERT Matis Mahery",
+      "classe": "5M3",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "hary_yonael_debora_abigail",
+      "name": "HARY Yonael Débora Abigaïl",
+      "classe": "5M3",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "henderson_rebecca_holitina",
+      "name": "HENDERSON Rebecca Holitina",
+      "classe": "5M4",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "katchera_nourmamod_missam_aly",
+      "name": "KATCHERA NOURMAMOD Missam Aly",
+      "classe": "5M4",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramanantsoa_thomas_ilo",
+      "name": "RAMANANTSOA Thomas Ilo",
+      "classe": "5M3",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "voca_leia_irina",
+      "name": "VOCA Leïa Irina",
+      "classe": "5M3",
+      "group": "5SVT1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
   ]
 }
