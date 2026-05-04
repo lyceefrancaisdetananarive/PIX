@@ -222,10 +222,75 @@
   transition: transform 0.4s var(--ease-spring), box-shadow 0.4s var(--ease-smooth);
 }
 .podium-col:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
   box-shadow:
-    0 24px 50px -16px rgba(0, 59, 115, 0.25),
+    0 28px 60px -16px rgba(0, 59, 115, 0.28),
     inset 0 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+/* Animation au hover de la colonne — propage à ses enfants */
+.podium-col:hover .podium-mini__first {
+  transform: translateY(-16px);
+  box-shadow:
+    0 16px 32px -8px rgba(255, 159, 0, 0.35),
+    inset 0 1px 0 rgba(255,255,255,0.95);
+}
+.podium-col:hover .podium-mini__crown {
+  animation: crownSwing 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.podium-col:hover .podium-mini__score {
+  box-shadow:
+    0 8px 18px -2px rgba(61, 104, 255, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.podium-col:hover .podium-mini__side {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px -6px rgba(0, 59, 115, 0.18);
+}
+.podium-col:hover .podium-col__title {
+  letter-spacing: 0.005em;
+}
+
+/* Effet shimmer doré sur Cycle 4 (featured) au hover */
+.podium-col--featured {
+  position: relative;
+  overflow: hidden;
+}
+.podium-col--featured::after {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0;
+  left: -100%;
+  width: 50%;
+  background: linear-gradient(
+    100deg,
+    transparent 30%,
+    rgba(255, 196, 0, 0.18) 50%,
+    transparent 70%
+  );
+  transition: left 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+}
+.podium-col--featured:hover::after { left: 130%; }
+
+/* Transitions plus fluides sur les éléments enfants */
+.podium-mini__first,
+.podium-mini__side,
+.podium-mini__score {
+  transition:
+    transform 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.podium-col__title {
+  transition: letter-spacing 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes crownSwing {
+  0%   { transform: rotate(0deg) scale(1); }
+  25%  { transform: rotate(-8deg) scale(1.1); }
+  50%  { transform: rotate(6deg) scale(1.08); }
+  75%  { transform: rotate(-3deg) scale(1.05); }
+  100% { transform: rotate(0deg) scale(1); }
 }
 .podium-col--featured {
   background:
