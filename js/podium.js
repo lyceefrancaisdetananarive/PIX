@@ -37,7 +37,7 @@ export function renderPodium(container, podium) {
 }
 
 function renderFirst(entry) {
-  const meta = [entry.classe, entry.group].filter(Boolean).join(" · ");
+  const meta = entry.classe || entry.group || "";
   return `
     <article class="podium-first glass-bevel" aria-label="1ère place">
       <div class="podium-first__halo" aria-hidden="true"></div>
@@ -61,7 +61,7 @@ function renderFirst(entry) {
 
 function renderSide(entry, position) {
   const data = MEDAL_DATA[entry.rank - 1] ?? MEDAL_DATA[entry.rank > 3 ? 2 : 0];
-  const meta = [entry.classe, entry.group].filter(Boolean).join(" · ");
+  const meta = entry.classe || entry.group || "";
   return `
     <article class="podium-side podium-side--${position} podium-side--${data.color} glass-bevel"
              aria-label="${data.label}">
