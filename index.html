@@ -83,36 +83,56 @@
         <p class="section-title__sub">Bravo aux meilleurs scores Pix dans chaque cycle pédagogique, toutes campagnes Collecte confondues.</p>
       </header>
 
-      <div class="podiums-grid" id="podiums-grid" aria-busy="true">
-        <article class="podium-col">
-          <header class="podium-col__head">
-            <span class="podium-col__title">Cycle 3</span>
-            <span class="podium-col__sub">6ème</span>
-          </header>
-          <div class="podium-mini" id="podium-cycle3">
-            <div class="loader"><div class="loader__spinner"></div></div>
-          </div>
-        </article>
+      <div class="podiums-stack" id="podiums-grid" aria-busy="true">
 
-        <article class="podium-col podium-col--featured">
-          <header class="podium-col__head">
-            <span class="podium-col__title">Cycle 4</span>
-            <span class="podium-col__sub">5e · 4e · 3e</span>
-          </header>
-          <div class="podium-mini" id="podium-cycle4">
-            <div class="loader"><div class="loader__spinner"></div></div>
-          </div>
-        </article>
+        <!-- Ligne COLLÈGE : Cycle 3 + Cycle 4 -->
+        <div class="podiums-row podiums-row--college" aria-labelledby="row-college">
+          <h3 class="podiums-row__title" id="row-college">
+            <svg class="icon" aria-hidden="true"><use href="#ph-graduation-cap"/></svg>
+            Collège
+          </h3>
+          <div class="podiums-row__grid podiums-row__grid--two">
+            <article class="podium-col">
+              <header class="podium-col__head">
+                <span class="podium-col__title">Cycle 3</span>
+                <span class="podium-col__sub">6ème</span>
+              </header>
+              <div class="podium-mini" id="podium-cycle3">
+                <div class="loader"><div class="loader__spinner"></div></div>
+              </div>
+            </article>
 
-        <article class="podium-col">
-          <header class="podium-col__head">
-            <span class="podium-col__title">Lycée</span>
-            <span class="podium-col__sub">2nde · 1ère · Term.</span>
-          </header>
-          <div class="podium-mini" id="podium-lycee">
-            <div class="loader"><div class="loader__spinner"></div></div>
+            <article class="podium-col podium-col--featured">
+              <header class="podium-col__head">
+                <span class="podium-col__title">Cycle 4</span>
+                <span class="podium-col__sub">5ème · 4ème · 3ème</span>
+              </header>
+              <div class="podium-mini" id="podium-cycle4">
+                <div class="loader"><div class="loader__spinner"></div></div>
+              </div>
+            </article>
           </div>
-        </article>
+        </div>
+
+        <!-- Ligne LYCÉE : centrée, plus large -->
+        <div class="podiums-row podiums-row--lycee" aria-labelledby="row-lycee">
+          <h3 class="podiums-row__title" id="row-lycee">
+            <svg class="icon" aria-hidden="true"><use href="#ph-trophy"/></svg>
+            Lycée
+          </h3>
+          <div class="podiums-row__grid podiums-row__grid--one">
+            <article class="podium-col podium-col--wide">
+              <header class="podium-col__head">
+                <span class="podium-col__title">Lycée</span>
+                <span class="podium-col__sub">2nde · 1ère · Terminale</span>
+              </header>
+              <div class="podium-mini" id="podium-lycee">
+                <div class="loader"><div class="loader__spinner"></div></div>
+              </div>
+            </article>
+          </div>
+        </div>
+
       </div>
 
       <p class="section-intro" id="global-stats" style="margin-top: var(--space-7); margin-bottom: 0;"></p>

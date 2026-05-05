@@ -91,14 +91,40 @@ export function renderPodiumMini(container, podium) {
   container.innerHTML = items.join("");
 }
 
+/**
+ * Raccourcit un nom complet pour affichage compact :
+ * "LEONG NANE Maëlys Heidi Hoye-Tsing" → "LEONG NANE Maëlys"
+ * "TSHINKENKE Sacha Muyaya" → "TSHINKENKE Sacha"
+ * Garde le nom de famille complet (tokens en MAJUSCULES) + premier prénom.
+ */
+function displayName(fullName) {
+  if (!fullName) return "";
+  const parts = String(fullName).trim().split(/\s+/);
+  const family = [];
+  const given = [];
+  for (const t of parts) {
+    // Considère un token comme partie du nom de famille s'il est en majuscules
+    // (sans accents) et si on n'a pas encore commencé les prénoms.
+    const stripped = t.normalize("NFD").replace(/[̀-ͯ]/g, "");
+    if (stripped === stripped.toUpperCase() && /[A-Z]/.test(stripped) && given.length === 0) {
+      family.push(t);
+    } else {
+      given.push(t);
+    }
+  }
+  if (family.length === 0) return fullName;
+  return given.length > 0 ? `${family.join(" ")} ${given[0]}` : family.join(" ");
+}
+
 function renderMiniFirst(entry) {
   const meta = entry.classe || entry.group || "";
+  const short = displayName(entry.name);
   return `
     <div class="podium-mini__first" aria-label="1ère place">
       <div class="podium-mini__crown" aria-hidden="true">
         <svg class="icon icon--xl"><use href="#ph-crown-simple"/></svg>
       </div>
-      <div class="podium-mini__name">${escapeHtml(entry.name)}</div>
+      <div class="podium-mini__name" title="${escapeHtml(entry.name)}">${escapeHtml(short)}</div>
       <div class="podium-mini__meta">${escapeHtml(meta)}</div>
       <div class="podium-mini__score">
         <span class="podium-mini__score-value">${entry.pix}</span>
@@ -112,12 +138,13 @@ function renderMiniFirst(entry) {
 function renderMiniRank(entry, rank) {
   const meta = entry.classe || entry.group || "";
   const data = MEDAL_DATA[rank - 1];
+  const short = displayName(entry.name);
   return `
     <div class="podium-mini__side podium-mini__side--${data.color}" aria-label="${data.label}">
       <div class="podium-mini__medal" aria-hidden="true">
         <svg class="icon icon--lg"><use href="#${data.icon}"/></svg>
       </div>
-      <div class="podium-mini__name podium-mini__name--side">${escapeHtml(entry.name)}</div>
+      <div class="podium-mini__name podium-mini__name--side" title="${escapeHtml(entry.name)}">${escapeHtml(short)}</div>
       <div class="podium-mini__meta">${escapeHtml(meta)}</div>
       <div class="podium-mini__score podium-mini__score--side">
         <span class="podium-mini__score-value">${entry.pix}</span>

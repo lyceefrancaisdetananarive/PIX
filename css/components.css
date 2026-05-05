@@ -192,20 +192,66 @@
  * 3 mini-podiums simultanés (Cycle 3 / Cycle 4 / Lycée)
  * ───────────────────────────────────────────────────────────── */
 
-.podiums-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.15fr 1fr;
-  gap: var(--space-5);
-  align-items: stretch;
+/* ─────────────────────────────────────────────────────────────
+ * Layout 2 lignes : Collège en haut, Lycée centré en bas
+ * ───────────────────────────────────────────────────────────── */
+.podiums-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
   margin: 0 auto;
   max-width: 1200px;
 }
-@media (max-width: 960px) {
-  .podiums-grid {
+
+.podiums-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.podiums-row__title {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  align-self: center;
+  margin: 0;
+  padding: 6px var(--space-4);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--lft-blue);
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: var(--radius-pill);
+  box-shadow: 0 4px 12px -4px rgba(0, 59, 115, 0.12);
+}
+.podiums-row--lycee .podiums-row__title { color: var(--lft-magenta); }
+
+.podiums-row__grid {
+  display: grid;
+  gap: var(--space-5);
+}
+.podiums-row__grid--two {
+  /* Cycle 3 + Cycle 4 : 1fr / 1.4fr (Cycle 4 plus large car featured) */
+  grid-template-columns: 1fr 1.35fr;
+}
+.podiums-row__grid--one {
+  /* Lycée centré : largeur max 720px */
+  grid-template-columns: minmax(0, 720px);
+  justify-content: center;
+}
+@media (max-width: 760px) {
+  .podiums-row__grid--two,
+  .podiums-row__grid--one {
     grid-template-columns: 1fr;
-    gap: var(--space-5);
   }
 }
+
+/* Compatibilité legacy avec le sélecteur d'origine */
+.podiums-grid { display: contents; }
 
 .podium-col {
   display: flex;
@@ -401,18 +447,30 @@
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .podium-mini__name {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--lft-blue);
-  line-height: 1.15;
+  line-height: 1.2;
   letter-spacing: -0.01em;
-  word-break: break-word;
-  min-height: 32px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  /* Une seule ligne avec ellipsis si débordement */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 22px;
+  padding: 0 4px;
 }
-.podium-mini__name--side { color: var(--text-primary); font-size: 12px; }
+.podium-mini__name--side {
+  color: var(--text-primary);
+  font-size: 13px;
+}
+
+/* Le podium Lycée (col--wide) a plus d'espace : noms encore plus lisibles */
+.podium-col--wide .podium-mini__name { font-size: 15px; }
+.podium-col--wide .podium-mini__name--side { font-size: 14px; }
+.podium-col--wide .podium-mini__first { padding: var(--space-5) var(--space-3) var(--space-4); }
+.podium-col--wide .podium-mini__side { padding: var(--space-4) var(--space-3); }
+.podium-col--wide .podium-mini__score-value { font-size: 22px; }
+.podium-col--wide .podium-mini__score--side .podium-mini__score-value { font-size: 16px; }
 .podium-mini__meta {
   font-size: 10px;
   color: var(--text-secondary);
