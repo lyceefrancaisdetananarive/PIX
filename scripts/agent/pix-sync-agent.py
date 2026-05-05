@@ -197,28 +197,38 @@ def sync_worker(job_id: str):
                 JOBS[job_id]["status"] = "failed"
                 return
 
-            # Itération sur toutes les pages — chaque ligne contient plusieurs <td>,
-            # le lien campagne est sur l'élément <a href="/campagnes/<id>">Nom</a>
-            # placé dans la 2e cellule (la 1re étant une checkbox).
+            # Itération sur toutes les pages. Pix Orga (Ember.js) ré-instancie les
+            # lignes du tableau pendant le rendu : les Locators chaînés (links.nth(i))
+            # deviennent stale entre count() et inner_text(). On lit donc TOUT le DOM
+            # de la page courante en UNE SEULE évaluation JS pour éviter ce problème.
+            EXTRACT_JS = """
+                () => Array.from(document.querySelectorAll(
+                    'table tbody tr a[href*="/campagnes/"]'
+                )).map(a => ({
+                    name: (a.innerText || a.textContent || '').trim(),
+                    href: a.getAttribute('href') || ''
+                }))
+            """
+
             campaigns = []
             seen_urls = set()
-            while True:
-                links = page.locator('table tbody tr a[href*="/campagnes/"]')
-                count = links.count()
-                for i in range(count):
-                    link = links.nth(i)
-                    name = link.inner_text().strip()
-                    href = link.get_attribute('href') or ""
+            for page_num in range(1, 21):  # garde-fou : 20 pages max (~1000 campagnes)
+                page_data = page.evaluate(EXTRACT_JS)
+                for entry in page_data:
+                    name, href = entry["name"], entry["href"]
                     if not name or not href or href in seen_urls:
                         continue
                     seen_urls.add(href)
                     n = name.lower()
                     if "collecte" in n or "récup" in n or "recup" in n:
                         campaigns.append({"name": name, "url": href})
-                # Pagination — bouton « page suivante »
+
+                # Pagination — plusieurs variantes possibles
                 next_btn = page.locator(
                     'button[aria-label*="suivante"], a[aria-label*="suivante"], '
-                    'button:has-text("Suivant"), .pagination button:not([disabled]):has-text(">")'
+                    'button:has-text("Suivant"), '
+                    '.pagination button:not([disabled]):has-text(">"), '
+                    'button[aria-label="Aller à la page suivante"]'
                 ).first
                 if next_btn.count() == 0:
                     break
@@ -230,6 +240,8 @@ def sync_worker(job_id: str):
                 try:
                     next_btn.click()
                     page.wait_for_load_state("domcontentloaded", timeout=10000)
+                    # Attente supplémentaire que le tableau se re-render
+                    page.wait_for_selector('table tbody tr a[href*="/campagnes/"]', timeout=10000)
                 except Exception:
                     break
 
