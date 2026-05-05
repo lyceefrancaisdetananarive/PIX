@@ -3,10 +3,10 @@
   "level": "3e",
   "cycle": "cycle4",
   "studentCount": 24,
-  "scoredCount": 10,
-  "missingCount": 14,
-  "certifiableCount": 8,
-  "averagePix": 143,
+  "scoredCount": 11,
+  "missingCount": 13,
+  "certifiableCount": 9,
+  "averagePix": 142,
   "relatedGroups": [
     "3M4 SVT"
   ],
@@ -575,6 +575,111 @@
         }
       },
       "lastUpdate": "2026-02-10T08:32:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "chan_ming_jade_kintana_rachel",
+      "name": "CHAN MING Jade Kintana Rachel",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 132,
+      "certifiable": true,
+      "competencesCertifiables": 6,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 46
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 54
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 8
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 21
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 3
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 3
+        }
+      },
+      "lastUpdate": "2026-03-31T09:10:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -1903,20 +2008,6 @@
           "palier": 0
         }
       ]
-    },
-    {
-      "id": "chan_ming_jade_kintana_rachel",
-      "name": "CHAN MING Jade Kintana Rachel",
-      "classe": "3M4",
-      "group": "",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
     },
     {
       "id": "dimbiniaina_soatiamihanta_lemarie",

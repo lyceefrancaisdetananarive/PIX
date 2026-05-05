@@ -2,11 +2,11 @@
   "name": "TG8",
   "level": "tale",
   "cycle": "lycee",
-  "studentCount": 39,
-  "scoredCount": 12,
+  "studentCount": 38,
+  "scoredCount": 11,
   "missingCount": 27,
-  "certifiableCount": 12,
-  "averagePix": 313,
+  "certifiableCount": 11,
+  "averagePix": 305,
   "parcoursCodes": {},
   "students": [
     {
@@ -111,111 +111,6 @@
         }
       },
       "lastUpdate": "2025-12-13T12:58:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
-    {
-      "id": "rasolodraibe_girardot_matteo",
-      "name": "Rasolodraibe Girardot Matteo",
-      "classe": "",
-      "group": "TG8",
-      "pix": 403,
-      "certifiable": true,
-      "competencesCertifiables": 15,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 4,
-          "pix": 105
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 5,
-          "pix": 125
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 4,
-          "pix": 98
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 2,
-          "pix": 58
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 1,
-          "pix": 17
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 4,
-          "pix": 39
-        },
-        "Gérer des données": {
-          "niveau": 4,
-          "pix": 37
-        },
-        "Traiter des données": {
-          "niveau": 3,
-          "pix": 29
-        },
-        "Interagir": {
-          "niveau": 5,
-          "pix": 41
-        },
-        "Partager et publier": {
-          "niveau": 5,
-          "pix": 40
-        },
-        "Collaborer": {
-          "niveau": 1,
-          "pix": 11
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 4,
-          "pix": 33
-        },
-        "Développer des documents textuels": {
-          "niveau": 2,
-          "pix": 21
-        },
-        "Développer des documents multimedia": {
-          "niveau": 1,
-          "pix": 10
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 3,
-          "pix": 28
-        },
-        "Programmer": {
-          "niveau": 4,
-          "pix": 39
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 2,
-          "pix": 22
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 2,
-          "pix": 16
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 4
-        },
-        "Construire un environnement numérique": {
-          "niveau": 1,
-          "pix": 13
-        }
-      },
-      "lastUpdate": "2025-12-17T20:26:00",
       "parcours": [],
       "status": "renseigne"
     },

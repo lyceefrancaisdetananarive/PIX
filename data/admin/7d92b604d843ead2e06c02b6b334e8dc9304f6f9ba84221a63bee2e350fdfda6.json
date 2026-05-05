@@ -3,10 +3,10 @@
   "level": "5e",
   "cycle": "cycle4",
   "studentCount": 25,
-  "scoredCount": 7,
-  "missingCount": 18,
-  "certifiableCount": 7,
-  "averagePix": 151,
+  "scoredCount": 8,
+  "missingCount": 17,
+  "certifiableCount": 8,
+  "averagePix": 153,
   "relatedGroups": [
     "5M4 TECHNO",
     "5SVT1"
@@ -174,6 +174,172 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.73,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "duriez_jean_malala_axel",
+      "name": "DURIEZ Jean Malala Axel",
+      "classe": "5M4",
+      "group": "5SVT1",
+      "pix": 170,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 38
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 62
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 15
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 24
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 31
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 5
+        }
+      },
+      "lastUpdate": "2026-05-05T10:16:00",
+      "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "NGLLBU475",
+          "campaignName": "5 SVT 1 -- EMI",
+          "date": "2026-03-31T11:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "PBGMGL738",
+          "campaignName": "5 SVT 1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-03T09:35:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "GVZYXA969",
+          "campaignName": "5 SVT 1 -- Manipuler les fichiers",
+          "date": "2026-02-10T09:55:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "SYGHUQ176",
+          "campaignName": "5 SVT 1 -- Cybersécurité",
+          "date": "2025-11-25T09:38:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.55,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "HAPMFC133",
+          "campaignName": "5 SVT 1 -- Parcours Protection et sécurité",
+          "date": "2025-11-04T10:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.6,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "VCDMEX862",
+          "campaignName": "5 SVT 1 -- Parcours de rentrée 5e",
+          "date": "2025-10-14T10:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
           "palier": 2
         }
       ],
@@ -1765,20 +1931,6 @@
       "name": "ANDRIAMIHARIVOLAMENA Fenosoa Fiducia",
       "classe": "5M4",
       "group": "5M4 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "duriez_jean_malala_axel",
-      "name": "DURIEZ Jean Malala Axel",
-      "classe": "5M4",
-      "group": "5SVT1",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,

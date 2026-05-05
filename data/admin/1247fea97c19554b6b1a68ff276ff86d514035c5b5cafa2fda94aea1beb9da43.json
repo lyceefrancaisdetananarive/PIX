@@ -3,10 +3,10 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 20,
-  "scoredCount": 16,
-  "missingCount": 4,
-  "certifiableCount": 16,
-  "averagePix": 310,
+  "scoredCount": 17,
+  "missingCount": 3,
+  "certifiableCount": 17,
+  "averagePix": 317,
   "relatedGroups": [
     "TPRO AGORA"
   ],
@@ -219,6 +219,111 @@
         }
       },
       "lastUpdate": "2025-12-15T15:22:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "sandrio_kwac_son_etan_leong_rasone",
+      "name": "SANDRIO-KWAC-SON Etan Leong Rasone",
+      "classe": "TPROAGORA",
+      "group": "TPRO AGORA",
+      "pix": 425,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 96
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 113
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 95
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 64
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 57
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "Gérer des données": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Développer des documents textuels": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Développer des documents multimedia": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Construire un environnement numérique": {
+          "niveau": 3,
+          "pix": 28
+        }
+      },
+      "lastUpdate": "2025-12-18T05:48:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -1709,20 +1814,6 @@
     {
       "id": "rainisoarivelo_andreanno_ernest",
       "name": "RAINISOARIVELO Andréanno Ernest",
-      "classe": "TPROAGORA",
-      "group": "TPRO AGORA",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "sandrio_kwac_son_etan_leong_rasone",
-      "name": "SANDRIO-KWAC-SON Etan Leong Rasone",
       "classe": "TPROAGORA",
       "group": "TPRO AGORA",
       "pix": 0,

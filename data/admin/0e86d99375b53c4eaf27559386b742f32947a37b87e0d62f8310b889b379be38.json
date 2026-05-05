@@ -3,10 +3,10 @@
   "level": "5e",
   "cycle": "cycle4",
   "studentCount": 27,
-  "scoredCount": 25,
-  "missingCount": 2,
-  "certifiableCount": 18,
-  "averagePix": 110,
+  "scoredCount": 26,
+  "missingCount": 1,
+  "certifiableCount": 19,
+  "averagePix": 111,
   "relatedGroups": [
     "5 TECHNO 1",
     "5M1 SVT"
@@ -673,6 +673,172 @@
           "progress": 1.0,
           "maitrise": 0.67,
           "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "randriambolabe_christinah",
+      "name": "RANDRIAMBOLABE Christinah",
+      "classe": "5M1",
+      "group": "5M1 SVT",
+      "pix": 146,
+      "certifiable": true,
+      "competencesCertifiables": 8,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 54
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 47
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 14
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 26
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 5
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 4
+        }
+      },
+      "lastUpdate": "2026-04-27T08:23:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "RFMSVT825",
+          "campaignName": "5M1 SVT -- Manipuler les fichiers",
+          "date": "2026-04-27T08:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.75,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "BYJGHS735",
+          "campaignName": "5M1 SVT -- EMI",
+          "date": "2026-03-30T09:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.63,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "YCRQXD459",
+          "campaignName": "5M1 SVT -- Sécuriser son environnement numérique",
+          "date": "2026-03-02T07:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "NZEKRH859",
+          "campaignName": "5M1 SVT -- Cybersécurité",
+          "date": "2025-11-24T07:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.86,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "ZMCVNZ794",
+          "campaignName": "5M1 SVT -- Protection et sécurité",
+          "date": "2025-11-03T08:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.77,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "ZQLRSY591",
+          "campaignName": "5M1 SVT -- Parcours de rentrée 5e",
+          "date": "2025-10-04T10:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
         }
       ],
       "status": "renseigne"
@@ -4153,20 +4319,6 @@
           "palier": 0
         }
       ]
-    },
-    {
-      "id": "randriambolabe_christinah",
-      "name": "RANDRIAMBOLABE Christinah",
-      "classe": "5M1",
-      "group": "5M1 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
     }
   ]
 }

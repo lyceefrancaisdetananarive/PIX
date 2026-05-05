@@ -3,10 +3,10 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 29,
-  "scoredCount": 11,
-  "missingCount": 18,
-  "certifiableCount": 11,
-  "averagePix": 304,
+  "scoredCount": 12,
+  "missingCount": 17,
+  "certifiableCount": 12,
+  "averagePix": 300,
   "relatedGroups": [
     "TG3"
   ],
@@ -853,6 +853,111 @@
       "status": "renseigne"
     },
     {
+      "id": "ranarison_andriamanoa_ivotsaina_andrew",
+      "name": "RANARISON Andriamanoa Ivotsaina Andrew",
+      "classe": "TG3",
+      "group": "TG3",
+      "pix": 256,
+      "certifiable": true,
+      "competencesCertifiables": 12,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 80
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 61
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 55
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 47
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 13
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Traiter des données": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 13
+        }
+      },
+      "lastUpdate": "2026-02-01T21:54:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
       "id": "iavar_houssen_ayana",
       "name": "IAVAR-HOUSSEN Ayana",
       "classe": "TG3",
@@ -1366,20 +1471,6 @@
     {
       "id": "ramstein_manon_awa",
       "name": "RAMSTEIN Manon Awa",
-      "classe": "TG3",
-      "group": "TG3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "ranarison_andriamanoa_ivotsaina_andrew",
-      "name": "RANARISON Andriamanoa Ivotsaina Andrew",
       "classe": "TG3",
       "group": "TG3",
       "pix": 0,

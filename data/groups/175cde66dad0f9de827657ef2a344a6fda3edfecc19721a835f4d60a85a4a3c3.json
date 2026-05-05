@@ -2,11 +2,11 @@
   "name": "3M6",
   "level": "3e",
   "cycle": "cycle4",
-  "studentCount": 5,
-  "scoredCount": 5,
+  "studentCount": 4,
+  "scoredCount": 4,
   "missingCount": 0,
-  "certifiableCount": 4,
-  "averagePix": 186,
+  "certifiableCount": 3,
+  "averagePix": 202,
   "parcoursCodes": {},
   "students": [
     {
@@ -321,111 +321,6 @@
         }
       },
       "lastUpdate": "2026-01-16T06:17:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
-    {
-      "id": "cartoon_late",
-      "name": "Cartoon Late",
-      "classe": "",
-      "group": "3M6",
-      "pix": 119,
-      "certifiable": true,
-      "competencesCertifiables": 8,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 2,
-          "pix": 27
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 2,
-          "pix": 39
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 1,
-          "pix": 18
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 1,
-          "pix": 32
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 3
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 2,
-          "pix": 18
-        },
-        "Gérer des données": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Traiter des données": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Interagir": {
-          "niveau": 1,
-          "pix": 13
-        },
-        "Partager et publier": {
-          "niveau": 2,
-          "pix": 17
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Développer des documents textuels": {
-          "niveau": 1,
-          "pix": 10
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 2
-        },
-        "Programmer": {
-          "niveau": 0,
-          "pix": 6
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 1,
-          "pix": 14
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 1,
-          "pix": 12
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 0,
-          "pix": 6
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Construire un environnement numérique": {
-          "niveau": 0,
-          "pix": 3
-        }
-      },
-      "lastUpdate": "2025-12-04T12:28:00",
       "parcours": [],
       "status": "renseigne"
     },

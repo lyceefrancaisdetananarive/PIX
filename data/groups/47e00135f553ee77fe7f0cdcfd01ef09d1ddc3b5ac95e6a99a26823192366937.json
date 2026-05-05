@@ -1704,6 +1704,57 @@
       ]
     },
     {
+      "id": "randrianantenaina_fandresena_yann_handri",
+      "name": "RANDRIANANTENAINA Fandresena Yann-Handri",
+      "classe": "3M1",
+      "group": "4M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-31T07:09:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "KPUYUY861",
+          "campaignName": "4M4 TECHNO -- Parcours de rentrée 4e",
+          "date": "2026-03-31T07:09:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
       "id": "rasolofo_rakotondrainibe_soaniriako_landisoarojo",
       "name": "RASOLOFO RAKOTONDRAINIBE Soaniriako Landisoarojo",
       "classe": "3M4",
@@ -1747,57 +1798,6 @@
           "code": "KPUYUY861",
           "campaignName": "4M4 TECHNO -- Parcours de rentrée 4e",
           "date": "2026-03-31T09:12:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 1.0,
-          "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "randrianantenaina_yann",
-      "name": "Randrianantenaina Yann",
-      "classe": "",
-      "group": "4M4 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-31T07:09:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "KPUYUY861",
-          "campaignName": "4M4 TECHNO -- Parcours de rentrée 4e",
-          "date": "2026-03-31T07:09:00",
           "partage": true,
           "progress": 1.0,
           "maitrise": 1.0,

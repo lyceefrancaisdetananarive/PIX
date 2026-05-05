@@ -118,10 +118,10 @@
       "level": "5e",
       "cycle": "cycle4",
       "studentCount": 25,
-      "scoredCount": 7,
-      "missingCount": 18,
-      "certifiableCount": 7,
-      "averagePix": 151,
+      "scoredCount": 8,
+      "missingCount": 17,
+      "certifiableCount": 8,
+      "averagePix": 153,
       "relatedGroups": [
         "5M4 TECHNO",
         "5SVT1"
@@ -133,10 +133,10 @@
       "level": "5e",
       "cycle": "cycle4",
       "studentCount": 27,
-      "scoredCount": 25,
-      "missingCount": 2,
-      "certifiableCount": 18,
-      "averagePix": 110,
+      "scoredCount": 26,
+      "missingCount": 1,
+      "certifiableCount": 19,
+      "averagePix": 111,
       "relatedGroups": [
         "5 TECHNO 1",
         "5M1 SVT"
@@ -148,10 +148,10 @@
       "level": "5e",
       "cycle": "cycle4",
       "studentCount": 23,
-      "scoredCount": 19,
-      "missingCount": 4,
-      "certifiableCount": 18,
-      "averagePix": 144,
+      "scoredCount": 22,
+      "missingCount": 1,
+      "certifiableCount": 21,
+      "averagePix": 145,
       "relatedGroups": [
         "5 TECHNO 1",
         "5M2 TECHNO"
@@ -163,10 +163,10 @@
       "level": "5e",
       "cycle": "cycle4",
       "studentCount": 23,
-      "scoredCount": 21,
-      "missingCount": 2,
-      "certifiableCount": 19,
-      "averagePix": 122,
+      "scoredCount": 23,
+      "missingCount": 0,
+      "certifiableCount": 21,
+      "averagePix": 118,
       "relatedGroups": [
         "5 TECHNO 2",
         "5M5 SVT"
@@ -178,10 +178,10 @@
       "level": "5e",
       "cycle": "cycle4",
       "studentCount": 25,
-      "scoredCount": 5,
-      "missingCount": 20,
-      "certifiableCount": 3,
-      "averagePix": 84,
+      "scoredCount": 8,
+      "missingCount": 17,
+      "certifiableCount": 5,
+      "averagePix": 113,
       "relatedGroups": [
         "5 TECHNO 2",
         "5M6 TECHNO"
@@ -253,10 +253,10 @@
       "level": "4e",
       "cycle": "cycle4",
       "studentCount": 27,
-      "scoredCount": 17,
-      "missingCount": 10,
+      "scoredCount": 19,
+      "missingCount": 8,
       "certifiableCount": 7,
-      "averagePix": 78,
+      "averagePix": 77,
       "relatedGroups": [
         "4 TECHNO 2",
         "4M3 SVT"
@@ -283,10 +283,10 @@
       "level": "3e",
       "cycle": "cycle4",
       "studentCount": 27,
-      "scoredCount": 23,
-      "missingCount": 4,
-      "certifiableCount": 18,
-      "averagePix": 169,
+      "scoredCount": 24,
+      "missingCount": 3,
+      "certifiableCount": 19,
+      "averagePix": 170,
       "relatedGroups": [
         "3M1"
       ],
@@ -297,10 +297,10 @@
       "level": "3e",
       "cycle": "cycle4",
       "studentCount": 24,
-      "scoredCount": 10,
-      "missingCount": 14,
-      "certifiableCount": 8,
-      "averagePix": 143,
+      "scoredCount": 11,
+      "missingCount": 13,
+      "certifiableCount": 9,
+      "averagePix": 142,
       "relatedGroups": [
         "3M4 SVT"
       ],
@@ -341,10 +341,10 @@
       "level": "4e",
       "cycle": "cycle4",
       "studentCount": 28,
-      "scoredCount": 11,
-      "missingCount": 17,
+      "scoredCount": 12,
+      "missingCount": 16,
       "certifiableCount": 1,
-      "averagePix": 64,
+      "averagePix": 59,
       "relatedGroups": [
         "4M7 P.1",
         "4M7 P.2"
@@ -356,10 +356,10 @@
       "level": "3e",
       "cycle": "cycle4",
       "studentCount": 25,
-      "scoredCount": 14,
-      "missingCount": 11,
-      "certifiableCount": 14,
-      "averagePix": 180,
+      "scoredCount": 15,
+      "missingCount": 10,
+      "certifiableCount": 15,
+      "averagePix": 185,
       "relatedGroups": [
         "3 TECHNO 2",
         "3M2"
@@ -399,10 +399,10 @@
       "level": "3e",
       "cycle": "cycle4",
       "studentCount": 24,
-      "scoredCount": 9,
-      "missingCount": 15,
-      "certifiableCount": 6,
-      "averagePix": 153,
+      "scoredCount": 10,
+      "missingCount": 14,
+      "certifiableCount": 7,
+      "averagePix": 161,
       "relatedGroups": [
         "3M7"
       ],
@@ -740,10 +740,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 28,
-      "scoredCount": 13,
-      "missingCount": 15,
-      "certifiableCount": 13,
-      "averagePix": 285,
+      "scoredCount": 14,
+      "missingCount": 14,
+      "certifiableCount": 14,
+      "averagePix": 296,
       "relatedGroups": [
         "TG1"
       ],
@@ -754,10 +754,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 28,
-      "scoredCount": 10,
-      "missingCount": 18,
-      "certifiableCount": 10,
-      "averagePix": 274,
+      "scoredCount": 12,
+      "missingCount": 16,
+      "certifiableCount": 12,
+      "averagePix": 275,
       "relatedGroups": [
         "TG2"
       ],
@@ -768,10 +768,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 29,
-      "scoredCount": 11,
-      "missingCount": 18,
-      "certifiableCount": 11,
-      "averagePix": 304,
+      "scoredCount": 12,
+      "missingCount": 17,
+      "certifiableCount": 12,
+      "averagePix": 300,
       "relatedGroups": [
         "TG3"
       ],
@@ -782,10 +782,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 29,
-      "scoredCount": 13,
-      "missingCount": 16,
-      "certifiableCount": 13,
-      "averagePix": 355,
+      "scoredCount": 16,
+      "missingCount": 13,
+      "certifiableCount": 16,
+      "averagePix": 343,
       "relatedGroups": [
         "TG4"
       ],
@@ -796,10 +796,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 28,
-      "scoredCount": 27,
-      "missingCount": 1,
-      "certifiableCount": 26,
-      "averagePix": 244,
+      "scoredCount": 28,
+      "missingCount": 0,
+      "certifiableCount": 27,
+      "averagePix": 247,
       "relatedGroups": [
         "TG5"
       ],
@@ -810,10 +810,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 29,
-      "scoredCount": 13,
-      "missingCount": 16,
-      "certifiableCount": 13,
-      "averagePix": 331,
+      "scoredCount": 18,
+      "missingCount": 11,
+      "certifiableCount": 18,
+      "averagePix": 343,
       "relatedGroups": [
         "TG6"
       ],
@@ -824,10 +824,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 29,
-      "scoredCount": 16,
-      "missingCount": 13,
-      "certifiableCount": 16,
-      "averagePix": 292,
+      "scoredCount": 17,
+      "missingCount": 12,
+      "certifiableCount": 17,
+      "averagePix": 300,
       "relatedGroups": [
         "TG7"
       ],
@@ -852,10 +852,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 26,
-      "scoredCount": 13,
-      "missingCount": 13,
-      "certifiableCount": 11,
-      "averagePix": 200,
+      "scoredCount": 15,
+      "missingCount": 11,
+      "certifiableCount": 13,
+      "averagePix": 228,
       "relatedGroups": [
         "TSTMG1"
       ],
@@ -866,10 +866,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 27,
-      "scoredCount": 18,
-      "missingCount": 9,
-      "certifiableCount": 18,
-      "averagePix": 268,
+      "scoredCount": 21,
+      "missingCount": 6,
+      "certifiableCount": 21,
+      "averagePix": 275,
       "relatedGroups": [
         "TSTMG2"
       ],
@@ -880,10 +880,10 @@
       "level": "tale",
       "cycle": "lycee",
       "studentCount": 20,
-      "scoredCount": 16,
-      "missingCount": 4,
-      "certifiableCount": 16,
-      "averagePix": 310,
+      "scoredCount": 17,
+      "missingCount": 3,
+      "certifiableCount": 17,
+      "averagePix": 317,
       "relatedGroups": [
         "TPRO AGORA"
       ],

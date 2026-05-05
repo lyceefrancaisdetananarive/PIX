@@ -781,8 +781,12 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
         sample = recs[0]
         parts = key.split(" ", 1)
         ref = match_student(directory, parts[0], parts[1] if len(parts) > 1 else "")
-        full_name = ref["fullName"] if ref else proper_case(key)
-        classe = ref["classe"] if ref else ""
+        # Skip si l'élève est dans la liste ignore
+        if ref == "__IGNORE__":
+            seen_keys.add(key)
+            continue
+        full_name = ref["fullName"] if isinstance(ref, dict) else proper_case(key)
+        classe = ref["classe"] if isinstance(ref, dict) else ""
         students.append({
             "id": slugify(full_name),
             "name": full_name,

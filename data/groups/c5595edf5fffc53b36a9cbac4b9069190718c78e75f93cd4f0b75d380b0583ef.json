@@ -326,8 +326,8 @@
     },
     {
       "id": "kieffer_peterson_zinder",
-      "name": "Kieffer Peterson Zinder",
-      "classe": "",
+      "name": "KIEFFER-PETERSON Zinder",
+      "classe": "3M7",
       "group": "3M7",
       "pix": 236,
       "certifiable": true,
@@ -1060,9 +1060,9 @@
       "status": "renseigne"
     },
     {
-      "id": "neryah_assly",
-      "name": "Neryah Assly",
-      "classe": "",
+      "id": "ancel_neryah_assly_aissayar",
+      "name": "ANCEL NERYAH Assly Aissayar",
+      "classe": "3M7",
       "group": "3M7",
       "pix": 0,
       "certifiable": false,

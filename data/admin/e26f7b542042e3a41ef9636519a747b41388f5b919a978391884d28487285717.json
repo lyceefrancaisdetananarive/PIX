@@ -3,10 +3,10 @@
   "level": "3e",
   "cycle": "cycle4",
   "studentCount": 27,
-  "scoredCount": 23,
-  "missingCount": 4,
-  "certifiableCount": 18,
-  "averagePix": 169,
+  "scoredCount": 24,
+  "missingCount": 3,
+  "certifiableCount": 19,
+  "averagePix": 170,
   "relatedGroups": [
     "3M1"
   ],
@@ -954,6 +954,111 @@
         }
       },
       "lastUpdate": "2025-12-15T18:06:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "randrianantenaina_fandresena_yann_handri",
+      "name": "RANDRIANANTENAINA Fandresena Yann-Handri",
+      "classe": "3M1",
+      "group": "3M1",
+      "pix": 199,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 63
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 45
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 38
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 30
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 23
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 14
+        }
+      },
+      "lastUpdate": "2026-03-31T07:53:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -2458,20 +2563,6 @@
     {
       "id": "konate_eliam_henri_braine",
       "name": "KONATE Eliam Henri Braine",
-      "classe": "3M1",
-      "group": "",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "randrianantenaina_fandresena_yann_handri",
-      "name": "RANDRIANANTENAINA Fandresena Yann-Handri",
       "classe": "3M1",
       "group": "",
       "pix": 0,

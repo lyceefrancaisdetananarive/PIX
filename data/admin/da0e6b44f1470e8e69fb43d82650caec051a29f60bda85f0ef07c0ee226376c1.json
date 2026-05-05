@@ -3,15 +3,120 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 27,
-  "scoredCount": 18,
-  "missingCount": 9,
-  "certifiableCount": 18,
-  "averagePix": 268,
+  "scoredCount": 21,
+  "missingCount": 6,
+  "certifiableCount": 21,
+  "averagePix": 275,
   "relatedGroups": [
     "TSTMG2"
   ],
   "historicalGroups": [],
   "students": [
+    {
+      "id": "randrianjafy_radahy_alex_rene_mamitiana",
+      "name": "RANDRIANJAFY-RADAHY Alex René Mamitiana",
+      "classe": "TSTMG2",
+      "group": "TSTMG2",
+      "pix": 603,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 107
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 144
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 4,
+          "pix": 128
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 6,
+          "pix": 136
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 5,
+          "pix": 88
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Gérer des données": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "Traiter des données": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 38
+        },
+        "Collaborer": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 4,
+          "pix": 39
+        },
+        "Développer des documents textuels": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Développer des documents multimedia": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Programmer": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 6,
+          "pix": 50
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 5,
+          "pix": 42
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 5,
+          "pix": 44
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 5,
+          "pix": 43
+        },
+        "Construire un environnement numérique": {
+          "niveau": 5,
+          "pix": 45
+        }
+      },
+      "lastUpdate": "2025-12-24T17:28:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
     {
       "id": "ramarosahanina_nandraina_davidot",
       "name": "RAMAROSAHANINA Nandraina Davidot",
@@ -1273,6 +1378,111 @@
       "status": "renseigne"
     },
     {
+      "id": "abdoollah_mohammad_souheil",
+      "name": "ABDOOLLAH Mohammad Souheil",
+      "classe": "TSTMG2",
+      "group": "TSTMG2",
+      "pix": 177,
+      "certifiable": true,
+      "competencesCertifiables": 11,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 42
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 68
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 39
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 19
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 9
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 3
+        }
+      },
+      "lastUpdate": "2025-12-03T09:49:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
       "id": "debard_nadege",
       "name": "DEBARD Nadège",
       "classe": "TSTMG2",
@@ -1374,6 +1584,111 @@
         }
       },
       "lastUpdate": "2025-12-03T09:45:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "randrianirina_mana_arivony_mamy_ny_aina_irehana",
+      "name": "RANDRIANIRINA Mana Arivony Mamy Ny Aina Irehana",
+      "classe": "TSTMG2",
+      "group": "TSTMG2",
+      "pix": 154,
+      "certifiable": true,
+      "competencesCertifiables": 6,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 57
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 46
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 32
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 13
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 6
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Gérer des données": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "Partager et publier": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Développer des documents multimedia": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 6
+        }
+      },
+      "lastUpdate": "2025-12-03T09:52:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -2218,20 +2533,6 @@
       "status": "renseigne"
     },
     {
-      "id": "abdoollah_mohammad_souheil",
-      "name": "ABDOOLLAH Mohammad Souheil",
-      "classe": "TSTMG2",
-      "group": "TSTMG2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "andriano_dylan",
       "name": "ANDRIANO Dylan",
       "classe": "TSTMG2",
@@ -2262,34 +2563,6 @@
     {
       "id": "ramarovavy_fahendrena_mahera",
       "name": "RAMAROVAVY Fahendrena Mahera",
-      "classe": "TSTMG2",
-      "group": "TSTMG2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "randrianirina_mana_arivony_mamy_ny_aina_irehana",
-      "name": "RANDRIANIRINA Mana Arivony Mamy Ny Aina Irehana",
-      "classe": "TSTMG2",
-      "group": "TSTMG2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "randrianjafy_radahy_alex_rene_mamitiana",
-      "name": "RANDRIANJAFY-RADAHY Alex René Mamitiana",
       "classe": "TSTMG2",
       "group": "TSTMG2",
       "pix": 0,

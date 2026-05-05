@@ -3,10 +3,10 @@
   "level": "3e",
   "cycle": "cycle4",
   "studentCount": 25,
-  "scoredCount": 14,
-  "missingCount": 11,
-  "certifiableCount": 14,
-  "averagePix": 180,
+  "scoredCount": 15,
+  "missingCount": 10,
+  "certifiableCount": 15,
+  "averagePix": 185,
   "relatedGroups": [
     "3 TECHNO 2",
     "3M2"
@@ -262,6 +262,111 @@
           "palier": 0
         }
       ],
+      "status": "renseigne"
+    },
+    {
+      "id": "alibhai_adriane_aliya",
+      "name": "ALIBHAI Adriane Aliya",
+      "classe": "3M2",
+      "group": "3M2",
+      "pix": 254,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 60
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 5,
+          "pix": 85
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 35
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 41
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 33
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Interagir": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Construire un environnement numérique": {
+          "niveau": 3,
+          "pix": 24
+        }
+      },
+      "lastUpdate": "2025-12-05T17:39:00",
+      "parcours": [],
       "status": "renseigne"
     },
     {
@@ -1862,20 +1967,6 @@
       "lastUpdate": "2025-12-02T15:19:00",
       "parcours": [],
       "status": "renseigne"
-    },
-    {
-      "id": "alibhai_adriane_aliya",
-      "name": "ALIBHAI Adriane Aliya",
-      "classe": "3M2",
-      "group": "",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
     },
     {
       "id": "apostolos_jean_nathan_anjara",

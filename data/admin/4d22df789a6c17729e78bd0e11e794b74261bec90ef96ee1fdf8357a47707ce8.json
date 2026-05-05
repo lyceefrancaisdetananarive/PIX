@@ -3,10 +3,10 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 28,
-  "scoredCount": 10,
-  "missingCount": 18,
-  "certifiableCount": 10,
-  "averagePix": 274,
+  "scoredCount": 12,
+  "missingCount": 16,
+  "certifiableCount": 12,
+  "averagePix": 275,
   "relatedGroups": [
     "TG2"
   ],
@@ -219,6 +219,111 @@
         }
       },
       "lastUpdate": "2025-12-19T19:57:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "yue_chi_ming_caitlin_elodie",
+      "name": "YUE-CHI MING Caitlin Elodie",
+      "classe": "TG2",
+      "group": "TG2",
+      "pix": 358,
+      "certifiable": true,
+      "competencesCertifiables": 14,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 105
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 85
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 84
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 58
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 26
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 38
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Traiter des données": {
+          "niveau": 4,
+          "pix": 38
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 39
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Développer des documents textuels": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 21
+        }
+      },
+      "lastUpdate": "2026-01-21T14:25:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -853,6 +958,111 @@
       "status": "renseigne"
     },
     {
+      "id": "rassay_k_raj",
+      "name": "RASSAY K Raj",
+      "classe": "TG2",
+      "group": "TG2",
+      "pix": 200,
+      "certifiable": true,
+      "competencesCertifiables": 12,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 61
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 57
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 45
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 28
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 9
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        }
+      },
+      "lastUpdate": "2026-02-02T16:40:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
       "id": "wasserfallen_victoria",
       "name": "WASSERFALLEN Victoria",
       "classe": "TG2",
@@ -1231,20 +1441,6 @@
       "parcours": []
     },
     {
-      "id": "rassay_k_raj",
-      "name": "RASSAY K Raj",
-      "classe": "TG2",
-      "group": "TG2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "razanakoto_christopher_georges",
       "name": "RAZANAKOTO Christopher Georges",
       "classe": "TG2",
@@ -1289,20 +1485,6 @@
     {
       "id": "smith_andrinirina_michael",
       "name": "SMITH Andrinirina Michaël",
-      "classe": "TG2",
-      "group": "TG2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "yue_chi_ming_caitlin_elodie",
-      "name": "YUE-CHI MING Caitlin Elodie",
       "classe": "TG2",
       "group": "TG2",
       "pix": 0,

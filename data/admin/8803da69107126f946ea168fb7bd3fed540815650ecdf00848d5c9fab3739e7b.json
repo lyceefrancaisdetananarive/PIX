@@ -3,15 +3,225 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 26,
-  "scoredCount": 13,
-  "missingCount": 13,
-  "certifiableCount": 11,
-  "averagePix": 200,
+  "scoredCount": 15,
+  "missingCount": 11,
+  "certifiableCount": 13,
+  "averagePix": 228,
   "relatedGroups": [
     "TSTMG1"
   ],
   "historicalGroups": [],
   "students": [
+    {
+      "id": "alibhai_alma",
+      "name": "ALIBHAI Alma",
+      "classe": "TSTMG1",
+      "group": "TSTMG1",
+      "pix": 471,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 90
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 6,
+          "pix": 171
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 99
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 4,
+          "pix": 77
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 34
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Interagir": {
+          "niveau": 5,
+          "pix": 47
+        },
+        "Partager et publier": {
+          "niveau": 6,
+          "pix": 48
+        },
+        "Collaborer": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 5,
+          "pix": 43
+        },
+        "Développer des documents textuels": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Développer des documents multimedia": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        }
+      },
+      "lastUpdate": "2025-12-03T09:29:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "valentin_marie_lizzie_loisza_vaninia",
+      "name": "VALENTIN Marie Lizzie Loïsza Vaninia",
+      "classe": "TSTMG1",
+      "group": "TSTMG1",
+      "pix": 351,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 69
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 116
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 86
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 63
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 17
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Développer des documents multimedia": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        }
+      },
+      "lastUpdate": "2025-12-03T08:56:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
     {
       "id": "rakotomahazo_elouen_soatiana",
       "name": "RAKOTOMAHAZO Elouen Soatiana",
@@ -1483,20 +1693,6 @@
       "status": "renseigne"
     },
     {
-      "id": "alibhai_alma",
-      "name": "ALIBHAI Alma",
-      "classe": "TSTMG1",
-      "group": "TSTMG1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "andriamampianina_maeva_audrey",
       "name": "ANDRIAMAMPIANINA Maeva Audrey",
       "classe": "TSTMG1",
@@ -1611,20 +1807,6 @@
     {
       "id": "taheraly_youssouf",
       "name": "TAHERALY Youssouf",
-      "classe": "TSTMG1",
-      "group": "TSTMG1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "valentin_marie_lizzie_loisza_vaninia",
-      "name": "VALENTIN Marie Lizzie Loïsza Vaninia",
       "classe": "TSTMG1",
       "group": "TSTMG1",
       "pix": 0,

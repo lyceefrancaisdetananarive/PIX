@@ -54,8 +54,8 @@
         },
         {
           "rank": 3,
-          "name": "Leong-nane Maëlys",
-          "classe": "",
+          "name": "LEONG NANE Maëlys Heidi Hoye-Tsing",
+          "classe": "TG6",
           "group": "TG6",
           "pix": 604,
           "level": "Avancé 1"
@@ -65,11 +65,11 @@
   },
   "stats": {
     "totalGroups": 72,
-    "totalStudents": 2160,
-    "totalScored": 489,
-    "totalMissing": 1671,
-    "totalCertifiable": 409,
-    "averagePix": 197,
+    "totalStudents": 2150,
+    "totalScored": 480,
+    "totalMissing": 1670,
+    "totalCertifiable": 400,
+    "averagePix": 195,
     "byCycle": {
       "cycle3": {
         "label": "Cycle 3 · 6ème",
@@ -77,11 +77,11 @@
       },
       "cycle4": {
         "label": "Cycle 4 · 5e/4e/3e",
-        "students": 741
+        "students": 737
       },
       "lycee": {
         "label": "Lycée · 2nde/1e/Term.",
-        "students": 1257
+        "students": 1251
       }
     }
   }

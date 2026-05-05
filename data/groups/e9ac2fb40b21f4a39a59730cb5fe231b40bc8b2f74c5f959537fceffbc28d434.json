@@ -2,11 +2,11 @@
   "name": "3M5",
   "level": "3e",
   "cycle": "cycle4",
-  "studentCount": 28,
-  "scoredCount": 23,
-  "missingCount": 5,
-  "certifiableCount": 15,
-  "averagePix": 161,
+  "studentCount": 26,
+  "scoredCount": 22,
+  "missingCount": 4,
+  "certifiableCount": 14,
+  "averagePix": 160,
   "parcoursCodes": {
     "Français - Cycle 4": "JGMHFM539"
   },
@@ -860,111 +860,6 @@
           "palier": 0
         }
       ],
-      "status": "renseigne"
-    },
-    {
-      "id": "vola_jamie",
-      "name": "Vola Jamie",
-      "classe": "",
-      "group": "3M5",
-      "pix": 193,
-      "certifiable": true,
-      "competencesCertifiables": 13,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 1,
-          "pix": 30
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 3,
-          "pix": 56
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 1,
-          "pix": 27
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 3,
-          "pix": 42
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 2,
-          "pix": 38
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 1,
-          "pix": 13
-        },
-        "Gérer des données": {
-          "niveau": 1,
-          "pix": 11
-        },
-        "Traiter des données": {
-          "niveau": 0,
-          "pix": 6
-        },
-        "Interagir": {
-          "niveau": 3,
-          "pix": 24
-        },
-        "Partager et publier": {
-          "niveau": 2,
-          "pix": 19
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 3
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 1,
-          "pix": 10
-        },
-        "Développer des documents textuels": {
-          "niveau": 1,
-          "pix": 10
-        },
-        "Développer des documents multimedia": {
-          "niveau": 1,
-          "pix": 8
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Programmer": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 1,
-          "pix": 8
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 3,
-          "pix": 24
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 1,
-          "pix": 10
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Construire un environnement numérique": {
-          "niveau": 2,
-          "pix": 18
-        }
-      },
-      "lastUpdate": "2026-02-09T14:09:00",
-      "parcours": [],
       "status": "renseigne"
     },
     {
@@ -2484,57 +2379,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.49,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "chen_lois",
-      "name": "Chen Lois",
-      "classe": "",
-      "group": "3M5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-02-10T12:16:00",
-      "parcours": [
-        {
-          "name": "Français - Cycle 4",
-          "code": "JGMHFM539",
-          "campaignName": "3M5",
-          "date": "2026-02-10T12:16:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.79,
           "palier": 0
         }
       ]

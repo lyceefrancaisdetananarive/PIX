@@ -3,15 +3,120 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 28,
-  "scoredCount": 13,
-  "missingCount": 15,
-  "certifiableCount": 13,
-  "averagePix": 285,
+  "scoredCount": 14,
+  "missingCount": 14,
+  "certifiableCount": 14,
+  "averagePix": 296,
   "relatedGroups": [
     "TG1"
   ],
   "historicalGroups": [],
   "students": [
+    {
+      "id": "hardy_loukian",
+      "name": "HARDY Loukian",
+      "classe": "TG1",
+      "group": "TG1",
+      "pix": 438,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 7,
+          "pix": 113
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 7,
+          "pix": 134
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 4,
+          "pix": 89
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 39
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 4,
+          "pix": 63
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Gérer des données": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Interagir": {
+          "niveau": 5,
+          "pix": 42
+        },
+        "Partager et publier": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Développer des documents multimedia": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Programmer": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Construire un environnement numérique": {
+          "niveau": 4,
+          "pix": 34
+        }
+      },
+      "lastUpdate": "2026-01-21T09:51:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
     {
       "id": "leteve_mathieu",
       "name": "LETEVE Mathieu",
@@ -1436,20 +1541,6 @@
     {
       "id": "grange_andry_alexandre",
       "name": "GRANGÉ Andry Alexandre",
-      "classe": "TG1",
-      "group": "TG1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "hardy_loukian",
-      "name": "HARDY Loukian",
       "classe": "TG1",
       "group": "TG1",
       "pix": 0,

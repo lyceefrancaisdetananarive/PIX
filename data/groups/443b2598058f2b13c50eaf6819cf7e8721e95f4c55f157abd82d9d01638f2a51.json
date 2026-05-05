@@ -2,17 +2,17 @@
   "name": "TSTMG2",
   "level": "tale",
   "cycle": "lycee",
-  "studentCount": 44,
-  "scoredCount": 22,
+  "studentCount": 43,
+  "scoredCount": 21,
   "missingCount": 22,
-  "certifiableCount": 22,
-  "averagePix": 276,
+  "certifiableCount": 21,
+  "averagePix": 275,
   "parcoursCodes": {},
   "students": [
     {
-      "id": "randrianajfy_alex",
-      "name": "Randrianajfy Alex",
-      "classe": "",
+      "id": "randrianjafy_radahy_alex_rene_mamitiana",
+      "name": "RANDRIANJAFY-RADAHY Alex René Mamitiana",
+      "classe": "TSTMG2",
       "group": "TSTMG2",
       "pix": 603,
       "certifiable": true,
@@ -850,111 +850,6 @@
       "status": "renseigne"
     },
     {
-      "id": "belcastro_mahera",
-      "name": "Belcastro Mahera",
-      "classe": "",
-      "group": "TSTMG2",
-      "pix": 310,
-      "certifiable": true,
-      "competencesCertifiables": 13,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 5,
-          "pix": 106
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 4,
-          "pix": 80
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 3,
-          "pix": 57
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 2,
-          "pix": 44
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 2,
-          "pix": 23
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 4,
-          "pix": 37
-        },
-        "Gérer des données": {
-          "niveau": 5,
-          "pix": 40
-        },
-        "Traiter des données": {
-          "niveau": 3,
-          "pix": 29
-        },
-        "Interagir": {
-          "niveau": 4,
-          "pix": 37
-        },
-        "Partager et publier": {
-          "niveau": 3,
-          "pix": 27
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 2,
-          "pix": 16
-        },
-        "Développer des documents textuels": {
-          "niveau": 2,
-          "pix": 21
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 1,
-          "pix": 12
-        },
-        "Programmer": {
-          "niveau": 3,
-          "pix": 24
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 2,
-          "pix": 16
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 1,
-          "pix": 8
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 3
-        },
-        "Construire un environnement numérique": {
-          "niveau": 2,
-          "pix": 20
-        }
-      },
-      "lastUpdate": "2025-12-04T17:19:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
-    {
       "id": "rakotonirina_randrianiaina_jonathan",
       "name": "RAKOTONIRINA Randrianiaina Jonathan",
       "classe": "TSTMG2",
@@ -1480,9 +1375,9 @@
       "status": "renseigne"
     },
     {
-      "id": "mohammad_abdoollah",
-      "name": "Mohammad Abdoollah",
-      "classe": "",
+      "id": "abdoollah_mohammad_souheil",
+      "name": "ABDOOLLAH Mohammad Souheil",
+      "classe": "TSTMG2",
       "group": "TSTMG2",
       "pix": 177,
       "certifiable": true,
@@ -1690,9 +1585,9 @@
       "status": "renseigne"
     },
     {
-      "id": "randrianirina_irehana",
-      "name": "Randrianirina Irehana",
-      "classe": "",
+      "id": "randrianirina_mana_arivony_mamy_ny_aina_irehana",
+      "name": "RANDRIANIRINA Mana Arivony Mamy Ny Aina Irehana",
+      "classe": "TSTMG2",
       "group": "TSTMG2",
       "pix": 154,
       "certifiable": true,

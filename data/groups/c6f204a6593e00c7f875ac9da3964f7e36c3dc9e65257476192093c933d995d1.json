@@ -19,8 +19,8 @@
   "students": [
     {
       "id": "eugene_norbert_keanu",
-      "name": "Eugene-norbert Keanu",
-      "classe": "",
+      "name": "EUGENE NORBERT Keanu",
+      "classe": "5M6",
       "group": "5 TECHNO 2",
       "pix": 267,
       "certifiable": true,
@@ -370,9 +370,9 @@
       "status": "renseigne"
     },
     {
-      "id": "germain_margot",
-      "name": "Germain Margot",
-      "classe": "",
+      "id": "germain_fanomezantsoa_sue_margot",
+      "name": "GERMAIN Fanomezantsoa Sue Margot",
+      "classe": "5M6",
       "group": "5 TECHNO 2",
       "pix": 134,
       "certifiable": true,
@@ -1954,9 +1954,9 @@
       "status": "renseigne"
     },
     {
-      "id": "bizimov_alexandre",
-      "name": "Bizimov Alexandre",
-      "classe": "",
+      "id": "bizimov_gilles_alexandre_davidovitch",
+      "name": "BIZIMOV-GILLES Alexandre Davidovitch",
+      "classe": "5M6",
       "group": "5 TECHNO 2",
       "pix": 83,
       "certifiable": false,
@@ -2100,9 +2100,9 @@
       "status": "renseigne"
     },
     {
-      "id": "hgo_wai_kit_hugo",
-      "name": "Hgo Wai Kit Hugo",
-      "classe": "",
+      "id": "huo_wai_kit_hugo_matthew",
+      "name": "HUO WAI KIT Hugo Matthew",
+      "classe": "5M5",
       "group": "5 TECHNO 2",
       "pix": 79,
       "certifiable": true,

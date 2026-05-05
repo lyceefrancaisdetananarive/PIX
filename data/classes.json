@@ -294,11 +294,11 @@
       "name": "3M1",
       "level": "3e",
       "cycle": "cycle4",
-      "studentCount": 27,
-      "scoredCount": 27,
+      "studentCount": 26,
+      "scoredCount": 26,
       "missingCount": 0,
-      "certifiableCount": 22,
-      "averagePix": 175
+      "certifiableCount": 21,
+      "averagePix": 168
     },
     "fe99bd1eefc9d83bbd599ec5a1de94a794a28413bcc1d5a6c7c3dff1b7e9f7cb": {
       "name": "3M2",
@@ -334,21 +334,21 @@
       "name": "3M5",
       "level": "3e",
       "cycle": "cycle4",
-      "studentCount": 28,
-      "scoredCount": 23,
-      "missingCount": 5,
-      "certifiableCount": 15,
-      "averagePix": 161
+      "studentCount": 26,
+      "scoredCount": 22,
+      "missingCount": 4,
+      "certifiableCount": 14,
+      "averagePix": 160
     },
     "175cde66dad0f9de827657ef2a344a6fda3edfecc19721a835f4d60a85a4a3c3": {
       "name": "3M6",
       "level": "3e",
       "cycle": "cycle4",
-      "studentCount": 5,
-      "scoredCount": 5,
+      "studentCount": 4,
+      "scoredCount": 4,
       "missingCount": 0,
-      "certifiableCount": 4,
-      "averagePix": 186
+      "certifiableCount": 3,
+      "averagePix": 202
     },
     "c5595edf5fffc53b36a9cbac4b9069190718c78e75f93cd4f0b75d380b0583ef": {
       "name": "3M7",
@@ -614,11 +614,11 @@
       "name": "TG2",
       "level": "tale",
       "cycle": "lycee",
-      "studentCount": 38,
-      "scoredCount": 15,
+      "studentCount": 35,
+      "scoredCount": 12,
       "missingCount": 23,
-      "certifiableCount": 15,
-      "averagePix": 291
+      "certifiableCount": 12,
+      "averagePix": 275
     },
     "a204d4ad1de3e9b07751899e5cf4d4a3017328c41372c70fdcc8db9587bb38fb": {
       "name": "TG3",
@@ -674,11 +674,11 @@
       "name": "TG8",
       "level": "tale",
       "cycle": "lycee",
-      "studentCount": 39,
-      "scoredCount": 12,
+      "studentCount": 38,
+      "scoredCount": 11,
       "missingCount": 27,
-      "certifiableCount": 12,
-      "averagePix": 313
+      "certifiableCount": 11,
+      "averagePix": 305
     },
     "8eb6a764bc6f20a33477008670d0d4f5026ad1d95094790864e08923aef9d82a": {
       "name": "TSTMG1",
@@ -694,21 +694,21 @@
       "name": "TSTMG2",
       "level": "tale",
       "cycle": "lycee",
-      "studentCount": 44,
-      "scoredCount": 22,
+      "studentCount": 43,
+      "scoredCount": 21,
       "missingCount": 22,
-      "certifiableCount": 22,
-      "averagePix": 276
+      "certifiableCount": 21,
+      "averagePix": 275
     },
     "ab763ffcef90f2beb1b62174138e6f5236c6c5b992c3cff88e64235e7b50d554": {
       "name": "TPRO AGORA",
       "level": "tale",
       "cycle": "lycee",
-      "studentCount": 35,
-      "scoredCount": 18,
+      "studentCount": 34,
+      "scoredCount": 17,
       "missingCount": 17,
-      "certifiableCount": 18,
-      "averagePix": 313
+      "certifiableCount": 17,
+      "averagePix": 317
     },
     "6f3c603b812d364f8d8732d7c3d32720f9e4affcd6a0e50e52c52a0c1fdeee26": {
       "name": "TPRO VENTE",

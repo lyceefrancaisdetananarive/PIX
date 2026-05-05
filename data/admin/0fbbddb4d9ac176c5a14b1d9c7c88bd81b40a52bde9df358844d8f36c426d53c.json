@@ -3,10 +3,10 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 28,
-  "scoredCount": 27,
-  "missingCount": 1,
-  "certifiableCount": 26,
-  "averagePix": 244,
+  "scoredCount": 28,
+  "missingCount": 0,
+  "certifiableCount": 27,
+  "averagePix": 247,
   "relatedGroups": [
     "TG5"
   ],
@@ -639,6 +639,111 @@
         }
       },
       "lastUpdate": "2026-01-22T18:24:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "hedaraly_daya_shanaya_fatema",
+      "name": "HEDARALY DAYA Shanaya Fatema",
+      "classe": "TG5",
+      "group": "TG5",
+      "pix": 323,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 78
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 85
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 73
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 54
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 33
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 38
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Construire un environnement numérique": {
+          "niveau": 3,
+          "pix": 27
+        }
+      },
+      "lastUpdate": "2025-12-07T13:04:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -2846,20 +2951,6 @@
       "lastUpdate": "2026-01-22T15:17:00",
       "parcours": [],
       "status": "renseigne"
-    },
-    {
-      "id": "hedaraly_daya_shanaya_fatema",
-      "name": "HEDARALY DAYA Shanaya Fatema",
-      "classe": "TG5",
-      "group": "TG5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
     }
   ]
 }
