@@ -249,9 +249,29 @@ function initVideoEmbeds() {
   });
 }
 
+// ─── Toggle œil sur le champ code ──────────────────────────────
+function initCodeToggle() {
+  const input = document.getElementById("code-input");
+  const btn = document.getElementById("code-input-toggle");
+  if (!input || !btn) return;
+
+  const eyeOpen  = `<svg class="icon" aria-hidden="true"><use href="#ph-eye"/></svg>`;
+  const eyeShut  = `<svg class="icon" aria-hidden="true"><use href="#ph-eye-slash"/></svg>`;
+
+  btn.addEventListener("click", () => {
+    const isPwd = input.type === "password";
+    input.type = isPwd ? "text" : "password";
+    btn.innerHTML = isPwd ? eyeShut : eyeOpen;
+    btn.setAttribute("aria-pressed", String(isPwd));
+    btn.setAttribute("aria-label", isPwd ? "Masquer le code" : "Afficher le code en clair");
+    input.focus();
+  });
+}
+
 // ─── Boot ──────────────────────────────────────────────────────
 initPodium();
 initDemoGauge();
 initVideoEmbeds();
 initReveal();
 initCodeForm();
+initCodeToggle();

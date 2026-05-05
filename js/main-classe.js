@@ -139,13 +139,30 @@ function renderBanner(meta, teacherMode) {
 }
 
 // ─── Tableau élèves ────────────────────────────────────────────
+function computeTop3() {
+  // IDs des 3 élèves avec le meilleur score Pix (status renseigné uniquement)
+  const scored = allStudents
+    .filter((s) => (s.status || (s.pix > 0 ? "renseigne" : "partiel")) === "renseigne" && s.pix > 0)
+    .sort((a, b) => b.pix - a.pix);
+  const map = new Map();
+  scored.slice(0, 3).forEach((s, i) => map.set(s.id, i + 1));
+  return map;
+}
+
+const MEDAL_ICONS = {
+  1: { icon: "ph-crown-simple", label: "1ère place", cls: "rank-medal--gold" },
+  2: { icon: "ph-medal",         label: "2ème place", cls: "rank-medal--silver" },
+  3: { icon: "ph-medal",         label: "3ème place", cls: "rank-medal--bronze" },
+};
+
 function renderTable() {
   const search = document.getElementById("search-input")?.value || "";
-  const sort = document.getElementById("sort-select")?.value || "pix-desc";
+  const sort = document.getElementById("sort-select")?.value || "name-asc";
   const cert = document.getElementById("filter-cert")?.value || "all";
 
   const filtered = applyFilters(allStudents, { search, sort, cert });
   const container = document.getElementById("students-container");
+  const top3 = computeTop3();  // toujours basé sur l'ensemble, pas sur le filtre
 
   if (filtered.length === 0) {
     container.innerHTML = `
@@ -185,10 +202,18 @@ function renderTable() {
 
       const interactive = !isMissing;
 
+      // Médaille pour les top 3 par score (peu importe l'ordre du tableau)
+      const medalRank = top3.get(s.id);
+      const rankCell = medalRank
+        ? `<span class="rank-medal ${MEDAL_ICONS[medalRank].cls}" title="${MEDAL_ICONS[medalRank].label}">
+             <svg class="icon"><use href="#${MEDAL_ICONS[medalRank].icon}"/></svg>
+           </span>`
+        : `<span class="student-rank student-rank--plain">${i + 1}</span>`;
+
       return `
-        <tr class="${cls}" data-id="${escapeHtml(s.id)}" tabindex="${interactive ? 0 : -1}"
+        <tr class="${cls}${medalRank ? ' is-top3' : ''}" data-id="${escapeHtml(s.id)}" tabindex="${interactive ? 0 : -1}"
             role="${interactive ? "button" : ""}" aria-label="${interactive ? "Voir le détail de " + escapeHtml(s.name) : "Élève non renseigné"}">
-          <td><span class="student-rank">${i + 1}</span></td>
+          <td>${rankCell}</td>
           <td><span class="student-name">${escapeHtml(s.name)}</span></td>
           <td>${escapeHtml(s.classe || "—")}</td>
           <td>${pix}</td>

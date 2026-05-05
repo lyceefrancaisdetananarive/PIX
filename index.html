@@ -432,16 +432,23 @@
 
         <div class="code-form__row">
           <label for="code-input" class="sr-only">Code classe</label>
-          <input
-            type="text"
-            id="code-input"
-            class="code-input"
-            placeholder="Entrez le mot clé"
-            autocapitalize="characters"
-            spellcheck="false"
-            inputmode="text"
-            aria-describedby="code-error"
-            required>
+          <div class="code-input-wrap">
+            <input
+              type="password"
+              id="code-input"
+              class="code-input"
+              placeholder="Entrez le mot clé"
+              autocapitalize="characters"
+              spellcheck="false"
+              autocomplete="off"
+              inputmode="text"
+              aria-describedby="code-error"
+              required>
+            <button type="button" class="code-input__toggle" id="code-input-toggle"
+                    aria-label="Afficher le code en clair" aria-pressed="false">
+              <svg class="icon" aria-hidden="true"><use href="#ph-eye"/></svg>
+            </button>
+          </div>
           <button type="submit" class="btn btn--primary">Déverrouiller</button>
         </div>
 
