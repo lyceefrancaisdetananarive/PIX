@@ -75,39 +75,43 @@ def now():
 
 # ─── Lecture des credentials depuis le Keychain macOS ─────────────
 def read_credentials():
-    """Lit l'email + mot de passe stockés dans le Keychain macOS."""
+    """Lit l'email + mot de passe stockés dans le Keychain macOS.
+
+    Convention (cf. setup-keychain.sh) :
+      service=pix-lft-sync, account=pix-orga-email  →  password = email
+      service=pix-lft-sync, account=pix-orga        →  password = mot de passe
+
+    NB : on n'utilise PAS le filtre -D (Kind) côté find-generic-password,
+    il est ignoré par macOS et retourne n'importe quelle entrée matchant
+    -s/-a, ce qui causait la confusion email↔password (issue Pix Orga login
+    en silence : le champ email était rempli avec le mot de passe).
+    """
     try:
         email = subprocess.check_output(
             ["security", "find-generic-password",
-             "-s", KEYCHAIN_SERVICE, "-a", KEYCHAIN_ACCOUNT,
-             "-w", "-D", "email"],
+             "-s", KEYCHAIN_SERVICE, "-a", "pix-orga-email", "-w"],
             stderr=subprocess.DEVNULL,
         ).decode().strip()
-    except subprocess.CalledProcessError:
-        # On essaie un autre nommage : commenté avec "comment" et password = pwd
-        email = None
-
-    try:
-        # Convention : on utilise 2 entrées Keychain :
-        #   service=pix-lft-sync, account=pix-orga-email   → password = email
-        #   service=pix-lft-sync, account=pix-orga         → password = mot de passe
-        if not email:
-            email = subprocess.check_output(
-                ["security", "find-generic-password",
-                 "-s", KEYCHAIN_SERVICE, "-a", "pix-orga-email", "-w"],
-                stderr=subprocess.DEVNULL,
-            ).decode().strip()
         password = subprocess.check_output(
             ["security", "find-generic-password",
              "-s", KEYCHAIN_SERVICE, "-a", KEYCHAIN_ACCOUNT, "-w"],
             stderr=subprocess.DEVNULL,
         ).decode().strip()
-        return email, password
-    except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError:
         raise RuntimeError(
             "Identifiants Pix Orga introuvables dans le Keychain.\n"
-            "Lance d'abord : ./scripts/agent/setup-keychain.sh"
+            "Lance : ./scripts/agent/setup-keychain.sh"
         )
+
+    # Garde-fou : un email doit contenir un '@'. Si ce n'est pas le cas,
+    # c'est que les entrées Keychain sont inversées ou mal saisies.
+    if "@" not in email:
+        raise RuntimeError(
+            f"Le champ email lu depuis le Keychain ({email!r}) ne contient pas d'@. "
+            "Relance setup-keychain.sh pour corriger."
+        )
+
+    return email, password
 
 
 # ─── Worker de synchronisation ────────────────────────────────────
@@ -151,16 +155,43 @@ def sync_worker(job_id: str):
 
             # 3. Login Pix Orga
             emit("login", "Connexion à Pix Orga…", 0.15)
-            page.goto("https://orga.pix.fr/connexion", wait_until="networkidle")
+            page.goto("https://orga.pix.fr/connexion", wait_until="domcontentloaded")
             page.fill('input[id="login-email"]', email)
             page.fill('input[id="login-password"]', password)
-            page.click('button[type="submit"]')
-            page.wait_for_url("**/campagnes**", timeout=30000)
-            emit("login", "Authentifié", 0.20)
+            # Après submit on attend juste une navigation (URL ≠ /connexion).
+            # Pix Orga peut rediriger vers /campagnes/liste, /sco-organization-participants/list,
+            # un sélecteur d'organisation, etc. — on ne préjuge pas de la cible.
+            with page.expect_navigation(wait_until="domcontentloaded", timeout=30000):
+                page.click('button[type="submit"]')
+
+            if "/connexion" in page.url:
+                emit("error", f"Échec d'authentification (URL inchangée : {page.url}). "
+                              f"Vérifie email/mot de passe dans le Keychain.", -1)
+                JOBS[job_id]["status"] = "failed"
+                return
+
+            emit("login", f"Authentifié → {page.url}", 0.20)
+
+            # Si Pix Orga propose un sélecteur d'organisation, on prend la première
+            # ou celle qui correspond au LFT.
+            try:
+                if "/choisir-organisation" in page.url or "organizations" in page.url.lower():
+                    lft_link = page.locator('a:has-text("Lycée"), button:has-text("Lycée"), a:has-text("LFT")').first
+                    if lft_link.count() > 0:
+                        with page.expect_navigation(wait_until="domcontentloaded", timeout=15000):
+                            lft_link.click()
+                    emit("login", f"Organisation sélectionnée → {page.url}", 0.22)
+            except Exception as e:
+                emit("login", f"(sélecteur d'organisation absent ou ignoré : {e})", 0.22)
 
             # 4. Liste des campagnes
             emit("list", "Récupération de la liste des campagnes…", 0.25)
-            page.goto("https://orga.pix.fr/campagnes", wait_until="networkidle")
+            page.goto("https://orga.pix.fr/campagnes", wait_until="domcontentloaded")
+            # Attente passive du tableau
+            try:
+                page.wait_for_selector('table tbody tr, [data-test="campaigns-list"], main', timeout=15000)
+            except Exception:
+                pass
 
             # On itère sur toutes les pages de la liste
             campaigns = []
