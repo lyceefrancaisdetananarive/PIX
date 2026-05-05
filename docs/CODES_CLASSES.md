@@ -10,10 +10,10 @@ Saisie : un seul mot, sans accent (la casse est ignorée).
 
 | Enseignant | Code | Niveau enseigné |
 |---|---|---|
-| **DEGUEURCE Franck**       | **MERCURE** | 3ème |
-| **HUOT Laurent**           | **SATURNE** | 3ème + SNT/NSI |
-| **RAFALIARISON Max**       | **JUPITER** | 5ème + 3M4 SVT + 3 TECHNO 2 |
-| **RAKOTOARIMANANA Ranja**  | **NEPTUNE** | 4ème + 5M4/5M6 TECHNO |
+| **DEGUEURCE Franck**       | **FERRARI**     | 3ème |
+| **HUOT Laurent**           | **LAMBORGHINI** | 3ème + SNT/NSI |
+| **RAFALIARISON Max**       | **BUGATTI**     | 5ème + 3M4 SVT + 3 TECHNO 2 |
+| **RAKOTOARIMANANA Ranja**  | **BENTLEY**     | 4ème + 5M4/5M6 TECHNO |
 
 > Les 4 codes profs ouvrent le dashboard enseignant (`teacher.html`) avec accès à
 > toutes les classes du collège ET du lycée.

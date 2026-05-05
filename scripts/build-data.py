@@ -51,13 +51,13 @@ EXCLUDED_ACCOUNTS = {
 
 # Codes d'accès "enseignant" : permettent de voir TOUTES les classes
 # (vue dashboard avec accès global aux résultats).
-# Distincts des codes élèves : univers "planètes" pour les distinguer
-# clairement des codes Techno/SVT.
+# Univers "voitures de prestige" pour distinguer clairement des codes
+# élèves (programme Techno).
 TEACHER_CODES = {
-    "DEGUEURCE Franck":       "MERCURE",
-    "HUOT Laurent":           "SATURNE",
-    "RAFALIARISON Max":       "JUPITER",
-    "RAKOTOARIMANANA Ranja":  "NEPTUNE",
+    "DEGUEURCE Franck":       "FERRARI",
+    "HUOT Laurent":           "LAMBORGHINI",
+    "RAFALIARISON Max":       "BUGATTI",
+    "RAKOTOARIMANANA Ranja":  "BENTLEY",
 }
 
 # Quels groupes Pix Orga chaque enseignant assure (extrait des EDT 2025-2026).
