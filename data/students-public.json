@@ -65,10 +65,10 @@
   },
   "stats": {
     "totalGroups": 72,
-    "totalStudents": 2150,
+    "totalStudents": 2196,
     "totalScored": 480,
-    "totalMissing": 1670,
-    "totalCertifiable": 400,
+    "totalMissing": 1616,
+    "totalCertifiable": 468,
     "averagePix": 195,
     "byCycle": {
       "cycle3": {

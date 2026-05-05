@@ -2,14 +2,15 @@
   "name": "3M5",
   "level": "3e",
   "cycle": "cycle4",
-  "studentCount": 26,
+  "studentCount": 25,
   "scoredCount": 22,
-  "missingCount": 4,
+  "missingCount": 3,
   "certifiableCount": 14,
   "averagePix": 160,
-  "parcoursCodes": {
-    "Français - Cycle 4": "JGMHFM539"
-  },
+  "relatedGroups": [
+    "3M5"
+  ],
+  "historicalGroups": [],
   "students": [
     {
       "id": "petitpierre_mahitsy_david",
@@ -2333,208 +2334,48 @@
       "status": "renseigne"
     },
     {
-      "id": "andriamahefarivo_ambinintsoa_ashley",
-      "name": "ANDRIAMAHEFARIVO Ambinintsoa Ashley",
-      "classe": "3M1",
-      "group": "3M5",
+      "id": "chagia_enzo_louis_manesor",
+      "name": "CHAGIA Enzo Louis Manesor",
+      "classe": "3M5",
+      "group": "",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
+      "status": "non_renseigne",
+      "domains": {},
       "competences": {},
-      "lastUpdate": "2026-02-10T12:18:00",
-      "parcours": [
-        {
-          "name": "Français - Cycle 4",
-          "code": "JGMHFM539",
-          "campaignName": "3M5",
-          "date": "2026-02-10T12:18:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.49,
-          "palier": 0
-        }
-      ]
+      "lastUpdate": null,
+      "parcours": []
     },
     {
-      "id": "darmsy_ladha_shabbir_abbas",
-      "name": "DARMSY LADHA Shabbir Abbas",
-      "classe": "3M1",
-      "group": "3M5",
+      "id": "rizvan_mohamed_hassan",
+      "name": "RIZVAN MOHAMED Hassan",
+      "classe": "3M5",
+      "group": "",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
+      "status": "non_renseigne",
+      "domains": {},
       "competences": {},
-      "lastUpdate": "2026-02-10T12:13:00",
-      "parcours": [
-        {
-          "name": "Français - Cycle 4",
-          "code": "JGMHFM539",
-          "campaignName": "3M5",
-          "date": "2026-02-10T12:13:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.9,
-          "palier": 0
-        }
-      ]
+      "lastUpdate": null,
+      "parcours": []
     },
     {
-      "id": "hassanaly_husain",
-      "name": "HASSANALY Husain",
-      "classe": "3M1",
-      "group": "3M5",
+      "id": "vola_razafindramiandra_jamie_noam",
+      "name": "VOLA-RAZAFINDRAMIANDRA Jamie Noam",
+      "classe": "3M5",
+      "group": "",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
+      "status": "non_renseigne",
+      "domains": {},
       "competences": {},
-      "lastUpdate": "2026-02-10T12:06:00",
-      "parcours": [
-        {
-          "name": "Français - Cycle 4",
-          "code": "JGMHFM539",
-          "campaignName": "3M5",
-          "date": "2026-02-10T12:06:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.9,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "rakotoarijaona_riana_matthieu",
-      "name": "RAKOTOARIJAONA Riana Matthieu",
-      "classe": "3M1",
-      "group": "3M5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-02-10T12:11:00",
-      "parcours": [
-        {
-          "name": "Français - Cycle 4",
-          "code": "JGMHFM539",
-          "campaignName": "3M5",
-          "date": "2026-02-10T12:11:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.9,
-          "palier": 0
-        }
-      ]
+      "lastUpdate": null,
+      "parcours": []
     }
-  ]
+  ],
+  "originGroup": "3M5",
+  "isClassView": true
 }

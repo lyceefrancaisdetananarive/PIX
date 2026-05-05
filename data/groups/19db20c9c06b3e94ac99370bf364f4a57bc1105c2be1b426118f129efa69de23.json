@@ -1,16 +1,17 @@
 {
-  "name": "4M7 P.1",
+  "name": "4M7",
   "level": "4e",
   "cycle": "cycle4",
-  "studentCount": 25,
+  "studentCount": 28,
   "scoredCount": 12,
-  "missingCount": 13,
+  "missingCount": 16,
   "certifiableCount": 1,
   "averagePix": 59,
-  "parcoursCodes": {
-    "Cybersécurité - Cycle 4 (MAJ 2025)": "CAWLRP162",
-    "Parcours de rentrée 4e": "EYRXWN983"
-  },
+  "relatedGroups": [
+    "4M7 P.1",
+    "4M7 P.2"
+  ],
+  "historicalGroups": [],
   "students": [
     {
       "id": "andriamampianina_soatiana_audrey",
@@ -1505,134 +1506,365 @@
       "status": "renseigne"
     },
     {
-      "id": "andriamampianina_soatiana_audrey",
-      "name": "ANDRIAMAMPIANINA Soatiana Audrey",
+      "id": "gonard_iloah_bao",
+      "name": "GONARD Iloah Bao",
       "classe": "4M7",
-      "group": "4M7 P.1",
+      "group": "4M7 P.2",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
       "competences": {},
-      "lastUpdate": null,
-      "parcours": []
+      "lastUpdate": "2025-12-15T07:03:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "KZALSE686",
+          "campaignName": "4M7 P.2 -- Parcours de rentrée 4e",
+          "date": "2025-12-15T07:03:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 3
+        }
+      ]
     },
     {
-      "id": "andrianasolo_lucie_benie",
-      "name": "ANDRIANASOLO Lucie Bénie",
+      "id": "lo_tsy_heng_ciara_rajaomilison",
+      "name": "LO TSY HENG Ciara Rajaomilison",
       "classe": "4M7",
-      "group": "4M7 P.1",
+      "group": "4M7 P.2",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
       "competences": {},
-      "lastUpdate": null,
-      "parcours": []
+      "lastUpdate": "2026-03-16T06:45:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "KZALSE686",
+          "campaignName": "4M7 P.2 -- Parcours de rentrée 4e",
+          "date": "2026-03-16T06:45:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
     },
     {
-      "id": "annunziata_mialy_luna",
-      "name": "ANNUNZIATA Mialy Luna",
+      "id": "rabemanantsoa_mathieu_arniaina",
+      "name": "RABEMANANTSOA Mathieu Arniaina",
       "classe": "4M7",
-      "group": "4M7 P.1",
+      "group": "4M7 P.2",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
       "competences": {},
-      "lastUpdate": null,
-      "parcours": []
+      "lastUpdate": "2025-12-15T07:15:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "KZALSE686",
+          "campaignName": "4M7 P.2 -- Parcours de rentrée 4e",
+          "date": "2025-12-15T07:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "rakotoarison_matthieu_marimpitiavana",
+      "name": "RAKOTOARISON Matthieu Marimpitiavana",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-16T06:52:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "KZALSE686",
+          "campaignName": "4M7 P.2 -- Parcours de rentrée 4e",
+          "date": "2026-03-16T06:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.97,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "ramarosaona_iona_soa",
+      "name": "RAMAROSAONA Iona Soa",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-15T07:17:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "KZALSE686",
+          "campaignName": "4M7 P.2 -- Parcours de rentrée 4e",
+          "date": "2025-12-15T07:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.97,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "ranaivo_thomas_vincent_zosoa",
+      "name": "RANAIVO Thomas Vincent Zosoa",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T06:18:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "KZALSE686",
+          "campaignName": "4M7 P.2 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T06:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "randrianavalona_tiary_nathan",
+      "name": "RANDRIANAVALONA Tiary Nathan",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T06:54:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "KZALSE686",
+          "campaignName": "4M7 P.2 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T06:54:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
     },
     {
       "id": "bertagna_metissia",
       "name": "BERTAGNA Métissia",
-      "classe": "4M7",
-      "group": "4M7 P.1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "boumbanda_loungou_janel_pierre",
-      "name": "BOUMBANDA LOUNGOU Janel Pierre",
-      "classe": "4M7",
-      "group": "4M7 P.1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "caramla_wessley_gabriel_francis",
-      "name": "CARAMLA Wessley Gabriel Francis",
-      "classe": "4M7",
-      "group": "4M7 P.1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "charif_souhayl_chamsouddine",
-      "name": "CHARIF Souhayl Chamsouddine",
-      "classe": "4M7",
-      "group": "4M7 P.1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "cisse_elhadji_moukhamadou",
-      "name": "CISSE Elhadji Moukhamadou",
-      "classe": "4M7",
-      "group": "4M7 P.1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "couesnon_ilann_leo_mirado",
-      "name": "COUESNON Ilann Léo Mirado",
-      "classe": "4M7",
-      "group": "4M7 P.1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "crisaci_jean_yonel",
-      "name": "CRISACI Jean Yonel",
       "classe": "4M7",
       "group": "4M7 P.1",
       "pix": 0,
@@ -1659,10 +1891,10 @@
       "parcours": []
     },
     {
-      "id": "randriambeloma_loic_mihary",
-      "name": "RANDRIAMBELOMA Loic Mihary",
+      "id": "firdoche_houssen_shezan_raza",
+      "name": "FIRDOCHE HOUSSEN Shezan Raza",
       "classe": "4M7",
-      "group": "4M7 P.1",
+      "group": "4M7 P.2",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -1673,10 +1905,80 @@
       "parcours": []
     },
     {
-      "id": "vuattoux_lucie_nomeny_marie",
-      "name": "VUATTOUX Lucie Nomeny Marie",
+      "id": "hassanaly_aziz_houssen",
+      "name": "HASSANALY Aziz Houssen",
       "classe": "4M7",
-      "group": "4M7 P.1",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "le_bras_mahery_raphael",
+      "name": "LE BRAS Mahery Raphaël",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ouedraogo_lucas_ariel_emmanuel",
+      "name": "OUEDRAOGO Lucas Ariel Emmanuel",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rahma_arckan",
+      "name": "RAHMA Arckan",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rahma_fatihah",
+      "name": "RAHMA Fatihah",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramanantsoa_fiona",
+      "name": "RAMANANTSOA Fiona",
+      "classe": "4M7",
+      "group": "4M7 P.2",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -1686,5 +1988,7 @@
       "lastUpdate": null,
       "parcours": []
     }
-  ]
+  ],
+  "originGroup": "4M7 P.1",
+  "isClassView": true
 }

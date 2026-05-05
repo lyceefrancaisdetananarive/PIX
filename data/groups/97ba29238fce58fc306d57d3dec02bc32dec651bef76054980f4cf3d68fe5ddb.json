@@ -1,18 +1,16 @@
 {
-  "name": "3M4 SVT",
+  "name": "3M4",
   "level": "3e",
   "cycle": "cycle4",
-  "studentCount": 36,
+  "studentCount": 24,
   "scoredCount": 11,
-  "missingCount": 25,
+  "missingCount": 13,
   "certifiableCount": 9,
   "averagePix": 142,
-  "parcoursCodes": {
-    "Cybersécurité - Cycle 4 (MAJ 2025)": "YTLYRX138",
-    "EMI - cycle 4": "VGBDZF671",
-    "Parcours de rentrée 3e": "KEYRXS774",
-    "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)": "KAEZBP134"
-  },
+  "relatedGroups": [
+    "3M4 SVT"
+  ],
+  "historicalGroups": [],
   "students": [
     {
       "id": "razanamalala_jemilah_francine_safosy",
@@ -1394,67 +1392,6 @@
       ]
     },
     {
-      "id": "dimbiniain_soatia",
-      "name": "Dimbiniain Soatia",
-      "classe": "",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-05T06:22:00",
-      "parcours": [
-        {
-          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
-          "code": "KAEZBP134",
-          "campaignName": "3M4 SVT -- Protection & sécurité",
-          "date": "2025-11-05T06:33:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.77,
-          "palier": 0
-        },
-        {
-          "name": "Parcours de rentrée 3e",
-          "code": "KEYRXS774",
-          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
-          "date": "2025-11-05T06:22:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.75,
-          "palier": 2
-        }
-      ]
-    },
-    {
       "id": "fabriano_jeffrey_mario",
       "name": "FABRIANO Jeffrey Mario",
       "classe": "3M4",
@@ -1755,158 +1692,6 @@
           "progress": 1.0,
           "maitrise": 0.86,
           "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "leung_loann",
-      "name": "Leung Loann",
-      "classe": "",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-01-07T06:16:00",
-      "parcours": [
-        {
-          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
-          "code": "YTLYRX138",
-          "campaignName": "3M4 SVT -- Cybersécurité",
-          "date": "2026-01-07T06:16:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.79,
-          "palier": 0
-        },
-        {
-          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
-          "code": "KAEZBP134",
-          "campaignName": "3M4 SVT -- Protection & sécurité",
-          "date": "2025-10-15T07:01:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.91,
-          "palier": 0
-        },
-        {
-          "name": "Parcours de rentrée 3e",
-          "code": "KEYRXS774",
-          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
-          "date": "2025-10-15T06:45:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.79,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "liu_maluna",
-      "name": "Liu Maluna",
-      "classe": "",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-01-07T06:10:00",
-      "parcours": [
-        {
-          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
-          "code": "YTLYRX138",
-          "campaignName": "3M4 SVT -- Cybersécurité",
-          "date": "2026-01-07T06:10:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.9,
-          "palier": 0
-        },
-        {
-          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
-          "code": "KAEZBP134",
-          "campaignName": "3M4 SVT -- Protection & sécurité",
-          "date": "2025-11-05T06:25:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.86,
-          "palier": 0
-        },
-        {
-          "name": "Parcours de rentrée 3e",
-          "code": "KEYRXS774",
-          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
-          "date": "2025-11-05T05:45:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.75,
-          "palier": 2
-        },
-        {
-          "name": "EMI - cycle 4",
-          "code": "VGBDZF671",
-          "campaignName": "3M4 SVT -- EMI",
-          "date": null,
-          "partage": false,
-          "progress": 0.68,
-          "maitrise": 0.0,
-          "palier": 0
         }
       ]
     },
@@ -2239,76 +2024,6 @@
       "parcours": []
     },
     {
-      "id": "djiva_shazana_fatema",
-      "name": "DJIVA Shazana Fatema",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "fabriano_jeffrey_mario",
-      "name": "FABRIANO Jeffrey Mario",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "hassim_ylias_mathias",
-      "name": "HASSIM Ylias Mathias",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "hoareau_mathurin_christiano_mandresy",
-      "name": "HOAREAU Mathurin Christiano Mandresy",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "jakoba_caroline_suzy",
-      "name": "JAKOBA Caroline Suzy",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "leung_poui_fong_lana_loann",
       "name": "LEUNG POUI FONG Lana Loann",
       "classe": "3M4",
@@ -2335,62 +2050,8 @@
       "competences": {},
       "lastUpdate": null,
       "parcours": []
-    },
-    {
-      "id": "malde_kara_dylan_nilene",
-      "name": "MALDE KARA Dylan Nilène",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "rabibisoa_lohan_faly",
-      "name": "RABIBISOA Lohan Faly",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "rasolofonjatovo_maria_soanala",
-      "name": "RASOLOFONJATOVO Maria Soanala",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "razanamalala_jemilah_francine_safosy",
-      "name": "RAZANAMALALA Jemilah Francine Safosy",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
     }
-  ]
+  ],
+  "originGroup": "3M4 SVT",
+  "isClassView": true
 }

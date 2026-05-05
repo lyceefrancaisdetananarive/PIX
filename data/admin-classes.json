@@ -98,36 +98,6 @@
       ],
       "historicalGroups": []
     },
-    "9641cea81e7b243fdbc3c6e6bc43b8bcd7dac55694f1c8689be20643af234b5b": {
-      "name": "5M3",
-      "level": "5e",
-      "cycle": "cycle4",
-      "studentCount": 22,
-      "scoredCount": 22,
-      "missingCount": 0,
-      "certifiableCount": 19,
-      "averagePix": 157,
-      "relatedGroups": [
-        "5M3 SVT",
-        "5SVT1"
-      ],
-      "historicalGroups": []
-    },
-    "7d92b604d843ead2e06c02b6b334e8dc9304f6f9ba84221a63bee2e350fdfda6": {
-      "name": "5M4",
-      "level": "5e",
-      "cycle": "cycle4",
-      "studentCount": 25,
-      "scoredCount": 8,
-      "missingCount": 17,
-      "certifiableCount": 8,
-      "averagePix": 153,
-      "relatedGroups": [
-        "5M4 TECHNO",
-        "5SVT1"
-      ],
-      "historicalGroups": []
-    },
     "0e86d99375b53c4eaf27559386b742f32947a37b87e0d62f8310b889b379be38": {
       "name": "5M1",
       "level": "5e",
@@ -155,6 +125,36 @@
       "relatedGroups": [
         "5 TECHNO 1",
         "5M2 TECHNO"
+      ],
+      "historicalGroups": []
+    },
+    "9641cea81e7b243fdbc3c6e6bc43b8bcd7dac55694f1c8689be20643af234b5b": {
+      "name": "5M3",
+      "level": "5e",
+      "cycle": "cycle4",
+      "studentCount": 22,
+      "scoredCount": 22,
+      "missingCount": 0,
+      "certifiableCount": 19,
+      "averagePix": 157,
+      "relatedGroups": [
+        "5M3 SVT",
+        "5SVT1"
+      ],
+      "historicalGroups": []
+    },
+    "7d92b604d843ead2e06c02b6b334e8dc9304f6f9ba84221a63bee2e350fdfda6": {
+      "name": "5M4",
+      "level": "5e",
+      "cycle": "cycle4",
+      "studentCount": 25,
+      "scoredCount": 8,
+      "missingCount": 17,
+      "certifiableCount": 8,
+      "averagePix": 153,
+      "relatedGroups": [
+        "5M4 TECHNO",
+        "5SVT1"
       ],
       "historicalGroups": []
     },
@@ -278,34 +278,6 @@
       ],
       "historicalGroups": []
     },
-    "e26f7b542042e3a41ef9636519a747b41388f5b919a978391884d28487285717": {
-      "name": "3M1",
-      "level": "3e",
-      "cycle": "cycle4",
-      "studentCount": 27,
-      "scoredCount": 24,
-      "missingCount": 3,
-      "certifiableCount": 19,
-      "averagePix": 170,
-      "relatedGroups": [
-        "3M1"
-      ],
-      "historicalGroups": []
-    },
-    "6e79ecf8879cfd6b0b0622393aaf90389e6120cf4efc973d62e2e5dcba7ba09d": {
-      "name": "3M4",
-      "level": "3e",
-      "cycle": "cycle4",
-      "studentCount": 24,
-      "scoredCount": 11,
-      "missingCount": 13,
-      "certifiableCount": 9,
-      "averagePix": 142,
-      "relatedGroups": [
-        "3M4 SVT"
-      ],
-      "historicalGroups": []
-    },
     "7be05ce2d2bf01a2a6758640aba34bdba85074bd3e5b541a169e0d33e3e653fd": {
       "name": "4M5",
       "level": "4e",
@@ -351,6 +323,20 @@
       ],
       "historicalGroups": []
     },
+    "e26f7b542042e3a41ef9636519a747b41388f5b919a978391884d28487285717": {
+      "name": "3M1",
+      "level": "3e",
+      "cycle": "cycle4",
+      "studentCount": 27,
+      "scoredCount": 24,
+      "missingCount": 3,
+      "certifiableCount": 19,
+      "averagePix": 170,
+      "relatedGroups": [
+        "3M1"
+      ],
+      "historicalGroups": []
+    },
     "6cfc987aaf9a7c16264c9dcde85d5ccb1d4a40a4087673969c9a04058c944c63": {
       "name": "3M2",
       "level": "3e",
@@ -363,6 +349,20 @@
       "relatedGroups": [
         "3 TECHNO 2",
         "3M2"
+      ],
+      "historicalGroups": []
+    },
+    "6e79ecf8879cfd6b0b0622393aaf90389e6120cf4efc973d62e2e5dcba7ba09d": {
+      "name": "3M4",
+      "level": "3e",
+      "cycle": "cycle4",
+      "studentCount": 24,
+      "scoredCount": 11,
+      "missingCount": 13,
+      "certifiableCount": 9,
+      "averagePix": 142,
+      "relatedGroups": [
+        "3M4 SVT"
       ],
       "historicalGroups": []
     },

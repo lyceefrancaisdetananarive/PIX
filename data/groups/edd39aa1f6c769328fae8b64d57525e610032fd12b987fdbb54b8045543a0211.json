@@ -2,12 +2,15 @@
   "name": "3M1",
   "level": "3e",
   "cycle": "cycle4",
-  "studentCount": 26,
-  "scoredCount": 26,
-  "missingCount": 0,
-  "certifiableCount": 21,
-  "averagePix": 168,
-  "parcoursCodes": {},
+  "studentCount": 27,
+  "scoredCount": 24,
+  "missingCount": 3,
+  "certifiableCount": 19,
+  "averagePix": 170,
+  "relatedGroups": [
+    "3M1"
+  ],
+  "historicalGroups": [],
   "students": [
     {
       "id": "hassanaly_husain",
@@ -1056,111 +1059,6 @@
         }
       },
       "lastUpdate": "2026-03-31T07:53:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
-    {
-      "id": "randriamahazo_ambinimanantsoa_rohan_halo",
-      "name": "RANDRIAMAHAZO AMBINIMANANTSOA Rohan Halo",
-      "classe": "3M4",
-      "group": "3M1",
-      "pix": 197,
-      "certifiable": true,
-      "competencesCertifiables": 10,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 3,
-          "pix": 46
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 3,
-          "pix": 39
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 1,
-          "pix": 18
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 1,
-          "pix": 30
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 4,
-          "pix": 64
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 3,
-          "pix": 26
-        },
-        "Gérer des données": {
-          "niveau": 2,
-          "pix": 17
-        },
-        "Traiter des données": {
-          "niveau": 0,
-          "pix": 3
-        },
-        "Interagir": {
-          "niveau": 3,
-          "pix": 24
-        },
-        "Partager et publier": {
-          "niveau": 1,
-          "pix": 10
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 0,
-          "pix": 5
-        },
-        "Développer des documents textuels": {
-          "niveau": 1,
-          "pix": 11
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 4
-        },
-        "Programmer": {
-          "niveau": 0,
-          "pix": 3
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 1,
-          "pix": 10
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 1,
-          "pix": 11
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 4,
-          "pix": 38
-        },
-        "Construire un environnement numérique": {
-          "niveau": 3,
-          "pix": 26
-        }
-      },
-      "lastUpdate": "2026-03-31T09:00:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -2215,111 +2113,6 @@
       "status": "renseigne"
     },
     {
-      "id": "hugot_adam_antoine_aime",
-      "name": "HUGOT Adam Antoine Aimé",
-      "classe": "3M4",
-      "group": "3M1",
-      "pix": 87,
-      "certifiable": true,
-      "competencesCertifiables": 6,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 3,
-          "pix": 32
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 1,
-          "pix": 26
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 7
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 1,
-          "pix": 19
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 3
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 3,
-          "pix": 24
-        },
-        "Gérer des données": {
-          "niveau": 1,
-          "pix": 8
-        },
-        "Traiter des données": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Interagir": {
-          "niveau": 1,
-          "pix": 13
-        },
-        "Partager et publier": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 0,
-          "pix": 4
-        },
-        "Développer des documents textuels": {
-          "niveau": 0,
-          "pix": 7
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Programmer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 1,
-          "pix": 8
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 1,
-          "pix": 8
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 0,
-          "pix": 3
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Construire un environnement numérique": {
-          "niveau": 0,
-          "pix": 3
-        }
-      },
-      "lastUpdate": "2026-03-31T09:00:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
-    {
       "id": "wang_xichen",
       "name": "WANG Xichen",
       "classe": "3M1",
@@ -2738,6 +2531,50 @@
       "lastUpdate": "2026-02-10T06:47:00",
       "parcours": [],
       "status": "renseigne"
+    },
+    {
+      "id": "alliotte_gregoire_pierre_philippe_thierry",
+      "name": "ALLIOTTE Grégoire Pierre-Philippe Thierry",
+      "classe": "3M1",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "chen_ka_yok_emy",
+      "name": "CHEN Ka Yok Emy",
+      "classe": "3M1",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "konate_eliam_henri_braine",
+      "name": "KONATE Eliam Henri Braine",
+      "classe": "3M1",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
     }
-  ]
+  ],
+  "originGroup": "3M1",
+  "isClassView": true
 }

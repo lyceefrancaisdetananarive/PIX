@@ -1,16 +1,120 @@
 {
-  "name": "4M5 SVT",
+  "name": "4M5",
   "level": "4e",
   "cycle": "cycle4",
-  "studentCount": 25,
+  "studentCount": 28,
   "scoredCount": 0,
-  "missingCount": 25,
+  "missingCount": 28,
   "certifiableCount": 0,
   "averagePix": 0,
-  "parcoursCodes": {
-    "Parcours de rentrée 4e": "ULCJER549"
-  },
+  "relatedGroups": [
+    "4 TECHNO 3",
+    "4M5 SVT"
+  ],
+  "historicalGroups": [],
   "students": [
+    {
+      "id": "angibault_marcel",
+      "name": "ANGIBAULT Marcel",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T14:13:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T14:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "bezandry_tristan_bradley",
+      "name": "BEZANDRY Tristan Bradley",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T14:05:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T14:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
+          "palier": 3
+        }
+      ]
+    },
     {
       "id": "houssein_rudy_anjaratiana",
       "name": "HOUSSEIN Rudy Anjaratiana",
@@ -63,6 +167,57 @@
       ]
     },
     {
+      "id": "jaozandry_matthieu",
+      "name": "JAOZANDRY Matthieu",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-23T14:19:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GPABJF149",
+          "campaignName": "4 TECHNO 3 -- Parcours de rentrée 4e",
+          "date": "2026-03-23T14:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        }
+      ]
+    },
+    {
       "id": "nathoo_chaick_mael_abasse",
       "name": "NATHOO CHAICK Mael Abasse",
       "classe": "4M5",
@@ -110,57 +265,6 @@
           "progress": 1.0,
           "maitrise": 0.91,
           "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "orsot_dessi_maelle",
-      "name": "Orsot-dessi Maelle",
-      "classe": "",
-      "group": "4M5 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "ULCJER549",
-          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
-          "date": null,
-          "partage": false,
-          "progress": 0.91,
-          "maitrise": 0.0,
-          "palier": 0
         }
       ]
     },
@@ -267,108 +371,6 @@
       ]
     },
     {
-      "id": "ramorasata_irinah",
-      "name": "Ramorasata Irinah",
-      "classe": "",
-      "group": "4M5 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-25T06:00:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "ULCJER549",
-          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
-          "date": "2026-03-25T06:00:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.56,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "razafindrabe_manaja",
-      "name": "Razafindrabe Manaja",
-      "classe": "",
-      "group": "4M5 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-31T13:05:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "ULCJER549",
-          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
-          "date": "2026-03-31T13:05:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.97,
-          "palier": 3
-        }
-      ]
-    },
-    {
       "id": "abbassi_maina_guylaine_naima",
       "name": "ABBASSI Maïna Guylaine Naïma",
       "classe": "4M5",
@@ -397,10 +399,52 @@
       "parcours": []
     },
     {
+      "id": "bourret_mathieu_noah",
+      "name": "BOURRET Mathieu Noah",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "caneparo_alice_lenah_colette",
       "name": "CANEPARO Alice Lenah Colette",
       "classe": "4M5",
       "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "chan_hor_bien_soa_dylane",
+      "name": "CHAN HOR BIEN Soa Dylane",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "daniel_zoza_farzanah",
+      "name": "DANIEL Zoza Farzanah",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -425,10 +469,24 @@
       "parcours": []
     },
     {
-      "id": "houssein_rudy_anjaratiana",
-      "name": "HOUSSEIN Rudy Anjaratiana",
+      "id": "dupuis_edgard_pierre_denis",
+      "name": "DUPUIS Edgard Pierre Denis",
       "classe": "4M5",
-      "group": "4M5 SVT",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "gbetnkom_cesaire_sylan",
+      "name": "GBETNKOM Cesaire Sylan",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -453,10 +511,24 @@
       "parcours": []
     },
     {
-      "id": "nathoo_chaick_mael_abasse",
-      "name": "NATHOO CHAICK Mael Abasse",
+      "id": "mosa_ndiaye_anjarameva_moana_laurieann",
+      "name": "MOSA NDIAYE Anjarameva Moana Laurieann",
       "classe": "4M5",
-      "group": "4M5 SVT",
+      "group": "4 TECHNO 3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "moungali_beniriko_leopold_fernand_beniriko",
+      "name": "MOUNGALI BENIRIKO Léopold Fernand Beniriko",
+      "classe": "4M5",
+      "group": "4 TECHNO 3",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -537,20 +609,6 @@
       "parcours": []
     },
     {
-      "id": "ramanamihantatsoarana_beniaina_olivier",
-      "name": "RAMANAMIHANTATSOARANA Beniaina Olivier",
-      "classe": "4M5",
-      "group": "4M5 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "ramorasata_herinirina_irinah",
       "name": "RAMORASATA Herinirina Irinah",
       "classe": "4M5",
@@ -593,20 +651,6 @@
       "parcours": []
     },
     {
-      "id": "razafindramboa_zachary_adolphe",
-      "name": "RAZAFINDRAMBOA Zachary Adolphe",
-      "classe": "4M5",
-      "group": "4M5 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "tabary_ravinala_serge",
       "name": "TABARY Ravinala Serge",
       "classe": "4M5",
@@ -620,5 +664,7 @@
       "lastUpdate": null,
       "parcours": []
     }
-  ]
+  ],
+  "originGroup": "4M5 SVT",
+  "isClassView": true
 }

@@ -1,21 +1,23 @@
 {
-  "name": "4M2 TECHNO",
+  "name": "4M2",
   "level": "4e",
   "cycle": "cycle4",
-  "studentCount": 24,
+  "studentCount": 28,
   "scoredCount": 0,
-  "missingCount": 24,
+  "missingCount": 28,
   "certifiableCount": 0,
   "averagePix": 0,
-  "parcoursCodes": {
-    "Parcours de rentrée 4e": "MMVQAS865"
-  },
+  "relatedGroups": [
+    "4 TECHNO 1",
+    "4M2 TECHNO"
+  ],
+  "historicalGroups": [],
   "students": [
     {
-      "id": "ha_quang_nguyen_yolanne",
-      "name": "Ha Quang Nguyen Yolanne",
-      "classe": "",
-      "group": "4M2 TECHNO",
+      "id": "brindavoine_jimmy",
+      "name": "BRINDAVOINE Jimmy",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -48,17 +50,119 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2025-12-16T06:38:00",
+      "lastUpdate": null,
       "parcours": [
         {
           "name": "Parcours de rentrée 4e",
-          "code": "MMVQAS865",
-          "campaignName": "4M2 TECHNO -- Parcours de rentrée 4e",
-          "date": "2025-12-16T06:38:00",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.53,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "cliquet_alexandre_hary_fy",
+      "name": "CLIQUET Alexandre Hary Fy",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T06:40:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": "2026-03-25T06:40:00",
           "partage": true,
           "progress": 1.0,
-          "maitrise": 0.62,
-          "palier": 2
+          "maitrise": 0.94,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "cus_marina_lysiane",
+      "name": "CUS Marina Lysiane",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": null,
+          "partage": false,
+          "progress": 0.82,
+          "maitrise": 0.0,
+          "palier": 0
         }
       ]
     },
@@ -109,57 +213,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.82,
-          "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "kessaria_abdeali",
-      "name": "Kessaria Abdeali.",
-      "classe": "",
-      "group": "4M2 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-24T06:06:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "MMVQAS865",
-          "campaignName": "4M2 TECHNO -- Parcours de rentrée 4e",
-          "date": "2026-03-24T06:06:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.91,
           "palier": 3
         }
       ]
@@ -365,57 +418,6 @@
           "progress": 1.0,
           "maitrise": 0.82,
           "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "mac_lai_tsiong_dave",
-      "name": "Mac Lai Tsiong Dave",
-      "classe": "",
-      "group": "4M2 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-12-16T06:11:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "MMVQAS865",
-          "campaignName": "4M2 TECHNO -- Parcours de rentrée 4e",
-          "date": "2025-12-16T06:11:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.74,
-          "palier": 2
         }
       ]
     },
@@ -703,6 +705,48 @@
       "parcours": []
     },
     {
+      "id": "bourgarel_emma_haja",
+      "name": "BOURGAREL Emma Haja",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "choungmo_fofack_zafimihary_joy_nathan",
+      "name": "CHOUNGMO FOFACK Zafimihary Joy-Nathan",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "fung_yee_kenzy_luis",
+      "name": "FUNG YEE Kenzy Luis",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "ha_quang_nguyen_miantsa_yolanne",
       "name": "HA QUANG NGUYEN Miantsa Yolanne",
       "classe": "4M2",
@@ -745,10 +789,10 @@
       "parcours": []
     },
     {
-      "id": "lambert_keyrra_besoa_kune",
-      "name": "LAMBERT Keyrra Besoa Kune",
+      "id": "kondoma_asingalembi_nzenze_elie",
+      "name": "KONDOMA ASINGALEMBI NZENZE Elie",
       "classe": "4M2",
-      "group": "4M2 TECHNO",
+      "group": "4 TECHNO 1",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -787,6 +831,34 @@
       "parcours": []
     },
     {
+      "id": "raharijaona_anthony_rianasoa",
+      "name": "RAHARIJAONA Anthony Rianasoa",
+      "classe": "4M2",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoarison_princia_melodie",
+      "name": "RAKOTOARISON Princia Mélodie",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "ralarioely_aurora",
       "name": "RALARIOELY Aurora",
       "classe": "4M2",
@@ -801,24 +873,10 @@
       "parcours": []
     },
     {
-      "id": "ravoniandro_laura_stephanie",
-      "name": "RAVONIANDRO Laura Stephanie",
+      "id": "reznar_melissa_grace_janina",
+      "name": "REZNAR Mélissa Grace Janina",
       "classe": "4M2",
-      "group": "4M2 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "razafintsambaina_abigael_irinamalala",
-      "name": "RAZAFINTSAMBAINA Abigaël Irinamalala",
-      "classe": "4M2",
-      "group": "4M2 TECHNO",
+      "group": "4 TECHNO 1",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -828,5 +886,7 @@
       "lastUpdate": null,
       "parcours": []
     }
-  ]
+  ],
+  "originGroup": "4M2 TECHNO",
+  "isClassView": true
 }

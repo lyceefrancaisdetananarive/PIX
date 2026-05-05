@@ -103,6 +103,8 @@ function renderBanner(meta, teacherMode) {
   let levelText = levelLabels[meta.level] || "Cycle 4";
   if (meta.isAdminClass && meta.relatedGroups && meta.relatedGroups.length > 0) {
     levelText += ` · ${meta.relatedGroups.length} groupe${meta.relatedGroups.length > 1 ? "s" : ""} Pix Orga`;
+  } else if (meta.isClassView && meta.originGroup) {
+    levelText += ` · accès via le code ${meta.originGroup}`;
   }
   document.getElementById("classe-level").textContent = levelText;
 
@@ -210,12 +212,23 @@ function renderTable() {
            </span>`
         : `<span class="student-rank student-rank--plain">${i + 1}</span>`;
 
+      // Colonne Groupe : un seul groupe Pix Orga par élève (sa source de vérité).
+      // Mise en évidence des groupes Techno (utile en collège pour identifier le prof).
+      const groupes = (() => {
+        const g = s.group;
+        if (!g) return '<span class="student-group student-group--none">—</span>';
+        const isTechno = /TECHNO|\sP\.\d/i.test(g);
+        const css = isTechno ? "student-group student-group--techno" : "student-group";
+        return `<span class="${css}">${escapeHtml(g)}</span>`;
+      })();
+
       return `
         <tr class="${cls}${medalRank ? ' is-top3' : ''}" data-id="${escapeHtml(s.id)}" tabindex="${interactive ? 0 : -1}"
             role="${interactive ? "button" : ""}" aria-label="${interactive ? "Voir le détail de " + escapeHtml(s.name) : "Élève non renseigné"}">
           <td>${rankCell}</td>
           <td><span class="student-name">${escapeHtml(s.name)}</span></td>
           <td>${escapeHtml(s.classe || "—")}</td>
+          <td class="cell-groupes">${groupes}</td>
           <td>${pix}</td>
           <td>${badge}</td>
           <td>${s.parcours?.length || 0}</td>
@@ -231,6 +244,7 @@ function renderTable() {
           <th scope="col">#</th>
           <th scope="col">Élève</th>
           <th scope="col">Classe</th>
+          <th scope="col">Groupe</th>
           <th scope="col">Score</th>
           <th scope="col">Statut</th>
           <th scope="col">Parcours</th>
@@ -295,7 +309,14 @@ function openModal(id) {
   const backdrop = document.getElementById("student-modal");
   document.getElementById("modal-name").textContent = student.name;
 
-  const meta = [student.classe, groupName].filter(Boolean).join(" · ");
+  // Évite la redondance : classe Pronote · vue actuelle · groupe canonique de l'élève
+  const metaParts = [];
+  if (student.classe) metaParts.push(student.classe);
+  if (groupName && groupName !== student.classe) metaParts.push(groupName);
+  if (student.group && student.group !== groupName && student.group !== student.classe) {
+    metaParts.push(student.group);
+  }
+  const meta = metaParts.join(" · ");
   const lastUpdate = student.lastUpdate
     ? `Dernière mise à jour : ${formatDate(student.lastUpdate)}`
     : "";

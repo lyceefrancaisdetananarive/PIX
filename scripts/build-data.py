@@ -1035,11 +1035,30 @@ def main() -> int:
     admin_dir = DATA_DIR / "admin"
     admin_dir.mkdir(parents=True, exist_ok=True)
 
+    # Règle : un élève appartient à UN SEUL groupe Pix Orga.
+    # Un groupe per-classe (ex. "5M1 SVT", "5M7 P.1") ne peut contenir que des élèves
+    # de cette classe. Si un élève apparaît à tort dans le mauvais groupe per-classe
+    # (ex. Keya en 5M3 listée dans "5M1 SVT"), on ignore ce record : sa vérité est
+    # le groupe transverse / spécialité (ex. "5SVT1") où il a réellement participé.
+    PER_CLASS_PREFIX_RE = re.compile(r"^([3-6]M[1-9])(\s|$)")
+
+    def is_valid_group_for_class(group_name: str, classe: str) -> bool:
+        if not group_name:
+            return True
+        m = PER_CLASS_PREFIX_RE.match(group_name)
+        if m:
+            return m.group(1) == classe
+        return True  # transverse, spécialité, lycée → toujours valides
+
     # Collecte : { classe -> { fullName -> student_record } }
     by_classe = {}
     for s in all_students:
         cls = s.get("classe", "").strip()
         if not cls:
+            continue
+        grp = s.get("group", "")
+        if not is_valid_group_for_class(grp, cls):
+            # Record d'un mauvais groupe per-classe : on l'ignore complètement
             continue
         bucket = by_classe.setdefault(cls, {})
         existing = bucket.get(s["name"])
@@ -1129,6 +1148,60 @@ def main() -> int:
         json.dump({"classes": admin_index}, f, ensure_ascii=False, indent=2)
 
     print(f"   → {len(admin_index)} classes administratives agrégées (admin-classes.json + admin/*.json)")
+
+    # ─── Redirection codes par-classe 5M/4M/3M vers la vue classe entière ───
+    # Un élève qui entre le code d'un groupe per-classe (ex. "5M1 SVT" → MICROSCOPE)
+    # voit toute sa classe (5M1) avec, pour chaque élève, la colonne "Groupe"
+    # indiquant les groupes Pix Orga auxquels il appartient (Techno notamment).
+    PER_CLASS_GROUP_RE = re.compile(r"^([3-5]M[1-9])(\s|$)")
+    redirected = 0
+    for group_name, code in GROUP_CODES.items():
+        m = PER_CLASS_GROUP_RE.match(group_name)
+        if not m:
+            continue
+        cls_name = m.group(1)
+        cls_hash = sha256_hex(f"adm:{cls_name}")
+        admin_path = admin_dir / f"{cls_hash}.json"
+        if not admin_path.exists():
+            continue
+
+        with open(admin_path, encoding="utf-8") as f:
+            admin_data = json.load(f)
+
+        code_hash = sha256_hex(code)
+        # Le fichier groupe affiche désormais la classe entière, mais conserve la
+        # référence au groupe d'origine (pour info dans l'UI et la navigation).
+        redirected_data = dict(admin_data)
+        redirected_data["name"] = cls_name
+        redirected_data["originGroup"] = group_name
+        redirected_data["isClassView"] = True
+
+        out_path = GROUPS_DIR / f"{code_hash}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(redirected_data, f, ensure_ascii=False, indent=2)
+
+        # Met à jour classes_index pour que la bannière affiche bien la classe
+        if code_hash in classes_index:
+            classes_index[code_hash] = {
+                "name": cls_name,
+                "level": admin_data.get("level"),
+                "cycle": admin_data.get("cycle"),
+                "studentCount": admin_data.get("studentCount", 0),
+                "scoredCount": admin_data.get("scoredCount", 0),
+                "missingCount": admin_data.get("missingCount", 0),
+                "certifiableCount": admin_data.get("certifiableCount", 0),
+                "averagePix": admin_data.get("averagePix", 0),
+                "originGroup": group_name,
+                "isClassView": True,
+            }
+        redirected += 1
+
+    # Réécrit classes.json avec les métadonnées mises à jour
+    with open(DATA_DIR / "classes.json", "w", encoding="utf-8") as f:
+        json.dump({"groups": classes_index}, f, ensure_ascii=False, indent=2)
+
+    if redirected:
+        print(f"   → {redirected} codes per-classe 5M/4M/3M redirigés vers la vue classe entière")
 
     # teachers.json (codes profs hashés + leurs groupes assurés)
     teachers_index = {}
