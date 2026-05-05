@@ -36,9 +36,27 @@ PORT = 7777
 KEYCHAIN_SERVICE = "pix-lft-sync"
 KEYCHAIN_ACCOUNT = "pix-orga"
 
-REPO_DIR = Path(__file__).resolve().parents[2]      # site/
+# Permet de relocaliser le script (ex. installation LaunchAgent en dehors d'OneDrive,
+# OneDrive bloque les accès TCC pour les processus lancés par launchd).
+# La variable d'environnement PIX_REPO doit pointer vers le dossier site/ du dépôt.
+_env_repo = os.environ.get("PIX_REPO")
+REPO_DIR = Path(_env_repo).resolve() if _env_repo else Path(__file__).resolve().parents[2]
 SOURCE_ROOT = REPO_DIR.parent                        # PIX/
 BUILD_SCRIPT = REPO_DIR / "scripts" / "build-data.py"
+
+# Sonde au démarrage : vérifie l'accès au dépôt (utile pour diagnostiquer TCC sous launchd)
+def _probe_repo_access():
+    manifest = REPO_DIR / "data" / "manifest.json"
+    try:
+        size = manifest.stat().st_size if manifest.exists() else -1
+        print(f"[agent] dépôt OK : {REPO_DIR} (manifest={size} bytes)", flush=True)
+    except Exception as e:
+        print(f"[agent] ⚠ accès dépôt bloqué : {type(e).__name__}: {e}", file=sys.stderr, flush=True)
+        print(f"[agent]    chemin : {manifest}", file=sys.stderr, flush=True)
+        print(f"[agent]    Si exécuté via launchd : autorise Full Disk Access pour", file=sys.stderr, flush=True)
+        print(f"[agent]    /usr/bin/python3 et le venv (~/.local/share/pix-sync/venv/bin/python)", file=sys.stderr, flush=True)
+
+_probe_repo_access()
 
 ALLOWED_ORIGINS = {
     "https://lyceefrancaisdetananarive.github.io",
