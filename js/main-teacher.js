@@ -51,6 +51,10 @@ async function init() {
     bindFilters();
     bindLogout();
     initReveal();
+
+    // Compteur dynamique dans le titre de section
+    const countEl = document.getElementById("all-classes-count");
+    if (countEl) countEl.textContent = allClasses.length;
   } catch (err) {
     console.error(err);
     document.getElementById("all-groups-grid").innerHTML = `
@@ -135,25 +139,77 @@ function renderMyClasses() {
 }
 
 // ─── Toutes les classes ───────────────────────────────────────
+const LEVEL_ORDER = ["6e", "5e", "4e", "3e", "2nde", "1e", "tale"];
+const LEVEL_FULL_LABELS = {
+  "6e":   "6ème",
+  "5e":   "5ème",
+  "4e":   "4ème",
+  "3e":   "3ème",
+  "2nde": "2nde",
+  "1e":   "1ère",
+  "tale": "Terminale",
+};
+const LEVEL_CYCLE_LABELS = {
+  "6e":   "Cycle 3",
+  "5e":   "Cycle 4",
+  "4e":   "Cycle 4",
+  "3e":   "Cycle 4",
+  "2nde": "Lycée",
+  "1e":   "Lycée",
+  "tale": "Lycée",
+};
+
 function renderAllClasses() {
   const level = document.getElementById("level-filter")?.value || "all";
   const sort = document.getElementById("sort-classes")?.value || "name";
 
   let filtered = allClasses.filter((c) => level === "all" || c.level === level);
-
-  switch (sort) {
-    case "students-desc": filtered.sort((a, b) => b.studentCount - a.studentCount); break;
-    case "cert-desc":     filtered.sort((a, b) => b.certifiableCount - a.certifiableCount); break;
-    case "avg-desc":      filtered.sort((a, b) => b.averagePix - a.averagePix); break;
-    default:              filtered.sort((a, b) => collator.compare(a.name, b.name));
-  }
-
   const container = document.getElementById("all-groups-grid");
+
   if (filtered.length === 0) {
     container.innerHTML = `<p style="text-align: center; color: var(--text-secondary);">Aucune classe ne correspond.</p>`;
     return;
   }
-  container.innerHTML = filtered.map(renderClassCard).join("");
+
+  // Si tri par nom : on regroupe par niveau dans l'ordre éducatif
+  if (sort === "name") {
+    const byLevel = {};
+    for (const cls of filtered) {
+      (byLevel[cls.level] = byLevel[cls.level] || []).push(cls);
+    }
+    // Trie chaque groupe par nom
+    Object.values(byLevel).forEach((arr) =>
+      arr.sort((a, b) => collator.compare(a.name, b.name))
+    );
+
+    const sections = LEVEL_ORDER
+      .filter((lvl) => byLevel[lvl] && byLevel[lvl].length > 0)
+      .map((lvl) => {
+        const arr = byLevel[lvl];
+        return `
+          <section class="level-section">
+            <header class="level-section__head">
+              <h3 class="level-section__title">${LEVEL_FULL_LABELS[lvl]}</h3>
+              <span class="level-section__cycle">${LEVEL_CYCLE_LABELS[lvl]}</span>
+              <span class="level-section__count">${arr.length} classe${arr.length > 1 ? "s" : ""}</span>
+            </header>
+            <div class="level-section__grid">
+              ${arr.map(renderClassCard).join("")}
+            </div>
+          </section>
+        `;
+      })
+      .join("");
+    container.innerHTML = sections;
+  } else {
+    // Tris alternatifs : flat sans regroupement
+    switch (sort) {
+      case "students-desc": filtered.sort((a, b) => b.studentCount - a.studentCount); break;
+      case "cert-desc":     filtered.sort((a, b) => b.certifiableCount - a.certifiableCount); break;
+      case "avg-desc":      filtered.sort((a, b) => b.averagePix - a.averagePix); break;
+    }
+    container.innerHTML = `<div class="cards-grid">${filtered.map(renderClassCard).join("")}</div>`;
+  }
   bindCardClicks(container);
 }
 
