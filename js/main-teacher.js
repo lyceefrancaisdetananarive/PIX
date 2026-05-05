@@ -257,6 +257,11 @@ function renderClassCard(cls) {
         Groupes Pix : ${cls.relatedGroups.map(g => `<span style="display:inline-block; padding: 1px 6px; margin: 2px 2px 0 0; background: rgba(0,59,115,0.06); border-radius: 6px;">${escapeHtml(g)}</span>`).join("")}
       </div>
       ` : ''}
+      ${cls.historicalGroups && cls.historicalGroups.length > 0 ? `
+      <div style="margin-top: var(--space-2); font-size: 10px; color: var(--text-muted); line-height: 1.4; opacity: 0.7;" title="Groupes Pix d'autres niveaux où des élèves de cette classe ont participé (ex. années précédentes)">
+        Hist. : ${cls.historicalGroups.map(g => `<span style="display:inline-block; padding: 1px 6px; margin: 2px 2px 0 0; background: rgba(107,114,128,0.08); border-radius: 6px; font-style: italic;">${escapeHtml(g)}</span>`).join("")}
+      </div>
+      ` : ''}
     </button>
   `;
 }

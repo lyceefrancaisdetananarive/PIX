@@ -864,10 +864,19 @@ def main() -> int:
         admin_cycle = group_cycle(cls)
 
         scored = [s for s in students_list if s["pix"] > 0]
-        # Groupes Pix Orga rattachés à cette classe (utile pour les profs)
-        related_groups = sorted({
+        # Tous les groupes Pix Orga touchés (incluant les groupes hors-niveau,
+        # ex. élèves redoublants ou ayant participé en collège quand ils sont
+        # maintenant au lycée).
+        all_groups_touched = sorted({
             s["group"] for s in students_list if s.get("group")
         })
+        # Groupes "vrais" : seulement ceux du même niveau que la classe.
+        # Un élève de 2DE2 ayant participé à "5 TECHNO 2" l'an dernier ne fait
+        # pas de "5 TECHNO 2" un groupe à la charge du prof actuel de 2DE2.
+        related_groups = [g for g in all_groups_touched if detect_level(g) == admin_level]
+        # Groupes "historiques" (autres niveaux) : info pour le détail, pas
+        # utilisés pour calculer "À ma charge".
+        historical_groups = [g for g in all_groups_touched if detect_level(g) != admin_level]
 
         meta = {
             "name": cls,
@@ -879,6 +888,7 @@ def main() -> int:
             "certifiableCount": sum(1 for s in students_list if s["certifiable"]),
             "averagePix": round(sum(s["pix"] for s in scored) / len(scored)) if scored else 0,
             "relatedGroups": related_groups,
+            "historicalGroups": historical_groups,
         }
 
         cls_hash = sha256_hex(f"adm:{cls}")
