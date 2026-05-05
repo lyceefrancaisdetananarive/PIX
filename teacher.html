@@ -39,6 +39,11 @@
       </div>
     </a>
     <div class="site-header__partners">
+      <button type="button" id="sync-btn" class="btn btn--primary btn--small" hidden
+              aria-label="Synchroniser les scores Pix depuis Pix Orga">
+        <svg class="icon" aria-hidden="true"><use href="#ph-rocket-launch"/></svg>
+        Synchroniser Pix Orga
+      </button>
       <button type="button" id="logout-btn" class="btn btn--ghost btn--small" aria-label="Se déconnecter">
         <svg class="icon"><use href="#ph-sign-out"/></svg> Se déconnecter
       </button>
@@ -115,6 +120,31 @@
     </section>
 
   </main>
+
+  <!-- Modal de progression de la synchro Pix Orga -->
+  <div class="modal-backdrop" id="sync-modal" role="dialog" aria-modal="true" aria-labelledby="sync-title" aria-hidden="true">
+    <article class="modal glass glass-strong" style="max-width: 640px;">
+      <button class="modal__close" id="sync-close" aria-label="Fermer">
+        <svg class="icon"><use href="#ph-arrow-left"/></svg>
+      </button>
+      <header class="modal__header">
+        <h2 class="modal__name" id="sync-title">Synchronisation Pix Orga</h2>
+        <p class="modal__meta" id="sync-status">Connexion à l'agent local…</p>
+      </header>
+
+      <div class="sync-progress">
+        <div class="sync-progress__bar">
+          <div class="sync-progress__fill" id="sync-bar"></div>
+        </div>
+        <div class="sync-progress__percent" id="sync-percent">0 %</div>
+      </div>
+
+      <section class="modal__section">
+        <h3 class="modal__section-title">Étapes</h3>
+        <div class="sync-log" id="sync-log"></div>
+      </section>
+    </article>
+  </div>
 
   <footer class="site-footer">
     <p>Dashboard enseignant · Accès complet aux résultats Pix</p>

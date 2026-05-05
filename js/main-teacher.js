@@ -50,6 +50,7 @@ async function init() {
     renderAllClasses();
     bindFilters();
     bindLogout();
+    bindSync(teacher);   // bouton "Synchroniser Pix Orga"
     initReveal();
 
     // Compteur dynamique dans le titre de section
@@ -287,6 +288,133 @@ function bindLogout() {
     lock();
     window.location.href = "index.html";
   });
+}
+
+// ─── Bouton de synchronisation Pix Orga ────────────────────────
+//   Visible uniquement pour l'admin (BUGATTI / RAFALIARISON Max).
+//   Contacte l'agent local sur http://127.0.0.1:7777 et streame
+//   la progression via Server-Sent Events.
+const AGENT_URL = "http://127.0.0.1:7777";
+const ADMIN_TEACHER_SLUG = "rafaliarison_max";  // = slug de Max dans teachers.json
+
+async function bindSync(teacher) {
+  const btn = document.getElementById("sync-btn");
+  if (!btn) return;
+
+  // Le bouton n'apparaît que pour l'admin
+  if (teacher?.slug !== ADMIN_TEACHER_SLUG) {
+    btn.remove();
+    return;
+  }
+  btn.hidden = false;
+
+  // Vérifie si l'agent local répond (silencieux si non)
+  let agentAlive = false;
+  try {
+    const r = await fetch(`${AGENT_URL}/health`, { mode: "cors", signal: AbortSignal.timeout(800) });
+    if (r.ok) agentAlive = true;
+  } catch { /* agent non lancé */ }
+
+  if (!agentAlive) {
+    btn.title = "Agent local non lancé — démarre start.command";
+    btn.dataset.state = "agent-off";
+  }
+
+  btn.addEventListener("click", () => openSyncModal(agentAlive));
+}
+
+function openSyncModal(agentAlive) {
+  const backdrop = document.getElementById("sync-modal");
+  const status = document.getElementById("sync-status");
+  const bar = document.getElementById("sync-bar");
+  const pct = document.getElementById("sync-percent");
+  const log = document.getElementById("sync-log");
+  const closeBtn = document.getElementById("sync-close");
+
+  // Reset visuel
+  bar.style.width = "0%";
+  pct.textContent = "0 %";
+  log.innerHTML = "";
+  status.textContent = "Connexion à l'agent local…";
+
+  const close = () => {
+    backdrop.classList.remove("is-open");
+    backdrop.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  };
+  closeBtn.onclick = close;
+  backdrop.onclick = (e) => { if (e.target === backdrop) close(); };
+
+  backdrop.classList.add("is-open");
+  backdrop.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+
+  if (!agentAlive) {
+    status.textContent = "⚠ L'agent local n'est pas lancé.";
+    log.innerHTML = `
+      <div class="sync-log__line sync-log__line--warn">
+        Pour démarrer l'agent :
+        <ol style="margin: 8px 0 0 16px; padding: 0;">
+          <li>Ouvre le dossier <code>site/scripts/agent/</code></li>
+          <li>Double-clique sur <code>start.command</code></li>
+          <li>Garde la fenêtre Terminal ouverte</li>
+          <li>Reviens ici et clique à nouveau sur « Synchroniser Pix Orga »</li>
+        </ol>
+      </div>`;
+    return;
+  }
+
+  startSync(status, bar, pct, log);
+}
+
+async function startSync(statusEl, bar, pct, log) {
+  try {
+    // Démarre le job
+    statusEl.textContent = "Synchronisation en cours…";
+    const res = await fetch(`${AGENT_URL}/sync`, { method: "POST", mode: "cors" });
+    const { job_id } = await res.json();
+
+    // Stream SSE
+    const ev = new EventSource(`${AGENT_URL}/sync/${job_id}/events`);
+    ev.onmessage = (m) => {
+      const e = JSON.parse(m.data);
+      if (e.stage === "_end_") {
+        ev.close();
+        return;
+      }
+      if (typeof e.progress === "number" && e.progress > 0) {
+        const p = Math.round(e.progress * 100);
+        bar.style.width = `${p}%`;
+        pct.textContent = `${p} %`;
+      }
+      const cls = e.stage === "error" ? "sync-log__line--error"
+                : e.stage === "done"  ? "sync-log__line--done"
+                : "";
+      const line = document.createElement("div");
+      line.className = `sync-log__line ${cls}`;
+      line.innerHTML = `<span class="sync-log__time">${e.time}</span> <span class="sync-log__stage">[${e.stage}]</span> ${escapeHtmlSafe(e.message)}`;
+      log.appendChild(line);
+      log.scrollTop = log.scrollHeight;
+
+      if (e.stage === "done") {
+        statusEl.textContent = "✓ Synchronisation terminée";
+        bar.style.background = "linear-gradient(90deg, #10b981, #059669)";
+      } else if (e.stage === "error") {
+        statusEl.textContent = "✗ Erreur — voir les logs";
+        bar.style.background = "linear-gradient(90deg, #ef4444, #b91c1c)";
+      }
+    };
+    ev.onerror = () => {
+      ev.close();
+      statusEl.textContent = "Connexion à l'agent perdue.";
+    };
+  } catch (err) {
+    statusEl.textContent = `Erreur : ${err.message}`;
+  }
+}
+
+function escapeHtmlSafe(s) {
+  return String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
 }
 
 // ─── Reveal ─────────────────────────────────────────────────────

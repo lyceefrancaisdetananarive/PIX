@@ -1449,6 +1449,73 @@
 .info-card__body strong { color: var(--text-primary); font-weight: 700; }
 
 /* ─────────────────────────────────────────────────────────────
+ * Modale de synchronisation Pix Orga (agent local)
+ * ───────────────────────────────────────────────────────────── */
+
+.sync-progress {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin: var(--space-5) 0 var(--space-3);
+}
+.sync-progress__bar {
+  flex: 1;
+  height: 12px;
+  background: rgba(0, 59, 115, 0.08);
+  border-radius: 999px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 59, 115, 0.12);
+}
+.sync-progress__fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--pix-blue), var(--lft-magenta));
+  border-radius: 999px;
+  transition: width 0.5s var(--ease-smooth), background 0.5s var(--ease-smooth);
+  box-shadow: 0 0 12px rgba(61, 104, 255, 0.5);
+  background-size: 200% 100%;
+  animation: syncShimmer 2.4s linear infinite;
+}
+@keyframes syncShimmer {
+  0%   { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+.sync-progress__percent {
+  font-size: var(--text-lg);
+  font-weight: 800;
+  color: var(--lft-blue);
+  font-feature-settings: "ss01", "tnum";
+  min-width: 56px;
+  text-align: right;
+}
+
+.sync-log {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  background: rgba(0, 59, 115, 0.04);
+  border: 1px solid rgba(0, 59, 115, 0.08);
+  border-radius: 12px;
+  padding: var(--space-3);
+  max-height: 300px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+.sync-log__line { padding: 2px 0; color: var(--text-secondary); }
+.sync-log__line--error { color: var(--danger); font-weight: 600; }
+.sync-log__line--done  { color: var(--success); font-weight: 700; }
+.sync-log__line--warn  { color: var(--warning); }
+.sync-log__time {
+  color: var(--text-muted);
+  font-size: 11px;
+  margin-right: 6px;
+}
+.sync-log__stage {
+  color: var(--lft-blue);
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+/* ─────────────────────────────────────────────────────────────
  * Sections par niveau (dashboard prof — regroupement)
  * ───────────────────────────────────────────────────────────── */
 
