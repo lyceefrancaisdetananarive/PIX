@@ -220,9 +220,9 @@
       "status": "renseigne"
     },
     {
-      "id": "abraham_nico",
-      "name": "Abraham Nico",
-      "classe": "",
+      "id": "abraham_nicolas_enzo",
+      "name": "ABRAHAM Nicolas Enzo",
+      "classe": "TG3",
       "group": "TG3",
       "pix": 367,
       "certifiable": true,
@@ -850,9 +850,9 @@
       "status": "renseigne"
     },
     {
-      "id": "ranarison_andriamanoa_ivotsaina_andrew",
-      "name": "RANARISON Andriamanoa Ivotsaina Andrew",
-      "classe": "TG3",
+      "id": "ranarison_andrew",
+      "name": "Ranarison Andrew",
+      "classe": "",
       "group": "TG3",
       "pix": 256,
       "certifiable": true,

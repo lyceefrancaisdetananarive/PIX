@@ -370,12 +370,49 @@ def split_xlsx_name(full: str):
 _STUDENT_BY_GROUP_CACHE = {}     # group_name -> [entries]
 _STUDENT_BY_CLASS_CACHE = {}     # classe (admin) -> [entries]
 
+# ─── Aliases manuels (CSV → XLSX) ──────────────────────────────────
+# Format JSON : {
+#   "auto": { "NOM_NORMALISE_DU_CSV": "Nom complet XLSX", ... },
+#   "manual": { idem (validés à la main) },
+#   "ignore": [ "NOM PRENOM CSV à ignorer", ... ]
+# }
+_ALIASES_FILE = Path(__file__).parent / "manual-aliases.json"
+
+
+def load_aliases() -> dict:
+    if not _ALIASES_FILE.exists():
+        return {"auto": {}, "manual": {}, "ignore": []}
+    with open(_ALIASES_FILE, encoding="utf-8") as f:
+        return json.load(f)
+
+
+_ALIASES = load_aliases()
+_IGNORE_KEYS = {normalize_name(s) for s in _ALIASES.get("ignore", [])}
+
+
+def resolve_alias(csv_full_norm: str, directory: dict):
+    """Cherche un alias auto ou manuel pour ce nom CSV normalisé."""
+    target = _ALIASES.get("auto", {}).get(csv_full_norm) \
+          or _ALIASES.get("manual", {}).get(csv_full_norm)
+    if target:
+        key = normalize_name(target)
+        return directory.get(key)
+    return None
+
 
 def load_student_directory() -> dict:
-    """Retourne un index avec plusieurs clés par élève pour faciliter le matching.
-    Construit aussi en parallèle deux index secondaires :
-      _STUDENT_BY_GROUP_CACHE  pour le collège (clé = nom de groupe Pix Orga)
-      _STUDENT_BY_CLASS_CACHE  pour le lycée   (clé = classe admin)
+    """Retourne un index multi-clés pour matcher un CSV Pix vers un élève XLSX.
+
+    Stratégies de clés (du plus spécifique au plus large) :
+      1. "NOM_COMPLET TOUS_PRENOMS"   ex: "KONDOMA KAKASI ANAIS NICOLE"
+      2. "NOM_COMPLET PREMIER_PRENOM" ex: "KONDOMA KAKASI ANAIS"
+      3. "PREMIER_MOT_NOM PREMIER_PRENOM" ex: "KONDOMA ANAIS"  (NEW)
+         Couvre les cas où Pix n'a qu'une partie du nom composé (très fréquent
+         pour les noms en plusieurs mots).
+
+    PAS DE FALLBACK "FAMILLE SEULE" : cause des faux positifs catastrophiques
+    (ex: KASSAMALY Savannah dans CSV TG2 matché par erreur sur KASSAMALY Leena 6M2).
+    Mieux vaut un élève "non matché" qu'un score attribué à la mauvaise personne.
     """
     if not STUDENT_LIST.exists():
         print(f"⚠  Liste élèves introuvable : {STUDENT_LIST}", file=sys.stderr)
@@ -384,7 +421,11 @@ def load_student_directory() -> dict:
     df = pd.read_excel(STUDENT_LIST, dtype=str)
     df = df.fillna("")
     index = {}
-    family_only = {}
+
+    # Pour détecter les collisions (clé partielle qui pointerait vers 2 élèves
+    # différents) → on garde un set des clés ambiguës et on les exclut.
+    partial_seen = {}        # partial_key → entry
+    partial_ambiguous = set()
 
     for _, row in df.iterrows():
         full = str(row.get("Élève", "")).strip()
@@ -406,19 +447,28 @@ def load_student_directory() -> dict:
             short_key = f"{family} {given[0]}"
             if short_key not in index:
                 index[short_key] = entry
-            family_only.setdefault(family, []).append(entry)
+
+            # Clé partielle "PREMIER_MOT_FAMILLE PREMIER_PRENOM"
+            family_words = family.split()
+            if len(family_words) > 1:
+                partial = f"{family_words[0]} {given[0]}"
+                if partial in partial_seen and partial_seen[partial]["fullName"] != full:
+                    partial_ambiguous.add(partial)
+                else:
+                    partial_seen[partial] = entry
 
         # Index par classe admin (lycée → c'est le seul critère)
         if classe:
             _STUDENT_BY_CLASS_CACHE.setdefault(classe, []).append(entry)
-
-        # Index par groupe Pix Orga (collège : élève appartient à un groupe TECHNO/SVT)
         for g in groupes_raw:
             _STUDENT_BY_GROUP_CACHE.setdefault(g, []).append(entry)
 
-    for family, entries in family_only.items():
-        if len(entries) == 1 and family not in index:
-            index[family] = entries[0]
+    # Ajoute les clés partielles non-ambiguës
+    for partial, entry in partial_seen.items():
+        if partial in partial_ambiguous:
+            continue
+        if partial not in index:
+            index[partial] = entry
 
     return index
 
@@ -474,21 +524,41 @@ def expected_students(group_name: str, level: str) -> list:
 
 
 def match_student(directory: dict, csv_nom: str, csv_prenom: str):
-    """Cherche un élève dans le référentiel via plusieurs stratégies."""
+    """Cherche un élève dans le référentiel via plusieurs stratégies.
+
+    PRIORITÉ : précision > rappel.
+    On préfère "non matché" (élève sans classe affichée) à "mauvais matché"
+    (faux positif type KASSAMALY Savannah TG2 → KASSAMALY Leena 6M2).
+    """
     n_full = normalize_name(f"{csv_nom} {csv_prenom}")
     n_family = normalize_name(csv_nom)
     n_first_given = normalize_name(csv_prenom).split(" ")[0] if csv_prenom else ""
 
-    # 1. Match exact (nom + prénom complet)
+    # 0. Ignore-list (élèves à ne pas matcher du tout, ex: comptes Pix d'anciens)
+    if n_full in _IGNORE_KEYS:
+        return "__IGNORE__"   # signal spécial : skip this CSV row
+
+    # 0bis. Alias manuel/auto défini (priorité absolue)
+    aliased = resolve_alias(n_full, directory)
+    if aliased:
+        return aliased
+
+    # 1. Match exact (nom + tous prénoms identiques)
     if n_full in directory:
         return directory[n_full]
-    # 2. Match nom + premier mot du prénom
+    # 2. Match nom complet + premier prénom (cas où Pix n'a qu'un prénom du XLSX)
     short_key = f"{n_family} {n_first_given}".strip()
     if short_key in directory:
         return directory[short_key]
-    # 3. Match nom de famille seul (si unique)
-    if n_family in directory:
-        return directory[n_family]
+    # 3. Match (premier mot du nom CSV + premier prénom CSV) contre une clé partielle
+    #    Couvre : CSV "KONDOMA;Anaïs" → XLSX "KONDOMA KAKASI Anaïs"
+    csv_family_first = n_family.split(" ")[0] if n_family else ""
+    if csv_family_first and n_first_given:
+        partial_key = f"{csv_family_first} {n_first_given}"
+        if partial_key in directory:
+            return directory[partial_key]
+
+    # PAS de fallback "famille seule" : trop dangereux (faux positifs entre niveaux)
     return None
 
 
@@ -523,19 +593,46 @@ def process_collecte_rows(rows: list) -> dict:
     return by_student
 
 
+_UNMATCHED = []  # liste des élèves CSV non matchés (pour rapport diag)
+_LEVEL_MISMATCH = []  # élèves matchés mais à un niveau incohérent
+
+
 def collecte_to_student_record(entry: dict, directory: dict, group_name: str) -> dict:
     """Transforme une entrée Collecte en record élève enrichi."""
     raw = entry["_raw"]
 
     # Croisement référentiel
     ref = match_student(directory, entry["_csvNom"], entry["_csvPrenom"])
+    csv_full_raw = f"{entry['_csvNom']} {entry['_csvPrenom']}".strip()
+    if ref == "__IGNORE__":
+        return None  # signal pour ne pas créer de record
     if ref:
-        full_name = ref["fullName"]
-        classe = ref["classe"]
+        # Vérification cohérence niveau : le niveau du groupe doit matcher
+        # le niveau de la classe admin de l'élève. Sinon → ignore le match
+        # (probable homonyme).
+        group_lvl = detect_level(group_name)
+        ref_lvl = detect_level(ref["classe"]) if ref["classe"] else None
+        if ref_lvl and ref_lvl != group_lvl:
+            _LEVEL_MISMATCH.append({
+                "csv": csv_full_raw,
+                "matched_to": ref["fullName"],
+                "csv_group": group_name,
+                "group_level": group_lvl,
+                "xlsx_classe": ref["classe"],
+                "xlsx_level": ref_lvl,
+            })
+            full_name = proper_case(csv_full_raw)
+            classe = ""
+        else:
+            full_name = ref["fullName"]
+            classe = ref["classe"]
     else:
-        # Fallback : capitalisation propre depuis le CSV
-        full_name = f"{proper_case(entry['_csvNom'])} {proper_case(entry['_csvPrenom'])}".strip()
+        full_name = proper_case(csv_full_raw)
         classe = ""
+        _UNMATCHED.append({
+            "csv": csv_full_raw,
+            "csv_group": group_name,
+        })
 
     pix_total = parse_int(raw.get("Nombre de pix total"))
     certifiable = raw.get("Certifiable (O/N)", "").strip().upper() == "OUI"
@@ -666,6 +763,9 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
 
     for key, entry in collecte_data.items():
         rec = collecte_to_student_record(entry, directory, group_name)
+        if rec is None:  # ignored (compte de l'ignore-list)
+            seen_keys.add(key)
+            continue
         rec["parcours"] = sorted(
             parcours_data.get(key, []),
             key=lambda p: p.get("date") or "",
@@ -1096,8 +1196,24 @@ def main() -> int:
     with open(DATA_DIR / "manifest.json", "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
 
+    # Rapport de diagnostic des matchings
+    diag = {
+        "unmatched": _UNMATCHED,
+        "levelMismatches": _LEVEL_MISMATCH,
+    }
+    with open(DATA_DIR / "_diagnostic.json", "w", encoding="utf-8") as f:
+        json.dump(diag, f, ensure_ascii=False, indent=2)
+
     print()
     print(f"== Terminé. {stats['totalGroups']} groupes, {stats['totalStudents']} élèves, {stats['totalCertifiable']} certifiables.")
+    if _LEVEL_MISMATCH:
+        print(f"  ⚠  {len(_LEVEL_MISMATCH)} mismatch niveau (matches ignorés). Détail dans data/_diagnostic.json")
+        for m in _LEVEL_MISMATCH[:5]:
+            print(f"     - CSV « {m['csv']} » dans {m['csv_group']} ({m['group_level']}) → XLSX a « {m['matched_to']} » en {m['xlsx_classe']} ({m['xlsx_level']})")
+        if len(_LEVEL_MISMATCH) > 5:
+            print(f"     ... et {len(_LEVEL_MISMATCH) - 5} autres")
+    if _UNMATCHED:
+        print(f"  ⚠  {len(_UNMATCHED)} élèves non matchés au XLSX Pronote. Détail dans data/_diagnostic.json")
     print(f"   Sortie : {DATA_DIR}")
     return 0
 

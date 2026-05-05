@@ -63,9 +63,9 @@
       ]
     },
     {
-      "id": "alibay_aurelie_shermina",
-      "name": "ALIBAY Aurélie Shermina",
-      "classe": "1G2",
+      "id": "alibay_shermina",
+      "name": "Alibay Shermina",
+      "classe": "",
       "group": "1G2",
       "pix": 0,
       "certifiable": false,
@@ -868,9 +868,9 @@
       ]
     },
     {
-      "id": "monja_mamoriarivo_ny_aina_sarah",
-      "name": "MONJA MAMORIARIVO Ny Aina Sarah",
-      "classe": "1G2",
+      "id": "monja_mamoriarivo_sarah",
+      "name": "Monja Mamoriarivo Sarah",
+      "classe": "",
       "group": "1G2",
       "pix": 0,
       "certifiable": false,
@@ -924,57 +924,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.76,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "radaniela_tohy_mandala",
-      "name": "RADANIELA Tohy Mandala",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-21T09:52:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-21T09:52:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.67,
           "palier": 2
         }
       ]
@@ -1078,169 +1027,6 @@
           "progress": 1.0,
           "maitrise": 0.8,
           "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "ranaivomanana_natolotriniavo_manampitrisa",
-      "name": "RANAIVOMANANA Natolotriniavo Manampitrisa",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-02T18:14:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-11-02T18:14:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.7,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "randriamanantena_maminiaina_miantsa_faniry",
-      "name": "RANDRIAMANANTENA Maminiaina Miantsa Faniry",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-08T17:25:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-08T17:25:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.79,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "randriamisata_amboara_fifaliana",
-      "name": "RANDRIAMISATA Amboara Fifaliana",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-11-02T21:38:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.63,
-          "palier": 2
-        },
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.72,
-          "maitrise": 0.0,
-          "palier": 0
         }
       ]
     },
@@ -1445,6 +1231,220 @@
           "progress": 1.0,
           "maitrise": 0.7,
           "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "radaniela_mandala",
+      "name": "Radaniela Mandala",
+      "classe": "",
+      "group": "1G2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-21T09:52:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-21T09:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "ranaivomanana_manampitrisa_natolotriniavo",
+      "name": "Ranaivomanana Manampitrisa Natolotriniavo",
+      "classe": "",
+      "group": "1G2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T18:14:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-11-02T18:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.7,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "randriamanantena_miantsa",
+      "name": "Randriamanantena Miantsa",
+      "classe": "",
+      "group": "1G2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-08T17:25:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-08T17:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "randriamisata_fifaliana",
+      "name": "Randriamisata Fifaliana",
+      "classe": "",
+      "group": "1G2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-11-02T21:38:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.63,
+          "palier": 2
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.72,
+          "maitrise": 0.0,
+          "palier": 0
         }
       ]
     },

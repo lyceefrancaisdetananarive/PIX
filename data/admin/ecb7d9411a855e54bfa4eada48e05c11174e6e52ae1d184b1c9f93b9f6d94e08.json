@@ -64,8 +64,8 @@
       ]
     },
     {
-      "id": "bouhier_mariannah_fitahiana",
-      "name": "BOUHIER Mariannah Fitahiana",
+      "id": "mamoodjee_bapikee_dawoodjee",
+      "name": "MAMOODJEE BAPIKEE Dawoodjee",
       "classe": "2PRO2",
       "group": "2PRO2",
       "pix": 0,
@@ -100,17 +100,17 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2025-11-03T19:13:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 2nde Pro",
           "code": "TMBGQJ265",
           "campaignName": "2PRO2 Parcours de rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.71,
-          "maitrise": 0.0,
-          "palier": 0
+          "date": "2025-11-03T19:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.54,
+          "palier": 2
         }
       ]
     },
@@ -278,67 +278,6 @@
       ]
     },
     {
-      "id": "ramahefa_minosoa_finoana_randy",
-      "name": "RAMAHEFA Minosoa Finoana Randy",
-      "classe": "2PRO2",
-      "group": "2PRO2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde Pro",
-          "code": "TMBGQJ265",
-          "campaignName": "2PRO2 Parcours de rentrée",
-          "date": "2025-10-09T10:34:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.46,
-          "palier": 1
-        },
-        {
-          "name": "Parcours de rentrée 2nde Pro",
-          "code": "TMBGQJ265",
-          "campaignName": "2PRO2 Parcours de rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.89,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "randrianavalona_niaritiana_alex",
       "name": "RANDRIANAVALONA Niaritiana Alex",
       "classe": "2PRO2",
@@ -492,6 +431,20 @@
       ]
     },
     {
+      "id": "bouhier_mariannah_fitahiana",
+      "name": "BOUHIER Mariannah Fitahiana",
+      "classe": "2PRO2",
+      "group": "2PRO2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "bruno_angelo",
       "name": "BRUNO Angelo",
       "classe": "2PRO2",
@@ -562,8 +515,8 @@
       "parcours": []
     },
     {
-      "id": "mamoodjee_bapikee_dawoodjee",
-      "name": "MAMOODJEE BAPIKEE Dawoodjee",
+      "id": "rajaomamory_christian",
+      "name": "RAJAOMAMORY Christian",
       "classe": "2PRO2",
       "group": "2PRO2",
       "pix": 0,
@@ -576,8 +529,8 @@
       "parcours": []
     },
     {
-      "id": "rajaomamory_christian",
-      "name": "RAJAOMAMORY Christian",
+      "id": "ramahefa_minosoa_finoana_randy",
+      "name": "RAMAHEFA Minosoa Finoana Randy",
       "classe": "2PRO2",
       "group": "2PRO2",
       "pix": 0,

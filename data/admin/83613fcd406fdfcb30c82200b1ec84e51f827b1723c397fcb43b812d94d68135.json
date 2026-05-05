@@ -3,123 +3,15 @@
   "level": "1e",
   "cycle": "lycee",
   "studentCount": 27,
-  "scoredCount": 1,
-  "missingCount": 26,
-  "certifiableCount": 1,
-  "averagePix": 538,
+  "scoredCount": 0,
+  "missingCount": 27,
+  "certifiableCount": 0,
+  "averagePix": 0,
   "relatedGroups": [
     "1G7"
   ],
-  "historicalGroups": [
-    "4M5 SVT",
-    "TG6"
-  ],
+  "historicalGroups": [],
   "students": [
-    {
-      "id": "razafindrabe_teddy_emmanuel_ambinintsoa",
-      "name": "RAZAFINDRABE Teddy Emmanuel Ambinintsoa",
-      "classe": "1G7",
-      "group": "TG6",
-      "pix": 538,
-      "certifiable": true,
-      "competencesCertifiables": 16,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 4,
-          "pix": 111
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 6,
-          "pix": 154
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 5,
-          "pix": 133
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 4,
-          "pix": 94
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 3,
-          "pix": 46
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 4,
-          "pix": 38
-        },
-        "Gérer des données": {
-          "niveau": 4,
-          "pix": 36
-        },
-        "Traiter des données": {
-          "niveau": 4,
-          "pix": 37
-        },
-        "Interagir": {
-          "niveau": 6,
-          "pix": 49
-        },
-        "Partager et publier": {
-          "niveau": 6,
-          "pix": 50
-        },
-        "Collaborer": {
-          "niveau": 3,
-          "pix": 28
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 3,
-          "pix": 27
-        },
-        "Développer des documents textuels": {
-          "niveau": 3,
-          "pix": 26
-        },
-        "Développer des documents multimedia": {
-          "niveau": 3,
-          "pix": 30
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 4,
-          "pix": 35
-        },
-        "Programmer": {
-          "niveau": 5,
-          "pix": 42
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 4,
-          "pix": 37
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 4,
-          "pix": 36
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 2,
-          "pix": 21
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 2,
-          "pix": 18
-        },
-        "Construire un environnement numérique": {
-          "niveau": 3,
-          "pix": 28
-        }
-      },
-      "lastUpdate": "2025-12-19T13:11:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
     {
       "id": "fidahoussene_hirdjee_ayaana",
       "name": "FIDAHOUSSENE HIRDJEE Ayaana",
@@ -325,57 +217,6 @@
       ]
     },
     {
-      "id": "lindecker_manana_nirina_mariane",
-      "name": "LINDECKER Manana Nirina Mariane",
-      "classe": "1G7",
-      "group": "1G7",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-23T21:50:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "PUVFYQ847",
-          "campaignName": "1G7 Parcours de Rentrée",
-          "date": "2025-10-23T21:50:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.84,
-          "palier": 3
-        }
-      ]
-    },
-    {
       "id": "mahamodraza_ines",
       "name": "MAHAMODRAZA Ines",
       "classe": "1G7",
@@ -501,7 +342,58 @@
       "id": "orsot_dessi_amelie_lea_kissi",
       "name": "ORSOT-DESSI Amélie Léa Kissi",
       "classe": "1G7",
-      "group": "4M5 SVT",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-30T19:44:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-10-30T19:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "razafindrabe_teddy_emmanuel_ambinintsoa",
+      "name": "RAZAFINDRABE Teddy Emmanuel Ambinintsoa",
+      "classe": "1G7",
+      "group": "1G7",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -537,65 +429,14 @@
       "lastUpdate": null,
       "parcours": [
         {
-          "name": "Parcours de rentrée 4e",
-          "code": "ULCJER549",
-          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
-          "date": null,
-          "partage": false,
-          "progress": 0.91,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "rakotoambinina_andriamahefanirina_zafimampionona",
-      "name": "RAKOTOAMBININA Andriamahefanirina Zafimampionona",
-      "classe": "1G7",
-      "group": "1G7",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-03T17:34:00",
-      "parcours": [
-        {
           "name": "Parcours de rentrée 1ère",
           "code": "PUVFYQ847",
           "campaignName": "1G7 Parcours de Rentrée",
-          "date": "2025-11-03T17:34:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.85,
-          "palier": 3
+          "date": null,
+          "partage": false,
+          "progress": 0.32,
+          "maitrise": 0.0,
+          "palier": 0
         }
       ]
     },
@@ -791,8 +632,36 @@
       "parcours": []
     },
     {
+      "id": "lindecker_manana_nirina_mariane",
+      "name": "LINDECKER Manana Nirina Mariane",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "njatonilaina_rovaniaina",
       "name": "NJATONILAINA Rovaniaina",
+      "classe": "1G7",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rakotoambinina_andriamahefanirina_zafimampionona",
+      "name": "RAKOTOAMBININA Andriamahefanirina Zafimampionona",
       "classe": "1G7",
       "group": "1G7",
       "pix": 0,

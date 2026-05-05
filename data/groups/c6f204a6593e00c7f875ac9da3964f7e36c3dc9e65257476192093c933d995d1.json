@@ -194,9 +194,9 @@
       "status": "renseigne"
     },
     {
-      "id": "cliquennois_haritiana",
-      "name": "CLIQUENNOIS Haritiana",
-      "classe": "2DE2",
+      "id": "cliquennois_razakanirina_soatiana_jeanne_harisoa",
+      "name": "CLIQUENNOIS RAZAKANIRINA Soatiana Jeanne Harisoa",
+      "classe": "5M5",
       "group": "5 TECHNO 2",
       "pix": 216,
       "certifiable": true,
@@ -1426,9 +1426,9 @@
       "status": "renseigne"
     },
     {
-      "id": "hamilcaro_abigael",
-      "name": "Hamilcaro Abigael",
-      "classe": "",
+      "id": "hamilcaro_bonnet_abigael_margueritte",
+      "name": "HAMILCARO BONNET Abigaël Margueritte",
+      "classe": "5M5",
       "group": "5 TECHNO 2",
       "pix": 102,
       "certifiable": true,
@@ -2442,9 +2442,9 @@
       "status": "renseigne"
     },
     {
-      "id": "kassamaly_leena",
-      "name": "KASSAMALY Leena",
-      "classe": "6M2",
+      "id": "kassamaly_daya_ylan",
+      "name": "KASSAMALY DAYA Ylan",
+      "classe": "5M6",
       "group": "5 TECHNO 2",
       "pix": 43,
       "certifiable": false,
@@ -2815,9 +2815,9 @@
       ]
     },
     {
-      "id": "rakoto_matthias",
-      "name": "Rakoto Matthias",
-      "classe": "",
+      "id": "rakoto_andrianangaly_matthias_tsiry",
+      "name": "RAKOTO ANDRIANANGALY Matthias Tsiry",
+      "classe": "3M3",
       "group": "5 TECHNO 2",
       "pix": 0,
       "certifiable": false,

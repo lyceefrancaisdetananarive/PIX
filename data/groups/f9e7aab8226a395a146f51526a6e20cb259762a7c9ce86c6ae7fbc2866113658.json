@@ -124,9 +124,9 @@
       ]
     },
     {
-      "id": "cotche_louis_rayan",
-      "name": "COTCHE Louis Rayan",
-      "classe": "1PROAGORA",
+      "id": "cotche_rayan",
+      "name": "Cotche Rayan",
+      "classe": "",
       "group": "1PRO AGORA",
       "pix": 0,
       "certifiable": false,
@@ -226,9 +226,9 @@
       ]
     },
     {
-      "id": "harilala_julie_hosea",
-      "name": "HARILALA Julie Hosea",
-      "classe": "1PROAGORA",
+      "id": "harilala_hosea",
+      "name": "Harilala Hosea",
+      "classe": "",
       "group": "1PRO AGORA",
       "pix": 0,
       "certifiable": false,
@@ -379,57 +379,6 @@
       ]
     },
     {
-      "id": "rajoeliarisoa_maminiaina_thierry",
-      "name": "RAJOELIARISOA Maminiaina Thierry",
-      "classe": "1PROAGORA",
-      "group": "1PRO AGORA",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère Pro",
-          "code": "RFFZPZ957",
-          "campaignName": "1PRO AGORA Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.41,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "rasoamampionona_christophe_tahirinjanahary_james",
       "name": "RASOAMAMPIONONA Christophe Tahirinjanahary James",
       "classe": "1PROAGORA",
@@ -526,6 +475,57 @@
           "date": null,
           "partage": false,
           "progress": 0.67,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rajoeliarisoa_thierry",
+      "name": "Rajoeliarisoa Thierry",
+      "classe": "",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère Pro",
+          "code": "RFFZPZ957",
+          "campaignName": "1PRO AGORA Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.41,
           "maitrise": 0.0,
           "palier": 0
         }

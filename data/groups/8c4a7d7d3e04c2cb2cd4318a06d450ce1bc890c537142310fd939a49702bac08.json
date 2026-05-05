@@ -220,9 +220,9 @@
       "status": "renseigne"
     },
     {
-      "id": "roux_clara",
-      "name": "Roux Clara",
-      "classe": "",
+      "id": "roux_amelie_clara",
+      "name": "ROUX Amelie Clara",
+      "classe": "TG5",
       "group": "TG5",
       "pix": 413,
       "certifiable": true,
@@ -1480,9 +1480,9 @@
       "status": "renseigne"
     },
     {
-      "id": "nathoo_raid",
-      "name": "Nathoo Raid",
-      "classe": "",
+      "id": "nathoo_ashick_houssen_raid_ali",
+      "name": "NATHOO ASHICK HOUSSEN Raïd Ali",
+      "classe": "TG5",
       "group": "TG5",
       "pix": 268,
       "certifiable": true,
@@ -2425,9 +2425,9 @@
       "status": "renseigne"
     },
     {
-      "id": "lanouet_velo_surcouf_marco_polo",
-      "name": "Lanouet Velo Surcouf Marco Polo",
-      "classe": "",
+      "id": "lanouet_velo_marco_polo_surcouf",
+      "name": "LANOUET VELO Marco Polo Surcouf",
+      "classe": "TG5",
       "group": "TG5",
       "pix": 113,
       "certifiable": true,

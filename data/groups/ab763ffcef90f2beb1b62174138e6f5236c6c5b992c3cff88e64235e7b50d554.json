@@ -535,9 +535,9 @@
       "status": "renseigne"
     },
     {
-      "id": "andriamihaingo_fabio_michel",
-      "name": "Andriamihaingo Fabio Michel",
-      "classe": "",
+      "id": "andriamihaingo_michel_fabio",
+      "name": "ANDRIAMIHAINGO Michel Fabio",
+      "classe": "TPROAGORA",
       "group": "TPRO AGORA",
       "pix": 356,
       "certifiable": true,
@@ -745,9 +745,9 @@
       "status": "renseigne"
     },
     {
-      "id": "sarobidiniaina_jonathan_hoareau",
-      "name": "Sarobidiniaina Jonathan Hoareau",
-      "classe": "",
+      "id": "hoareau_sarobidiniaina_jonathan",
+      "name": "HOAREAU Sarobidiniaina Jonathan",
+      "classe": "TPROAGORA",
       "group": "TPRO AGORA",
       "pix": 314,
       "certifiable": true,
@@ -1165,9 +1165,9 @@
       "status": "renseigne"
     },
     {
-      "id": "gampatram_yash",
-      "name": "Gampatram Yash",
-      "classe": "",
+      "id": "gampatram_anjay_yash",
+      "name": "GAMPATRAM ANJAY Yash",
+      "classe": "TPROAGORA",
       "group": "TPRO AGORA",
       "pix": 250,
       "certifiable": true,
@@ -1375,9 +1375,9 @@
       "status": "renseigne"
     },
     {
-      "id": "gampatram_nand",
-      "name": "Gampatram Nand",
-      "classe": "",
+      "id": "gampatram_anjay_nand",
+      "name": "GAMPATRAM ANJAY Nand",
+      "classe": "TPROAGORA",
       "group": "TPRO AGORA",
       "pix": 237,
       "certifiable": true,

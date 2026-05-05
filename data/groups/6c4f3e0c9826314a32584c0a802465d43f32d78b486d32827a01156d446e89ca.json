@@ -515,9 +515,9 @@
       "status": "renseigne"
     },
     {
-      "id": "fidahoussene_keyane",
-      "name": "Fidahoussene Keyane",
-      "classe": "",
+      "id": "fidahoussene_hirdjee_keyane",
+      "name": "FIDAHOUSSENE HIRDJEE Keyane",
+      "classe": "5M4",
       "group": "5SVT1",
       "pix": 182,
       "certifiable": true,
@@ -847,9 +847,9 @@
       "status": "renseigne"
     },
     {
-      "id": "aschish_keya",
-      "name": "Aschish Keya",
-      "classe": "",
+      "id": "aschish_hariche_keya",
+      "name": "ASCHISH HARICHE Keya",
+      "classe": "5M3",
       "group": "5SVT1",
       "pix": 169,
       "certifiable": true,
@@ -1179,9 +1179,9 @@
       "status": "renseigne"
     },
     {
-      "id": "katchera_missam",
-      "name": "Katchera Missam",
-      "classe": "",
+      "id": "katchera_nourmamod_missam_aly",
+      "name": "KATCHERA NOURMAMOD Missam Aly",
+      "classe": "5M4",
       "group": "5SVT1",
       "pix": 165,
       "certifiable": true,

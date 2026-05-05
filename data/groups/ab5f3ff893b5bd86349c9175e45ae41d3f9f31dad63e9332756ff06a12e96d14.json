@@ -115,8 +115,8 @@
     },
     {
       "id": "kessaria_abdeali",
-      "name": "KESSARIA Abdeali",
-      "classe": "4M2",
+      "name": "Kessaria Abdeali.",
+      "classe": "",
       "group": "4M2 TECHNO",
       "pix": 0,
       "certifiable": false,
@@ -211,57 +211,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.71,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "mac_paul_yohann",
-      "name": "MAC Paul Yohann",
-      "classe": "2DE9",
-      "group": "4M2 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-12-16T06:11:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "MMVQAS865",
-          "campaignName": "4M2 TECHNO -- Parcours de rentrée 4e",
-          "date": "2025-12-16T06:11:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.74,
           "palier": 2
         }
       ]
@@ -416,6 +365,57 @@
           "progress": 1.0,
           "maitrise": 0.82,
           "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "mac_lai_tsiong_dave",
+      "name": "Mac Lai Tsiong Dave",
+      "classe": "",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-12-16T06:11:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "MMVQAS865",
+          "campaignName": "4M2 TECHNO -- Parcours de rentrée 4e",
+          "date": "2025-12-16T06:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 2
         }
       ]
     },

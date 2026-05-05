@@ -3,15 +3,120 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 29,
-  "scoredCount": 14,
-  "missingCount": 15,
-  "certifiableCount": 14,
-  "averagePix": 279,
+  "scoredCount": 16,
+  "missingCount": 13,
+  "certifiableCount": 16,
+  "averagePix": 292,
   "relatedGroups": [
     "TG7"
   ],
   "historicalGroups": [],
   "students": [
+    {
+      "id": "rasolonirina_ervin_joyann",
+      "name": "RASOLONIRINA Ervin Jôyann",
+      "classe": "TG7",
+      "group": "TG7",
+      "pix": 580,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 5,
+          "pix": 127
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 6,
+          "pix": 157
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 7,
+          "pix": 128
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 73
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 6,
+          "pix": 95
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 5,
+          "pix": 41
+        },
+        "Gérer des données": {
+          "niveau": 5,
+          "pix": 45
+        },
+        "Traiter des données": {
+          "niveau": 5,
+          "pix": 41
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "Partager et publier": {
+          "niveau": 6,
+          "pix": 48
+        },
+        "Collaborer": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 4,
+          "pix": 39
+        },
+        "Développer des documents textuels": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Développer des documents multimedia": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Programmer": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 5,
+          "pix": 47
+        },
+        "Construire un environnement numérique": {
+          "niveau": 6,
+          "pix": 48
+        }
+      },
+      "lastUpdate": "2026-01-28T09:53:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
     {
       "id": "giuliani_gaspard_ronald",
       "name": "GIULIANI Gaspard Ronald",
@@ -958,6 +1063,111 @@
       "status": "renseigne"
     },
     {
+      "id": "rakotoson_rainijaobelina_kael_manohaina",
+      "name": "RAKOTOSON RAINIJAOBELINA Kael Manohaina",
+      "classe": "TG7",
+      "group": "TG7",
+      "pix": 184,
+      "certifiable": true,
+      "competencesCertifiables": 12,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 62
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 41
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 39
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 31
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 11
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        }
+      },
+      "lastUpdate": "2026-01-18T16:35:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
       "id": "hajarivelo_thad_steven",
       "name": "HAJARIVELO Thad Steven",
       "classe": "TG7",
@@ -1637,36 +1847,8 @@
       "parcours": []
     },
     {
-      "id": "rakotoson_rainijaobelina_kael_manohaina",
-      "name": "RAKOTOSON RAINIJAOBELINA Kael Manohaina",
-      "classe": "TG7",
-      "group": "TG7",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "ralay_ioanna_keriane",
       "name": "RALAY Ioanna Keriane",
-      "classe": "TG7",
-      "group": "TG7",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "rasolonirina_ervin_joyann",
-      "name": "RASOLONIRINA Ervin Jôyann",
       "classe": "TG7",
       "group": "TG7",
       "pix": 0,

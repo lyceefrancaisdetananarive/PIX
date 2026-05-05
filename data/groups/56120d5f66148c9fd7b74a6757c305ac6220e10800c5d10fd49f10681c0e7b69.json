@@ -325,9 +325,9 @@
       "status": "renseigne"
     },
     {
-      "id": "rajonson_ny_ranto_asandratra_tiantsoa",
-      "name": "RAJONSON Ny Ranto Asandratra Tiantsoa",
-      "classe": "TG4",
+      "id": "rajonson_tiantsoa",
+      "name": "Rajonson Tiantsoa",
+      "classe": "",
       "group": "TG4",
       "pix": 434,
       "certifiable": true,
@@ -1060,9 +1060,9 @@
       "status": "renseigne"
     },
     {
-      "id": "randriamanorona_miantsaniriko_jean_kayan_boco",
-      "name": "RANDRIAMANORONA Miantsaniriko Jean Kayan Boco",
-      "classe": "TG4",
+      "id": "randriamanorona_kayan",
+      "name": "Randriamanorona Kayan",
+      "classe": "",
       "group": "TG4",
       "pix": 268,
       "certifiable": true,
@@ -1585,9 +1585,9 @@
       "status": "renseigne"
     },
     {
-      "id": "saintas_jean_harry_miandrizara_logan",
-      "name": "SAINTAS Jean Harry Miandrizara Logan",
-      "classe": "TG4",
+      "id": "saintas_logan",
+      "name": "Saintas Logan",
+      "classe": "",
       "group": "TG4",
       "pix": 159,
       "certifiable": true,

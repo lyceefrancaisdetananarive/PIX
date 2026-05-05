@@ -64,8 +64,8 @@
       ]
     },
     {
-      "id": "auguste_nomenjanahary_kenza",
-      "name": "AUGUSTE Nomenjanahary Kenza",
+      "id": "chevalier_gingembre_lou_ines_chantal",
+      "name": "CHEVALIER GINGEMBRE Lou Inès Chantal",
       "classe": "1G8",
       "group": "1G8",
       "pix": 0,
@@ -100,16 +100,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2025-10-05T09:15:00",
+      "lastUpdate": "2025-11-03T16:26:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 1ère",
           "code": "UZZKMV973",
           "campaignName": "1G8 Parcours de Rentrée",
-          "date": "2025-10-05T09:15:00",
+          "date": "2025-11-03T16:26:00",
           "partage": true,
           "progress": 1.0,
-          "maitrise": 0.72,
+          "maitrise": 0.77,
           "palier": 2
         }
       ]
@@ -676,8 +676,8 @@
       ]
     },
     {
-      "id": "be_masy_niry_aissa_melanie",
-      "name": "BE MASY NIRY Aïssa Mélanie",
+      "id": "auguste_nomenjanahary_kenza",
+      "name": "AUGUSTE Nomenjanahary Kenza",
       "classe": "1G8",
       "group": "1G8",
       "pix": 0,
@@ -690,8 +690,8 @@
       "parcours": []
     },
     {
-      "id": "chevalier_gingembre_lou_ines_chantal",
-      "name": "CHEVALIER GINGEMBRE Lou Inès Chantal",
+      "id": "be_masy_niry_aissa_melanie",
+      "name": "BE MASY NIRY Aïssa Mélanie",
       "classe": "1G8",
       "group": "1G8",
       "pix": 0,

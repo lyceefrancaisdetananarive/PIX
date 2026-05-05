@@ -379,9 +379,9 @@
       ]
     },
     {
-      "id": "marro_francois_elek",
-      "name": "MARRO Francois Elek",
-      "classe": "2DE6",
+      "id": "marro_elek",
+      "name": "Marro Elek",
+      "classe": "",
       "group": "2DE6",
       "pix": 0,
       "certifiable": false,
@@ -481,57 +481,6 @@
       ]
     },
     {
-      "id": "razafimahenina_valiha_claudio",
-      "name": "RAZAFIMAHENINA Valiha Claudio",
-      "classe": "2DE6",
-      "group": "2DE6",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-02T18:41:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "WMYBTQ485",
-          "campaignName": "2de6 Parcours de Rentrée",
-          "date": "2025-11-02T18:41:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.71,
-          "palier": 2
-        }
-      ]
-    },
-    {
       "id": "renauld_flore_marie_ghislaine",
       "name": "RENAULD Flore Marie Ghislaine",
       "classe": "2DE6",
@@ -578,6 +527,57 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.6,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "razafimahenina_claudio",
+      "name": "Razafimahenina Claudio",
+      "classe": "",
+      "group": "2DE6",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T18:41:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "WMYBTQ485",
+          "campaignName": "2de6 Parcours de Rentrée",
+          "date": "2025-11-02T18:41:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.71,
           "palier": 2
         }
       ]
@@ -634,9 +634,9 @@
       ]
     },
     {
-      "id": "tsong_wa_yoni",
-      "name": "TSONG Wa Yoni",
-      "classe": "2DE6",
+      "id": "tsong_yoni",
+      "name": "Tsong Yoni",
+      "classe": "",
       "group": "2DE6",
       "pix": 0,
       "certifiable": false,

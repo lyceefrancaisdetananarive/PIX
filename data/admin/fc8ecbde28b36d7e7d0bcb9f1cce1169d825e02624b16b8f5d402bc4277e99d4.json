@@ -3,10 +3,10 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 29,
-  "scoredCount": 16,
-  "missingCount": 13,
-  "certifiableCount": 16,
-  "averagePix": 343,
+  "scoredCount": 13,
+  "missingCount": 16,
+  "certifiableCount": 13,
+  "averagePix": 355,
   "relatedGroups": [
     "TG4"
   ],
@@ -324,111 +324,6 @@
         }
       },
       "lastUpdate": "2026-02-01T19:18:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
-    {
-      "id": "rajonson_ny_ranto_asandratra_tiantsoa",
-      "name": "RAJONSON Ny Ranto Asandratra Tiantsoa",
-      "classe": "TG4",
-      "group": "TG4",
-      "pix": 434,
-      "certifiable": true,
-      "competencesCertifiables": 16,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 4,
-          "pix": 104
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 5,
-          "pix": 106
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 5,
-          "pix": 105
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 4,
-          "pix": 69
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 3,
-          "pix": 50
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 3,
-          "pix": 31
-        },
-        "Gérer des données": {
-          "niveau": 4,
-          "pix": 36
-        },
-        "Traiter des données": {
-          "niveau": 4,
-          "pix": 37
-        },
-        "Interagir": {
-          "niveau": 4,
-          "pix": 36
-        },
-        "Partager et publier": {
-          "niveau": 5,
-          "pix": 43
-        },
-        "Collaborer": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 2,
-          "pix": 18
-        },
-        "Développer des documents textuels": {
-          "niveau": 3,
-          "pix": 24
-        },
-        "Développer des documents multimedia": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 3,
-          "pix": 30
-        },
-        "Programmer": {
-          "niveau": 5,
-          "pix": 42
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 4,
-          "pix": 36
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 1,
-          "pix": 13
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 3,
-          "pix": 28
-        },
-        "Construire un environnement numérique": {
-          "niveau": 2,
-          "pix": 22
-        }
-      },
-      "lastUpdate": "2025-12-09T12:05:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -1063,111 +958,6 @@
       "status": "renseigne"
     },
     {
-      "id": "randriamanorona_miantsaniriko_jean_kayan_boco",
-      "name": "RANDRIAMANORONA Miantsaniriko Jean Kayan Boco",
-      "classe": "TG4",
-      "group": "TG4",
-      "pix": 268,
-      "certifiable": true,
-      "competencesCertifiables": 12,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 5,
-          "pix": 91
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 3,
-          "pix": 73
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 3,
-          "pix": 54
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 2,
-          "pix": 38
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 1,
-          "pix": 12
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 5,
-          "pix": 45
-        },
-        "Gérer des données": {
-          "niveau": 3,
-          "pix": 29
-        },
-        "Traiter des données": {
-          "niveau": 2,
-          "pix": 17
-        },
-        "Interagir": {
-          "niveau": 3,
-          "pix": 26
-        },
-        "Partager et publier": {
-          "niveau": 3,
-          "pix": 27
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 4
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 2,
-          "pix": 16
-        },
-        "Développer des documents textuels": {
-          "niveau": 2,
-          "pix": 19
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 1,
-          "pix": 10
-        },
-        "Programmer": {
-          "niveau": 3,
-          "pix": 25
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 2,
-          "pix": 17
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 2,
-          "pix": 16
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 0,
-          "pix": 5
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Construire un environnement numérique": {
-          "niveau": 1,
-          "pix": 12
-        }
-      },
-      "lastUpdate": "2026-01-22T07:56:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
-    {
       "id": "berthon_tahirisoa_pascal",
       "name": "BERTHON Tahirisoa Pascal",
       "classe": "TG4",
@@ -1588,111 +1378,6 @@
       "status": "renseigne"
     },
     {
-      "id": "saintas_jean_harry_miandrizara_logan",
-      "name": "SAINTAS Jean Harry Miandrizara Logan",
-      "classe": "TG4",
-      "group": "TG4",
-      "pix": 159,
-      "certifiable": true,
-      "competencesCertifiables": 10,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 2,
-          "pix": 59
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 2,
-          "pix": 33
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 1,
-          "pix": 34
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 1,
-          "pix": 23
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 1,
-          "pix": 10
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 2,
-          "pix": 23
-        },
-        "Gérer des données": {
-          "niveau": 1,
-          "pix": 15
-        },
-        "Traiter des données": {
-          "niveau": 2,
-          "pix": 21
-        },
-        "Interagir": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Partager et publier": {
-          "niveau": 2,
-          "pix": 19
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 0,
-          "pix": 5
-        },
-        "Développer des documents textuels": {
-          "niveau": 1,
-          "pix": 14
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 6
-        },
-        "Programmer": {
-          "niveau": 1,
-          "pix": 14
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 1,
-          "pix": 11
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 0,
-          "pix": 3
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Construire un environnement numérique": {
-          "niveau": 1,
-          "pix": 10
-        }
-      },
-      "lastUpdate": "2026-02-04T08:37:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
-    {
       "id": "germain_noe_michel",
       "name": "GERMAIN Noé Michel",
       "classe": "TG4",
@@ -1805,6 +1490,20 @@
       "parcours": []
     },
     {
+      "id": "rajonson_ny_ranto_asandratra_tiantsoa",
+      "name": "RAJONSON Ny Ranto Asandratra Tiantsoa",
+      "classe": "TG4",
+      "group": "TG4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "rakotomalala_fenosoa_andriakaja",
       "name": "RAKOTOMALALA Fenosoa Andriakaja",
       "classe": "TG4",
@@ -1833,8 +1532,36 @@
       "parcours": []
     },
     {
+      "id": "randriamanorona_miantsaniriko_jean_kayan_boco",
+      "name": "RANDRIAMANORONA Miantsaniriko Jean Kayan Boco",
+      "classe": "TG4",
+      "group": "TG4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "rivera_loann_helene_marie",
       "name": "RIVERA Loann Hélène Marie",
+      "classe": "TG4",
+      "group": "TG4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "saintas_jean_harry_miandrizara_logan",
+      "name": "SAINTAS Jean Harry Miandrizara Logan",
       "classe": "TG4",
       "group": "TG4",
       "pix": 0,

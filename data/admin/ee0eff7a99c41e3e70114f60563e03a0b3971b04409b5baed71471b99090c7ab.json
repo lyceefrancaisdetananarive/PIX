@@ -3,10 +3,10 @@
   "level": "4e",
   "cycle": "cycle4",
   "studentCount": 26,
-  "scoredCount": 18,
-  "missingCount": 8,
+  "scoredCount": 19,
+  "missingCount": 7,
   "certifiableCount": 6,
-  "averagePix": 92,
+  "averagePix": 90,
   "relatedGroups": [
     "4 TECHNO 2",
     "4M4 TECHNO"
@@ -1652,6 +1652,132 @@
       "status": "renseigne"
     },
     {
+      "id": "pai_yu_ming_liang",
+      "name": "PAI Yu-Ming Liang",
+      "classe": "4M4",
+      "group": "4 TECHNO 2",
+      "pix": 53,
+      "certifiable": false,
+      "competencesCertifiables": 4,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 1,
+          "pix": 19
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 1,
+          "pix": 11
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 5
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 15
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 3
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Partager et publier": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 3
+        }
+      },
+      "lastUpdate": "2026-01-16T06:32:00",
+      "parcours": [
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "VPFPAN678",
+          "campaignName": "4 TECHNO 2 -- Cybersécurité",
+          "date": "2026-01-16T06:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "GNJUYH475",
+          "campaignName": "4 TECHNO 2 -- Parcours de rentrée 4e",
+          "date": "2026-01-16T05:57:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.85,
+          "palier": 3
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
       "id": "rabenarison_toky_beranger",
       "name": "RABENARISON Toky Béranger",
       "classe": "4M4",
@@ -2424,57 +2550,6 @@
       ]
     },
     {
-      "id": "rolin_yarron_dylan_claude",
-      "name": "ROLIN Yarrön Dylan Claude",
-      "classe": "4M4",
-      "group": "4M4 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-01-15T08:05:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "KPUYUY861",
-          "campaignName": "4M4 TECHNO -- Parcours de rentrée 4e",
-          "date": "2026-01-15T08:05:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.41,
-          "palier": 1
-        }
-      ]
-    },
-    {
       "id": "vivet_mael_manatany",
       "name": "VIVET Maël Manatany",
       "classe": "4M4",
@@ -2564,10 +2639,10 @@
       "parcours": []
     },
     {
-      "id": "pai_yu_ming_liang",
-      "name": "PAI Yu-Ming Liang",
+      "id": "rasoarahona_valinkiry_ambre",
+      "name": "RASOARAHONA Valinkiry Ambre",
       "classe": "4M4",
-      "group": "4 TECHNO 2",
+      "group": "4M4 TECHNO",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -2578,8 +2653,8 @@
       "parcours": []
     },
     {
-      "id": "rasoarahona_valinkiry_ambre",
-      "name": "RASOARAHONA Valinkiry Ambre",
+      "id": "rolin_yarron_dylan_claude",
+      "name": "ROLIN Yarrön Dylan Claude",
       "classe": "4M4",
       "group": "4M4 TECHNO",
       "pix": 0,

@@ -552,9 +552,9 @@
       ]
     },
     {
-      "id": "memmi_anjara_sienna",
-      "name": "MEMMI Anjara Sienna",
-      "classe": "6M6",
+      "id": "memmi_sienna",
+      "name": "Memmi Sienna",
+      "classe": "",
       "group": "6M6",
       "pix": 0,
       "certifiable": false,

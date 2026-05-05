@@ -369,9 +369,9 @@
       ]
     },
     {
-      "id": "nomena_icha",
-      "name": "NOMENA Icha",
-      "classe": "1G6",
+      "id": "nomena_harena",
+      "name": "Nomena Harena",
+      "classe": "",
       "group": "2PRO1",
       "pix": 0,
       "certifiable": false,
@@ -583,9 +583,9 @@
       ]
     },
     {
-      "id": "razakandrainy_falimaholy_ny_aina",
-      "name": "RAZAKANDRAINY Falimaholy Ny Aina",
-      "classe": "2PRO1",
+      "id": "razakandrainy_ny_aina_fali",
+      "name": "Razakandrainy Ny Aina Fali",
+      "classe": "",
       "group": "2PRO1",
       "pix": 0,
       "certifiable": false,
@@ -634,9 +634,9 @@
       ]
     },
     {
-      "id": "squillario_frederic",
-      "name": "SQUILLARIO Fréderic",
-      "classe": "2PRO1",
+      "id": "squillario_frederyc",
+      "name": "Squillario Frederyc",
+      "classe": "",
       "group": "2PRO1",
       "pix": 0,
       "certifiable": false,

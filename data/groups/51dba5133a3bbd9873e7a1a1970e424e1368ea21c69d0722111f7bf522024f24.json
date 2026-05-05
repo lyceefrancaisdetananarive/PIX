@@ -430,9 +430,9 @@
       ]
     },
     {
-      "id": "ponin_manarina_assia_ezrah",
-      "name": "PONIN Manarina Assia Ezrah",
-      "classe": "1STMG1",
+      "id": "ponin_assia",
+      "name": "Ponin Assia",
+      "classe": "",
       "group": "1STMG1",
       "pix": 0,
       "certifiable": false,
@@ -481,60 +481,9 @@
       ]
     },
     {
-      "id": "roger_janice",
-      "name": "ROGER Janice",
-      "classe": "1STMG2",
-      "group": "1STMG1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-03T21:55:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "NBHSLK966",
-          "campaignName": "1STMG1 Parcours de Rentrée",
-          "date": "2025-11-03T21:55:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.64,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "raharison_even",
-      "name": "Raharison Even",
-      "classe": "",
+      "id": "raharison_andriamanarivo_even_mandresy",
+      "name": "RAHARISON ANDRIAMANARIVO Even Mandresy",
+      "classe": "1STMG1",
       "group": "1STMG1",
       "pix": 0,
       "certifiable": false,
@@ -680,6 +629,57 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.71,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "roger_loic",
+      "name": "Roger Loic",
+      "classe": "",
+      "group": "1STMG1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T21:55:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "NBHSLK966",
+          "campaignName": "1STMG1 Parcours de Rentrée",
+          "date": "2025-11-03T21:55:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
           "palier": 2
         }
       ]

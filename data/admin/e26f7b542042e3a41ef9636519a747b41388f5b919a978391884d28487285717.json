@@ -3,10 +3,10 @@
   "level": "3e",
   "cycle": "cycle4",
   "studentCount": 27,
-  "scoredCount": 20,
-  "missingCount": 7,
-  "certifiableCount": 16,
-  "averagePix": 173,
+  "scoredCount": 23,
+  "missingCount": 4,
+  "certifiableCount": 18,
+  "averagePix": 169,
   "relatedGroups": [
     "3M1"
   ],
@@ -219,6 +219,111 @@
         }
       },
       "lastUpdate": "2026-03-31T07:46:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "ramarosahanina_tsieraniaina_christianno",
+      "name": "RAMAROSAHANINA Tsieraniaina Christianno",
+      "classe": "3M1",
+      "group": "3M1",
+      "pix": 290,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 74
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 81
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 60
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 28
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 4,
+          "pix": 47
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Gérer des données": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Développer des documents multimedia": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 15
+        }
+      },
+      "lastUpdate": "2026-03-31T07:51:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -1798,6 +1903,111 @@
       "status": "renseigne"
     },
     {
+      "id": "chan_wai_mei_ly",
+      "name": "CHAN WAI Meï-Ly",
+      "classe": "3M1",
+      "group": "3M1",
+      "pix": 91,
+      "certifiable": true,
+      "competencesCertifiables": 8,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 1,
+          "pix": 22
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 1,
+          "pix": 20
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 20
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 20
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 9
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Interagir": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 8
+        }
+      },
+      "lastUpdate": "2026-02-10T12:20:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
       "id": "wang_xichen",
       "name": "WANG Xichen",
       "classe": "3M1",
@@ -2008,6 +2218,111 @@
       "status": "renseigne"
     },
     {
+      "id": "faure_tsiorimanana_amanda_batigne",
+      "name": "FAURE TSIORIMANANA Amanda Batigne",
+      "classe": "3M1",
+      "group": "3M1",
+      "pix": 31,
+      "certifiable": false,
+      "competencesCertifiables": 1,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 31
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Gérer des données": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Interagir": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Partager et publier": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 0
+        }
+      },
+      "lastUpdate": "2026-02-10T07:01:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
       "id": "rajaonarivony_shannon_irina",
       "name": "RAJAONARIVONY Shannon Irina",
       "classe": "3M1",
@@ -2127,20 +2442,6 @@
       "parcours": []
     },
     {
-      "id": "chan_wai_mei_ly",
-      "name": "CHAN WAI Meï-Ly",
-      "classe": "3M1",
-      "group": "",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "chen_ka_yok_emy",
       "name": "CHEN Ka Yok Emy",
       "classe": "3M1",
@@ -2155,36 +2456,8 @@
       "parcours": []
     },
     {
-      "id": "faure_tsiorimanana_amanda_batigne",
-      "name": "FAURE TSIORIMANANA Amanda Batigne",
-      "classe": "3M1",
-      "group": "",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "konate_eliam_henri_braine",
       "name": "KONATE Eliam Henri Braine",
-      "classe": "3M1",
-      "group": "",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "ramarosahanina_tsieraniaina_christianno",
-      "name": "RAMAROSAHANINA Tsieraniaina Christianno",
       "classe": "3M1",
       "group": "",
       "pix": 0,

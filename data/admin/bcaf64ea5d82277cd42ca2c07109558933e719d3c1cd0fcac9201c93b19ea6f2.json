@@ -3,122 +3,116 @@
   "level": "6e",
   "cycle": "cycle3",
   "studentCount": 27,
-  "scoredCount": 1,
-  "missingCount": 26,
-  "certifiableCount": 1,
-  "averagePix": 432,
+  "scoredCount": 0,
+  "missingCount": 27,
+  "certifiableCount": 0,
+  "averagePix": 0,
   "relatedGroups": [
     "6M5"
   ],
-  "historicalGroups": [
-    "1PRO COMMUN",
-    "TG7"
-  ],
+  "historicalGroups": [],
   "students": [
+    {
+      "id": "andriambololona_riviere_arvel",
+      "name": "ANDRIAMBOLOLONA RIVIERE Arvel",
+      "classe": "6M5",
+      "group": "6M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-19T07:00:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RDXHEY274",
+          "campaignName": "Sensibilisation PIX 6M5",
+          "date": "2026-03-19T07:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        }
+      ]
+    },
     {
       "id": "andry_ratoby_mia_jane",
       "name": "ANDRY-RATOBY Mia Jane",
       "classe": "6M5",
-      "group": "TG7",
-      "pix": 432,
-      "certifiable": true,
-      "competencesCertifiables": 16,
+      "group": "6M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
       "domains": {
         "info": {
           "label": "Information et données",
-          "level": 5,
-          "pix": 106
+          "level": 0,
+          "pix": 0
         },
         "communication": {
           "label": "Communication et collaboration",
-          "level": 5,
-          "pix": 110
+          "level": 0,
+          "pix": 0
         },
         "creation": {
           "label": "Création de contenu",
-          "level": 4,
-          "pix": 98
+          "level": 0,
+          "pix": 0
         },
         "protection": {
           "label": "Protection et sécurité",
-          "level": 3,
-          "pix": 71
+          "level": 0,
+          "pix": 0
         },
         "environnement": {
           "label": "Environnement numérique",
-          "level": 3,
-          "pix": 47
+          "level": 0,
+          "pix": 0
         }
       },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 5,
-          "pix": 41
-        },
-        "Gérer des données": {
-          "niveau": 3,
-          "pix": 31
-        },
-        "Traiter des données": {
-          "niveau": 4,
-          "pix": 34
-        },
-        "Interagir": {
-          "niveau": 3,
-          "pix": 27
-        },
-        "Partager et publier": {
-          "niveau": 5,
-          "pix": 42
-        },
-        "Collaborer": {
-          "niveau": 1,
-          "pix": 12
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 3,
-          "pix": 29
-        },
-        "Développer des documents textuels": {
-          "niveau": 3,
-          "pix": 28
-        },
-        "Développer des documents multimedia": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 4,
-          "pix": 33
-        },
-        "Programmer": {
-          "niveau": 3,
-          "pix": 28
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 3,
-          "pix": 30
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 2,
-          "pix": 21
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 3,
-          "pix": 25
-        },
-        "Construire un environnement numérique": {
-          "niveau": 2,
-          "pix": 22
+      "competences": {},
+      "lastUpdate": "2026-03-10T16:35:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RDXHEY274",
+          "campaignName": "Sensibilisation PIX 6M5",
+          "date": "2026-03-10T16:35:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
         }
-      },
-      "lastUpdate": "2025-12-02T18:11:00",
-      "parcours": [],
-      "status": "renseigne"
+      ]
     },
     {
       "id": "bourret_yohan_thomas",
@@ -319,6 +313,57 @@
           "date": null,
           "partage": false,
           "progress": 0.84,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ferrer_medubi_olu",
+      "name": "FERRER MEDUBI Olu",
+      "classe": "6M5",
+      "group": "6M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RDXHEY274",
+          "campaignName": "Sensibilisation PIX 6M5",
+          "date": null,
+          "partage": false,
+          "progress": 0.76,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -875,8 +920,8 @@
       ]
     },
     {
-      "id": "ratsirahonana_miantsa_nirina_amarok",
-      "name": "RATSIRAHONANA Miantsa Nirina Amarok",
+      "id": "tao_camille",
+      "name": "TAO Camille",
       "classe": "6M5",
       "group": "6M5",
       "pix": 0,
@@ -919,68 +964,7 @@
           "campaignName": "Sensibilisation PIX 6M5",
           "date": null,
           "partage": false,
-          "progress": 0.44,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "tao_camille",
-      "name": "TAO Camille",
-      "classe": "6M5",
-      "group": "1PRO COMMUN",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
-          "code": "DHTUZR435",
-          "campaignName": "Education citoyenne numérique 1PRO",
-          "date": null,
-          "partage": false,
-          "progress": 0.97,
-          "maitrise": 0.0,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
-          "code": "RKKXCE915",
-          "campaignName": "numérique espace d'inclusion 1PRO",
-          "date": null,
-          "partage": false,
-          "progress": 0.64,
+          "progress": 0.08,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -1109,36 +1093,8 @@
       ]
     },
     {
-      "id": "andriambololona_riviere_arvel",
-      "name": "ANDRIAMBOLOLONA RIVIERE Arvel",
-      "classe": "6M5",
-      "group": "",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "djouma_lila_rohan",
       "name": "DJOUMA LILA Rohan",
-      "classe": "6M5",
-      "group": "",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "ferrer_medubi_olu",
-      "name": "FERRER MEDUBI Olu",
       "classe": "6M5",
       "group": "",
       "pix": 0,
@@ -1181,6 +1137,20 @@
     {
       "id": "rasolovao_tolotriniaina_nirintsoa",
       "name": "RASOLOVAO Tolotriniaina Nirintsoa",
+      "classe": "6M5",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ratsirahonana_miantsa_nirina_amarok",
+      "name": "RATSIRAHONANA Miantsa Nirina Amarok",
       "classe": "6M5",
       "group": "",
       "pix": 0,

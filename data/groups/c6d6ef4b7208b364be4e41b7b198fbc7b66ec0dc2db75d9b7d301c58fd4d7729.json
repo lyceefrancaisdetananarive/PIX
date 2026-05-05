@@ -17,9 +17,9 @@
   },
   "students": [
     {
-      "id": "groffier_maya",
-      "name": "Groffier Maya",
-      "classe": "",
+      "id": "groffier_bourich_maya_kelthoum",
+      "name": "GROFFIER BOURICH Maya Kelthoum",
+      "classe": "5M2",
       "group": "5 TECHNO 1",
       "pix": 178,
       "certifiable": true,
@@ -1345,9 +1345,9 @@
       "status": "renseigne"
     },
     {
-      "id": "duriez_mickael",
-      "name": "Duriez Mickaël",
-      "classe": "",
+      "id": "duriez_jean_tiana_mickael",
+      "name": "DURIEZ Jean Tiana Mickaël",
+      "classe": "5M1",
       "group": "5 TECHNO 1",
       "pix": 126,
       "certifiable": true,

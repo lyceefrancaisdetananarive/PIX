@@ -10,9 +10,9 @@
   "parcoursCodes": {},
   "students": [
     {
-      "id": "rasolonirina_joyann",
-      "name": "Rasolonirina Joyann",
-      "classe": "",
+      "id": "rasolonirina_ervin_joyann",
+      "name": "RASOLONIRINA Ervin Jôyann",
+      "classe": "TG7",
       "group": "TG7",
       "pix": 580,
       "certifiable": true,
@@ -325,9 +325,9 @@
       "status": "renseigne"
     },
     {
-      "id": "andry_ratoby_mia_jane",
-      "name": "ANDRY-RATOBY Mia Jane",
-      "classe": "6M5",
+      "id": "andry_ratoby_joan",
+      "name": "Andry-ratoby Joan",
+      "classe": "",
       "group": "TG7",
       "pix": 432,
       "certifiable": true,
@@ -1165,9 +1165,9 @@
       "status": "renseigne"
     },
     {
-      "id": "rakotoson_kael",
-      "name": "Rakotoson Kael",
-      "classe": "",
+      "id": "rakotoson_rainijaobelina_kael_manohaina",
+      "name": "RAKOTOSON RAINIJAOBELINA Kael Manohaina",
+      "classe": "TG7",
       "group": "TG7",
       "pix": 184,
       "certifiable": true,

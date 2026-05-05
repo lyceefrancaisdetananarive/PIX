@@ -186,57 +186,6 @@
       ]
     },
     {
-      "id": "chrysostome_jean_nael_haritiana",
-      "name": "CHRYSOSTOME Jean Nael Haritiana",
-      "classe": "1G1",
-      "group": "1G1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-27T18:32:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "MDKWWH853",
-          "campaignName": "1G1 Parcours de Rentrée",
-          "date": "2025-10-27T18:32:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.93,
-          "palier": 3
-        }
-      ]
-    },
-    {
       "id": "daniel_louna_marie",
       "name": "DANIEL Louna Marie",
       "classe": "1G1",
@@ -487,159 +436,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.71,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "rabearison_andrianjara_anjaratia_annaelle",
-      "name": "RABEARISON-ANDRIANJARA Anjaratia Annaëlle",
-      "classe": "1G1",
-      "group": "1G1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-06T16:05:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "MDKWWH853",
-          "campaignName": "1G1 Parcours de Rentrée",
-          "date": "2025-10-06T16:05:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.79,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "ramanase_ariniaina_teddy",
-      "name": "RAMANASE Ariniaina Teddy",
-      "classe": "1G1",
-      "group": "1G1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-26T21:59:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "MDKWWH853",
-          "campaignName": "1G1 Parcours de Rentrée",
-          "date": "2025-10-26T21:59:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.72,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "ramaromamonjy_anjaratiana_miangola",
-      "name": "RAMAROMAMONJY Anjaratiana Miangola",
-      "classe": "1G1",
-      "group": "1G1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-11T20:30:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "MDKWWH853",
-          "campaignName": "1G1 Parcours de Rentrée",
-          "date": "2025-11-11T20:30:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.51,
           "palier": 2
         }
       ]
@@ -952,6 +748,20 @@
       "parcours": []
     },
     {
+      "id": "chrysostome_jean_nael_haritiana",
+      "name": "CHRYSOSTOME Jean Nael Haritiana",
+      "classe": "1G1",
+      "group": "1G1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "de_lorenzo_cassandre_lucia_fitiavana",
       "name": "DE LORENZO Cassandre Lucia Fitiavana",
       "classe": "1G1",
@@ -980,6 +790,20 @@
       "parcours": []
     },
     {
+      "id": "rabearison_andrianjara_anjaratia_annaelle",
+      "name": "RABEARISON-ANDRIANJARA Anjaratia Annaëlle",
+      "classe": "1G1",
+      "group": "1G1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "rabemanantsoa_andriamahazo_kiady_matteo",
       "name": "RABEMANANTSOA ANDRIAMAHAZO Kiady Mattéo",
       "classe": "1G1",
@@ -994,8 +818,36 @@
       "parcours": []
     },
     {
+      "id": "ramanase_ariniaina_teddy",
+      "name": "RAMANASE Ariniaina Teddy",
+      "classe": "1G1",
+      "group": "1G1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "ramarojaona_maevasoa_anaelle",
       "name": "RAMAROJAONA Maevasoa Anaëlle",
+      "classe": "1G1",
+      "group": "1G1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "ramaromamonjy_anjaratiana_miangola",
+      "name": "RAMAROMAMONJY Anjaratiana Miangola",
       "classe": "1G1",
       "group": "1G1",
       "pix": 0,

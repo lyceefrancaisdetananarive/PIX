@@ -267,9 +267,9 @@
       ]
     },
     {
-      "id": "lindecker_manana_nirina_mariane",
-      "name": "LINDECKER Manana Nirina Mariane",
-      "classe": "1G7",
+      "id": "lindecker_mariane",
+      "name": "Lindecker Mariane",
+      "classe": "",
       "group": "1G7",
       "pix": 0,
       "certifiable": false,
@@ -491,57 +491,6 @@
       ]
     },
     {
-      "id": "rakotoambinina_andriamahefanirina_zafimampionona",
-      "name": "RAKOTOAMBININA Andriamahefanirina Zafimampionona",
-      "classe": "1G7",
-      "group": "1G7",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-03T17:34:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "PUVFYQ847",
-          "campaignName": "1G7 Parcours de Rentrée",
-          "date": "2025-11-03T17:34:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.85,
-          "palier": 3
-        }
-      ]
-    },
-    {
       "id": "razafindrabe_teddy_emmanuel_ambinintsoa",
       "name": "RAZAFINDRABE Teddy Emmanuel Ambinintsoa",
       "classe": "1G7",
@@ -640,6 +589,57 @@
           "progress": 0.39,
           "maitrise": 0.0,
           "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rakotoambinina_nirina",
+      "name": "Rakotoambinina Nirina",
+      "classe": "",
+      "group": "1G7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T17:34:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PUVFYQ847",
+          "campaignName": "1G7 Parcours de Rentrée",
+          "date": "2025-11-03T17:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.85,
+          "palier": 3
         }
       ]
     },

@@ -10,9 +10,9 @@
   "parcoursCodes": {},
   "students": [
     {
-      "id": "kassamaly_leena",
-      "name": "KASSAMALY Leena",
-      "classe": "6M2",
+      "id": "kassamaly_savannah",
+      "name": "Kassamaly Savannah",
+      "classe": "",
       "group": "TG2",
       "pix": 501,
       "certifiable": true,
@@ -430,9 +430,9 @@
       "status": "renseigne"
     },
     {
-      "id": "andrianasolo_johanna",
-      "name": "Andrianasolo Johanna",
-      "classe": "",
+      "id": "andrianasolo_volana_johanna",
+      "name": "ANDRIANASOLO Volana Johanna",
+      "classe": "TG2",
       "group": "TG2",
       "pix": 338,
       "certifiable": true,
@@ -1270,9 +1270,9 @@
       "status": "renseigne"
     },
     {
-      "id": "raj_janvi",
-      "name": "RAJ Janvi",
-      "classe": "TG3",
+      "id": "raj_rassay_k",
+      "name": "Raj Rassay.k",
+      "classe": "",
       "group": "TG2",
       "pix": 200,
       "certifiable": true,

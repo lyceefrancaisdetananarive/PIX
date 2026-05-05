@@ -990,9 +990,9 @@
       ]
     },
     {
-      "id": "merally_nayel",
-      "name": "Merally Nayel",
-      "classe": "",
+      "id": "merally_djiva_nayel",
+      "name": "MERALLY DJIVA Nayel",
+      "classe": "6M2",
       "group": "6M2",
       "pix": 0,
       "certifiable": false,
@@ -1173,57 +1173,6 @@
       ]
     },
     {
-      "id": "rakotomamonjy_janaelle_kirsten_volanjarany",
-      "name": "RAKOTOMAMONJY Janaëlle Kirsten Volanjarany",
-      "classe": "6M2",
-      "group": "6M2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "RQAMHC693",
-          "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 0.8,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "ranivo_mae_christie_raphaelle",
       "name": "RANIVO Maë Christie Raphaëlle",
       "classe": "6M2",
@@ -1269,6 +1218,57 @@
           "date": null,
           "partage": false,
           "progress": 0.16,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rakotomamonjy_kirsten",
+      "name": "Rakotomamonjy Kirsten",
+      "classe": "",
+      "group": "6M2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": null,
+          "partage": false,
+          "progress": 0.8,
           "maitrise": 0.0,
           "palier": 0
         }

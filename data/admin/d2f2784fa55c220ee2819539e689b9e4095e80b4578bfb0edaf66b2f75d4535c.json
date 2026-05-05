@@ -3,10 +3,10 @@
   "level": "5e",
   "cycle": "cycle4",
   "studentCount": 24,
-  "scoredCount": 22,
-  "missingCount": 2,
-  "certifiableCount": 19,
-  "averagePix": 149,
+  "scoredCount": 23,
+  "missingCount": 1,
+  "certifiableCount": 20,
+  "averagePix": 154,
   "relatedGroups": [
     "5M7 P.1",
     "5M7 P.2"
@@ -174,6 +174,182 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.93,
+          "palier": 3
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "poncin_mattern_marcel_malala",
+      "name": "PONCIN MATTERN Marcel Malala",
+      "classe": "5M7",
+      "group": "5M7 P.2",
+      "pix": 245,
+      "certifiable": true,
+      "competencesCertifiables": 12,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 63
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 93
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 18
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 35
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 36
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Collaborer": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        }
+      },
+      "lastUpdate": "2026-04-29T10:20:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "EEWXRV693",
+          "campaignName": "5M7 P.2 -- Manipuler un fichier",
+          "date": "2026-04-29T09:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "FLLJSD998",
+          "campaignName": "5M7 P.2 -- EMI",
+          "date": "2026-04-01T10:10:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
+          "code": "VYEKAD842",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique (Fin Cycle 4)",
+          "date": "2026-03-04T09:08:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "VQXTEU253",
+          "campaignName": "5M7 P.2 -- Sécuriser son environnement numérique",
+          "date": "2026-03-04T09:02:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "KDPFMZ328",
+          "campaignName": "5M7 P.2 – Cybersécurité",
+          "date": "2025-11-26T09:19:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SYLBTY718",
+          "campaignName": "5M7 P.2 -- Protection et sécurité",
+          "date": "2025-10-15T09:56:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "JLHPCK922",
+          "campaignName": "5M7 P.2 -- Parcours de rentrée 5e",
+          "date": "2025-10-03T13:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
           "palier": 3
         }
       ],
@@ -3705,20 +3881,6 @@
           "palier": 3
         }
       ]
-    },
-    {
-      "id": "poncin_mattern_marcel_malala",
-      "name": "PONCIN MATTERN Marcel Malala",
-      "classe": "5M7",
-      "group": "5M7 P.2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
     }
   ]
 }

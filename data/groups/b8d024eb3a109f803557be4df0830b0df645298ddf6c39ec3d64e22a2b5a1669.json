@@ -12,57 +12,6 @@
   },
   "students": [
     {
-      "id": "bon_elodie_axelle",
-      "name": "BON Elodie Axelle",
-      "classe": "4M1",
-      "group": "4 TECHNO 1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-25T06:48:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "FKJDGQ891",
-          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
-          "date": "2026-03-25T06:48:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 1.0,
-          "palier": 3
-        }
-      ]
-    },
-    {
       "id": "brindavoine_jimmy",
       "name": "BRINDAVOINE Jimmy",
       "classe": "4M2",
@@ -114,9 +63,9 @@
       ]
     },
     {
-      "id": "choungmo_fofack_zafimihary_joy_nathan",
-      "name": "CHOUNGMO FOFACK Zafimihary Joy-Nathan",
-      "classe": "4M2",
+      "id": "bon_axelle",
+      "name": "Bon Axelle",
+      "classe": "",
       "group": "4 TECHNO 1",
       "pix": 0,
       "certifiable": false,
@@ -150,16 +99,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2026-03-29T14:26:00",
+      "lastUpdate": "2026-03-25T06:48:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 4e",
           "code": "FKJDGQ891",
           "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
-          "date": "2026-03-29T14:26:00",
+          "date": "2026-03-25T06:48:00",
           "partage": true,
           "progress": 1.0,
-          "maitrise": 0.97,
+          "maitrise": 1.0,
           "palier": 3
         }
       ]
@@ -375,6 +324,57 @@
           "progress": 0.82,
           "maitrise": 0.0,
           "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "choungmo_fofack_joy_nathan",
+      "name": "Choungmo Fofack Joy-nathan",
+      "classe": "",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-29T14:26:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "FKJDGQ891",
+          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
+          "date": "2026-03-29T14:26:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.97,
+          "palier": 3
         }
       ]
     },

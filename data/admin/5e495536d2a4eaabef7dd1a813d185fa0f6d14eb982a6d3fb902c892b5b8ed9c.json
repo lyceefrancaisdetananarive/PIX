@@ -65,10 +65,10 @@
       ]
     },
     {
-      "id": "bon_elodie_axelle",
-      "name": "BON Elodie Axelle",
+      "id": "andrianainarivelo_raharintsoa_heja",
+      "name": "ANDRIANAINARIVELO RAHARINTSOA Heja",
       "classe": "4M1",
-      "group": "4 TECHNO 1",
+      "group": "4M1 SVT",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -101,16 +101,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2026-03-25T06:48:00",
+      "lastUpdate": "2026-03-26T06:38:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 4e",
-          "code": "FKJDGQ891",
-          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
-          "date": "2026-03-25T06:48:00",
+          "code": "QPVQJE726",
+          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-26T06:38:00",
           "partage": true,
           "progress": 1.0,
-          "maitrise": 1.0,
+          "maitrise": 0.91,
           "palier": 3
         }
       ]
@@ -483,8 +483,8 @@
       ]
     },
     {
-      "id": "mifsud_manambitana_ajaina_sainah",
-      "name": "MIFSUD Manambitana Ajaina Sainah",
+      "id": "nathoo_ashick_houssen_mehdi_ali",
+      "name": "NATHOO ASHICK HOUSSEN Mehdi Ali",
       "classe": "4M1",
       "group": "4M1 SVT",
       "pix": 0,
@@ -519,17 +519,17 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2026-03-26T06:40:00",
+      "lastUpdate": "2026-03-26T06:42:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 4e",
           "code": "QPVQJE726",
           "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
-          "date": "2026-03-26T06:40:00",
+          "date": "2026-03-26T06:42:00",
           "partage": true,
           "progress": 1.0,
-          "maitrise": 0.79,
-          "palier": 2
+          "maitrise": 0.88,
+          "palier": 3
         }
       ]
     },
@@ -789,57 +789,6 @@
       ]
     },
     {
-      "id": "riviere_andrianarison_nathanael",
-      "name": "RIVIERE Andrianarison Nathanael",
-      "classe": "4M1",
-      "group": "4M1 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-26T06:41:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "QPVQJE726",
-          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
-          "date": "2026-03-26T06:41:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.85,
-          "palier": 3
-        }
-      ]
-    },
-    {
       "id": "soudakar_krish",
       "name": "SOUDAKAR Krish",
       "classe": "4M1",
@@ -891,61 +840,10 @@
       ]
     },
     {
-      "id": "yu_zhi_ning_ciara",
-      "name": "YU Zhi Ning Ciara",
+      "id": "bon_elodie_axelle",
+      "name": "BON Elodie Axelle",
       "classe": "4M1",
-      "group": "4M1 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-26T06:29:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "QPVQJE726",
-          "campaignName": "4M1 SVT -- Parcours de rentrée 4e",
-          "date": "2026-03-26T06:29:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.97,
-          "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "andrianainarivelo_raharintsoa_heja",
-      "name": "ANDRIANAINARIVELO RAHARINTSOA Heja",
-      "classe": "4M1",
-      "group": "4M1 SVT",
+      "group": "4 TECHNO 1",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,
@@ -1026,8 +924,8 @@
       "parcours": []
     },
     {
-      "id": "nathoo_ashick_houssen_mehdi_ali",
-      "name": "NATHOO ASHICK HOUSSEN Mehdi Ali",
+      "id": "mifsud_manambitana_ajaina_sainah",
+      "name": "MIFSUD Manambitana Ajaina Sainah",
       "classe": "4M1",
       "group": "4M1 SVT",
       "pix": 0,
@@ -1068,6 +966,20 @@
       "parcours": []
     },
     {
+      "id": "riviere_andrianarison_nathanael",
+      "name": "RIVIERE Andrianarison Nathanael",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "soundardjee_nael",
       "name": "SOUNDARDJEE Naël",
       "classe": "4M1",
@@ -1084,6 +996,20 @@
     {
       "id": "yang_zijin",
       "name": "YANG Zijin",
+      "classe": "4M1",
+      "group": "4M1 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "yu_zhi_ning_ciara",
+      "name": "YU Zhi Ning Ciara",
       "classe": "4M1",
       "group": "4M1 SVT",
       "pix": 0,

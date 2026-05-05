@@ -63,9 +63,9 @@
       ]
     },
     {
-      "id": "nathoo_mael",
-      "name": "Nathoo Mael",
-      "classe": "",
+      "id": "nathoo_chaick_mael_abasse",
+      "name": "NATHOO CHAICK Mael Abasse",
+      "classe": "4M5",
       "group": "4M5 SVT",
       "pix": 0,
       "certifiable": false,
@@ -114,9 +114,9 @@
       ]
     },
     {
-      "id": "orsot_dessi_amelie_lea_kissi",
-      "name": "ORSOT-DESSI Amélie Léa Kissi",
-      "classe": "1G7",
+      "id": "orsot_dessi_maelle",
+      "name": "Orsot-dessi Maelle",
+      "classe": "",
       "group": "4M5 SVT",
       "pix": 0,
       "certifiable": false,
@@ -216,9 +216,60 @@
       ]
     },
     {
-      "id": "ramorasata_herinirina_irinah",
-      "name": "RAMORASATA Herinirina Irinah",
+      "id": "razafindramboa_zachary_adolphe",
+      "name": "RAZAFINDRAMBOA Zachary Adolphe",
       "classe": "4M5",
+      "group": "4M5 SVT",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-24T09:30:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "ULCJER549",
+          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
+          "date": "2026-03-24T09:30:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "ramorasata_irinah",
+      "name": "Ramorasata Irinah",
+      "classe": "",
       "group": "4M5 SVT",
       "pix": 0,
       "certifiable": false,
@@ -267,9 +318,9 @@
       ]
     },
     {
-      "id": "razafindrabe_teddy_emmanuel_ambinintsoa",
-      "name": "RAZAFINDRABE Teddy Emmanuel Ambinintsoa",
-      "classe": "1G7",
+      "id": "razafindrabe_manaja",
+      "name": "Razafindrabe Manaja",
+      "classe": "",
       "group": "4M5 SVT",
       "pix": 0,
       "certifiable": false,
@@ -313,57 +364,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.97,
-          "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "razafindramboa_zachary_adolphe",
-      "name": "RAZAFINDRAMBOA Zachary Adolphe",
-      "classe": "4M5",
-      "group": "4M5 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-24T09:30:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "ULCJER549",
-          "campaignName": "4M5 SVT -- Parcours de rentrée 4e",
-          "date": "2026-03-24T09:30:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 1.0,
           "palier": 3
         }
       ]

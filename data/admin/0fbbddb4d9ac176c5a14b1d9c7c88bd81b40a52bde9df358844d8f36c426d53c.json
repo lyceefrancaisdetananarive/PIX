@@ -3,10 +3,10 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 28,
-  "scoredCount": 24,
-  "missingCount": 4,
-  "certifiableCount": 23,
-  "averagePix": 242,
+  "scoredCount": 27,
+  "missingCount": 1,
+  "certifiableCount": 26,
+  "averagePix": 244,
   "relatedGroups": [
     "TG5"
   ],
@@ -219,6 +219,111 @@
         }
       },
       "lastUpdate": "2025-12-04T07:52:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "roux_amelie_clara",
+      "name": "ROUX Amelie Clara",
+      "classe": "TG5",
+      "group": "TG5",
+      "pix": 413,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 101
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 6,
+          "pix": 147
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 74
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 39
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 52
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 39
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Traiter des données": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Partager et publier": {
+          "niveau": 6,
+          "pix": 50
+        },
+        "Collaborer": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Développer des documents textuels": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Construire un environnement numérique": {
+          "niveau": 3,
+          "pix": 30
+        }
+      },
+      "lastUpdate": "2025-12-08T19:52:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -1273,6 +1378,111 @@
       "status": "renseigne"
     },
     {
+      "id": "nathoo_ashick_houssen_raid_ali",
+      "name": "NATHOO ASHICK HOUSSEN Raïd Ali",
+      "classe": "TG5",
+      "group": "TG5",
+      "pix": 268,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 69
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 65
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 62
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 42
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 30
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 23
+        }
+      },
+      "lastUpdate": "2025-12-05T05:49:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
       "id": "meurisse_louis",
       "name": "MEURISSE Louis",
       "classe": "TG5",
@@ -2113,6 +2323,111 @@
       "status": "renseigne"
     },
     {
+      "id": "lanouet_velo_marco_polo_surcouf",
+      "name": "LANOUET VELO Marco Polo Surcouf",
+      "classe": "TG5",
+      "group": "TG5",
+      "pix": 113,
+      "certifiable": true,
+      "competencesCertifiables": 6,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 56
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 7
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 20
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 16
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 14
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Interagir": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Partager et publier": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        }
+      },
+      "lastUpdate": "2025-12-04T08:01:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
       "id": "pierraly_aleck_mohamad",
       "name": "PIERRALY Aleck Mohamad",
       "classe": "TG5",
@@ -2535,48 +2850,6 @@
     {
       "id": "hedaraly_daya_shanaya_fatema",
       "name": "HEDARALY DAYA Shanaya Fatema",
-      "classe": "TG5",
-      "group": "TG5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "lanouet_velo_marco_polo_surcouf",
-      "name": "LANOUET VELO Marco Polo Surcouf",
-      "classe": "TG5",
-      "group": "TG5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "nathoo_ashick_houssen_raid_ali",
-      "name": "NATHOO ASHICK HOUSSEN Raïd Ali",
-      "classe": "TG5",
-      "group": "TG5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "roux_amelie_clara",
-      "name": "ROUX Amelie Clara",
       "classe": "TG5",
       "group": "TG5",
       "pix": 0,

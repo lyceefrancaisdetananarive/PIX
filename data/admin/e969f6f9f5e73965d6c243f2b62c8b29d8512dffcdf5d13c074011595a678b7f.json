@@ -65,57 +65,6 @@
       ]
     },
     {
-      "id": "choungmo_fofack_zafimihary_joy_nathan",
-      "name": "CHOUNGMO FOFACK Zafimihary Joy-Nathan",
-      "classe": "4M2",
-      "group": "4 TECHNO 1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-29T14:26:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "FKJDGQ891",
-          "campaignName": "4 TECHNO 1 -- Parcours de rentrée 4e",
-          "date": "2026-03-29T14:26:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.97,
-          "palier": 3
-        }
-      ]
-    },
-    {
       "id": "cliquet_alexandre_hary_fy",
       "name": "CLIQUET Alexandre Hary Fy",
       "classe": "4M2",
@@ -264,57 +213,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.82,
-          "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "kessaria_abdeali",
-      "name": "KESSARIA Abdeali",
-      "classe": "4M2",
-      "group": "4M2 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-24T06:06:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "MMVQAS865",
-          "campaignName": "4M2 TECHNO -- Parcours de rentrée 4e",
-          "date": "2026-03-24T06:06:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.91,
           "palier": 3
         }
       ]
@@ -821,6 +719,20 @@
       "parcours": []
     },
     {
+      "id": "choungmo_fofack_zafimihary_joy_nathan",
+      "name": "CHOUNGMO FOFACK Zafimihary Joy-Nathan",
+      "classe": "4M2",
+      "group": "4 TECHNO 1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "fung_yee_kenzy_luis",
       "name": "FUNG YEE Kenzy Luis",
       "classe": "4M2",
@@ -851,6 +763,20 @@
     {
       "id": "ha_quang_nguyen_ny_avo_ryan",
       "name": "HA QUANG NGUYEN Ny Avo Ryan",
+      "classe": "4M2",
+      "group": "4M2 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "kessaria_abdeali",
+      "name": "KESSARIA Abdeali",
       "classe": "4M2",
       "group": "4M2 TECHNO",
       "pix": 0,

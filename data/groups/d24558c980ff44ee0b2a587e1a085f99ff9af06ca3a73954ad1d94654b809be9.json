@@ -226,9 +226,9 @@
       ]
     },
     {
-      "id": "moutton_charlize_maryse_joelle",
-      "name": "MOUTTON Charlize Maryse Joëlle",
-      "classe": "2DE3",
+      "id": "moutton_chralize",
+      "name": "Moutton Chralize",
+      "classe": "",
       "group": "2DE3",
       "pix": 0,
       "certifiable": false,
@@ -379,108 +379,6 @@
       ]
     },
     {
-      "id": "rabearison_tahina_lucas",
-      "name": "RABEARISON Tahina Lucas",
-      "classe": "2DE3",
-      "group": "2DE3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-03T19:16:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "FXQPYS152",
-          "campaignName": "2de3 Parcours de Rentrée",
-          "date": "2025-11-03T19:16:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.66,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "rasoarivelo_nourlaine_evangelina",
-      "name": "RASOARIVELO Nourlaïne Evangelina",
-      "classe": "2DE3",
-      "group": "2DE3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-02T22:26:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "FXQPYS152",
-          "campaignName": "2de3 Parcours de Rentrée",
-          "date": "2025-11-02T22:26:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.56,
-          "palier": 2
-        }
-      ]
-    },
-    {
       "id": "ratolojanahary_johann",
       "name": "RATOLOJANAHARY Johann",
       "classe": "2DE3",
@@ -583,9 +481,111 @@
       ]
     },
     {
-      "id": "razafy_nirvanah_brigiah_riaze",
-      "name": "RAZAFY Nirvanah Brigiah Riaze",
-      "classe": "2DE3",
+      "id": "rabearison_lucas",
+      "name": "Rabearison Lucas",
+      "classe": "",
+      "group": "2DE3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T19:16:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "FXQPYS152",
+          "campaignName": "2de3 Parcours de Rentrée",
+          "date": "2025-11-03T19:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.66,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rasoarivelo_evangelinah",
+      "name": "Rasoarivelo Evangelinah",
+      "classe": "",
+      "group": "2DE3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-02T22:26:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "FXQPYS152",
+          "campaignName": "2de3 Parcours de Rentrée",
+          "date": "2025-11-02T22:26:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "razafy_nyrvanah_riaze_brigiah",
+      "name": "Razafy Nyrvanah Riaze Brigiah",
+      "classe": "",
       "group": "2DE3",
       "pix": 0,
       "certifiable": false,
@@ -644,9 +644,9 @@
       ]
     },
     {
-      "id": "reydellet_yolande_yvana",
-      "name": "REYDELLET Yolande Yvana",
-      "classe": "2DE3",
+      "id": "reydellet_yvana",
+      "name": "Reydellet Yvana",
+      "classe": "",
       "group": "2DE3",
       "pix": 0,
       "certifiable": false,

@@ -75,77 +75,6 @@
       ]
     },
     {
-      "id": "cotche_louis_rayan",
-      "name": "COTCHE Louis Rayan",
-      "classe": "1PROAGORA",
-      "group": "1PRO COMMUN",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-01-30T08:14:00",
-      "parcours": [
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace de droit",
-          "code": "NRUFGW138",
-          "campaignName": "Numérique espace de droit 1PRO",
-          "date": "2026-01-30T08:34:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.87,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
-          "code": "RKKXCE915",
-          "campaignName": "numérique espace d'inclusion 1PRO",
-          "date": "2026-01-30T08:21:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.77,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
-          "code": "DHTUZR435",
-          "campaignName": "Education citoyenne numérique 1PRO",
-          "date": "2026-01-30T08:14:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.91,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "delattre_david_alfred",
       "name": "DELATTRE David Alfred",
       "classe": "1PROAGORA",
@@ -191,77 +120,6 @@
           "date": null,
           "partage": false,
           "progress": 0.5,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "harilala_julie_hosea",
-      "name": "HARILALA Julie Hosea",
-      "classe": "1PROAGORA",
-      "group": "1PRO COMMUN",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace de droit",
-          "code": "NRUFGW138",
-          "campaignName": "Numérique espace de droit 1PRO",
-          "date": "2026-02-05T07:18:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.74,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
-          "code": "RKKXCE915",
-          "campaignName": "numérique espace d'inclusion 1PRO",
-          "date": "2026-02-05T07:09:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.64,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
-          "code": "DHTUZR435",
-          "campaignName": "Education citoyenne numérique 1PRO",
-          "date": null,
-          "partage": false,
-          "progress": 1.0,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -557,57 +415,6 @@
           "date": null,
           "partage": false,
           "progress": 1.0,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "rajoeliarisoa_maminiaina_thierry",
-      "name": "RAJOELIARISOA Maminiaina Thierry",
-      "classe": "1PROAGORA",
-      "group": "1PRO AGORA",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère Pro",
-          "code": "RFFZPZ957",
-          "campaignName": "1PRO AGORA Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.41,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -1294,8 +1101,50 @@
       ]
     },
     {
+      "id": "cotche_louis_rayan",
+      "name": "COTCHE Louis Rayan",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "diompanjava_marie_aline",
       "name": "DIOMPANJAVA Marie Aline",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "harilala_julie_hosea",
+      "name": "HARILALA Julie Hosea",
+      "classe": "1PROAGORA",
+      "group": "1PRO AGORA",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajoeliarisoa_maminiaina_thierry",
+      "name": "RAJOELIARISOA Maminiaina Thierry",
       "classe": "1PROAGORA",
       "group": "1PRO AGORA",
       "pix": 0,

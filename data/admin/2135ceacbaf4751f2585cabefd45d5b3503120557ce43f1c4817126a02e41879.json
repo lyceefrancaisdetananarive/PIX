@@ -584,6 +584,57 @@
       ]
     },
     {
+      "id": "lock_siou_fane_naomie_ilona",
+      "name": "LOCK SIOU FANE Naomie Ilona",
+      "classe": "1G4",
+      "group": "1G4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PVDVRF583",
+          "campaignName": "1G4 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.62,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
       "id": "manantsara_luggi_mayaz",
       "name": "MANANTSARA Luggi Mayaz",
       "classe": "1G4",
@@ -631,6 +682,57 @@
           "progress": 0.99,
           "maitrise": 0.0,
           "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rabary_andrianiaina_felipe_david",
+      "name": "RABARY ANDRIANIAINA Felipe David",
+      "classe": "1G4",
+      "group": "1G4",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-01T15:00:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "PVDVRF583",
+          "campaignName": "1G4 Parcours de Rentrée",
+          "date": "2025-11-01T15:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
         }
       ]
     },
@@ -895,20 +997,6 @@
       "parcours": []
     },
     {
-      "id": "lock_siou_fane_naomie_ilona",
-      "name": "LOCK SIOU FANE Naomie Ilona",
-      "classe": "1G4",
-      "group": "1G4",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "marquetoux_lucas",
       "name": "MARQUETOUX Lucas",
       "classe": "1G4",
@@ -925,20 +1013,6 @@
     {
       "id": "pless_louanne",
       "name": "PLESS Louanne",
-      "classe": "1G4",
-      "group": "1G4",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "rabary_andrianiaina_felipe_david",
-      "name": "RABARY ANDRIANIAINA Felipe David",
       "classe": "1G4",
       "group": "1G4",
       "pix": 0,

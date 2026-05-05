@@ -12,9 +12,9 @@
   },
   "students": [
     {
-      "id": "ameziane_mohamed_rayane",
-      "name": "AMEZIANE Mohamed Rayane",
-      "classe": "2DE5",
+      "id": "ameziane_rayane",
+      "name": "Ameziane Rayane",
+      "classe": "",
       "group": "2DE5",
       "pix": 0,
       "certifiable": false,
@@ -328,57 +328,6 @@
       ]
     },
     {
-      "id": "lankoande_bapiampalou_assim_ilias_axel",
-      "name": "LANKOANDE Bapiampalou Assim Ilias Axel",
-      "classe": "2DE5",
-      "group": "2DE5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "ATFPXS815",
-          "campaignName": "2de5 Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.47,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "leda_laeticia",
       "name": "LEDA Laeticia",
       "classe": "2DE5",
@@ -424,6 +373,57 @@
           "date": null,
           "partage": false,
           "progress": 0.6,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "lankoande_assim",
+      "name": "Lankoande Assim",
+      "classe": "",
+      "group": "2DE5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "ATFPXS815",
+          "campaignName": "2de5 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.47,
           "maitrise": 0.0,
           "palier": 0
         }

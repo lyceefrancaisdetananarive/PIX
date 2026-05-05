@@ -220,9 +220,9 @@
       "status": "renseigne"
     },
     {
-      "id": "razafindrabe_teddy_emmanuel_ambinintsoa",
-      "name": "RAZAFINDRABE Teddy Emmanuel Ambinintsoa",
-      "classe": "1G7",
+      "id": "razafindrabe_mitia",
+      "name": "Razafindrabe Mitia",
+      "classe": "",
       "group": "TG6",
       "pix": 538,
       "certifiable": true,
@@ -325,9 +325,9 @@
       "status": "renseigne"
     },
     {
-      "id": "bauer_roxana",
-      "name": "Bauer Roxana",
-      "classe": "",
+      "id": "bauer_pria_roxana",
+      "name": "BAUER Pria Roxana",
+      "classe": "TG6",
       "group": "TG6",
       "pix": 423,
       "certifiable": true,
@@ -1480,9 +1480,9 @@
       "status": "renseigne"
     },
     {
-      "id": "kryl_andriamiahaja_arianne",
-      "name": "Kryl Andriamiahaja Arianne",
-      "classe": "",
+      "id": "kryl_andriamihaja_hasina_arianne_volana",
+      "name": "KRYL ANDRIAMIHAJA Hasina Arianne Volana",
+      "classe": "TG6",
       "group": "TG6",
       "pix": 262,
       "certifiable": true,
@@ -1585,9 +1585,9 @@
       "status": "renseigne"
     },
     {
-      "id": "andriantiana_anjaramahefa_tsaroana_ninah_mbolatiana",
-      "name": "ANDRIANTIANA Anjaramahefa Tsaroana Ninah Mbolatiana",
-      "classe": "TG6",
+      "id": "andriantiana_ninah",
+      "name": "Andriantiana Ninah",
+      "classe": "",
       "group": "TG6",
       "pix": 225,
       "certifiable": true,

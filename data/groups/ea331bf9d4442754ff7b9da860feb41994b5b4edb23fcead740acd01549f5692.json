@@ -896,8 +896,8 @@
     },
     {
       "id": "pai_yu_ming_liang",
-      "name": "Pai Yu Ming Liang",
-      "classe": "",
+      "name": "PAI Yu-Ming Liang",
+      "classe": "4M4",
       "group": "4 TECHNO 2",
       "pix": 53,
       "certifiable": false,
@@ -1545,9 +1545,9 @@
       "status": "renseigne"
     },
     {
-      "id": "fenoussoa_tsito",
-      "name": "Fenoussoa Tsito",
-      "classe": "",
+      "id": "fenoussoa_tsitohaina_stephane",
+      "name": "FENOUSSOA TSITOHAINA Stephane",
+      "classe": "4M3",
       "group": "4 TECHNO 2",
       "pix": 35,
       "certifiable": false,
@@ -1923,9 +1923,9 @@
       "status": "renseigne"
     },
     {
-      "id": "ferrer_teo",
-      "name": "Ferrer Teo",
-      "classe": "",
+      "id": "ferrer_medubi_teo",
+      "name": "FERRER MEDUBI Teo",
+      "classe": "4M3",
       "group": "4 TECHNO 2",
       "pix": 0,
       "certifiable": false,

@@ -3,10 +3,10 @@
   "level": "5e",
   "cycle": "cycle4",
   "studentCount": 22,
-  "scoredCount": 17,
-  "missingCount": 5,
-  "certifiableCount": 15,
-  "averagePix": 165,
+  "scoredCount": 22,
+  "missingCount": 0,
+  "certifiableCount": 19,
+  "averagePix": 157,
   "relatedGroups": [
     "5M3 SVT",
     "5SVT1"
@@ -839,6 +839,172 @@
           "progress": 1.0,
           "maitrise": 0.93,
           "palier": 3
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "aschish_hariche_keya",
+      "name": "ASCHISH HARICHE Keya",
+      "classe": "5M3",
+      "group": "5SVT1",
+      "pix": 169,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 54
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 46
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 25
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 23
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 21
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 5
+        }
+      },
+      "lastUpdate": "2026-05-05T10:20:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "GVZYXA969",
+          "campaignName": "5 SVT 1 -- Manipuler les fichiers",
+          "date": "2026-04-28T10:36:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.75,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "NGLLBU475",
+          "campaignName": "5 SVT 1 -- EMI",
+          "date": "2026-03-31T10:54:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "PBGMGL738",
+          "campaignName": "5 SVT 1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-03T09:32:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "SYGHUQ176",
+          "campaignName": "5 SVT 1 -- Cybersécurité",
+          "date": "2025-11-25T09:40:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "HAPMFC133",
+          "campaignName": "5 SVT 1 -- Parcours Protection et sécurité",
+          "date": "2025-11-04T09:41:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.71,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "VCDMEX862",
+          "campaignName": "5 SVT 1 -- Parcours de rentrée 5e",
+          "date": "2025-10-14T07:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
         }
       ],
       "status": "renseigne"
@@ -1840,6 +2006,172 @@
       "status": "renseigne"
     },
     {
+      "id": "ramparany_haris_giovanni_jean_chrisostomes",
+      "name": "RAMPARANY HARIS Giovanni Jean Chrisostomes",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 127,
+      "certifiable": true,
+      "competencesCertifiables": 8,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 1,
+          "pix": 31
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 1,
+          "pix": 32
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 19
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 16
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 29
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Construire un environnement numérique": {
+          "niveau": 3,
+          "pix": 27
+        }
+      },
+      "lastUpdate": "2026-05-05T08:56:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "PUVNZK896",
+          "campaignName": "5M3 SVT -- Manipuler les fichiers",
+          "date": "2026-04-28T09:06:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.54,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "DEPTZF941",
+          "campaignName": "5M3 SVT -- EMI",
+          "date": "2026-04-07T09:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.32,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "HFADWP726",
+          "campaignName": "5M3 SVT -- Sécuriser son environnement numérique",
+          "date": "2026-03-03T08:54:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "DLCVTF197",
+          "campaignName": "5M3 SVT -- Cybersécurité",
+          "date": "2025-11-25T08:24:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.28,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SSZBXT114",
+          "campaignName": "5M3 SVT -- Protection et sécurité",
+          "date": "2025-11-04T08:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.37,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "SVWXMM931",
+          "campaignName": "5M3 SVT -- Parcours de rentrée 5e",
+          "date": "2025-11-04T08:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.4,
+          "palier": 1
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
       "id": "arifhoussen_kiyan",
       "name": "ARIFHOUSSEN Kiyan",
       "classe": "5M3",
@@ -2000,6 +2332,338 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.87,
+          "palier": 3
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "ramarokoto_ny_aiko_tiamy",
+      "name": "RAMAROKOTO Ny Aiko Tiamy",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 125,
+      "certifiable": true,
+      "competencesCertifiables": 5,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 41
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 43
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 12
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 21
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 8
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Interagir": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 6
+        }
+      },
+      "lastUpdate": "2026-05-05T08:56:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "HFADWP726",
+          "campaignName": "5M3 SVT -- Sécuriser son environnement numérique",
+          "date": "2026-04-28T09:53:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.75,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "PUVNZK896",
+          "campaignName": "5M3 SVT -- Manipuler les fichiers",
+          "date": "2026-04-28T09:08:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "DEPTZF941",
+          "campaignName": "5M3 SVT -- EMI",
+          "date": "2026-04-07T09:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "DLCVTF197",
+          "campaignName": "5M3 SVT -- Cybersécurité",
+          "date": "2025-11-25T08:04:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SSZBXT114",
+          "campaignName": "5M3 SVT -- Protection et sécurité",
+          "date": "2025-10-14T07:42:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.57,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "SVWXMM931",
+          "campaignName": "5M3 SVT -- Parcours de rentrée 5e",
+          "date": "2025-10-14T07:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "nkom_nkom_benny_mark_johran",
+      "name": "NKOM NKOM Benny Mark Johran",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 124,
+      "certifiable": true,
+      "competencesCertifiables": 7,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 34
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 42
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 16
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 25
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 7
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 5
+        }
+      },
+      "lastUpdate": "2026-05-05T08:55:00",
+      "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "DEPTZF941",
+          "campaignName": "5M3 SVT -- EMI",
+          "date": "2026-04-28T09:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.55,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "PUVNZK896",
+          "campaignName": "5M3 SVT -- Manipuler les fichiers",
+          "date": "2026-04-28T09:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "HFADWP726",
+          "campaignName": "5M3 SVT -- Sécuriser son environnement numérique",
+          "date": "2026-03-03T08:53:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "DLCVTF197",
+          "campaignName": "5M3 SVT -- Cybersécurité",
+          "date": "2025-11-25T08:01:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.59,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SSZBXT114",
+          "campaignName": "5M3 SVT -- Protection et sécurité",
+          "date": "2025-11-04T08:41:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.66,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "SVWXMM931",
+          "campaignName": "5M3 SVT -- Parcours de rentrée 5e",
+          "date": "2025-11-04T08:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
           "palier": 3
         }
       ],
@@ -2504,6 +3168,172 @@
       "status": "renseigne"
     },
     {
+      "id": "kondoma_kakasi_anais",
+      "name": "KONDOMA KAKASI Anaïs",
+      "classe": "5M3",
+      "group": "5M3 SVT",
+      "pix": 95,
+      "certifiable": false,
+      "competencesCertifiables": 4,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 1,
+          "pix": 26
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 1,
+          "pix": 22
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 18
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 22
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 7
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Interagir": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 5
+        }
+      },
+      "lastUpdate": "2026-05-05T08:55:00",
+      "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "DEPTZF941",
+          "campaignName": "5M3 SVT -- EMI",
+          "date": "2026-04-28T09:35:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.53,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "HFADWP726",
+          "campaignName": "5M3 SVT -- Sécuriser son environnement numérique",
+          "date": "2026-03-03T07:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.75,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "PUVNZK896",
+          "campaignName": "5M3 SVT -- Manipuler les fichiers",
+          "date": "2026-02-10T08:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "DLCVTF197",
+          "campaignName": "5M3 SVT -- Cybersécurité",
+          "date": "2025-11-25T08:06:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "SSZBXT114",
+          "campaignName": "5M3 SVT -- Protection et sécurité",
+          "date": "2025-11-04T08:43:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.66,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "SVWXMM931",
+          "campaignName": "5M3 SVT -- Parcours de rentrée 5e",
+          "date": "2025-11-04T08:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.6,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
       "id": "jubin_anjara_camille",
       "name": "JUBIN Anjara Camille",
       "classe": "5M3",
@@ -2824,76 +3654,6 @@
         }
       ],
       "status": "renseigne"
-    },
-    {
-      "id": "aschish_hariche_keya",
-      "name": "ASCHISH HARICHE Keya",
-      "classe": "5M3",
-      "group": "5SVT1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "kondoma_kakasi_anais",
-      "name": "KONDOMA KAKASI Anaïs",
-      "classe": "5M3",
-      "group": "5M3 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "nkom_nkom_benny_mark_johran",
-      "name": "NKOM NKOM Benny Mark Johran",
-      "classe": "5M3",
-      "group": "5M3 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "ramarokoto_ny_aiko_tiamy",
-      "name": "RAMAROKOTO Ny Aiko Tiamy",
-      "classe": "5M3",
-      "group": "5M3 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "ramparany_haris_giovanni_jean_chrisostomes",
-      "name": "RAMPARANY HARIS Giovanni Jean Chrisostomes",
-      "classe": "5M3",
-      "group": "5M3 SVT",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
     }
   ]
 }

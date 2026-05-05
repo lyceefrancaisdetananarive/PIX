@@ -3,16 +3,182 @@
   "level": "5e",
   "cycle": "cycle4",
   "studentCount": 25,
-  "scoredCount": 5,
-  "missingCount": 20,
-  "certifiableCount": 5,
-  "averagePix": 142,
+  "scoredCount": 7,
+  "missingCount": 18,
+  "certifiableCount": 7,
+  "averagePix": 151,
   "relatedGroups": [
     "5M4 TECHNO",
     "5SVT1"
   ],
   "historicalGroups": [],
   "students": [
+    {
+      "id": "fidahoussene_hirdjee_keyane",
+      "name": "FIDAHOUSSENE HIRDJEE Keyane",
+      "classe": "5M4",
+      "group": "5SVT1",
+      "pix": 182,
+      "certifiable": true,
+      "competencesCertifiables": 10,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 52
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 64
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 18
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 38
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 10
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 8
+        }
+      },
+      "lastUpdate": "2026-05-05T10:17:00",
+      "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "NGLLBU475",
+          "campaignName": "5 SVT 1 -- EMI",
+          "date": "2026-03-31T10:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "PBGMGL738",
+          "campaignName": "5 SVT 1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-03T09:31:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "GVZYXA969",
+          "campaignName": "5 SVT 1 -- Manipuler les fichiers",
+          "date": "2026-03-03T09:26:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "SYGHUQ176",
+          "campaignName": "5 SVT 1 -- Cybersécurité",
+          "date": "2025-11-25T09:33:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.59,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "HAPMFC133",
+          "campaignName": "5 SVT 1 -- Parcours Protection et sécurité",
+          "date": "2025-11-04T09:56:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "VCDMEX862",
+          "campaignName": "5 SVT 1 -- Parcours de rentrée 5e",
+          "date": "2025-10-03T11:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.73,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
     {
       "id": "daniel_titouan_jean",
       "name": "DANIEL Titouan Jean",
@@ -175,6 +341,172 @@
           "progress": 1.0,
           "maitrise": 0.6,
           "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "katchera_nourmamod_missam_aly",
+      "name": "KATCHERA NOURMAMOD Missam Aly",
+      "classe": "5M4",
+      "group": "5SVT1",
+      "pix": 165,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 50
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 61
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 16
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 31
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 7
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 5
+        }
+      },
+      "lastUpdate": "2026-05-05T10:16:00",
+      "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
+          "code": "GVZYXA969",
+          "campaignName": "5 SVT 1 -- Manipuler les fichiers",
+          "date": "2026-04-28T10:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "NGLLBU475",
+          "campaignName": "5 SVT 1 -- EMI",
+          "date": "2026-03-31T11:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "PBGMGL738",
+          "campaignName": "5 SVT 1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-03T09:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "SYGHUQ176",
+          "campaignName": "5 SVT 1 -- Cybersécurité",
+          "date": "2025-11-25T09:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "HAPMFC133",
+          "campaignName": "5 SVT 1 -- Parcours Protection et sécurité",
+          "date": "2025-11-25T09:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.77,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "VCDMEX862",
+          "campaignName": "5 SVT 1 -- Parcours de rentrée 5e",
+          "date": "2025-11-04T09:41:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
         }
       ],
       "status": "renseigne"
@@ -946,8 +1278,8 @@
       ]
     },
     {
-      "id": "andriamiharivolamena_fenosoa_fiducia",
-      "name": "ANDRIAMIHARIVOLAMENA Fenosoa Fiducia",
+      "id": "andriamanana_andriantsoavina_ethan",
+      "name": "ANDRIAMANANA ANDRIANTSOAVINA Ethan",
       "classe": "5M4",
       "group": "5M4 TECHNO",
       "pix": 0,
@@ -982,17 +1314,17 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2026-03-25T09:45:00",
+      "lastUpdate": "2026-03-25T09:53:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 5e",
           "code": "BJZEMY613",
           "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
-          "date": "2026-03-25T09:45:00",
+          "date": "2026-03-25T09:53:00",
           "partage": true,
           "progress": 1.0,
-          "maitrise": 0.93,
-          "palier": 3
+          "maitrise": 0.73,
+          "palier": 2
         }
       ]
     },
@@ -1099,6 +1431,118 @@
       ]
     },
     {
+      "id": "cassam_chenai_hassan",
+      "name": "CASSAM CHENAI Hassan",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:43:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:43:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 3
+        }
+      ]
+    },
+    {
+      "id": "iavilisy_keng_louis",
+      "name": "IAVILISY KENG Louis",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-25T09:47:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 5e",
+          "code": "BJZEMY613",
+          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
+          "date": "2026-03-25T09:47:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "LHVGKL572",
+          "campaignName": "5M4 TECHNO -- Protection et sécurité",
+          "date": null,
+          "partage": false,
+          "progress": 0.54,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
       "id": "ming_sebastien_maminiaina",
       "name": "MING Sébastien Maminiaina",
       "classe": "5M4",
@@ -1201,57 +1645,6 @@
       ]
     },
     {
-      "id": "rajaonah_iloniaina_ethan",
-      "name": "RAJAONAH Iloniaina Ethan",
-      "classe": "5M4",
-      "group": "5M4 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-25T09:45:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 5e",
-          "code": "BJZEMY613",
-          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
-          "date": "2026-03-25T09:45:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 1.0,
-          "palier": 3
-        }
-      ]
-    },
-    {
       "id": "repesse_malo_philippe_benoit",
       "name": "REPESSE Malo Philippe Benoît",
       "classe": "5M4",
@@ -1298,57 +1691,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 1.0,
-          "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "rotrou_voahanginiaina_said",
-      "name": "ROTROU Voahanginiaina Saïd",
-      "classe": "5M4",
-      "group": "5M4 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-25T09:59:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 5e",
-          "code": "BJZEMY613",
-          "campaignName": "5M4 TECHNO -- Parcours de rentrée 5e",
-          "date": "2026-03-25T09:59:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.93,
           "palier": 3
         }
       ]
@@ -1419,22 +1761,8 @@
       "parcours": []
     },
     {
-      "id": "andriamanana_andriantsoavina_ethan",
-      "name": "ANDRIAMANANA ANDRIANTSOAVINA Ethan",
-      "classe": "5M4",
-      "group": "5M4 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "cassam_chenai_hassan",
-      "name": "CASSAM CHENAI Hassan",
+      "id": "andriamiharivolamena_fenosoa_fiducia",
+      "name": "ANDRIAMIHARIVOLAMENA Fenosoa Fiducia",
       "classe": "5M4",
       "group": "5M4 TECHNO",
       "pix": 0,
@@ -1449,48 +1777,6 @@
     {
       "id": "duriez_jean_malala_axel",
       "name": "DURIEZ Jean Malala Axel",
-      "classe": "5M4",
-      "group": "5SVT1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "fidahoussene_hirdjee_keyane",
-      "name": "FIDAHOUSSENE HIRDJEE Keyane",
-      "classe": "5M4",
-      "group": "5SVT1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "iavilisy_keng_louis",
-      "name": "IAVILISY KENG Louis",
-      "classe": "5M4",
-      "group": "5M4 TECHNO",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "katchera_nourmamod_missam_aly",
-      "name": "KATCHERA NOURMAMOD Missam Aly",
       "classe": "5M4",
       "group": "5SVT1",
       "pix": 0,
@@ -1521,6 +1807,34 @@
       "name": "RABARY Soa Muriel Agnès",
       "classe": "5M4",
       "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rajaonah_iloniaina_ethan",
+      "name": "RAJAONAH Iloniaina Ethan",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "rotrou_voahanginiaina_said",
+      "name": "ROTROU Voahanginiaina Saïd",
+      "classe": "5M4",
+      "group": "5M4 TECHNO",
       "pix": 0,
       "certifiable": false,
       "competencesCertifiables": 0,

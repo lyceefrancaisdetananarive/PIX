@@ -12,6 +12,57 @@
   },
   "students": [
     {
+      "id": "andriambololona_riviere_arvel",
+      "name": "ANDRIAMBOLOLONA RIVIERE Arvel",
+      "classe": "6M5",
+      "group": "6M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-19T07:00:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RDXHEY274",
+          "campaignName": "Sensibilisation PIX 6M5",
+          "date": "2026-03-19T07:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        }
+      ]
+    },
+    {
       "id": "andry_ratoby_mia_jane",
       "name": "ANDRY-RATOBY Mia Jane",
       "classe": "6M5",
@@ -58,57 +109,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.96,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "andriambololona_arvel",
-      "name": "Andriambololona Arvel",
-      "classe": "",
-      "group": "6M5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-19T07:00:00",
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "RDXHEY274",
-          "campaignName": "Sensibilisation PIX 6M5",
-          "date": "2026-03-19T07:00:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.84,
           "palier": 0
         }
       ]
@@ -379,9 +379,9 @@
       ]
     },
     {
-      "id": "ferrer_olu",
-      "name": "Ferrer Olu",
-      "classe": "",
+      "id": "ferrer_medubi_olu",
+      "name": "FERRER MEDUBI Olu",
+      "classe": "6M5",
       "group": "6M5",
       "pix": 0,
       "certifiable": false,
@@ -980,57 +980,6 @@
       ]
     },
     {
-      "id": "ratsirahonana_miantsa_nirina_amarok",
-      "name": "RATSIRAHONANA Miantsa Nirina Amarok",
-      "classe": "6M5",
-      "group": "6M5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "RDXHEY274",
-          "campaignName": "Sensibilisation PIX 6M5",
-          "date": null,
-          "partage": false,
-          "progress": 0.44,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "rakotonirina_jaron",
       "name": "Rakotonirina Jaron",
       "classe": "",
@@ -1178,6 +1127,57 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.68,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "ratsirahonana_amarok",
+      "name": "Ratsirahonana Amarok",
+      "classe": "",
+      "group": "6M5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RDXHEY274",
+          "campaignName": "Sensibilisation PIX 6M5",
+          "date": null,
+          "partage": false,
+          "progress": 0.44,
+          "maitrise": 0.0,
           "palier": 0
         }
       ]

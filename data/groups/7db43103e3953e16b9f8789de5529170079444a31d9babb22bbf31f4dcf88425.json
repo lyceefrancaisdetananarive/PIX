@@ -136,9 +136,9 @@
       ]
     },
     {
-      "id": "brugnaro_giovanni_geoffray",
-      "name": "BRUGNARO Giovanni Geoffray",
-      "classe": "1PROVENTE",
+      "id": "brugnaro_geoffrey_giovanie",
+      "name": "Brugnaro Geoffrey Giovanie",
+      "classe": "",
       "group": "1PRO COMMUN",
       "pix": 0,
       "certifiable": false,
@@ -253,77 +253,6 @@
           "partage": false,
           "progress": 0.36,
           "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "cotche_louis_rayan",
-      "name": "COTCHE Louis Rayan",
-      "classe": "1PROAGORA",
-      "group": "1PRO COMMUN",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-01-30T08:14:00",
-      "parcours": [
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace de droit",
-          "code": "NRUFGW138",
-          "campaignName": "Numérique espace de droit 1PRO",
-          "date": "2026-01-30T08:34:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.87,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
-          "code": "RKKXCE915",
-          "campaignName": "numérique espace d'inclusion 1PRO",
-          "date": "2026-01-30T08:21:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.77,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
-          "code": "DHTUZR435",
-          "campaignName": "Education citoyenne numérique 1PRO",
-          "date": "2026-01-30T08:14:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.91,
           "palier": 0
         }
       ]
@@ -456,6 +385,77 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.79,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "cotche_rayan",
+      "name": "Cotche Rayan",
+      "classe": "",
+      "group": "1PRO COMMUN",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-01-30T08:14:00",
+      "parcours": [
+        {
+          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace de droit",
+          "code": "NRUFGW138",
+          "campaignName": "Numérique espace de droit 1PRO",
+          "date": "2026-01-30T08:34:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 0
+        },
+        {
+          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
+          "code": "RKKXCE915",
+          "campaignName": "numérique espace d'inclusion 1PRO",
+          "date": "2026-01-30T08:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.77,
+          "palier": 0
+        },
+        {
+          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
+          "code": "DHTUZR435",
+          "campaignName": "Education citoyenne numérique 1PRO",
+          "date": "2026-01-30T08:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.91,
           "palier": 0
         }
       ]
@@ -705,77 +705,6 @@
       ]
     },
     {
-      "id": "harilala_julie_hosea",
-      "name": "HARILALA Julie Hosea",
-      "classe": "1PROAGORA",
-      "group": "1PRO COMMUN",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace de droit",
-          "code": "NRUFGW138",
-          "campaignName": "Numérique espace de droit 1PRO",
-          "date": "2026-02-05T07:18:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.74,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
-          "code": "RKKXCE915",
-          "campaignName": "numérique espace d'inclusion 1PRO",
-          "date": "2026-02-05T07:09:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.64,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
-          "code": "DHTUZR435",
-          "campaignName": "Education citoyenne numérique 1PRO",
-          "date": null,
-          "partage": false,
-          "progress": 1.0,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "hubail_martin_jean_daniel",
       "name": "HUBAIL Martin Jean Daniel",
       "classe": "1PROAGORA",
@@ -847,6 +776,77 @@
       ]
     },
     {
+      "id": "harilala_hosea",
+      "name": "Harilala Hosea",
+      "classe": "",
+      "group": "1PRO COMMUN",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace de droit",
+          "code": "NRUFGW138",
+          "campaignName": "Numérique espace de droit 1PRO",
+          "date": "2026-02-05T07:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 0
+        },
+        {
+          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
+          "code": "RKKXCE915",
+          "campaignName": "numérique espace d'inclusion 1PRO",
+          "date": "2026-02-05T07:09:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
+          "palier": 0
+        },
+        {
+          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
+          "code": "DHTUZR435",
+          "campaignName": "Education citoyenne numérique 1PRO",
+          "date": null,
+          "partage": false,
+          "progress": 1.0,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
       "id": "julia_abelardo_auguste",
       "name": "JULIA Abelardo Auguste",
       "classe": "1PROAGORA",
@@ -898,9 +898,60 @@
       ]
     },
     {
-      "id": "karnezis_georges_steven",
-      "name": "KARNEZIS Georges Steven",
-      "classe": "1PROVENTE",
+      "id": "koffi_grace_berenice",
+      "name": "KOFFI Grace Berenice",
+      "classe": "1PROAGORA",
+      "group": "1PRO COMMUN",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
+          "code": "DHTUZR435",
+          "campaignName": "Education citoyenne numérique 1PRO",
+          "date": null,
+          "partage": false,
+          "progress": 0.65,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "karnezis_steven",
+      "name": "Karnezis Steven",
+      "classe": "",
       "group": "1PRO COMMUN",
       "pix": 0,
       "certifiable": false,
@@ -953,57 +1004,6 @@
           "date": null,
           "partage": false,
           "progress": 0.73,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "koffi_grace_berenice",
-      "name": "KOFFI Grace Berenice",
-      "classe": "1PROAGORA",
-      "group": "1PRO COMMUN",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
-          "code": "DHTUZR435",
-          "campaignName": "Education citoyenne numérique 1PRO",
-          "date": null,
-          "partage": false,
-          "progress": 0.65,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -2046,67 +2046,6 @@
       ]
     },
     {
-      "id": "tao_camille",
-      "name": "TAO Camille",
-      "classe": "6M5",
-      "group": "1PRO COMMUN",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
-          "code": "DHTUZR435",
-          "campaignName": "Education citoyenne numérique 1PRO",
-          "date": null,
-          "partage": false,
-          "progress": 0.97,
-          "maitrise": 0.0,
-          "palier": 0
-        },
-        {
-          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
-          "code": "RKKXCE915",
-          "campaignName": "numérique espace d'inclusion 1PRO",
-          "date": null,
-          "partage": false,
-          "progress": 0.64,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "thomas_erwan_mahery_loic",
       "name": "THOMAS Erwan Mahery Loïc",
       "classe": "1PROAGORA",
@@ -2173,6 +2112,67 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.88,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "tao_moinet",
+      "name": "Tao Moinet",
+      "classe": "",
+      "group": "1PRO COMMUN",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Éducation culture et citoyenneté numériques :  Le numérique un espace de vigilance",
+          "code": "DHTUZR435",
+          "campaignName": "Education citoyenne numérique 1PRO",
+          "date": null,
+          "partage": false,
+          "progress": 0.97,
+          "maitrise": 0.0,
+          "palier": 0
+        },
+        {
+          "name": "Éducation culture et citoyenneté numériques : Le numérique un espace d'émancipation et d'inclusion",
+          "code": "RKKXCE915",
+          "campaignName": "numérique espace d'inclusion 1PRO",
+          "date": null,
+          "partage": false,
+          "progress": 0.64,
+          "maitrise": 0.0,
           "palier": 0
         }
       ]

@@ -13,9 +13,9 @@
   },
   "students": [
     {
-      "id": "rabarison_chloe",
-      "name": "Rabarison Chloé",
-      "classe": "",
+      "id": "rabarison_ruth_chloe",
+      "name": "RABARISON Ruth Chloé",
+      "classe": "4M3",
       "group": "4M3 SVT",
       "pix": 195,
       "certifiable": true,
@@ -391,9 +391,9 @@
       "status": "renseigne"
     },
     {
-      "id": "ramiandrison_tahiana",
-      "name": "Ramiandrison Tahiana",
-      "classe": "",
+      "id": "ramiandrison_michael_tahiana",
+      "name": "RAMIANDRISON Michael Tahiana",
+      "classe": "4M3",
       "group": "4M3 SVT",
       "pix": 94,
       "certifiable": true,
@@ -643,9 +643,9 @@
       "status": "renseigne"
     },
     {
-      "id": "rasoamampionona_nethanya",
-      "name": "Rasoamampionona Nethanya",
-      "classe": "",
+      "id": "rasoamampionona_miharitsimba_nethanya_smitt",
+      "name": "RASOAMAMPIONONA Miharitsimba Nethanya Smitt",
+      "classe": "4M3",
       "group": "4M3 SVT",
       "pix": 75,
       "certifiable": true,
@@ -1525,9 +1525,9 @@
       "status": "renseigne"
     },
     {
-      "id": "joshi_ishani",
-      "name": "Joshi Ishani",
-      "classe": "",
+      "id": "joshi_deep_ishani",
+      "name": "JOSHI DEEP Ishani",
+      "classe": "4M3",
       "group": "4M3 SVT",
       "pix": 0,
       "certifiable": false,

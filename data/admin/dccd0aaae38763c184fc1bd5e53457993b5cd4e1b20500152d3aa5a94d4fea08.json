@@ -278,57 +278,6 @@
       ]
     },
     {
-      "id": "marro_francois_elek",
-      "name": "MARRO Francois Elek",
-      "classe": "2DE6",
-      "group": "2DE6",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-02T18:45:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "WMYBTQ485",
-          "campaignName": "2de6 Parcours de Rentrée",
-          "date": "2025-11-02T18:45:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.45,
-          "palier": 1
-        }
-      ]
-    },
-    {
       "id": "ramarokoto_ny_amy_miotia",
       "name": "RAMAROKOTO Ny Amy Miotia",
       "classe": "2DE6",
@@ -376,57 +325,6 @@
           "progress": 0.47,
           "maitrise": 0.0,
           "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "razafimahenina_valiha_claudio",
-      "name": "RAZAFIMAHENINA Valiha Claudio",
-      "classe": "2DE6",
-      "group": "2DE6",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-02T18:41:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "WMYBTQ485",
-          "campaignName": "2de6 Parcours de Rentrée",
-          "date": "2025-11-02T18:41:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.71,
-          "palier": 2
         }
       ]
     },
@@ -533,57 +431,6 @@
       ]
     },
     {
-      "id": "tsong_wa_yoni",
-      "name": "TSONG Wa Yoni",
-      "classe": "2DE6",
-      "group": "2DE6",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "WMYBTQ485",
-          "campaignName": "2de6 Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.76,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "alimamod_namir_ali",
       "name": "ALIMAMOD Namir Ali",
       "classe": "2DE6",
@@ -656,6 +503,20 @@
     {
       "id": "houssenaly_lhana",
       "name": "HOUSSENALY Lhana",
+      "classe": "2DE6",
+      "group": "2DE6",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "marro_francois_elek",
+      "name": "MARRO Francois Elek",
       "classe": "2DE6",
       "group": "2DE6",
       "pix": 0,
@@ -754,6 +615,34 @@
     {
       "id": "randriambeloma_dennemont_agathe_antsa_fitia",
       "name": "RANDRIAMBELOMA DENNEMONT Agathe Antsa Fitia",
+      "classe": "2DE6",
+      "group": "2DE6",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafimahenina_valiha_claudio",
+      "name": "RAZAFIMAHENINA Valiha Claudio",
+      "classe": "2DE6",
+      "group": "2DE6",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "tsong_wa_yoni",
+      "name": "TSONG Wa Yoni",
       "classe": "2DE6",
       "group": "2DE6",
       "pix": 0,

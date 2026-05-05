@@ -12,57 +12,6 @@
   },
   "students": [
     {
-      "id": "auvin_malala_eva_megane_rollande_ines",
-      "name": "AUVIN Malala Eva Megane Rollande Ines",
-      "classe": "6M3",
-      "group": "6M3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "GAUUTU454",
-          "campaignName": "Sensibilisation PIX 6M3",
-          "date": null,
-          "partage": false,
-          "progress": 0.88,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "andramasy_kayrra",
       "name": "Andramasy Kayrra",
       "classe": "",
@@ -154,9 +103,60 @@
       ]
     },
     {
-      "id": "barinia_maharo_jordy",
-      "name": "BARINIA Maharo Jordy",
-      "classe": "6M3",
+      "id": "auvin_megane",
+      "name": "Auvin Megane",
+      "classe": "",
+      "group": "6M3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": null,
+          "partage": false,
+          "progress": 0.88,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "barinia_jordy",
+      "name": "Barinia Jordy",
+      "classe": "",
       "group": "6M3",
       "pix": 0,
       "certifiable": false,
@@ -743,9 +743,9 @@
       ]
     },
     {
-      "id": "lombardin_nolan_hicham",
-      "name": "LOMBARDIN Nolan Hicham",
-      "classe": "6M3",
+      "id": "lombardin_hicham",
+      "name": "Lombardin Hicham",
+      "classe": "",
       "group": "6M3",
       "pix": 0,
       "certifiable": false,

@@ -124,9 +124,9 @@
       ]
     },
     {
-      "id": "goulamaly_hani",
-      "name": "Goulamaly Hani",
-      "classe": "",
+      "id": "goulamaly_janmamode_karmaly_hani",
+      "name": "GOULAMALY JANMAMODE KARMALY Hani",
+      "classe": "2DE8",
       "group": "2DE8",
       "pix": 0,
       "certifiable": false,
@@ -226,57 +226,6 @@
       ]
     },
     {
-      "id": "rakololahy_aube",
-      "name": "RAKOLOLAHY Aube",
-      "classe": "4M3",
-      "group": "2DE8",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "DNXTYC814",
-          "campaignName": "2de8 Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.42,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "rakotomalala_aina_sarobidy",
       "name": "RAKOTOMALALA Aina Sarobidy",
       "classe": "2DE8",
@@ -324,6 +273,57 @@
           "progress": 1.0,
           "maitrise": 0.54,
           "palier": 2
+        }
+      ]
+    },
+    {
+      "id": "rakololahy_mickael",
+      "name": "Rakololahy Mickael",
+      "classe": "",
+      "group": "2DE8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "DNXTYC814",
+          "campaignName": "2de8 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.42,
+          "maitrise": 0.0,
+          "palier": 0
         }
       ]
     },

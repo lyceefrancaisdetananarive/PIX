@@ -3,122 +3,15 @@
   "level": "6e",
   "cycle": "cycle3",
   "studentCount": 26,
-  "scoredCount": 1,
-  "missingCount": 25,
-  "certifiableCount": 1,
-  "averagePix": 501,
+  "scoredCount": 0,
+  "missingCount": 26,
+  "certifiableCount": 0,
+  "averagePix": 0,
   "relatedGroups": [
     "6M2"
   ],
-  "historicalGroups": [
-    "TG2"
-  ],
+  "historicalGroups": [],
   "students": [
-    {
-      "id": "kassamaly_leena",
-      "name": "KASSAMALY Leena",
-      "classe": "6M2",
-      "group": "TG2",
-      "pix": 501,
-      "certifiable": true,
-      "competencesCertifiables": 16,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 5,
-          "pix": 114
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 4,
-          "pix": 129
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 4,
-          "pix": 105
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 3,
-          "pix": 65
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 5,
-          "pix": 88
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 5,
-          "pix": 41
-        },
-        "Gérer des données": {
-          "niveau": 5,
-          "pix": 40
-        },
-        "Traiter des données": {
-          "niveau": 4,
-          "pix": 33
-        },
-        "Interagir": {
-          "niveau": 4,
-          "pix": 34
-        },
-        "Partager et publier": {
-          "niveau": 4,
-          "pix": 39
-        },
-        "Collaborer": {
-          "niveau": 4,
-          "pix": 37
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 2,
-          "pix": 19
-        },
-        "Développer des documents textuels": {
-          "niveau": 3,
-          "pix": 29
-        },
-        "Développer des documents multimedia": {
-          "niveau": 1,
-          "pix": 12
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 4,
-          "pix": 37
-        },
-        "Programmer": {
-          "niveau": 3,
-          "pix": 27
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 3,
-          "pix": 27
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 2,
-          "pix": 21
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 2,
-          "pix": 17
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 5,
-          "pix": 45
-        },
-        "Construire un environnement numérique": {
-          "niveau": 5,
-          "pix": 43
-        }
-      },
-      "lastUpdate": "2026-01-20T18:12:00",
-      "parcours": [],
-      "status": "renseigne"
-    },
     {
       "id": "abbas_kehaan",
       "name": "ABBAS Kehaan",
@@ -823,6 +716,57 @@
       ]
     },
     {
+      "id": "kassamaly_leena",
+      "name": "KASSAMALY Leena",
+      "classe": "6M2",
+      "group": "6M2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": null,
+          "partage": false,
+          "progress": 0.6,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
       "id": "kebe_calzadilla_javier_abdoulaye",
       "name": "KEBE CALZADILLA Javier Abdoulaye",
       "classe": "6M2",
@@ -1047,6 +991,87 @@
       ]
     },
     {
+      "id": "merally_djiva_nayel",
+      "name": "MERALLY DJIVA Nayel",
+      "classe": "6M2",
+      "group": "6M2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-16T12:23:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-03-16T12:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-03-16T12:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-03-16T12:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-03-09T11:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 0
+        }
+      ]
+    },
+    {
       "id": "pecnard_maeva_juniore_noro",
       "name": "PECNARD Maeva Juniore Noro",
       "classe": "6M2",
@@ -1149,57 +1174,6 @@
       ]
     },
     {
-      "id": "rakotomamonjy_janaelle_kirsten_volanjarany",
-      "name": "RAKOTOMAMONJY Janaëlle Kirsten Volanjarany",
-      "classe": "6M2",
-      "group": "6M2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "RQAMHC693",
-          "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 0.8,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "ranivo_mae_christie_raphaelle",
       "name": "RANIVO Maë Christie Raphaëlle",
       "classe": "6M2",
@@ -1251,8 +1225,8 @@
       ]
     },
     {
-      "id": "merally_djiva_nayel",
-      "name": "MERALLY DJIVA Nayel",
+      "id": "rakotomamonjy_janaelle_kirsten_volanjarany",
+      "name": "RAKOTOMAMONJY Janaëlle Kirsten Volanjarany",
       "classe": "6M2",
       "group": "",
       "pix": 0,

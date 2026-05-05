@@ -3,9 +3,9 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 26,
-  "scoredCount": 11,
-  "missingCount": 15,
-  "certifiableCount": 10,
+  "scoredCount": 13,
+  "missingCount": 13,
+  "certifiableCount": 11,
   "averagePix": 200,
   "relatedGroups": [
     "TSTMG1"
@@ -114,6 +114,111 @@
         }
       },
       "lastUpdate": "2025-12-03T08:41:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "wen_in_sze_charlene",
+      "name": "WEN In Sze Charlene",
+      "classe": "TSTMG1",
+      "group": "TSTMG1",
+      "pix": 338,
+      "certifiable": true,
+      "competencesCertifiables": 14,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 84
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 87
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 73
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 63
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 31
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Construire un environnement numérique": {
+          "niveau": 3,
+          "pix": 28
+        }
+      },
+      "lastUpdate": "2025-12-21T18:24:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -1063,6 +1168,111 @@
       "status": "renseigne"
     },
     {
+      "id": "de_brisson_de_laroche_rakotondrina_marvyne_marie_rene",
+      "name": "DE BRISSON DE LAROCHE RAKOTONDRINA Marvyne Marie René",
+      "classe": "TSTMG1",
+      "group": "TSTMG1",
+      "pix": 70,
+      "certifiable": false,
+      "competencesCertifiables": 4,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 1,
+          "pix": 31
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 13
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 20
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 6
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Interagir": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Partager et publier": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 0
+        }
+      },
+      "lastUpdate": "2025-12-03T08:59:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
       "id": "madi_el_amine",
       "name": "MADI El'amine",
       "classe": "TSTMG1",
@@ -1329,20 +1539,6 @@
       "parcours": []
     },
     {
-      "id": "de_brisson_de_laroche_rakotondrina_marvyne_marie_rene",
-      "name": "DE BRISSON DE LAROCHE RAKOTONDRINA Marvyne Marie René",
-      "classe": "TSTMG1",
-      "group": "TSTMG1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "durhone_tiavina_ethan",
       "name": "DURHONE Tiavina Ethan",
       "classe": "TSTMG1",
@@ -1429,20 +1625,6 @@
     {
       "id": "valentin_marie_lizzie_loisza_vaninia",
       "name": "VALENTIN Marie Lizzie Loïsza Vaninia",
-      "classe": "TSTMG1",
-      "group": "TSTMG1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "wen_in_sze_charlene",
-      "name": "WEN In Sze Charlene",
       "classe": "TSTMG1",
       "group": "TSTMG1",
       "pix": 0,

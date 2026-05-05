@@ -125,6 +125,57 @@
       ]
     },
     {
+      "id": "goulamaly_janmamode_karmaly_hani",
+      "name": "GOULAMALY JANMAMODE KARMALY Hani",
+      "classe": "2DE8",
+      "group": "2DE8",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-08T14:10:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "DNXTYC814",
+          "campaignName": "2de8 Parcours de Rentrée",
+          "date": "2025-10-08T14:10:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 3
+        }
+      ]
+    },
+    {
       "id": "rajaona_hetsika_marie_louane",
       "name": "RAJAONA Hetsika Marie-Louane",
       "classe": "2DE8",
@@ -350,20 +401,6 @@
     {
       "id": "dubuisson_joaquim_akili_francois",
       "name": "DUBUISSON Joaquim Akili François",
-      "classe": "2DE8",
-      "group": "2DE8",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "goulamaly_janmamode_karmaly_hani",
-      "name": "GOULAMALY JANMAMODE KARMALY Hani",
       "classe": "2DE8",
       "group": "2DE8",
       "pix": 0,

@@ -558,24 +558,24 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2025-11-06T16:15:00",
+      "lastUpdate": null,
       "parcours": [
         {
           "name": "Parcours de rentrée 1ère",
           "code": "XETXYX964",
           "campaignName": "1G6 Parcours de Rentrée",
-          "date": "2025-11-06T16:15:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.73,
-          "palier": 2
+          "date": null,
+          "partage": false,
+          "progress": 0.56,
+          "maitrise": 0.0,
+          "palier": 0
         }
       ]
     },
     {
-      "id": "mouzidaliffa_haja_elliace",
-      "name": "MOUZIDALIFFA Haja Elliace",
-      "classe": "1G6",
+      "id": "mouzidaliffa_elliace",
+      "name": "Mouzidaliffa Elliace",
+      "classe": "",
       "group": "1G6",
       "pix": 0,
       "certifiable": false,
@@ -609,17 +609,17 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2025-11-06T16:15:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 1ère",
           "code": "XETXYX964",
           "campaignName": "1G6 Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.56,
-          "maitrise": 0.0,
-          "palier": 0
+          "date": "2025-11-06T16:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.73,
+          "palier": 2
         }
       ]
     },
@@ -722,57 +722,6 @@
           "progress": 1.0,
           "maitrise": 0.83,
           "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "rakotonjanahary_riantsoa_matteo",
-      "name": "RAKOTONJANAHARY Riantsoa Matteo",
-      "classe": "1G6",
-      "group": "1G6",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-07T14:35:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "XETXYX964",
-          "campaignName": "1G6 Parcours de Rentrée",
-          "date": "2025-10-07T14:35:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.7,
-          "palier": 2
         }
       ]
     },
@@ -936,6 +885,57 @@
           "progress": 0.07,
           "maitrise": 0.0,
           "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "rakotonjanahary_matteo",
+      "name": "Rakotonjanahary Matteo",
+      "classe": "",
+      "group": "1G6",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-07T14:35:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "XETXYX964",
+          "campaignName": "1G6 Parcours de Rentrée",
+          "date": "2025-10-07T14:35:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.7,
+          "palier": 2
         }
       ]
     },

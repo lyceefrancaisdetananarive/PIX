@@ -3,10 +3,10 @@
   "level": "tale",
   "cycle": "lycee",
   "studentCount": 14,
-  "scoredCount": 2,
-  "missingCount": 12,
-  "certifiableCount": 2,
-  "averagePix": 322,
+  "scoredCount": 3,
+  "missingCount": 11,
+  "certifiableCount": 3,
+  "averagePix": 318,
   "relatedGroups": [
     "TPRO VENTE"
   ],
@@ -116,6 +116,111 @@
         }
       },
       "lastUpdate": "2026-01-29T16:06:00",
+      "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "ralamboson_andriamirija",
+      "name": "RALAMBOSON Andriamirija",
+      "classe": "TPROVENTE",
+      "group": "TPRO VENTE",
+      "pix": 311,
+      "certifiable": true,
+      "competencesCertifiables": 13,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 80
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 98
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 53
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 52
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 28
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        }
+      },
+      "lastUpdate": "2025-12-09T11:48:00",
       "parcours": [],
       "status": "renseigne"
     },
@@ -358,20 +463,6 @@
     {
       "id": "ralamboarivony_claudio_mathieu",
       "name": "RALAMBOARIVONY Claudio Mathieu",
-      "classe": "TPROVENTE",
-      "group": "TPRO VENTE",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "ralamboson_andriamirija",
-      "name": "RALAMBOSON Andriamirija",
       "classe": "TPROVENTE",
       "group": "TPRO VENTE",
       "pix": 0,

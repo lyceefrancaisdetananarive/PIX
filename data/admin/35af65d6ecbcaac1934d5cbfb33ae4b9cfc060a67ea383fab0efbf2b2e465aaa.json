@@ -482,57 +482,6 @@
       ]
     },
     {
-      "id": "memmi_anjara_sienna",
-      "name": "MEMMI Anjara Sienna",
-      "classe": "6M6",
-      "group": "6M6",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "WWZJHH691",
-          "campaignName": "Sensibilisation PIX 6M6",
-          "date": null,
-          "partage": false,
-          "progress": 0.2,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "rajaonarivony_nitiah",
       "name": "RAJAONARIVONY Nitiah",
       "classe": "6M6",
@@ -1170,6 +1119,20 @@
     {
       "id": "leong_nane_tess_ambre_hoye_ling",
       "name": "LEONG NANE Tess Ambre Hoye-Ling",
+      "classe": "6M6",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "memmi_anjara_sienna",
+      "name": "MEMMI Anjara Sienna",
       "classe": "6M6",
       "group": "",
       "pix": 0,

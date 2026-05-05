@@ -482,108 +482,6 @@
       ]
     },
     {
-      "id": "razakandrainy_falimaholy_ny_aina",
-      "name": "RAZAKANDRAINY Falimaholy Ny Aina",
-      "classe": "2PRO1",
-      "group": "2PRO1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde Pro",
-          "code": "QSGRJH948",
-          "campaignName": "2PRO1 Parcours de rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.59,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "squillario_frederic",
-      "name": "SQUILLARIO Fréderic",
-      "classe": "2PRO1",
-      "group": "2PRO1",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde Pro",
-          "code": "QSGRJH948",
-          "campaignName": "2PRO1 Parcours de rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.54,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "aboudou_kevin",
       "name": "ABOUDOU Kevin",
       "classe": "2PRO1",
@@ -640,8 +538,36 @@
       "parcours": []
     },
     {
+      "id": "razakandrainy_falimaholy_ny_aina",
+      "name": "RAZAKANDRAINY Falimaholy Ny Aina",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "salima_richad_tomboanjara",
       "name": "SALIMA Richad Tomboanjara",
+      "classe": "2PRO1",
+      "group": "2PRO1",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "squillario_frederic",
+      "name": "SQUILLARIO Fréderic",
       "classe": "2PRO1",
       "group": "2PRO1",
       "pix": 0,

@@ -325,9 +325,9 @@
       "status": "renseigne"
     },
     {
-      "id": "wen_charlene",
-      "name": "Wen Charlène",
-      "classe": "",
+      "id": "wen_in_sze_charlene",
+      "name": "WEN In Sze Charlene",
+      "classe": "TSTMG1",
       "group": "TSTMG1",
       "pix": 338,
       "certifiable": true,
@@ -1375,9 +1375,9 @@
       "status": "renseigne"
     },
     {
-      "id": "de_brisson_de_laroche_marvyne",
-      "name": "De Brisson de Laroche Marvyne",
-      "classe": "",
+      "id": "de_brisson_de_laroche_rakotondrina_marvyne_marie_rene",
+      "name": "DE BRISSON DE LAROCHE RAKOTONDRINA Marvyne Marie René",
+      "classe": "TSTMG1",
       "group": "TSTMG1",
       "pix": 70,
       "certifiable": false,

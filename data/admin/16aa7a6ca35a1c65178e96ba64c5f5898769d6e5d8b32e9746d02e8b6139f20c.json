@@ -279,6 +279,57 @@
       ]
     },
     {
+      "id": "kondoma_milumbu_ariel",
+      "name": "KONDOMA MILUMBU Ariel",
+      "classe": "1G3",
+      "group": "1G3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-10-31T20:41:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "JBGGBL742",
+          "campaignName": "1G3 Parcours de Rentrée",
+          "date": "2025-10-31T20:41:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.87,
+          "palier": 3
+        }
+      ]
+    },
+    {
       "id": "rakotonanahary_manarivo_katiah",
       "name": "RAKOTONANAHARY MANARIVO Katiah",
       "classe": "1G3",
@@ -377,57 +428,6 @@
           "progress": 1.0,
           "maitrise": 0.58,
           "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "razafindramasy_vololonampanga",
-      "name": "RAZAFINDRAMASY Vololonampanga",
-      "classe": "1G3",
-      "group": "1G3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "JBGGBL742",
-          "campaignName": "1G3 Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.52,
-          "maitrise": 0.0,
-          "palier": 0
         }
       ]
     },
@@ -646,20 +646,6 @@
       "parcours": []
     },
     {
-      "id": "kondoma_milumbu_ariel",
-      "name": "KONDOMA MILUMBU Ariel",
-      "classe": "1G3",
-      "group": "1G3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "lesme_timeo_axel_morgan",
       "name": "LESME Timéo Axel Morgan",
       "classe": "1G3",
@@ -760,6 +746,20 @@
     {
       "id": "rasoanirina_grosjean_samia",
       "name": "RASOANIRINA - GROSJEAN Samia",
+      "classe": "1G3",
+      "group": "1G3",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafindramasy_vololonampanga",
+      "name": "RAZAFINDRAMASY Vololonampanga",
       "classe": "1G3",
       "group": "1G3",
       "pix": 0,

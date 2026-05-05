@@ -13,57 +13,6 @@
   "historicalGroups": [],
   "students": [
     {
-      "id": "ameziane_mohamed_rayane",
-      "name": "AMEZIANE Mohamed Rayane",
-      "classe": "2DE5",
-      "group": "2DE5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-03T16:19:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "ATFPXS815",
-          "campaignName": "2de5 Parcours de Rentrée",
-          "date": "2025-11-03T16:19:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.79,
-          "palier": 2
-        }
-      ]
-    },
-    {
       "id": "bourlier_jacinthe_johanna",
       "name": "BOURLIER Jacinthe Johanna",
       "classe": "2DE5",
@@ -278,57 +227,6 @@
       ]
     },
     {
-      "id": "lankoande_bapiampalou_assim_ilias_axel",
-      "name": "LANKOANDE Bapiampalou Assim Ilias Axel",
-      "classe": "2DE5",
-      "group": "2DE5",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "ATFPXS815",
-          "campaignName": "2de5 Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.47,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "leda_laeticia",
       "name": "LEDA Laeticia",
       "classe": "2DE5",
@@ -482,6 +380,20 @@
       ]
     },
     {
+      "id": "ameziane_mohamed_rayane",
+      "name": "AMEZIANE Mohamed Rayane",
+      "classe": "2DE5",
+      "group": "2DE5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "andriamaholisoa_antso_elinanja",
       "name": "ANDRIAMAHOLISOA Antso Elinanja",
       "classe": "2DE5",
@@ -596,6 +508,20 @@
     {
       "id": "kramo_ahou_stacy_grace_lorraine",
       "name": "KRAMO Ahou Stacy Grace Lorraine",
+      "classe": "2DE5",
+      "group": "2DE5",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lankoande_bapiampalou_assim_ilias_axel",
+      "name": "LANKOANDE Bapiampalou Assim Ilias Axel",
       "classe": "2DE5",
       "group": "2DE5",
       "pix": 0,

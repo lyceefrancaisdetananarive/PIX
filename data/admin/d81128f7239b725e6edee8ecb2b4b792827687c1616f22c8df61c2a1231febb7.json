@@ -319,8 +319,8 @@
       ]
     },
     {
-      "id": "ponin_manarina_assia_ezrah",
-      "name": "PONIN Manarina Assia Ezrah",
+      "id": "raharison_andriamanarivo_even_mandresy",
+      "name": "RAHARISON ANDRIAMANARIVO Even Mandresy",
       "classe": "1STMG1",
       "group": "1STMG1",
       "pix": 0,
@@ -355,16 +355,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2025-11-03T20:11:00",
+      "lastUpdate": "2025-11-03T16:52:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 1ère",
           "code": "NBHSLK966",
           "campaignName": "1STMG1 Parcours de Rentrée",
-          "date": "2025-11-03T20:11:00",
+          "date": "2025-11-03T16:52:00",
           "partage": true,
           "progress": 1.0,
-          "maitrise": 0.73,
+          "maitrise": 0.67,
           "palier": 2
         }
       ]
@@ -598,8 +598,8 @@
       "parcours": []
     },
     {
-      "id": "raharison_andriamanarivo_even_mandresy",
-      "name": "RAHARISON ANDRIAMANARIVO Even Mandresy",
+      "id": "ponin_manarina_assia_ezrah",
+      "name": "PONIN Manarina Assia Ezrah",
       "classe": "1STMG1",
       "group": "1STMG1",
       "pix": 0,

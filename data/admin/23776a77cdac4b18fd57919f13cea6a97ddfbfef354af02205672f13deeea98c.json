@@ -13,118 +13,6 @@
   "historicalGroups": [],
   "students": [
     {
-      "id": "auvin_malala_eva_megane_rollande_ines",
-      "name": "AUVIN Malala Eva Megane Rollande Ines",
-      "classe": "6M3",
-      "group": "6M3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "GAUUTU454",
-          "campaignName": "Sensibilisation PIX 6M3",
-          "date": null,
-          "partage": false,
-          "progress": 0.88,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "barinia_maharo_jordy",
-      "name": "BARINIA Maharo Jordy",
-      "classe": "6M3",
-      "group": "6M3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-05T12:12:00",
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "GAUUTU454",
-          "campaignName": "Sensibilisation PIX 6M3",
-          "date": "2026-03-05T12:12:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 1.0,
-          "palier": 0
-        },
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "GAUUTU454",
-          "campaignName": "Sensibilisation PIX 6M3",
-          "date": "2026-03-05T09:28:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.92,
-          "palier": 0
-        }
-      ]
-    },
-    {
       "id": "carpaye_aiden_angel_nirina",
       "name": "CARPAYE Aiden Angel Nirina",
       "classe": "6M3",
@@ -587,67 +475,6 @@
           "partage": false,
           "progress": 0.96,
           "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "lombardin_nolan_hicham",
-      "name": "LOMBARDIN Nolan Hicham",
-      "classe": "6M3",
-      "group": "6M3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-04-30T07:50:00",
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "GAUUTU454",
-          "campaignName": "Sensibilisation PIX 6M3",
-          "date": "2026-04-30T07:50:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.96,
-          "palier": 0
-        },
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "GAUUTU454",
-          "campaignName": "Sensibilisation PIX 6M3",
-          "date": "2026-03-26T06:34:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.84,
           "palier": 0
         }
       ]
@@ -1321,8 +1148,50 @@
       "parcours": []
     },
     {
+      "id": "auvin_malala_eva_megane_rollande_ines",
+      "name": "AUVIN Malala Eva Megane Rollande Ines",
+      "classe": "6M3",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "barinia_maharo_jordy",
+      "name": "BARINIA Maharo Jordy",
+      "classe": "6M3",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
       "id": "lo_tsy_heng_yohan",
       "name": "LO TSY HENG Yohan",
+      "classe": "6M3",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "lombardin_nolan_hicham",
+      "name": "LOMBARDIN Nolan Hicham",
       "classe": "6M3",
       "group": "",
       "pix": 0,

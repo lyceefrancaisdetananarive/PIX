@@ -13,6 +13,57 @@
   "historicalGroups": [],
   "students": [
     {
+      "id": "bakar_mahomed_sarah_elodie",
+      "name": "BAKAR MAHOMED Sarah Elodie",
+      "classe": "2DE7",
+      "group": "2DE7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2025-11-03T17:45:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 2nde",
+          "code": "KPTTSL861",
+          "campaignName": "2de7 Parcours de Rentrée",
+          "date": "2025-11-03T17:45:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
+          "palier": 2
+        }
+      ]
+    },
+    {
       "id": "bourelly_tiffany",
       "name": "BOURELLY Tiffany",
       "classe": "2DE7",
@@ -625,57 +676,6 @@
       ]
     },
     {
-      "id": "razafiarimanana_yaelle_noemie",
-      "name": "RAZAFIARIMANANA Yaelle Noemie",
-      "classe": "2DE7",
-      "group": "2DE7",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-03T19:17:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 2nde",
-          "code": "KPTTSL861",
-          "campaignName": "2de7 Parcours de Rentrée",
-          "date": "2025-11-03T19:17:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.53,
-          "palier": 2
-        }
-      ]
-    },
-    {
       "id": "tovia_vila_rona_lucero",
       "name": "TOVIA VILA Rona Lucero",
       "classe": "2DE7",
@@ -792,20 +792,6 @@
       "parcours": []
     },
     {
-      "id": "bakar_mahomed_sarah_elodie",
-      "name": "BAKAR MAHOMED Sarah Elodie",
-      "classe": "2DE7",
-      "group": "2DE7",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "carton_maeva_valisoa_aimee",
       "name": "CARTON Maeva Valisoa Aimée",
       "classe": "2DE7",
@@ -892,6 +878,20 @@
     {
       "id": "raolimalala_leo_emilien",
       "name": "RAOLIMALALA Léo Emilien",
+      "classe": "2DE7",
+      "group": "2DE7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "razafiarimanana_yaelle_noemie",
+      "name": "RAZAFIARIMANANA Yaelle Noemie",
       "classe": "2DE7",
       "group": "2DE7",
       "pix": 0,

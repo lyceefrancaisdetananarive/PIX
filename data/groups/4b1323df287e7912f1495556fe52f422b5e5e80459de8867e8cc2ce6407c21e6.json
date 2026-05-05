@@ -227,9 +227,9 @@
       "status": "renseigne"
     },
     {
-      "id": "fidahoussene_keyane",
-      "name": "Fidahoussene Keyane",
-      "classe": "",
+      "id": "fidahoussene_hirdjee_keyane",
+      "name": "FIDAHOUSSENE HIRDJEE Keyane",
+      "classe": "5M4",
       "group": "5M1 SVT",
       "pix": 178,
       "certifiable": true,
@@ -498,9 +498,9 @@
       "status": "renseigne"
     },
     {
-      "id": "aschish_keya",
-      "name": "Aschish Keya",
-      "classe": "",
+      "id": "aschish_hariche_keya",
+      "name": "ASCHISH HARICHE Keya",
+      "classe": "5M3",
       "group": "5M1 SVT",
       "pix": 169,
       "certifiable": true,
@@ -3558,9 +3558,9 @@
       "status": "renseigne"
     },
     {
-      "id": "ramarosahanina_oceanna",
-      "name": "Ramarosahanina Oceanna",
-      "classe": "",
+      "id": "ramarosahanina_faraniaiko_oceanna",
+      "name": "RAMAROSAHANINA Faraniaiko Océanna",
+      "classe": "5M1",
       "group": "5M1 SVT",
       "pix": 30,
       "certifiable": false,

@@ -895,9 +895,9 @@
       "status": "renseigne"
     },
     {
-      "id": "annunziata_luna",
-      "name": "Annunziata Luna",
-      "classe": "",
+      "id": "annunziata_mialy_luna",
+      "name": "ANNUNZIATA Mialy Luna",
+      "classe": "4M7",
       "group": "4M7 P.1",
       "pix": 39,
       "certifiable": false,
@@ -1021,9 +1021,9 @@
       "status": "renseigne"
     },
     {
-      "id": "boumbanda_janel",
-      "name": "Boumbanda Janel",
-      "classe": "",
+      "id": "boumbanda_loungou_janel_pierre",
+      "name": "BOUMBANDA LOUNGOU Janel Pierre",
+      "classe": "4M7",
       "group": "4M7 P.1",
       "pix": 34,
       "certifiable": false,
@@ -1389,9 +1389,9 @@
       "status": "renseigne"
     },
     {
-      "id": "cisse_elhadji_moukhamadou",
-      "name": "CISSE Elhadji Moukhamadou",
-      "classe": "4M7",
+      "id": "cisse_mohamed",
+      "name": "Cisse Mohamed",
+      "classe": "",
       "group": "4M7 P.1",
       "pix": 4,
       "certifiable": false,

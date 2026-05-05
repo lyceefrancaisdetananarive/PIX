@@ -64,6 +64,57 @@
       ]
     },
     {
+      "id": "belhassane_graux_kamil",
+      "name": "BELHASSANE GRAUX Kamil",
+      "classe": "6M7",
+      "group": "6M7",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-03-06T09:28:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "CWSNZU193",
+          "campaignName": "Sensibilisation PIX 6M7",
+          "date": "2026-03-06T09:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        }
+      ]
+    },
+    {
       "id": "cattiau_ines",
       "name": "CATTIAU Inès",
       "classe": "6M7",
@@ -1224,71 +1275,6 @@
       ]
     },
     {
-      "id": "zasy_louis_raphael",
-      "name": "ZASY Louis-Raphaël",
-      "classe": "6M7",
-      "group": "6M7",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-06T07:12:00",
-      "parcours": [
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "CWSNZU193",
-          "campaignName": "Sensibilisation PIX 6M7",
-          "date": "2026-03-06T07:12:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 1.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "belhassane_graux_kamil",
-      "name": "BELHASSANE GRAUX Kamil",
-      "classe": "6M7",
-      "group": "",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "brahem_ahmed",
       "name": "BRAHEM Ahmed",
       "classe": "6M7",
@@ -1319,6 +1305,20 @@
     {
       "id": "leong_velo_natis",
       "name": "LEONG VELO Natis",
+      "classe": "6M7",
+      "group": "",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "non_renseigne",
+      "domains": {},
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": []
+    },
+    {
+      "id": "zasy_louis_raphael",
+      "name": "ZASY Louis-Raphaël",
       "classe": "6M7",
       "group": "",
       "pix": 0,

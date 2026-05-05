@@ -325,9 +325,9 @@
       "status": "renseigne"
     },
     {
-      "id": "ramarosahanina_christianno",
-      "name": "Ramarosahanina Christianno",
-      "classe": "",
+      "id": "ramarosahanina_tsieraniaina_christianno",
+      "name": "RAMAROSAHANINA Tsieraniaina Christianno",
+      "classe": "3M1",
       "group": "3M1",
       "pix": 290,
       "certifiable": true,
@@ -1165,9 +1165,9 @@
       "status": "renseigne"
     },
     {
-      "id": "randriamahazo_rohan",
-      "name": "Randriamahazo Rohan",
-      "classe": "",
+      "id": "randriamahazo_ambinimanantsoa_rohan_halo",
+      "name": "RANDRIAMAHAZO AMBINIMANANTSOA Rohan Halo",
+      "classe": "3M4",
       "group": "3M1",
       "pix": 197,
       "certifiable": true,
@@ -2215,9 +2215,9 @@
       "status": "renseigne"
     },
     {
-      "id": "chan_wai_meily",
-      "name": "Chan Wai Meily",
-      "classe": "",
+      "id": "chan_wai_mei_ly",
+      "name": "CHAN WAI Meï-Ly",
+      "classe": "3M1",
       "group": "3M1",
       "pix": 91,
       "certifiable": true,
@@ -2635,9 +2635,9 @@
       "status": "renseigne"
     },
     {
-      "id": "faure_alize_marie_eleonora",
-      "name": "FAURE Alizé Marie Eleonora",
-      "classe": "2DE1",
+      "id": "faure_tsiorimanana_amanda_batigne",
+      "name": "FAURE TSIORIMANANA Amanda Batigne",
+      "classe": "3M1",
       "group": "3M1",
       "pix": 31,
       "certifiable": false,
