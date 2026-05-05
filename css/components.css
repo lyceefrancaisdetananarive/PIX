@@ -1453,6 +1453,7 @@
  * ───────────────────────────────────────────────────────────── */
 
 .level-section {
+  display: block;
   margin-bottom: var(--space-8);
 }
 .level-section:last-child { margin-bottom: 0; }
