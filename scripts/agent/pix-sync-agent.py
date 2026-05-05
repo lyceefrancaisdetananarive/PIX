@@ -271,19 +271,60 @@ def sync_worker(job_id: str):
         # Pour l'instant on les laisse dans _inbox_pix et on demande au user
         # de les ranger ou on étend build-data.py pour scanner _inbox_pix.
 
-        # 6. Régénération des JSON
+        # 6. Régénération des JSON.
+        # On exécute build-data.py INLINE dans le process agent plutôt que via
+        # subprocess, parce que macOS TCC traite différemment le subprocess :
+        # le parent (agent) a accès à OneDrive, le subprocess n'arrive pas
+        # à ouvrir scripts/build-data.py ([Errno 1] Operation not permitted).
+        # En l'exécutant inline, on hérite des permissions TCC du process agent.
         emit("build", "Régénération des fichiers JSON…", 0.90)
-        result = subprocess.run(
-            [sys.executable, str(BUILD_SCRIPT)],
-            cwd=str(REPO_DIR),
-            capture_output=True, text=True,
-        )
-        if result.returncode != 0:
-            emit("error", f"Erreur build : {result.stderr[-500:]}", -1)
+        import io, contextlib, traceback
+        build_stdout = io.StringIO()
+        build_stderr = io.StringIO()
+        prev_argv = sys.argv
+        sys.argv = [str(BUILD_SCRIPT)]
+        try:
+            script_src = BUILD_SCRIPT.read_text(encoding="utf-8")
+            globals_ns = {
+                "__name__": "__main__",
+                "__file__": str(BUILD_SCRIPT),
+                "__builtins__": __builtins__,
+            }
+            with contextlib.redirect_stdout(build_stdout), contextlib.redirect_stderr(build_stderr):
+                # On change cwd le temps de l'exécution (build-data.py utilise des
+                # chemins absolus mais certaines opérations dépendent du cwd)
+                prev_cwd = os.getcwd()
+                os.chdir(str(REPO_DIR))
+                try:
+                    exec(compile(script_src, str(BUILD_SCRIPT), "exec"), globals_ns)
+                finally:
+                    os.chdir(prev_cwd)
+        except SystemExit as e:
+            if e.code not in (None, 0):
+                tb = traceback.format_exc()
+                emit("error", f"Build SystemExit {e.code} | stderr: {build_stderr.getvalue()[-500:]!r} | trace: {tb[-300:]!r}", -1)
+                JOBS[job_id]["status"] = "failed"
+                return
+        except Exception as e:
+            tb = traceback.format_exc()
+            try:
+                Path("/tmp/pix-sync-build-error.log").write_text(
+                    f"=== {type(e).__name__}: {e} ===\n"
+                    f"--- STDOUT ---\n{build_stdout.getvalue()}\n"
+                    f"--- STDERR ---\n{build_stderr.getvalue()}\n"
+                    f"--- TRACEBACK ---\n{tb}\n",
+                    encoding="utf-8",
+                )
+            except Exception:
+                pass
+            emit("error", f"Build {type(e).__name__}: {str(e)[:300]} (détail : /tmp/pix-sync-build-error.log)", -1)
             JOBS[job_id]["status"] = "failed"
             return
+        finally:
+            sys.argv = prev_argv
+
         # Extrait les dernières lignes du build pour l'UI
-        last_lines = result.stdout.strip().split("\n")[-3:]
+        last_lines = build_stdout.getvalue().strip().split("\n")[-3:]
         emit("build", "Build OK", 0.94, {"summary": last_lines})
 
         # 7. Git commit + push
@@ -404,6 +445,42 @@ class Handler(BaseHTTPRequestHandler):
             self._cors()
             self.end_headers()
             self.wfile.write(ADMIN_HTML.encode("utf-8"))
+            return
+
+        if self.path == "/probe-tcc":
+            # Diagnostic : que peut lire l'agent sous launchd ?
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self._cors()
+            self.end_headers()
+            paths = [
+                REPO_DIR / "data" / "manifest.json",
+                REPO_DIR / "scripts" / "build-data.py",
+                REPO_DIR / "scripts" / "agent" / "pix-sync-agent.py",
+                REPO_DIR / "index.html",
+                SOURCE_ROOT / "Liste des élèves par classes.xlsx",
+                SOURCE_ROOT / "_inbox_pix",
+                Path("/Users/maxwilliamrafaliarison/.local/share/pix-sync/agent.py"),
+            ]
+            results = []
+            for p in paths:
+                entry = {"path": str(p)}
+                try:
+                    if p.is_dir():
+                        entry["type"] = "dir"
+                        entry["entries"] = len(list(p.iterdir()))
+                    else:
+                        with open(p, "rb") as f:
+                            head = f.read(40)
+                        entry["type"] = "file"
+                        entry["size"] = p.stat().st_size
+                        entry["head"] = head.decode("utf-8", errors="replace")
+                    entry["ok"] = True
+                except Exception as e:
+                    entry["ok"] = False
+                    entry["error"] = f"{type(e).__name__}: {e}"
+                results.append(entry)
+            self.wfile.write(json.dumps({"results": results}, ensure_ascii=False, indent=2).encode("utf-8"))
             return
 
         if self.path == "/health":

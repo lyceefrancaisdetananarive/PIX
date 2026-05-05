@@ -27,7 +27,9 @@ if [ ! -x "$LOCAL_DIR/venv/bin/python" ]; then
   mkdir -p "$LOCAL_DIR"
   python3 -m venv "$LOCAL_DIR/venv"
   "$LOCAL_DIR/venv/bin/pip" install --quiet --upgrade pip
-  "$LOCAL_DIR/venv/bin/pip" install --quiet playwright
+  # Playwright pour le scraping Pix Orga, pandas+openpyxl pour build-data.py
+  # (qui est invoqué via sys.executable, donc le venv doit aussi les avoir).
+  "$LOCAL_DIR/venv/bin/pip" install --quiet playwright pandas openpyxl
   "$LOCAL_DIR/venv/bin/python" -m playwright install chromium
 else
   echo "[1/4] venv local déjà en place ✓"
