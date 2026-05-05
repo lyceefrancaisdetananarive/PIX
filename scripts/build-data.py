@@ -38,6 +38,8 @@ DATA_DIR = ROOT / "data"
 GROUPS_DIR = DATA_DIR / "groups"
 
 STUDENT_LIST = SOURCE_ROOT / "Liste des élèves par classes.xlsx"
+INBOX_DIR = SOURCE_ROOT / "_inbox_pix"          # Nouveaux CSV avant classement
+DIVERS_DIR = SOURCE_ROOT / "_divers"            # Campagnes multi-classes / non triables
 
 # Liste des comptes Pix qui ne sont PAS des élèves (enseignants, comptes de test).
 # Ces comptes sont totalement exclus du site (podium, tableaux, stats).
@@ -753,10 +755,131 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
     }
 
 
+def detect_csv_kind(name: str) -> str:
+    """Identifie le type de campagne depuis son nom Pix Orga (4e colonne du CSV)."""
+    n = name.lower()
+    if "collecte" in n: return "collecte"
+    if "récup" in n or "recup" in n: return "recup"
+    if "cybersécur" in n or "cybersecur" in n: return "cybersecurite"
+    if "parcours de rentrée" in n or "parcours_de_rentree" in n: return "parcours_rentree"
+    if "manipuler" in n: return "manipuler_fichiers"
+    if "emi" in n: return "emi"
+    if "protection" in n and ("sécurité" in n or "securite" in n): return "protection_securite"
+    if "sensibilisation" in n: return "sensibilisation"
+    if "ia" in n.split(): return "ia"
+    return "autre"
+
+
+def detect_group_from_campaign(campaign_name: str):
+    """À partir du nom de campagne (ex. '5M2 TECHNO -- Collecte'), retourne le
+    nom du dossier groupe correspondant, ou None si pas reconnu.
+    Le matching se fait contre les clés de GROUP_CODES (qui sont les noms de
+    dossiers existants)."""
+    name = campaign_name.strip()
+    # Retire le suffixe " -- ..." pour ne garder que le préfixe groupe
+    base = re.split(r"\s*--\s*", name, maxsplit=1)[0].strip()
+
+    # Normalise pour comparaison (collapse multi-espaces, uppercase)
+    def norm(s):
+        return re.sub(r"\s+", " ", s.strip()).upper()
+
+    target = norm(base)
+
+    # Mapping direct : si le préfixe correspond exactement à un groupe connu
+    for grp in GROUP_CODES:
+        if norm(grp) == target:
+            return grp
+
+    # Cas spéciaux : "Récup points 3M1" → 3M1
+    m = re.search(r"3m([1-7])", target.lower())
+    if m and "récup" in target.lower() or "recup" in target.lower():
+        return f"3M{m.group(1)}"
+
+    # Cas : "Sensibilisation Pix 6M1" → 6M1
+    m = re.search(r"6m([1-7])", target.lower())
+    if m and "sensibilisation" in target.lower():
+        return f"6M{m.group(1)}"
+
+    return None
+
+
+def dispatch_inbox():
+    """Scanne _inbox_pix/, lit chaque CSV, le déplace dans le bon dossier
+    groupe (en remplaçant l'ancien fichier du même type s'il existe)."""
+    if not INBOX_DIR.exists():
+        return 0
+    DIVERS_DIR.mkdir(exist_ok=True)
+
+    csv_files = sorted(INBOX_DIR.glob("*.csv"))
+    if not csv_files:
+        return 0
+
+    moved, ignored = 0, 0
+    print(f"== Inbox : {len(csv_files)} fichiers à classer ==")
+
+    for csv_path in csv_files:
+        try:
+            with open(csv_path, encoding="utf-8-sig", newline="") as f:
+                reader = csv.DictReader(f, delimiter=";", quotechar='"')
+                first = next(reader, None)
+            if not first:
+                print(f"  ✗ {csv_path.name} : vide → _divers/")
+                csv_path.rename(DIVERS_DIR / csv_path.name)
+                ignored += 1
+                continue
+
+            campaign = first.get("Nom de la campagne", "").strip()
+            group = detect_group_from_campaign(campaign)
+            kind = detect_csv_kind(campaign)
+
+            if not group:
+                print(f"  ⚠ {csv_path.name} : campagne « {campaign} » non rattachable → _divers/")
+                target = DIVERS_DIR / csv_path.name
+                csv_path.rename(target)
+                ignored += 1
+                continue
+
+            target_dir = SOURCE_ROOT / group
+            target_dir.mkdir(exist_ok=True)
+
+            # Supprime l'ancien fichier de même type s'il existe
+            for old in target_dir.glob("*.csv"):
+                if detect_csv_kind_from_filename(old.name) == kind:
+                    old.unlink()
+
+            target = target_dir / csv_path.name
+            csv_path.rename(target)
+            print(f"  ✓ {csv_path.name[:60]:60} → {group} [{kind}]")
+            moved += 1
+        except Exception as e:
+            print(f"  ✗ {csv_path.name} : erreur {e}")
+            ignored += 1
+
+    print(f"   → {moved} déplacés, {ignored} ignorés")
+    return moved
+
+
+def detect_csv_kind_from_filename(name: str) -> str:
+    """Détecte le type d'un CSV depuis son nom de fichier (heuristique)."""
+    n = name.lower()
+    if "collecte" in n: return "collecte"
+    if "recup" in n or "récup" in n: return "recup"
+    if "cybersecurite" in n or "cybersécurité" in n: return "cybersecurite"
+    if "parcours_de_rentree" in n or "rentree" in n: return "parcours_rentree"
+    if "manipuler" in n: return "manipuler_fichiers"
+    if "emi" in n: return "emi"
+    if "protection" in n: return "protection_securite"
+    if "sensibilisation" in n: return "sensibilisation"
+    return "autre"
+
+
 def main() -> int:
     print("== Construction des données PIX LFT ==")
     GROUPS_DIR.mkdir(parents=True, exist_ok=True)
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    # 1. Tri automatique des nouveaux CSV de l'inbox
+    dispatch_inbox()
 
     directory = load_student_directory()
     print(f"  → {len(directory)} élèves chargés depuis le référentiel XLSX")
