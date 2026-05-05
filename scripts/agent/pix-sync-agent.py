@@ -186,30 +186,52 @@ def sync_worker(job_id: str):
 
             # 4. Liste des campagnes
             emit("list", "Récupération de la liste des campagnes…", 0.25)
+            # /campagnes redirige vers /campagnes/les-miennes (ou similaire selon
+            # l'organisation). On laisse Pix Orga rediriger seul.
             page.goto("https://orga.pix.fr/campagnes", wait_until="domcontentloaded")
-            # Attente passive du tableau
             try:
-                page.wait_for_selector('table tbody tr, [data-test="campaigns-list"], main', timeout=15000)
+                page.wait_for_selector('table tbody tr a[href*="/campagnes/"]', timeout=20000)
             except Exception:
-                pass
+                emit("error", f"Tableau des campagnes introuvable (URL: {page.url}). "
+                              f"Pix Orga a peut-être changé la mise en page.", -1)
+                JOBS[job_id]["status"] = "failed"
+                return
 
-            # On itère sur toutes les pages de la liste
+            # Itération sur toutes les pages — chaque ligne contient plusieurs <td>,
+            # le lien campagne est sur l'élément <a href="/campagnes/<id>">Nom</a>
+            # placé dans la 2e cellule (la 1re étant une checkbox).
             campaigns = []
+            seen_urls = set()
             while True:
-                rows = page.locator('table tbody tr')
-                count = rows.count()
+                links = page.locator('table tbody tr a[href*="/campagnes/"]')
+                count = links.count()
                 for i in range(count):
-                    name_el = rows.nth(i).locator('td').first
-                    name = name_el.inner_text().strip()
-                    link = name_el.locator('a').get_attribute('href') or ""
-                    if "collecte" in name.lower() or "récup" in name.lower() or "recup" in name.lower():
-                        campaigns.append({"name": name, "url": link})
-                # Pagination ?
-                next_btn = page.locator('button[aria-label*="Aller à la page suivante"]')
-                if next_btn.count() == 0 or next_btn.is_disabled():
+                    link = links.nth(i)
+                    name = link.inner_text().strip()
+                    href = link.get_attribute('href') or ""
+                    if not name or not href or href in seen_urls:
+                        continue
+                    seen_urls.add(href)
+                    n = name.lower()
+                    if "collecte" in n or "récup" in n or "recup" in n:
+                        campaigns.append({"name": name, "url": href})
+                # Pagination — bouton « page suivante »
+                next_btn = page.locator(
+                    'button[aria-label*="suivante"], a[aria-label*="suivante"], '
+                    'button:has-text("Suivant"), .pagination button:not([disabled]):has-text(">")'
+                ).first
+                if next_btn.count() == 0:
                     break
-                next_btn.click()
-                page.wait_for_load_state("networkidle")
+                try:
+                    if next_btn.is_disabled():
+                        break
+                except Exception:
+                    pass
+                try:
+                    next_btn.click()
+                    page.wait_for_load_state("domcontentloaded", timeout=10000)
+                except Exception:
+                    break
 
             emit("list", f"{len(campaigns)} campagnes Collecte/Récup détectées", 0.30,
                  {"campaigns": [c["name"] for c in campaigns]})
