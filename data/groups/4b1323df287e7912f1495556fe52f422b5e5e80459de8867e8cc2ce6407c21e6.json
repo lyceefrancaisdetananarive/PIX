@@ -2,10 +2,10 @@
   "name": "5M1 SVT",
   "level": "5e",
   "cycle": "cycle4",
-  "studentCount": 43,
-  "scoredCount": 27,
+  "studentCount": 42,
+  "scoredCount": 26,
   "missingCount": 16,
-  "certifiableCount": 21,
+  "certifiableCount": 20,
   "averagePix": 128,
   "parcoursCodes": {
     "Cybersécurité - Cycle 4 (MAJ 2025)": "NZEKRH859",
@@ -2267,111 +2267,6 @@
           "palier": 0
         }
       ],
-      "status": "renseigne"
-    },
-    {
-      "id": "arifhoussen_kiyan",
-      "name": "ARIFHOUSSEN Kiyan",
-      "classe": "5M3",
-      "group": "5M1 SVT",
-      "pix": 125,
-      "certifiable": true,
-      "competencesCertifiables": 5,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 2,
-          "pix": 38
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 3,
-          "pix": 37
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 16
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 1,
-          "pix": 30
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 4
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 2,
-          "pix": 22
-        },
-        "Gérer des données": {
-          "niveau": 1,
-          "pix": 14
-        },
-        "Traiter des données": {
-          "niveau": 0,
-          "pix": 2
-        },
-        "Interagir": {
-          "niveau": 0,
-          "pix": 2
-        },
-        "Partager et publier": {
-          "niveau": 3,
-          "pix": 30
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 2
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 0,
-          "pix": 3
-        },
-        "Développer des documents textuels": {
-          "niveau": 0,
-          "pix": 7
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 4
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Programmer": {
-          "niveau": 0,
-          "pix": 5
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 1,
-          "pix": 11
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 1,
-          "pix": 12
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 0,
-          "pix": 7
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 1
-        },
-        "Construire un environnement numérique": {
-          "niveau": 0,
-          "pix": 3
-        }
-      },
-      "lastUpdate": "2026-04-28T10:33:00",
-      "parcours": [],
       "status": "renseigne"
     },
     {

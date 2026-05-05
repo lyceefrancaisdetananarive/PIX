@@ -74,10 +74,10 @@
       "name": "5M1 SVT",
       "level": "5e",
       "cycle": "cycle4",
-      "studentCount": 43,
-      "scoredCount": 27,
+      "studentCount": 42,
+      "scoredCount": 26,
       "missingCount": 16,
-      "certifiableCount": 21,
+      "certifiableCount": 20,
       "averagePix": 128
     },
     "42566bebf7acabb1701120c4b6f4f735e873b2e7f3d289ef99fa9c7e43432d4d": {
@@ -88,7 +88,7 @@
       "scoredCount": 14,
       "missingCount": 12,
       "certifiableCount": 13,
-      "averagePix": 146
+      "averagePix": 151
     },
     "9f2018dafe5dd5ec24260cca66b9962eafad2c1c8789e744ca5e170a9c886a82": {
       "name": "5M3 SVT",
@@ -97,8 +97,8 @@
       "studentCount": 25,
       "scoredCount": 14,
       "missingCount": 11,
-      "certifiableCount": 10,
-      "averagePix": 141
+      "certifiableCount": 11,
+      "averagePix": 146
     },
     "941ba66b7c5f128d5a7c64a68792387883e9942805e386247d411667450f1124": {
       "name": "5M4 TECHNO",
@@ -137,8 +137,8 @@
       "studentCount": 26,
       "scoredCount": 16,
       "missingCount": 10,
-      "certifiableCount": 15,
-      "averagePix": 161
+      "certifiableCount": 16,
+      "averagePix": 164
     },
     "c6d6ef4b7208b364be4e41b7b198fbc7b66ec0dc2db75d9b7d301c58fd4d7729": {
       "name": "5 TECHNO 1",

@@ -5,8 +5,8 @@
   "studentCount": 25,
   "scoredCount": 5,
   "missingCount": 20,
-  "certifiableCount": 4,
-  "averagePix": 134,
+  "certifiableCount": 5,
+  "averagePix": 142,
   "relatedGroups": [
     "5M4 TECHNO",
     "5SVT1"
@@ -114,7 +114,7 @@
           "pix": 4
         }
       },
-      "lastUpdate": "2026-04-28T10:41:00",
+      "lastUpdate": "2026-05-05T10:18:00",
       "parcours": [
         {
           "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
@@ -280,7 +280,7 @@
           "pix": 5
         }
       },
-      "lastUpdate": "2026-04-28T10:39:00",
+      "lastUpdate": "2026-05-05T10:11:00",
       "parcours": [
         {
           "name": "EMI - cycle 4",
@@ -682,29 +682,29 @@
       "name": "HENDERSON Rebecca Holitina",
       "classe": "5M4",
       "group": "5SVT1",
-      "pix": 59,
-      "certifiable": false,
-      "competencesCertifiables": 3,
+      "pix": 100,
+      "certifiable": true,
+      "competencesCertifiables": 6,
       "domains": {
         "info": {
           "label": "Information et données",
-          "level": 0,
-          "pix": 10
+          "level": 2,
+          "pix": 28
         },
         "communication": {
           "label": "Communication et collaboration",
           "level": 2,
-          "pix": 23
+          "pix": 42
         },
         "creation": {
           "label": "Création de contenu",
           "level": 0,
-          "pix": 2
+          "pix": 4
         },
         "protection": {
           "label": "Protection et sécurité",
           "level": 1,
-          "pix": 22
+          "pix": 24
         },
         "environnement": {
           "label": "Environnement numérique",
@@ -714,12 +714,12 @@
       },
       "competences": {
         "Mener une recherche et une veille d’information": {
-          "niveau": 0,
-          "pix": 5
+          "niveau": 2,
+          "pix": 19
         },
         "Gérer des données": {
-          "niveau": 0,
-          "pix": 4
+          "niveau": 1,
+          "pix": 8
         },
         "Traiter des données": {
           "niveau": 0,
@@ -730,16 +730,16 @@
           "pix": 2
         },
         "Partager et publier": {
-          "niveau": 0,
-          "pix": 1
+          "niveau": 2,
+          "pix": 17
         },
         "Collaborer": {
           "niveau": 2,
-          "pix": 18
+          "pix": 19
         },
         "S’insérer dans le monde numérique": {
           "niveau": 0,
-          "pix": 2
+          "pix": 4
         },
         "Développer des documents textuels": {
           "niveau": 0,
@@ -751,7 +751,7 @@
         },
         "Adapter les documents à leur finalité": {
           "niveau": 0,
-          "pix": 0
+          "pix": 2
         },
         "Programmer": {
           "niveau": 0,
@@ -763,7 +763,7 @@
         },
         "Protéger les données personnelles et la vie privée": {
           "niveau": 1,
-          "pix": 8
+          "pix": 10
         },
         "Protéger la santé, le bien-être et l’environnement": {
           "niveau": 0,
@@ -778,7 +778,7 @@
           "pix": 2
         }
       },
-      "lastUpdate": "2026-03-31T10:17:00",
+      "lastUpdate": "2026-05-05T10:13:00",
       "parcours": [
         {
           "name": "EMI - cycle 4",
