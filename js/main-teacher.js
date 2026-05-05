@@ -118,24 +118,52 @@ function renderGlobalStats() {
   `;
 }
 
-// ─── Mes classes ──────────────────────────────────────────────
+// ─── Mes classes (regroupées par niveau, comme la section globale) ──
 function renderMyClasses() {
   const container = document.getElementById("my-groups-grid");
   const section = document.getElementById("my-groups-section");
+  const countEl = document.getElementById("my-classes-count");
 
   const mine = allClasses.filter(isMine);
+  if (countEl) countEl.textContent = mine.length;
+
   if (mine.length === 0) {
     section.style.display = "none";
     return;
   }
 
-  const sorted = [...mine].sort((a, b) => {
-    if (a.level !== b.level) return collator.compare(a.level, b.level);
-    return collator.compare(a.name, b.name);
-  });
-
-  container.innerHTML = sorted.map(renderClassCard).join("");
+  container.innerHTML = renderGroupedByLevel(mine);
   bindCardClicks(container);
+}
+
+// ─── Helper commun : génère le HTML regroupé par niveau ───────
+function renderGroupedByLevel(classes) {
+  const byLevel = {};
+  for (const cls of classes) {
+    (byLevel[cls.level] = byLevel[cls.level] || []).push(cls);
+  }
+  Object.values(byLevel).forEach((arr) =>
+    arr.sort((a, b) => collator.compare(a.name, b.name))
+  );
+
+  return LEVEL_ORDER
+    .filter((lvl) => byLevel[lvl] && byLevel[lvl].length > 0)
+    .map((lvl) => {
+      const arr = byLevel[lvl];
+      return `
+        <section class="level-section">
+          <header class="level-section__head">
+            <h3 class="level-section__title">${LEVEL_FULL_LABELS[lvl]}</h3>
+            <span class="level-section__cycle">${LEVEL_CYCLE_LABELS[lvl]}</span>
+            <span class="level-section__count">${arr.length} classe${arr.length > 1 ? "s" : ""}</span>
+          </header>
+          <div class="level-section__grid">
+            ${arr.map(renderClassCard).join("")}
+          </div>
+        </section>
+      `;
+    })
+    .join("");
 }
 
 // ─── Toutes les classes ───────────────────────────────────────
@@ -173,34 +201,7 @@ function renderAllClasses() {
 
   // Si tri par nom : on regroupe par niveau dans l'ordre éducatif
   if (sort === "name") {
-    const byLevel = {};
-    for (const cls of filtered) {
-      (byLevel[cls.level] = byLevel[cls.level] || []).push(cls);
-    }
-    // Trie chaque groupe par nom
-    Object.values(byLevel).forEach((arr) =>
-      arr.sort((a, b) => collator.compare(a.name, b.name))
-    );
-
-    const sections = LEVEL_ORDER
-      .filter((lvl) => byLevel[lvl] && byLevel[lvl].length > 0)
-      .map((lvl) => {
-        const arr = byLevel[lvl];
-        return `
-          <section class="level-section">
-            <header class="level-section__head">
-              <h3 class="level-section__title">${LEVEL_FULL_LABELS[lvl]}</h3>
-              <span class="level-section__cycle">${LEVEL_CYCLE_LABELS[lvl]}</span>
-              <span class="level-section__count">${arr.length} classe${arr.length > 1 ? "s" : ""}</span>
-            </header>
-            <div class="level-section__grid">
-              ${arr.map(renderClassCard).join("")}
-            </div>
-          </section>
-        `;
-      })
-      .join("");
-    container.innerHTML = sections;
+    container.innerHTML = renderGroupedByLevel(filtered);
   } else {
     // Tris alternatifs : flat sans regroupement
     switch (sort) {
