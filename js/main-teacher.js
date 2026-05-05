@@ -297,6 +297,18 @@ function bindLogout() {
 const AGENT_URL = "http://127.0.0.1:7777";
 const ADMIN_TEACHER_SLUG = "rafaliarison_max";  // = slug de Max dans teachers.json
 
+async function checkAgentAlive() {
+  try {
+    const r = await fetch(`${AGENT_URL}/health`, {
+      mode: "cors",
+      signal: AbortSignal.timeout(2000),
+    });
+    return r.ok;
+  } catch {
+    return false;
+  }
+}
+
 async function bindSync(teacher) {
   const btn = document.getElementById("sync-btn");
   if (!btn) return;
@@ -308,19 +320,22 @@ async function bindSync(teacher) {
   }
   btn.hidden = false;
 
-  // Vérifie si l'agent local répond (silencieux si non)
-  let agentAlive = false;
-  try {
-    const r = await fetch(`${AGENT_URL}/health`, { mode: "cors", signal: AbortSignal.timeout(800) });
-    if (r.ok) agentAlive = true;
-  } catch { /* agent non lancé */ }
-
-  if (!agentAlive) {
+  // Sonde initiale (informationnelle — l'agent peut être lancé après le clic)
+  if (!(await checkAgentAlive())) {
     btn.title = "Agent local non lancé — démarre start.command";
     btn.dataset.state = "agent-off";
+  } else {
+    btn.dataset.state = "agent-on";
   }
 
-  btn.addEventListener("click", () => openSyncModal(agentAlive));
+  // À chaque clic on re-vérifie l'agent (cas : démarrage tardif, redémarrage,
+  // changement Private Network Access, etc.). Ne dépend plus d'une closure
+  // capturée au chargement.
+  btn.addEventListener("click", async () => {
+    const alive = await checkAgentAlive();
+    btn.dataset.state = alive ? "agent-on" : "agent-off";
+    openSyncModal(alive);
+  });
 }
 
 function openSyncModal(agentAlive) {
