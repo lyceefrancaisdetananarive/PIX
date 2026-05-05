@@ -504,15 +504,33 @@
 .podium-mini__level {
   display: inline-block;
   margin-top: var(--space-2);
-  padding: 2px 8px;
-  background: rgba(61, 104, 255, 0.1);
+  padding: 3px 10px;
+  background: rgba(61, 104, 255, 0.12);
   border-radius: 999px;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 800;
   color: var(--pix-blue);
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
+/* Variante 2e/3e : plus compact, couleur du métal */
+.podium-mini__level--side {
+  font-size: 9px;
+  padding: 2px 7px;
+  margin-top: 6px;
+}
+.podium-mini__side--silver .podium-mini__level--side {
+  background: rgba(160, 160, 160, 0.18);
+  color: #5a5a5a;
+}
+.podium-mini__side--bronze .podium-mini__level--side {
+  background: rgba(184, 118, 58, 0.18);
+  color: #8a4f1f;
+}
+/* Lycée (col--wide) : badges niveau plus grands pour cohérence visuelle */
+.podium-col--wide .podium-mini__level { font-size: 11px; padding: 4px 12px; }
+.podium-col--wide .podium-mini__level--side { font-size: 10px; padding: 3px 9px; }
 
 .podium-mini__side {
   position: relative;

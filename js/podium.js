@@ -150,6 +150,7 @@ function renderMiniRank(entry, rank) {
         <span class="podium-mini__score-value">${entry.pix}</span>
         <span class="podium-mini__score-unit">pix</span>
       </div>
+      ${entry.level ? `<div class="podium-mini__level podium-mini__level--side">${escapeHtml(entry.level)}</div>` : ""}
     </div>
   `;
 }
