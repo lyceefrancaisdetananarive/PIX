@@ -219,31 +219,30 @@ async function initCodeForm() {
   });
 }
 
-// ─── Vidéos embed (lecture sur place via iframe YouTube) ────────
+// ─── Vidéos : click → ouvre YouTube dans un nouvel onglet ────────
+// On évite l'iframe embed parce que YouTube affiche fréquemment le challenge
+// « Connectez-vous pour confirmer que vous n'êtes pas un robot » dans les
+// embeds quand l'utilisateur n'a pas de session YouTube active. Ouvrir
+// directement la vidéo sur youtube.com utilise la session du navigateur
+// et contourne le challenge.
 function initVideoEmbeds() {
   document.querySelectorAll(".video-card--embed").forEach((card) => {
-    const play = () => {
-      if (card.classList.contains("is-playing")) return;
-      const id = card.dataset.videoId;
-      const title = card.dataset.title || "Vidéo Pix";
-      if (!id) return;
-      const iframe = document.createElement("iframe");
-      iframe.className = "video-card__iframe";
-      iframe.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1`;
-      iframe.title = title;
-      iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-      iframe.allowFullscreen = true;
-      iframe.referrerPolicy = "strict-origin-when-cross-origin";
-      card.appendChild(iframe);
-      card.classList.add("is-playing");
-      card.removeAttribute("role");
-      card.removeAttribute("tabindex");
-    };
-    card.addEventListener("click", play);
+    const id = card.dataset.videoId;
+    if (!id) return;
+    const url = `https://www.youtube.com/watch?v=${id}`;
+
+    // Rend la carte sémantiquement un lien (mieux pour Cmd/Ctrl+click → onglet)
+    card.setAttribute("role", "link");
+    card.setAttribute("tabindex", "0");
+    card.dataset.youtubeUrl = url;
+
+    const open = () => window.open(url, "_blank", "noopener,noreferrer");
+
+    card.addEventListener("click", open);
     card.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
-        play();
+        open();
       }
     });
   });
