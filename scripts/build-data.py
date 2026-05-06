@@ -749,7 +749,20 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
 
         csv_type = detect_csv_type(rows)
         if csv_type == "collecte":
-            collecte_data = process_collecte_rows(rows)
+            # Merge plutôt que remplacer : un dossier peut contenir PLUSIEURS Collecte
+            # (ex. "3M4 SVT/Collecte" + "Récup pts 3M4" — campagnes parallèles).
+            # On garde la dernière soumission par élève, tous CSV confondus.
+            new_data = process_collecte_rows(rows)
+            for key, entry in new_data.items():
+                existing = collecte_data.get(key)
+                if existing is None:
+                    collecte_data[key] = entry
+                else:
+                    # Garde le plus récent (date d'envoi)
+                    ex_date = existing.get("_date")
+                    new_date = entry.get("_date")
+                    if new_date and (ex_date is None or new_date > ex_date):
+                        collecte_data[key] = entry
         elif csv_type == "parcours":
             student_parcours = process_parcours_csv(rows, group_name)
             for key, recs in student_parcours.items():

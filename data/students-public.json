@@ -66,10 +66,10 @@
   "stats": {
     "totalGroups": 72,
     "totalStudents": 2196,
-    "totalScored": 480,
-    "totalMissing": 1616,
-    "totalCertifiable": 468,
-    "averagePix": 195,
+    "totalScored": 493,
+    "totalMissing": 1603,
+    "totalCertifiable": 481,
+    "averagePix": 194,
     "byCycle": {
       "cycle3": {
         "label": "Cycle 3 · 6ème",
