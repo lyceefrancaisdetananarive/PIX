@@ -6,7 +6,7 @@
   "scoredCount": 24,
   "missingCount": 0,
   "certifiableCount": 22,
-  "averagePix": 154,
+  "averagePix": 155,
   "relatedGroups": [
     "3M4 SVT"
   ],
@@ -113,7 +113,7 @@
           "pix": 27
         }
       },
-      "lastUpdate": "2026-04-29T07:54:00",
+      "lastUpdate": "2026-05-06T07:34:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -289,7 +289,7 @@
       "name": "HOAREAU Mathurin Christiano Mandresy",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 225,
+      "pix": 228,
       "certifiable": true,
       "competencesCertifiables": 12,
       "domains": {
@@ -301,12 +301,12 @@
         "communication": {
           "label": "Communication et collaboration",
           "level": 2,
-          "pix": 56
+          "pix": 58
         },
         "creation": {
           "label": "Création de contenu",
           "level": 1,
-          "pix": 25
+          "pix": 26
         },
         "protection": {
           "label": "Protection et sécurité",
@@ -338,7 +338,7 @@
         },
         "Partager et publier": {
           "niveau": 2,
-          "pix": 19
+          "pix": 21
         },
         "Collaborer": {
           "niveau": 1,
@@ -350,7 +350,7 @@
         },
         "Développer des documents textuels": {
           "niveau": 1,
-          "pix": 10
+          "pix": 11
         },
         "Développer des documents multimedia": {
           "niveau": 0,
@@ -385,7 +385,7 @@
           "pix": 3
         }
       },
-      "lastUpdate": "2026-05-06T07:08:00",
+      "lastUpdate": "2026-05-06T07:22:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -435,19 +435,19 @@
       "name": "BADOURALY Zahra",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 214,
+      "pix": 220,
       "certifiable": true,
       "competencesCertifiables": 16,
       "domains": {
         "info": {
           "label": "Information et données",
           "level": 2,
-          "pix": 38
+          "pix": 40
         },
         "communication": {
           "label": "Communication et collaboration",
           "level": 3,
-          "pix": 65
+          "pix": 69
         },
         "creation": {
           "label": "Création de contenu",
@@ -468,7 +468,7 @@
       "competences": {
         "Mener une recherche et une veille d’information": {
           "niveau": 2,
-          "pix": 18
+          "pix": 20
         },
         "Gérer des données": {
           "niveau": 1,
@@ -484,11 +484,11 @@
         },
         "Partager et publier": {
           "niveau": 3,
-          "pix": 27
+          "pix": 29
         },
         "Collaborer": {
           "niveau": 1,
-          "pix": 10
+          "pix": 12
         },
         "S’insérer dans le monde numérique": {
           "niveau": 1,
@@ -531,7 +531,7 @@
           "pix": 11
         }
       },
-      "lastUpdate": "2026-05-06T07:09:00",
+      "lastUpdate": "2026-05-06T07:22:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -887,7 +887,7 @@
           "pix": 4
         }
       },
-      "lastUpdate": "2026-04-29T07:54:00",
+      "lastUpdate": "2026-05-06T07:35:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -1069,28 +1069,164 @@
       "status": "renseigne"
     },
     {
+      "id": "rasolofonjatovo_maria_soanala",
+      "name": "RASOLOFONJATOVO Maria Soanala",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 170,
+      "certifiable": true,
+      "competencesCertifiables": 10,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 71
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 58
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 8
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 30
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 3
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 2
+        }
+      },
+      "lastUpdate": "2026-05-06T07:33:00",
+      "parcours": [
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "YTLYRX138",
+          "campaignName": "3M4 SVT -- Cybersécurité",
+          "date": "2026-01-07T06:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "KAEZBP134",
+          "campaignName": "3M4 SVT -- Protection & sécurité",
+          "date": "2025-10-15T07:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.89,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 3e",
+          "code": "KEYRXS774",
+          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
+          "date": "2025-10-08T07:43:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
       "id": "hassim_ylias_mathias",
       "name": "HASSIM Ylias Mathias",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 165,
+      "pix": 168,
       "certifiable": true,
       "competencesCertifiables": 8,
       "domains": {
         "info": {
           "label": "Information et données",
           "level": 3,
-          "pix": 52
+          "pix": 53
         },
         "communication": {
           "label": "Communication et collaboration",
           "level": 3,
-          "pix": 67
+          "pix": 68
         },
         "creation": {
           "label": "Création de contenu",
           "level": 1,
-          "pix": 11
+          "pix": 12
         },
         "protection": {
           "label": "Protection et sécurité",
@@ -1106,7 +1242,7 @@
       "competences": {
         "Mener une recherche et une veille d’information": {
           "niveau": 3,
-          "pix": 28
+          "pix": 29
         },
         "Gérer des données": {
           "niveau": 3,
@@ -1126,7 +1262,7 @@
         },
         "Collaborer": {
           "niveau": 0,
-          "pix": 1
+          "pix": 2
         },
         "S’insérer dans le monde numérique": {
           "niveau": 1,
@@ -1134,7 +1270,7 @@
         },
         "Développer des documents textuels": {
           "niveau": 1,
-          "pix": 11
+          "pix": 12
         },
         "Développer des documents multimedia": {
           "niveau": 0,
@@ -1169,7 +1305,7 @@
           "pix": 3
         }
       },
-      "lastUpdate": "2026-05-06T07:09:00",
+      "lastUpdate": "2026-05-06T07:30:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -1361,142 +1497,6 @@
       "status": "renseigne"
     },
     {
-      "id": "rasolofonjatovo_maria_soanala",
-      "name": "RASOLOFONJATOVO Maria Soanala",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 158,
-      "certifiable": true,
-      "competencesCertifiables": 8,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 3,
-          "pix": 67
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 2,
-          "pix": 51
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 1,
-          "pix": 8
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 1,
-          "pix": 29
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 3
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 3,
-          "pix": 25
-        },
-        "Gérer des données": {
-          "niveau": 2,
-          "pix": 22
-        },
-        "Traiter des données": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Interagir": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Partager et publier": {
-          "niveau": 2,
-          "pix": 19
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 6
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 0,
-          "pix": 6
-        },
-        "Développer des documents textuels": {
-          "niveau": 1,
-          "pix": 8
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Programmer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 1,
-          "pix": 13
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 1,
-          "pix": 12
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 0,
-          "pix": 4
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 1
-        },
-        "Construire un environnement numérique": {
-          "niveau": 0,
-          "pix": 2
-        }
-      },
-      "lastUpdate": "2026-05-06T07:09:00",
-      "parcours": [
-        {
-          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
-          "code": "YTLYRX138",
-          "campaignName": "3M4 SVT -- Cybersécurité",
-          "date": "2026-01-07T06:29:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.83,
-          "palier": 0
-        },
-        {
-          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
-          "code": "KAEZBP134",
-          "campaignName": "3M4 SVT -- Protection & sécurité",
-          "date": "2025-10-15T07:11:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.89,
-          "palier": 0
-        },
-        {
-          "name": "Parcours de rentrée 3e",
-          "code": "KEYRXS774",
-          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
-          "date": "2025-10-08T07:43:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.74,
-          "palier": 2
-        }
-      ],
-      "status": "renseigne"
-    },
-    {
       "id": "rasolofo_rakotondrainibe_soaniriako_landisoarojo",
       "name": "RASOLOFO RAKOTONDRAINIBE Soaniriako Landisoarojo",
       "classe": "3M4",
@@ -1606,24 +1606,24 @@
       "name": "SALEMAN Norah Zehra",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 139,
+      "pix": 148,
       "certifiable": true,
       "competencesCertifiables": 8,
       "domains": {
         "info": {
           "label": "Information et données",
-          "level": 3,
-          "pix": 41
+          "level": 4,
+          "pix": 44
         },
         "communication": {
           "label": "Communication et collaboration",
           "level": 2,
-          "pix": 49
+          "pix": 52
         },
         "creation": {
           "label": "Création de contenu",
           "level": 1,
-          "pix": 17
+          "pix": 20
         },
         "protection": {
           "label": "Protection et sécurité",
@@ -1638,12 +1638,12 @@
       },
       "competences": {
         "Mener une recherche et une veille d’information": {
-          "niveau": 3,
-          "pix": 30
+          "niveau": 4,
+          "pix": 32
         },
         "Gérer des données": {
           "niveau": 1,
-          "pix": 8
+          "pix": 9
         },
         "Traiter des données": {
           "niveau": 0,
@@ -1654,8 +1654,8 @@
           "pix": 19
         },
         "Partager et publier": {
-          "niveau": 1,
-          "pix": 15
+          "niveau": 2,
+          "pix": 18
         },
         "Collaborer": {
           "niveau": 1,
@@ -1667,7 +1667,7 @@
         },
         "Développer des documents textuels": {
           "niveau": 1,
-          "pix": 9
+          "pix": 11
         },
         "Développer des documents multimedia": {
           "niveau": 0,
@@ -1675,7 +1675,7 @@
         },
         "Adapter les documents à leur finalité": {
           "niveau": 0,
-          "pix": 0
+          "pix": 1
         },
         "Programmer": {
           "niveau": 0,
@@ -1702,7 +1702,7 @@
           "pix": 3
         }
       },
-      "lastUpdate": "2026-05-06T07:11:00",
+      "lastUpdate": "2026-05-06T07:31:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -2058,7 +2058,7 @@
           "pix": 0
         }
       },
-      "lastUpdate": "2026-04-29T07:54:00",
+      "lastUpdate": "2026-05-06T07:32:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -2204,7 +2204,7 @@
           "pix": 3
         }
       },
-      "lastUpdate": "2026-01-07T06:27:00",
+      "lastUpdate": "2026-05-06T07:31:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -2717,7 +2717,7 @@
           "pix": 2
         }
       },
-      "lastUpdate": "2026-04-29T08:00:00",
+      "lastUpdate": "2026-05-06T07:13:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
