@@ -14,7 +14,9 @@ Usage :
   python3 scripts/generate-codes-pdf.py
 """
 
+import re
 import sys
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
@@ -346,20 +348,44 @@ def render():
             f'<span class="teachers__code">{code}</span></div>'
         )
 
+    PER_CLASS_RE = re.compile(r"^([3-6]M[1-9])(\s|$)")
+
     def make_block(level_name):
         rows = by_level[level_name]
-        lines = "\n".join(
-            f'<div class="code-row">'
-            f'<span class="code-row__group">{group}</span>'
-            f'<span class="code-row__value">{code}</span></div>'
-            for group, code in rows
-        )
+
+        # Pour 5e/4e/3e : on regroupe les entrées par CLASSE (5M1, 5M2, ..., 5M7)
+        # et on n'affiche que les codes per-classe (qui redirigent vers la vue
+        # classe entière). Les codes transverses (5 TECHNO 1, 5SVT1, etc.)
+        # sont exclus du PDF élève — ils ne mènent pas à la classe entière.
+        if level_name in ("5ème", "4ème", "3ème"):
+            by_class = defaultdict(list)
+            for group, code in rows:
+                m = PER_CLASS_RE.match(group)
+                if m:
+                    by_class[m.group(1)].append(code)
+            class_names = sorted(by_class.keys())
+            items = [(cls, " / ".join(by_class[cls])) for cls in class_names]
+            lines = "\n".join(
+                f'<div class="code-row">'
+                f'<span class="code-row__group">{cls}</span>'
+                f'<span class="code-row__value">{code}</span></div>'
+                for cls, code in items
+            )
+            count_label = f'{len(items)} classe{"s" if len(items) > 1 else ""}'
+        else:
+            lines = "\n".join(
+                f'<div class="code-row">'
+                f'<span class="code-row__group">{group}</span>'
+                f'<span class="code-row__value">{code}</span></div>'
+                for group, code in rows
+            )
+            count_label = f'{len(rows)} code{"s" if len(rows) > 1 else ""}'
 
         return (
             f'<div class="level-block">'
             f'<div class="level-block__head">'
             f'<span class="level-block__name">{level_name}</span>'
-            f'<span class="level-block__count">{len(rows)} code{"s" if len(rows) > 1 else ""}</span>'
+            f'<span class="level-block__count">{count_label}</span>'
             f'</div>{lines}</div>'
         )
 
