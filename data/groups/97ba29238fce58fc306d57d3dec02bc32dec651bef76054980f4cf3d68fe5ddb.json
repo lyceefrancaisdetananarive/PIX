@@ -6,7 +6,7 @@
   "scoredCount": 24,
   "missingCount": 0,
   "certifiableCount": 22,
-  "averagePix": 155,
+  "averagePix": 162,
   "relatedGroups": [
     "3M4 SVT"
   ],
@@ -17,7 +17,7 @@
       "name": "RAZANAMALALA Jemilah Francine Safosy",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 381,
+      "pix": 385,
       "certifiable": true,
       "competencesCertifiables": 16,
       "domains": {
@@ -34,7 +34,7 @@
         "creation": {
           "label": "Création de contenu",
           "level": 3,
-          "pix": 80
+          "pix": 84
         },
         "protection": {
           "label": "Protection et sécurité",
@@ -85,8 +85,8 @@
           "pix": 18
         },
         "Adapter les documents à leur finalité": {
-          "niveau": 2,
-          "pix": 21
+          "niveau": 3,
+          "pix": 25
         },
         "Programmer": {
           "niveau": 3,
@@ -113,7 +113,7 @@
           "pix": 27
         }
       },
-      "lastUpdate": "2026-05-06T07:34:00",
+      "lastUpdate": "2026-05-06T07:55:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -151,7 +151,7 @@
           "campaignName": "3M4 SVT -- EMI",
           "date": null,
           "partage": false,
-          "progress": 0.76,
+          "progress": 0.78,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -163,19 +163,19 @@
       "name": "DIMBINIAINA Soatiamihanta Lemarie",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 240,
+      "pix": 259,
       "certifiable": true,
       "competencesCertifiables": 11,
       "domains": {
         "info": {
           "label": "Information et données",
           "level": 3,
-          "pix": 53
+          "pix": 63
         },
         "communication": {
           "label": "Communication et collaboration",
           "level": 4,
-          "pix": 93
+          "pix": 102
         },
         "creation": {
           "label": "Création de contenu",
@@ -195,12 +195,12 @@
       },
       "competences": {
         "Mener une recherche et une veille d’information": {
-          "niveau": 2,
-          "pix": 20
+          "niveau": 3,
+          "pix": 28
         },
         "Gérer des données": {
           "niveau": 3,
-          "pix": 26
+          "pix": 28
         },
         "Traiter des données": {
           "niveau": 0,
@@ -211,16 +211,16 @@
           "pix": 36
         },
         "Partager et publier": {
-          "niveau": 3,
-          "pix": 26
+          "niveau": 4,
+          "pix": 33
         },
         "Collaborer": {
           "niveau": 1,
-          "pix": 14
+          "pix": 15
         },
         "S’insérer dans le monde numérique": {
           "niveau": 2,
-          "pix": 17
+          "pix": 18
         },
         "Développer des documents textuels": {
           "niveau": 1,
@@ -259,7 +259,7 @@
           "pix": 3
         }
       },
-      "lastUpdate": "2026-05-06T07:09:00",
+      "lastUpdate": "2026-05-06T07:55:00",
       "parcours": [
         {
           "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
@@ -280,6 +280,16 @@
           "progress": 1.0,
           "maitrise": 0.75,
           "palier": 2
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": null,
+          "partage": false,
+          "progress": 0.96,
+          "maitrise": 0.0,
+          "palier": 0
         }
       ],
       "status": "renseigne"
@@ -289,19 +299,19 @@
       "name": "HOAREAU Mathurin Christiano Mandresy",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 228,
+      "pix": 238,
       "certifiable": true,
       "competencesCertifiables": 12,
       "domains": {
         "info": {
           "label": "Information et données",
           "level": 5,
-          "pix": 78
+          "pix": 79
         },
         "communication": {
           "label": "Communication et collaboration",
-          "level": 2,
-          "pix": 58
+          "level": 3,
+          "pix": 64
         },
         "creation": {
           "label": "Création de contenu",
@@ -315,8 +325,8 @@
         },
         "environnement": {
           "label": "Environnement numérique",
-          "level": 3,
-          "pix": 33
+          "level": 4,
+          "pix": 36
         }
       },
       "competences": {
@@ -326,7 +336,7 @@
         },
         "Gérer des données": {
           "niveau": 5,
-          "pix": 40
+          "pix": 41
         },
         "Traiter des données": {
           "niveau": 1,
@@ -337,8 +347,8 @@
           "pix": 21
         },
         "Partager et publier": {
-          "niveau": 2,
-          "pix": 21
+          "niveau": 3,
+          "pix": 27
         },
         "Collaborer": {
           "niveau": 1,
@@ -377,16 +387,26 @@
           "pix": 4
         },
         "Résoudre des problèmes techniques": {
-          "niveau": 3,
-          "pix": 30
+          "niveau": 4,
+          "pix": 33
         },
         "Construire un environnement numérique": {
           "niveau": 0,
           "pix": 3
         }
       },
-      "lastUpdate": "2026-05-06T07:22:00",
+      "lastUpdate": "2026-05-06T07:53:00",
       "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": "2026-05-06T07:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "YTLYRX138",
@@ -416,16 +436,6 @@
           "progress": 1.0,
           "maitrise": 0.82,
           "palier": 3
-        },
-        {
-          "name": "EMI - cycle 4",
-          "code": "VGBDZF671",
-          "campaignName": "3M4 SVT -- EMI",
-          "date": null,
-          "partage": false,
-          "progress": 0.83,
-          "maitrise": 0.0,
-          "palier": 0
         }
       ],
       "status": "renseigne"
@@ -435,19 +445,19 @@
       "name": "BADOURALY Zahra",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 220,
+      "pix": 224,
       "certifiable": true,
       "competencesCertifiables": 16,
       "domains": {
         "info": {
           "label": "Information et données",
           "level": 2,
-          "pix": 40
+          "pix": 43
         },
         "communication": {
           "label": "Communication et collaboration",
           "level": 3,
-          "pix": 69
+          "pix": 70
         },
         "creation": {
           "label": "Création de contenu",
@@ -468,7 +478,7 @@
       "competences": {
         "Mener une recherche et une veille d’information": {
           "niveau": 2,
-          "pix": 20
+          "pix": 23
         },
         "Gérer des données": {
           "niveau": 1,
@@ -484,7 +494,7 @@
         },
         "Partager et publier": {
           "niveau": 3,
-          "pix": 29
+          "pix": 30
         },
         "Collaborer": {
           "niveau": 1,
@@ -531,7 +541,7 @@
           "pix": 11
         }
       },
-      "lastUpdate": "2026-05-06T07:22:00",
+      "lastUpdate": "2026-05-06T07:54:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -569,7 +579,7 @@
           "campaignName": "3M4 SVT -- EMI",
           "date": null,
           "partage": false,
-          "progress": 0.6,
+          "progress": 0.95,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -679,6 +689,152 @@
       },
       "lastUpdate": "2026-03-31T09:26:00",
       "parcours": [],
+      "status": "renseigne"
+    },
+    {
+      "id": "liu_yuexin_maluna",
+      "name": "LIU Yuexin Maluna",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 193,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 47
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 79
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 11
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 53
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 3
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 3
+        }
+      },
+      "lastUpdate": "2026-05-06T07:54:00",
+      "parcours": [
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "YTLYRX138",
+          "campaignName": "3M4 SVT -- Cybersécurité",
+          "date": "2026-01-07T06:10:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.9,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "KAEZBP134",
+          "campaignName": "3M4 SVT -- Protection & sécurité",
+          "date": "2025-11-05T06:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.86,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 3e",
+          "code": "KEYRXS774",
+          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
+          "date": "2025-11-05T05:45:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.75,
+          "palier": 2
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": null,
+          "partage": false,
+          "progress": 0.92,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ],
       "status": "renseigne"
     },
     {
@@ -890,6 +1046,16 @@
       "lastUpdate": "2026-05-06T07:35:00",
       "parcours": [
         {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": "2026-05-06T07:55:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
+        {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "YTLYRX138",
           "campaignName": "3M4 SVT -- Cybersécurité",
@@ -918,16 +1084,6 @@
           "progress": 1.0,
           "maitrise": 0.74,
           "palier": 2
-        },
-        {
-          "name": "EMI - cycle 4",
-          "code": "VGBDZF671",
-          "campaignName": "3M4 SVT -- EMI",
-          "date": null,
-          "partage": false,
-          "progress": 0.79,
-          "maitrise": 0.0,
-          "palier": 0
         }
       ],
       "status": "renseigne"
@@ -937,24 +1093,24 @@
       "name": "LEUNG POUI FONG Lana Loann",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 178,
+      "pix": 186,
       "certifiable": true,
       "competencesCertifiables": 8,
       "domains": {
         "info": {
           "label": "Information et données",
           "level": 3,
-          "pix": 62
+          "pix": 66
         },
         "communication": {
           "label": "Communication et collaboration",
           "level": 3,
-          "pix": 58
+          "pix": 61
         },
         "creation": {
           "label": "Création de contenu",
-          "level": 1,
-          "pix": 18
+          "level": 2,
+          "pix": 19
         },
         "protection": {
           "label": "Protection et sécurité",
@@ -969,8 +1125,8 @@
       },
       "competences": {
         "Mener une recherche et une veille d’information": {
-          "niveau": 2,
-          "pix": 20
+          "niveau": 3,
+          "pix": 24
         },
         "Gérer des données": {
           "niveau": 3,
@@ -986,7 +1142,7 @@
         },
         "Partager et publier": {
           "niveau": 3,
-          "pix": 24
+          "pix": 27
         },
         "Collaborer": {
           "niveau": 0,
@@ -997,8 +1153,8 @@
           "pix": 6
         },
         "Développer des documents textuels": {
-          "niveau": 1,
-          "pix": 15
+          "niveau": 2,
+          "pix": 16
         },
         "Développer des documents multimedia": {
           "niveau": 0,
@@ -1033,8 +1189,18 @@
           "pix": 7
         }
       },
-      "lastUpdate": "2026-05-06T07:11:00",
+      "lastUpdate": "2026-05-06T07:55:00",
       "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": "2026-05-06T07:38:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.78,
+          "palier": 0
+        },
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "YTLYRX138",
@@ -1073,7 +1239,7 @@
       "name": "RASOLOFONJATOVO Maria Soanala",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 170,
+      "pix": 184,
       "certifiable": true,
       "competencesCertifiables": 10,
       "domains": {
@@ -1084,13 +1250,13 @@
         },
         "communication": {
           "label": "Communication et collaboration",
-          "level": 2,
-          "pix": 58
+          "level": 4,
+          "pix": 71
         },
         "creation": {
           "label": "Création de contenu",
           "level": 1,
-          "pix": 8
+          "pix": 9
         },
         "protection": {
           "label": "Protection et sécurité",
@@ -1117,8 +1283,8 @@
           "pix": 20
         },
         "Interagir": {
-          "niveau": 2,
-          "pix": 20
+          "niveau": 4,
+          "pix": 33
         },
         "Partager et publier": {
           "niveau": 2,
@@ -1142,7 +1308,7 @@
         },
         "Adapter les documents à leur finalité": {
           "niveau": 0,
-          "pix": 0
+          "pix": 1
         },
         "Programmer": {
           "niveau": 0,
@@ -1169,8 +1335,18 @@
           "pix": 2
         }
       },
-      "lastUpdate": "2026-05-06T07:33:00",
+      "lastUpdate": "2026-05-06T07:54:00",
       "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": "2026-05-06T07:37:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.86,
+          "palier": 0
+        },
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "YTLYRX138",
@@ -1209,9 +1385,9 @@
       "name": "HASSIM Ylias Mathias",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 168,
+      "pix": 180,
       "certifiable": true,
-      "competencesCertifiables": 8,
+      "competencesCertifiables": 9,
       "domains": {
         "info": {
           "label": "Information et données",
@@ -1221,7 +1397,7 @@
         "communication": {
           "label": "Communication et collaboration",
           "level": 3,
-          "pix": 68
+          "pix": 80
         },
         "creation": {
           "label": "Création de contenu",
@@ -1261,8 +1437,8 @@
           "pix": 31
         },
         "Collaborer": {
-          "niveau": 0,
-          "pix": 2
+          "niveau": 1,
+          "pix": 14
         },
         "S’insérer dans le monde numérique": {
           "niveau": 1,
@@ -1305,8 +1481,18 @@
           "pix": 3
         }
       },
-      "lastUpdate": "2026-05-06T07:30:00",
+      "lastUpdate": "2026-05-06T07:54:00",
       "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": "2026-05-06T07:27:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "YTLYRX138",
@@ -1336,162 +1522,6 @@
           "progress": 1.0,
           "maitrise": 0.81,
           "palier": 3
-        },
-        {
-          "name": "EMI - cycle 4",
-          "code": "VGBDZF671",
-          "campaignName": "3M4 SVT -- EMI",
-          "date": null,
-          "partage": false,
-          "progress": 0.83,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ],
-      "status": "renseigne"
-    },
-    {
-      "id": "liu_yuexin_maluna",
-      "name": "LIU Yuexin Maluna",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 160,
-      "certifiable": true,
-      "competencesCertifiables": 8,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 3,
-          "pix": 43
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 3,
-          "pix": 50
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 1,
-          "pix": 11
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 2,
-          "pix": 53
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 3
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 2,
-          "pix": 18
-        },
-        "Gérer des données": {
-          "niveau": 3,
-          "pix": 24
-        },
-        "Traiter des données": {
-          "niveau": 0,
-          "pix": 1
-        },
-        "Interagir": {
-          "niveau": 3,
-          "pix": 24
-        },
-        "Partager et publier": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 1
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 0,
-          "pix": 5
-        },
-        "Développer des documents textuels": {
-          "niveau": 1,
-          "pix": 11
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Programmer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 2,
-          "pix": 18
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 1,
-          "pix": 15
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Construire un environnement numérique": {
-          "niveau": 0,
-          "pix": 3
-        }
-      },
-      "lastUpdate": "2026-05-06T07:08:00",
-      "parcours": [
-        {
-          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
-          "code": "YTLYRX138",
-          "campaignName": "3M4 SVT -- Cybersécurité",
-          "date": "2026-01-07T06:10:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.9,
-          "palier": 0
-        },
-        {
-          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
-          "code": "KAEZBP134",
-          "campaignName": "3M4 SVT -- Protection & sécurité",
-          "date": "2025-11-05T06:25:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.86,
-          "palier": 0
-        },
-        {
-          "name": "Parcours de rentrée 3e",
-          "code": "KEYRXS774",
-          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
-          "date": "2025-11-05T05:45:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.75,
-          "palier": 2
-        },
-        {
-          "name": "EMI - cycle 4",
-          "code": "VGBDZF671",
-          "campaignName": "3M4 SVT -- EMI",
-          "date": null,
-          "partage": false,
-          "progress": 0.68,
-          "maitrise": 0.0,
-          "palier": 0
         }
       ],
       "status": "renseigne"
@@ -1705,6 +1735,16 @@
       "lastUpdate": "2026-05-06T07:31:00",
       "parcours": [
         {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": "2026-05-06T07:30:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 0
+        },
+        {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "YTLYRX138",
           "campaignName": "3M4 SVT -- Cybersécurité",
@@ -1733,16 +1773,152 @@
           "progress": 1.0,
           "maitrise": 0.79,
           "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "malde_kara_dylan_nilene",
+      "name": "MALDE KARA Dylan Nilène",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 145,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 44
         },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 55
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 17
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 28
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 1
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 0
+        }
+      },
+      "lastUpdate": "2026-05-06T07:53:00",
+      "parcours": [
         {
           "name": "EMI - cycle 4",
           "code": "VGBDZF671",
           "campaignName": "3M4 SVT -- EMI",
-          "date": null,
-          "partage": false,
-          "progress": 0.72,
-          "maitrise": 0.0,
+          "date": "2026-05-06T07:53:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
           "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "YTLYRX138",
+          "campaignName": "3M4 SVT -- Cybersécurité",
+          "date": "2026-01-07T06:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "KAEZBP134",
+          "campaignName": "3M4 SVT -- Protection & sécurité",
+          "date": "2025-11-05T06:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.77,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 3e",
+          "code": "KEYRXS774",
+          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
+          "date": "2025-10-08T07:57:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.66,
+          "palier": 2
         }
       ],
       "status": "renseigne"
@@ -1958,174 +2134,28 @@
       "status": "renseigne"
     },
     {
-      "id": "malde_kara_dylan_nilene",
-      "name": "MALDE KARA Dylan Nilène",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 129,
-      "certifiable": true,
-      "competencesCertifiables": 9,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 1,
-          "pix": 32
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 3,
-          "pix": 52
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 1,
-          "pix": 16
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 1,
-          "pix": 28
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 1
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 1,
-          "pix": 12
-        },
-        "Gérer des données": {
-          "niveau": 1,
-          "pix": 12
-        },
-        "Traiter des données": {
-          "niveau": 1,
-          "pix": 8
-        },
-        "Interagir": {
-          "niveau": 1,
-          "pix": 12
-        },
-        "Partager et publier": {
-          "niveau": 3,
-          "pix": 26
-        },
-        "Collaborer": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 0,
-          "pix": 5
-        },
-        "Développer des documents textuels": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 5
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 2
-        },
-        "Programmer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 1,
-          "pix": 11
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 1,
-          "pix": 13
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 0,
-          "pix": 4
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 1
-        },
-        "Construire un environnement numérique": {
-          "niveau": 0,
-          "pix": 0
-        }
-      },
-      "lastUpdate": "2026-05-06T07:32:00",
-      "parcours": [
-        {
-          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
-          "code": "YTLYRX138",
-          "campaignName": "3M4 SVT -- Cybersécurité",
-          "date": "2026-01-07T06:20:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.69,
-          "palier": 0
-        },
-        {
-          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
-          "code": "KAEZBP134",
-          "campaignName": "3M4 SVT -- Protection & sécurité",
-          "date": "2025-11-05T06:15:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.77,
-          "palier": 0
-        },
-        {
-          "name": "Parcours de rentrée 3e",
-          "code": "KEYRXS774",
-          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
-          "date": "2025-10-08T07:57:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.66,
-          "palier": 2
-        },
-        {
-          "name": "EMI - cycle 4",
-          "code": "VGBDZF671",
-          "campaignName": "3M4 SVT -- EMI",
-          "date": null,
-          "partage": false,
-          "progress": 0.63,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ],
-      "status": "renseigne"
-    },
-    {
       "id": "jakoba_caroline_suzy",
       "name": "JAKOBA Caroline Suzy",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 110,
+      "pix": 127,
       "certifiable": true,
       "competencesCertifiables": 6,
       "domains": {
         "info": {
           "label": "Information et données",
           "level": 4,
-          "pix": 44
+          "pix": 45
         },
         "communication": {
           "label": "Communication et collaboration",
-          "level": 1,
-          "pix": 21
+          "level": 2,
+          "pix": 35
         },
         "creation": {
           "label": "Création de contenu",
           "level": 1,
-          "pix": 10
+          "pix": 12
         },
         "protection": {
           "label": "Protection et sécurité",
@@ -2145,7 +2175,7 @@
         },
         "Gérer des données": {
           "niveau": 1,
-          "pix": 8
+          "pix": 9
         },
         "Traiter des données": {
           "niveau": 0,
@@ -2156,20 +2186,20 @@
           "pix": 6
         },
         "Partager et publier": {
-          "niveau": 1,
-          "pix": 10
+          "niveau": 2,
+          "pix": 22
         },
         "Collaborer": {
           "niveau": 0,
-          "pix": 0
+          "pix": 1
         },
         "S’insérer dans le monde numérique": {
           "niveau": 0,
-          "pix": 5
+          "pix": 6
         },
         "Développer des documents textuels": {
           "niveau": 1,
-          "pix": 10
+          "pix": 12
         },
         "Développer des documents multimedia": {
           "niveau": 0,
@@ -2204,7 +2234,7 @@
           "pix": 3
         }
       },
-      "lastUpdate": "2026-05-06T07:31:00",
+      "lastUpdate": "2026-05-06T07:54:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -2235,6 +2265,16 @@
           "progress": 1.0,
           "maitrise": 0.86,
           "palier": 3
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": null,
+          "partage": false,
+          "progress": 0.9,
+          "maitrise": 0.0,
+          "palier": 0
         }
       ],
       "status": "renseigne"
@@ -2244,24 +2284,24 @@
       "name": "DJIVA Shazana Fatema",
       "classe": "3M4",
       "group": "3M4 SVT",
-      "pix": 102,
+      "pix": 122,
       "certifiable": true,
       "competencesCertifiables": 6,
       "domains": {
         "info": {
           "label": "Information et données",
-          "level": 2,
-          "pix": 35
+          "level": 3,
+          "pix": 43
         },
         "communication": {
           "label": "Communication et collaboration",
-          "level": 1,
-          "pix": 23
+          "level": 2,
+          "pix": 33
         },
         "creation": {
           "label": "Création de contenu",
           "level": 1,
-          "pix": 10
+          "pix": 12
         },
         "protection": {
           "label": "Protection et sécurité",
@@ -2276,12 +2316,12 @@
       },
       "competences": {
         "Mener une recherche et une veille d’information": {
-          "niveau": 2,
-          "pix": 17
+          "niveau": 3,
+          "pix": 24
         },
         "Gérer des données": {
           "niveau": 2,
-          "pix": 17
+          "pix": 18
         },
         "Traiter des données": {
           "niveau": 0,
@@ -2292,8 +2332,8 @@
           "pix": 5
         },
         "Partager et publier": {
-          "niveau": 1,
-          "pix": 14
+          "niveau": 2,
+          "pix": 22
         },
         "Collaborer": {
           "niveau": 0,
@@ -2301,7 +2341,7 @@
         },
         "S’insérer dans le monde numérique": {
           "niveau": 0,
-          "pix": 4
+          "pix": 6
         },
         "Développer des documents textuels": {
           "niveau": 1,
@@ -2313,7 +2353,7 @@
         },
         "Adapter les documents à leur finalité": {
           "niveau": 0,
-          "pix": 0
+          "pix": 2
         },
         "Programmer": {
           "niveau": 0,
@@ -2340,7 +2380,7 @@
           "pix": 2
         }
       },
-      "lastUpdate": "2026-05-06T07:07:00",
+      "lastUpdate": "2026-05-06T07:54:00",
       "parcours": [
         {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
@@ -2371,6 +2411,162 @@
           "progress": 1.0,
           "maitrise": 0.83,
           "palier": 3
+        },
+        {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": null,
+          "partage": false,
+          "progress": 0.97,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "rabibisoa_lohan_faly",
+      "name": "RABIBISOA Lohan Faly",
+      "classe": "3M4",
+      "group": "3M4 SVT",
+      "pix": 102,
+      "certifiable": true,
+      "competencesCertifiables": 6,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 30
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 41
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 6
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 22
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 3
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Traiter des données": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Programmer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 2
+        }
+      },
+      "lastUpdate": "2026-05-06T07:53:00",
+      "parcours": [
+        {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": "2026-05-06T07:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 0
+        },
+        {
+          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
+          "code": "YTLYRX138",
+          "campaignName": "3M4 SVT -- Cybersécurité",
+          "date": "2026-01-07T06:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.62,
+          "palier": 0
+        },
+        {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "KAEZBP134",
+          "campaignName": "3M4 SVT -- Protection & sécurité",
+          "date": "2025-10-15T07:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.69,
+          "palier": 0
+        },
+        {
+          "name": "Parcours de rentrée 3e",
+          "code": "KEYRXS774",
+          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
+          "date": "2025-10-08T07:42:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.55,
+          "palier": 2
         }
       ],
       "status": "renseigne"
@@ -2612,142 +2808,16 @@
           "progress": 1.0,
           "maitrise": 0.6,
           "palier": 2
-        }
-      ],
-      "status": "renseigne"
-    },
-    {
-      "id": "rabibisoa_lohan_faly",
-      "name": "RABIBISOA Lohan Faly",
-      "classe": "3M4",
-      "group": "3M4 SVT",
-      "pix": 87,
-      "certifiable": true,
-      "competencesCertifiables": 5,
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 2,
-          "pix": 27
         },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 2,
-          "pix": 31
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 4
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 1,
-          "pix": 22
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 3
-        }
-      },
-      "competences": {
-        "Mener une recherche et une veille d’information": {
-          "niveau": 2,
-          "pix": 20
-        },
-        "Gérer des données": {
-          "niveau": 0,
-          "pix": 7
-        },
-        "Traiter des données": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Interagir": {
-          "niveau": 1,
-          "pix": 9
-        },
-        "Partager et publier": {
-          "niveau": 2,
-          "pix": 18
-        },
-        "Collaborer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "S’insérer dans le monde numérique": {
-          "niveau": 0,
-          "pix": 4
-        },
-        "Développer des documents textuels": {
-          "niveau": 0,
-          "pix": 4
-        },
-        "Développer des documents multimedia": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Adapter les documents à leur finalité": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Programmer": {
-          "niveau": 0,
-          "pix": 0
-        },
-        "Sécuriser l’environnement numérique": {
-          "niveau": 1,
-          "pix": 8
-        },
-        "Protéger les données personnelles et la vie privée": {
-          "niveau": 1,
-          "pix": 11
-        },
-        "Protéger la santé, le bien-être et l’environnement": {
-          "niveau": 0,
-          "pix": 3
-        },
-        "Résoudre des problèmes techniques": {
-          "niveau": 0,
-          "pix": 1
-        },
-        "Construire un environnement numérique": {
-          "niveau": 0,
-          "pix": 2
-        }
-      },
-      "lastUpdate": "2026-05-06T07:13:00",
-      "parcours": [
         {
-          "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
-          "code": "YTLYRX138",
-          "campaignName": "3M4 SVT -- Cybersécurité",
-          "date": "2026-01-07T06:20:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.62,
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": null,
+          "partage": false,
+          "progress": 0.63,
+          "maitrise": 0.0,
           "palier": 0
-        },
-        {
-          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
-          "code": "KAEZBP134",
-          "campaignName": "3M4 SVT -- Protection & sécurité",
-          "date": "2025-10-15T07:13:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.69,
-          "palier": 0
-        },
-        {
-          "name": "Parcours de rentrée 3e",
-          "code": "KEYRXS774",
-          "campaignName": "3M4 SVT -- Parcours de rentrée 3e",
-          "date": "2025-10-08T07:42:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.55,
-          "palier": 2
         }
       ],
       "status": "renseigne"
