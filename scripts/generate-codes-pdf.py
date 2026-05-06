@@ -353,18 +353,25 @@ def render():
     def make_block(level_name):
         rows = by_level[level_name]
 
-        # Pour 5e/4e/3e : on regroupe les entrées par CLASSE (5M1, 5M2, ..., 5M7)
-        # et on n'affiche que les codes per-classe (qui redirigent vers la vue
-        # classe entière). Les codes transverses (5 TECHNO 1, 5SVT1, etc.)
-        # sont exclus du PDF élève — ils ne mènent pas à la classe entière.
+        # Pour 5e/4e/3e : règle stricte UNE CLASSE = UN CODE.
+        # On regroupe les codes per-classe par classe Pronote et on garde UN SEUL
+        # code par classe (le code de la sous-division alphabétiquement première :
+        # ex. 5M7 P.1 BINAIRE l'emporte sur 5M7 P.2 ALGORITHME). Les codes
+        # transverses (5 TECHNO 1, 5SVT1, etc.) sont exclus — ils n'ouvrent pas
+        # la vue classe entière sur le dashboard.
         if level_name in ("5ème", "4ème", "3ème"):
+            # On collecte (sous-groupe-source, code) par classe puis on trie
             by_class = defaultdict(list)
             for group, code in rows:
                 m = PER_CLASS_RE.match(group)
                 if m:
-                    by_class[m.group(1)].append(code)
+                    by_class[m.group(1)].append((group, code))
             class_names = sorted(by_class.keys())
-            items = [(cls, " / ".join(by_class[cls])) for cls in class_names]
+            items = []
+            for cls in class_names:
+                # Tri par nom de groupe pour stabilité (P.1 < P.2, sans suffixe d'abord)
+                entries = sorted(by_class[cls], key=lambda x: x[0])
+                items.append((cls, entries[0][1]))  # code de la 1re sous-division
             lines = "\n".join(
                 f'<div class="code-row">'
                 f'<span class="code-row__group">{cls}</span>'
