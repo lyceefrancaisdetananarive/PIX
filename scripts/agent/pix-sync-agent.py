@@ -201,27 +201,38 @@ def sync_worker(job_id: str):
             # lignes du tableau pendant le rendu : les Locators chaînés (links.nth(i))
             # deviennent stale entre count() et inner_text(). On lit donc TOUT le DOM
             # de la page courante en UNE SEULE évaluation JS pour éviter ce problème.
+            #
+            # On récupère aussi le nombre de "Résultats reçus" par campagne, pour
+            # ne télécharger QUE celles qui ont changé depuis la dernière sync
+            # (cache simple JSON sur disque, clé = code campagne).
             EXTRACT_JS = """
-                () => Array.from(document.querySelectorAll(
-                    'table tbody tr a[href*="/campagnes/"]'
-                )).map(a => ({
-                    name: (a.innerText || a.textContent || '').trim(),
-                    href: a.getAttribute('href') || ''
-                }))
+                () => Array.from(document.querySelectorAll('table tbody tr')).map(tr => {
+                    const link = tr.querySelector('a[href*="/campagnes/"]');
+                    if (!link) return null;
+                    const tds = Array.from(tr.querySelectorAll('td'));
+                    // Dernière cellule numérique = "Résultats reçus"
+                    let resultsCount = null;
+                    for (let i = tds.length - 1; i >= 0; i--) {
+                        const t = tds[i].innerText.trim();
+                        if (/^\\d+$/.test(t)) { resultsCount = parseInt(t, 10); break; }
+                    }
+                    return {
+                        name: (link.innerText || link.textContent || '').trim(),
+                        href: link.getAttribute('href') || '',
+                        resultsCount
+                    };
+                }).filter(x => x && x.name && x.href)
             """
 
-            campaigns = []
+            all_campaigns = []
             seen_urls = set()
-            for page_num in range(1, 21):  # garde-fou : 20 pages max (~1000 campagnes)
+            for page_num in range(1, 21):  # garde-fou : 20 pages max
                 page_data = page.evaluate(EXTRACT_JS)
                 for entry in page_data:
-                    name, href = entry["name"], entry["href"]
-                    if not name or not href or href in seen_urls:
+                    if entry["href"] in seen_urls:
                         continue
-                    seen_urls.add(href)
-                    n = name.lower()
-                    if "collecte" in n or "récup" in n or "recup" in n:
-                        campaigns.append({"name": name, "url": href})
+                    seen_urls.add(entry["href"])
+                    all_campaigns.append(entry)
 
                 # Pagination — plusieurs variantes possibles
                 next_btn = page.locator(
@@ -240,28 +251,65 @@ def sync_worker(job_id: str):
                 try:
                     next_btn.click()
                     page.wait_for_load_state("domcontentloaded", timeout=10000)
-                    # Attente supplémentaire que le tableau se re-render
                     page.wait_for_selector('table tbody tr a[href*="/campagnes/"]', timeout=10000)
                 except Exception:
                     break
 
-            emit("list", f"{len(campaigns)} campagnes Collecte/Récup détectées", 0.30,
-                 {"campaigns": [c["name"] for c in campaigns]})
+            # Cache des compteurs "résultats reçus" par URL pour l'incrémental
+            cache_file = SOURCE_ROOT / "_inbox_pix" / ".sync-cache.json"
+            cache = {}
+            if cache_file.exists():
+                try:
+                    cache = json.loads(cache_file.read_text(encoding="utf-8"))
+                except Exception:
+                    cache = {}
 
-            # 5. Téléchargement de chaque campagne
+            campaigns = []
+            unchanged = []
+            for c in all_campaigns:
+                prev = cache.get(c["href"])
+                # Téléchargement si nouveau OU compteur changé
+                if prev is None or prev != c["resultsCount"]:
+                    campaigns.append(c)
+                else:
+                    unchanged.append(c)
+
+            emit("list",
+                 f"{len(all_campaigns)} campagnes au total — "
+                 f"{len(campaigns)} à (re)télécharger, "
+                 f"{len(unchanged)} inchangées (skip)",
+                 0.30,
+                 {"toFetch": [c["name"] for c in campaigns]})
+
+            # 5. Téléchargement de chaque campagne qui a changé
             for i, camp in enumerate(campaigns):
                 pct = 0.30 + (0.55 * (i + 1) / max(1, len(campaigns)))
-                emit("download", f"Téléchargement « {camp['name']} » ({i+1}/{len(campaigns)})", pct)
+                emit("download",
+                     f"Téléchargement « {camp['name']} » ({i+1}/{len(campaigns)})",
+                     pct)
 
-                page.goto(f"https://orga.pix.fr{camp['url']}", wait_until="networkidle")
+                page.goto(f"https://orga.pix.fr{camp['url']}", wait_until="domcontentloaded")
                 # Bouton "Exporter les résultats" (CSV)
-                with page.expect_download() as download_info:
-                    page.locator('button:has-text("Exporter")').first.click()
-                download = download_info.value
-                target = SOURCE_ROOT / "_inbox_pix" / download.suggested_filename
-                target.parent.mkdir(exist_ok=True)
-                download.save_as(str(target))
-                downloaded.append(str(target))
+                try:
+                    with page.expect_download(timeout=20000) as download_info:
+                        page.locator('button:has-text("Exporter")').first.click()
+                    download = download_info.value
+                    target = SOURCE_ROOT / "_inbox_pix" / download.suggested_filename
+                    target.parent.mkdir(exist_ok=True)
+                    download.save_as(str(target))
+                    downloaded.append(str(target))
+                    # Mémorise le compteur pour la prochaine sync
+                    cache[camp["href"]] = camp["resultsCount"]
+                except Exception as e:
+                    emit("download", f"⚠ « {camp['name']} » échec : {str(e)[:120]}", pct)
+                    continue
+
+            # Persiste le cache
+            try:
+                cache_file.parent.mkdir(exist_ok=True)
+                cache_file.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+            except Exception:
+                pass
 
             browser.close()
 
