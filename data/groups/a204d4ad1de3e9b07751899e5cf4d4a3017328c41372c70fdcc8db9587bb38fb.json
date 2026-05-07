@@ -2,9 +2,9 @@
   "name": "TG3",
   "level": "tale",
   "cycle": "lycee",
-  "studentCount": 37,
+  "studentCount": 29,
   "scoredCount": 12,
-  "missingCount": 25,
+  "missingCount": 17,
   "certifiableCount": 12,
   "averagePix": 300,
   "parcoursCodes": {},
@@ -1270,34 +1270,6 @@
       "status": "renseigne"
     },
     {
-      "id": "abraham_nicolas_enzo",
-      "name": "ABRAHAM Nicolas Enzo",
-      "classe": "TG3",
-      "group": "TG3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "auriault_melodie_ampela_soa",
-      "name": "AURIAULT Mélodie Ampela Soa",
-      "classe": "TG3",
-      "group": "TG3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "berjont_le_fan",
       "name": "BERJONT Le Fan",
       "classe": "TG3",
@@ -1382,20 +1354,6 @@
       "parcours": []
     },
     {
-      "id": "dafy_tsiresy_henivan",
-      "name": "DAFY Tsiresy Henivan",
-      "classe": "TG3",
-      "group": "TG3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "danes_eloise_fandresena",
       "name": "DANES Eloïse Fandresena",
       "classe": "TG3",
@@ -1412,20 +1370,6 @@
     {
       "id": "diabate_abdoul_akim",
       "name": "DIABATE Abdoul Akim",
-      "classe": "TG3",
-      "group": "TG3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "guillon_francois_justin",
-      "name": "GUILLON François Justin",
       "classe": "TG3",
       "group": "TG3",
       "pix": 0,
@@ -1466,20 +1410,6 @@
       "parcours": []
     },
     {
-      "id": "krzyzewski_gisele_anjarasoa",
-      "name": "KRZYZEWSKI Gisèle Anjarasoa",
-      "classe": "TG3",
-      "group": "TG3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "lo_thion_kao_isham_enzy",
       "name": "LO THION KAO Isham Enzy",
       "classe": "TG3",
@@ -1496,20 +1426,6 @@
     {
       "id": "madetaly_ishaan",
       "name": "MADETALY Ishaan",
-      "classe": "TG3",
-      "group": "TG3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "masse_mampionona_mathieu",
-      "name": "MASSE Mampionona Mathieu",
       "classe": "TG3",
       "group": "TG3",
       "pix": 0,
@@ -1564,36 +1480,8 @@
       "parcours": []
     },
     {
-      "id": "ranarison_andriamanoa_ivotsaina_andrew",
-      "name": "RANARISON Andriamanoa Ivotsaina Andrew",
-      "classe": "TG3",
-      "group": "TG3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "randriamanana_irianja_yohann",
       "name": "RANDRIAMANANA Irianja Yohann",
-      "classe": "TG3",
-      "group": "TG3",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "randrianambinintsoa_alaina_rose",
-      "name": "RANDRIANAMBININTSOA Alaina Rose",
       "classe": "TG3",
       "group": "TG3",
       "pix": 0,

@@ -2,9 +2,9 @@
   "name": "TPRO VENTE",
   "level": "tale",
   "cycle": "lycee",
-  "studentCount": 16,
+  "studentCount": 14,
   "scoredCount": 3,
-  "missingCount": 13,
+  "missingCount": 11,
   "certifiableCount": 3,
   "averagePix": 318,
   "parcoursCodes": {},
@@ -423,20 +423,6 @@
       "parcours": []
     },
     {
-      "id": "ralamboson_andriamirija",
-      "name": "RALAMBOSON Andriamirija",
-      "classe": "TPROVENTE",
-      "group": "TPRO VENTE",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "ralimanana_tsinjonavalona_fanaperana",
       "name": "RALIMANANA Tsinjonavalona Fanaperana",
       "classe": "TPROVENTE",
@@ -467,20 +453,6 @@
     {
       "id": "sabit_mamod_shaima",
       "name": "SABIT MAMOD Shaïma",
-      "classe": "TPROVENTE",
-      "group": "TPRO VENTE",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "vendeville_maeva_christina",
-      "name": "VENDEVILLE Maeva Christina",
       "classe": "TPROVENTE",
       "group": "TPRO VENTE",
       "pix": 0,

@@ -774,6 +774,15 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
     students = []
     seen_keys = set()
 
+    def add_to_seen(csv_key, full_name):
+        """Enregistre la clé CSV ET la clé issue du nom Pronote complet, car le
+        CSV peut avoir un prénom court (Calvin) là où Pronote a le nom long
+        (Calvin Thierry) — différents normalize_name → la dédup par clé CSV
+        seule laissait passer le doublon en "non renseigné" (cf. 3 TECHNO 2)."""
+        seen_keys.add(csv_key)
+        if full_name:
+            seen_keys.add(normalize_name(full_name))
+
     for key, entry in collecte_data.items():
         rec = collecte_to_student_record(entry, directory, group_name)
         if rec is None:  # ignored (compte de l'ignore-list)
@@ -785,7 +794,7 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
             reverse=True,
         )
         students.append(rec)
-        seen_keys.add(key)
+        add_to_seen(key, rec.get("name"))
 
     # Élèves présents en parcours mais pas en collecte (pas de profil cible déclaré)
     for key, recs in parcours_data.items():
@@ -800,6 +809,10 @@ def build_group(group_dir: Path, directory: dict) -> Optional[dict]:
             continue
         full_name = ref["fullName"] if isinstance(ref, dict) else proper_case(key)
         classe = ref["classe"] if isinstance(ref, dict) else ""
+        # Dédup supplémentaire : si le fullName Pronote est déjà dans seen_keys,
+        # c'est qu'on a déjà cet élève via Collecte sous une clé différente.
+        if normalize_name(full_name) in seen_keys:
+            continue
         students.append({
             "id": slugify(full_name),
             "name": full_name,
