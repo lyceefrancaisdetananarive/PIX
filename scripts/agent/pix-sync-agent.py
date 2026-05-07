@@ -184,11 +184,13 @@ def sync_worker(job_id: str):
             except Exception as e:
                 emit("login", f"(sélecteur d'organisation absent ou ignoré : {e})", 0.22)
 
-            # 4. Liste des campagnes
+            # 4. Liste des campagnes — vue "Toutes les campagnes" du LFT
+            # (y compris celles des autres profs : DEGUEURCE, CHAUVETEAU, etc.).
+            # /campagnes redirige vers /campagnes/les-miennes (50 max). On bascule
+            # sur /campagnes/toutes (50/page mais 189 entrées au total → la
+            # pagination boucle sur 4 pages).
             emit("list", "Récupération de la liste des campagnes…", 0.25)
-            # /campagnes redirige vers /campagnes/les-miennes (ou similaire selon
-            # l'organisation). On laisse Pix Orga rediriger seul.
-            page.goto("https://orga.pix.fr/campagnes", wait_until="domcontentloaded")
+            page.goto("https://orga.pix.fr/campagnes/toutes", wait_until="domcontentloaded")
             try:
                 page.wait_for_selector('table tbody tr a[href*="/campagnes/"]', timeout=20000)
             except Exception:
@@ -224,35 +226,37 @@ def sync_worker(job_id: str):
                 }).filter(x => x && x.name && x.href)
             """
 
+            # Pagination par URL directe (Pix Orga supporte ?pageNumber=N).
+            # Plus fiable que de cliquer le bouton "suivante" : Ember.js
+            # ré-instancie le tableau de façon asynchrone et la détection de
+            # "page chargée" est délicate.
             all_campaigns = []
             seen_urls = set()
-            for page_num in range(1, 21):  # garde-fou : 20 pages max
+            for page_num in range(1, 21):  # garde-fou : 20 pages × 50 = 1000 max
+                if page_num > 1:
+                    page.goto(
+                        f"https://orga.pix.fr/campagnes/toutes?pageNumber={page_num}",
+                        wait_until="domcontentloaded",
+                    )
+                    try:
+                        page.wait_for_selector('table tbody tr a[href*="/campagnes/"]', timeout=10000)
+                        # Petite attente pour que le tableau se rende complètement
+                        page.wait_for_load_state("networkidle", timeout=5000)
+                    except Exception:
+                        break
+
                 page_data = page.evaluate(EXTRACT_JS)
+                added_this_page = 0
                 for entry in page_data:
                     if entry["href"] in seen_urls:
                         continue
                     seen_urls.add(entry["href"])
                     all_campaigns.append(entry)
+                    added_this_page += 1
 
-                # Pagination — plusieurs variantes possibles
-                next_btn = page.locator(
-                    'button[aria-label*="suivante"], a[aria-label*="suivante"], '
-                    'button:has-text("Suivant"), '
-                    '.pagination button:not([disabled]):has-text(">"), '
-                    'button[aria-label="Aller à la page suivante"]'
-                ).first
-                if next_btn.count() == 0:
-                    break
-                try:
-                    if next_btn.is_disabled():
-                        break
-                except Exception:
-                    pass
-                try:
-                    next_btn.click()
-                    page.wait_for_load_state("domcontentloaded", timeout=10000)
-                    page.wait_for_selector('table tbody tr a[href*="/campagnes/"]', timeout=10000)
-                except Exception:
+                # Aucune nouvelle entrée → on a dépassé la dernière page (ou Pix
+                # Orga renvoie la dernière page valide quand pageNumber > max)
+                if added_this_page == 0:
                     break
 
             # Cache des compteurs "résultats reçus" par URL pour l'incrémental
@@ -288,7 +292,7 @@ def sync_worker(job_id: str):
                      f"Téléchargement « {camp['name']} » ({i+1}/{len(campaigns)})",
                      pct)
 
-                page.goto(f"https://orga.pix.fr{camp['url']}", wait_until="domcontentloaded")
+                page.goto(f"https://orga.pix.fr{camp['href']}", wait_until="domcontentloaded")
                 # Bouton "Exporter les résultats" (CSV)
                 try:
                     with page.expect_download(timeout=20000) as download_info:
