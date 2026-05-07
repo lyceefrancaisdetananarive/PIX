@@ -553,14 +553,41 @@ class Handler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-Type", "text/event-stream")
             self.send_header("Cache-Control", "no-cache")
+            self.send_header("X-Accel-Buffering", "no")
             self._cors()
             self.end_headers()
+            # Annonce de connexion (utile pour debug côté client)
+            try:
+                self.wfile.write(b": connected\n\n")
+                self.wfile.flush()
+            except Exception:
+                return
             q = job["queue"]
+            HEARTBEAT_SEC = 15  # garde la connexion EventSource vivante (proxies/browsers
+                                 # coupent typiquement après 30-60s sans données)
+            HARD_TIMEOUT_SEC = 1800  # 30 min absolus pour un job
+            import time as _time
+            t0 = _time.time()
             try:
                 while True:
-                    evt = q.get(timeout=120)
-                    self.wfile.write(f"data: {json.dumps(evt)}\n\n".encode())
-                    self.wfile.flush()
+                    if _time.time() - t0 > HARD_TIMEOUT_SEC:
+                        break
+                    try:
+                        evt = q.get(timeout=HEARTBEAT_SEC)
+                    except queue.Empty:
+                        # Heartbeat : ligne de commentaire SSE (ignorée par le client
+                        # mais réveille la connexion TCP côté navigateur/proxy)
+                        try:
+                            self.wfile.write(b": ping\n\n")
+                            self.wfile.flush()
+                        except Exception:
+                            break
+                        continue
+                    try:
+                        self.wfile.write(f"data: {json.dumps(evt)}\n\n".encode())
+                        self.wfile.flush()
+                    except Exception:
+                        break
                     if evt.get("stage") == "_end_":
                         break
             except Exception:

@@ -384,48 +384,87 @@ function openSyncModal(agentAlive) {
 
 async function startSync(statusEl, bar, pct, log) {
   try {
-    // Démarre le job
     statusEl.textContent = "Synchronisation en cours…";
     const res = await fetch(`${AGENT_URL}/sync`, { method: "POST", mode: "cors" });
     const { job_id } = await res.json();
 
-    // Stream SSE
-    const ev = new EventSource(`${AGENT_URL}/sync/${job_id}/events`);
-    ev.onmessage = (m) => {
-      const e = JSON.parse(m.data);
-      if (e.stage === "_end_") {
-        ev.close();
-        return;
-      }
-      if (typeof e.progress === "number" && e.progress > 0) {
-        const p = Math.round(e.progress * 100);
-        bar.style.width = `${p}%`;
-        pct.textContent = `${p} %`;
-      }
-      const cls = e.stage === "error" ? "sync-log__line--error"
-                : e.stage === "done"  ? "sync-log__line--done"
-                : "";
-      const line = document.createElement("div");
-      line.className = `sync-log__line ${cls}`;
-      line.innerHTML = `<span class="sync-log__time">${e.time}</span> <span class="sync-log__stage">[${e.stage}]</span> ${escapeHtmlSafe(e.message)}`;
-      log.appendChild(line);
-      log.scrollTop = log.scrollHeight;
+    let finished = false;
+    let reconnectAttempts = 0;
+    const MAX_RECONNECTS = 10;
+    let ev = null;
 
-      if (e.stage === "done") {
-        statusEl.textContent = "✓ Synchronisation terminée";
-        bar.style.background = "linear-gradient(90deg, #10b981, #059669)";
-      } else if (e.stage === "error") {
-        statusEl.textContent = "✗ Erreur — voir les logs";
-        bar.style.background = "linear-gradient(90deg, #ef4444, #b91c1c)";
-      }
-    };
-    ev.onerror = () => {
-      ev.close();
-      statusEl.textContent = "Connexion à l'agent perdue.";
-    };
+    // Reconnexion automatique : sur les longues syncs (>15 min) certaines
+    // box wifi ferment les connexions SSE. On rebranche silencieusement et
+    // on continue à recevoir les évènements postérieurs (le job côté agent
+    // continue à tourner et stocke les évènements dans une queue).
+    function connect() {
+      ev = new EventSource(`${AGENT_URL}/sync/${job_id}/events`);
+
+      ev.onopen = () => {
+        if (reconnectAttempts > 0) {
+          const line = document.createElement("div");
+          line.className = "sync-log__line";
+          line.innerHTML = `<span class="sync-log__time">${nowHHMMSS()}</span> <span class="sync-log__stage">[reconnect]</span> Reconnexion à l'agent OK (tentative ${reconnectAttempts})`;
+          log.appendChild(line);
+          log.scrollTop = log.scrollHeight;
+        }
+        reconnectAttempts = 0;
+      };
+
+      ev.onmessage = (m) => {
+        const e = JSON.parse(m.data);
+        if (e.stage === "_end_") {
+          finished = true;
+          ev.close();
+          return;
+        }
+        if (typeof e.progress === "number" && e.progress > 0) {
+          const p = Math.round(e.progress * 100);
+          bar.style.width = `${p}%`;
+          pct.textContent = `${p} %`;
+        }
+        const cls = e.stage === "error" ? "sync-log__line--error"
+                  : e.stage === "done"  ? "sync-log__line--done"
+                  : "";
+        const line = document.createElement("div");
+        line.className = `sync-log__line ${cls}`;
+        line.innerHTML = `<span class="sync-log__time">${e.time}</span> <span class="sync-log__stage">[${e.stage}]</span> ${escapeHtmlSafe(e.message)}`;
+        log.appendChild(line);
+        log.scrollTop = log.scrollHeight;
+
+        if (e.stage === "done") {
+          finished = true;
+          statusEl.textContent = "✓ Synchronisation terminée";
+          bar.style.background = "linear-gradient(90deg, #10b981, #059669)";
+        } else if (e.stage === "error") {
+          finished = true;
+          statusEl.textContent = "✗ Erreur — voir les logs";
+          bar.style.background = "linear-gradient(90deg, #ef4444, #b91c1c)";
+        }
+      };
+
+      ev.onerror = () => {
+        ev.close();
+        if (finished) return;
+        if (reconnectAttempts >= MAX_RECONNECTS) {
+          statusEl.textContent = "Connexion à l'agent perdue (trop de tentatives).";
+          return;
+        }
+        reconnectAttempts += 1;
+        statusEl.textContent = `Reconnexion à l'agent en cours… (tentative ${reconnectAttempts}/${MAX_RECONNECTS})`;
+        setTimeout(connect, 2000);
+      };
+    }
+
+    connect();
   } catch (err) {
     statusEl.textContent = `Erreur : ${err.message}`;
   }
+}
+
+function nowHHMMSS() {
+  const d = new Date();
+  return `${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}:${String(d.getSeconds()).padStart(2,"0")}`;
 }
 
 function escapeHtmlSafe(s) {
