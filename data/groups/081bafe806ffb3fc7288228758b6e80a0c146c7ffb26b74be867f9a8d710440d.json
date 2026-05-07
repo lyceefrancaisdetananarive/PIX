@@ -2,53 +2,1433 @@
   "name": "1G2",
   "level": "1e",
   "cycle": "lycee",
-  "studentCount": 47,
-  "scoredCount": 0,
-  "missingCount": 47,
-  "certifiableCount": 0,
-  "averagePix": 0,
+  "studentCount": 39,
+  "scoredCount": 21,
+  "missingCount": 18,
+  "certifiableCount": 21,
+  "averagePix": 334,
   "parcoursCodes": {
     "Parcours de rentrée 1ère": "DDYNMT969"
   },
   "students": [
     {
+      "id": "rakotobe_vahina_kanto",
+      "name": "RAKOTOBE Vahina Kanto",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 821,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 6,
+          "pix": 144
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 7,
+          "pix": 212
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 6,
+          "pix": 188
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 7,
+          "pix": 165
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 7,
+          "pix": 112
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 5,
+          "pix": 46
+        },
+        "Gérer des données": {
+          "niveau": 6,
+          "pix": 54
+        },
+        "Traiter des données": {
+          "niveau": 5,
+          "pix": 44
+        },
+        "Interagir": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Partager et publier": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Collaborer": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 5,
+          "pix": 44
+        },
+        "Développer des documents textuels": {
+          "niveau": 5,
+          "pix": 41
+        },
+        "Développer des documents multimedia": {
+          "niveau": 5,
+          "pix": 44
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 6,
+          "pix": 51
+        },
+        "Programmer": {
+          "niveau": 6,
+          "pix": 52
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 6,
+          "pix": 55
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 6,
+          "pix": 54
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Construire un environnement numérique": {
+          "niveau": 7,
+          "pix": 56
+        }
+      },
+      "lastUpdate": "2026-04-02T14:05:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-07T16:06:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.86,
+          "palier": 3
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "randriamanantena_miantsa",
+      "name": "Randriamanantena Miantsa",
+      "classe": "",
+      "group": "1G2",
+      "pix": 600,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 5,
+          "pix": 117
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 6,
+          "pix": 160
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 4,
+          "pix": 123
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 5,
+          "pix": 112
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 5,
+          "pix": 88
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 5,
+          "pix": 46
+        },
+        "Gérer des données": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Interagir": {
+          "niveau": 6,
+          "pix": 54
+        },
+        "Partager et publier": {
+          "niveau": 5,
+          "pix": 43
+        },
+        "Collaborer": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Développer des documents textuels": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Développer des documents multimedia": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Programmer": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 4,
+          "pix": 37
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 5,
+          "pix": 43
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 5,
+          "pix": 41
+        },
+        "Construire un environnement numérique": {
+          "niveau": 5,
+          "pix": 47
+        }
+      },
+      "lastUpdate": "2026-04-02T14:08:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-08T17:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.79,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "ranaivomanana_manampitrisa_natolotriniavo",
+      "name": "Ranaivomanana Manampitrisa Natolotriniavo",
+      "classe": "",
+      "group": "1G2",
+      "pix": 513,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 6,
+          "pix": 121
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 7,
+          "pix": 175
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 5,
+          "pix": 98
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 57
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 4,
+          "pix": 62
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 6,
+          "pix": 49
+        },
+        "Gérer des données": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Traiter des données": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Interagir": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Partager et publier": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Collaborer": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 5,
+          "pix": 44
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Programmer": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Construire un environnement numérique": {
+          "niveau": 4,
+          "pix": 35
+        }
+      },
+      "lastUpdate": "2026-04-09T14:02:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-11-02T18:14:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.7,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "rasolondraibe_tina_maherisoa_fandresena",
+      "name": "RASOLONDRAIBE Tina Maherisoa Fandresena",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 439,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 83
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 5,
+          "pix": 130
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 66
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 4,
+          "pix": 96
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 4,
+          "pix": 64
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Gérer des données": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "Partager et publier": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 4,
+          "pix": 39
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Construire un environnement numérique": {
+          "niveau": 4,
+          "pix": 32
+        }
+      },
+      "lastUpdate": "2026-04-02T14:05:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-06T17:57:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.73,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "fidahoussene_hirdjee_maissa",
+      "name": "FIDAHOUSSENE HIRDJEE Maïssa",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 424,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 5,
+          "pix": 133
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 86
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 63
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 62
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 6,
+          "pix": 80
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 5,
+          "pix": 47
+        },
+        "Gérer des données": {
+          "niveau": 5,
+          "pix": 47
+        },
+        "Traiter des données": {
+          "niveau": 4,
+          "pix": 39
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Construire un environnement numérique": {
+          "niveau": 6,
+          "pix": 48
+        }
+      },
+      "lastUpdate": "2026-04-02T14:04:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-05T15:03:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 3
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-05T10:38:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "bhaidjy_lamia",
+      "name": "BHAIDJY Lamia",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 416,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 76
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 126
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 94
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 68
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 52
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 39
+        },
+        "Collaborer": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Développer des documents textuels": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Développer des documents multimedia": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 23
+        }
+      },
+      "lastUpdate": "2026-04-02T14:05:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-05T16:12:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.63,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "radaniela_mandala",
+      "name": "Radaniela Mandala",
+      "classe": "",
+      "group": "1G2",
+      "pix": 414,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 87
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 7,
+          "pix": 127
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 62
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 4,
+          "pix": 81
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 4,
+          "pix": 57
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Partager et publier": {
+          "niveau": 7,
+          "pix": 56
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 4,
+          "pix": 34
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Construire un environnement numérique": {
+          "niveau": 4,
+          "pix": 33
+        }
+      },
+      "lastUpdate": "2026-04-02T14:11:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-21T09:52:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.67,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "leung_aaron",
+      "name": "LEUNG Aaron",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 332,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 89
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 5,
+          "pix": 93
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 63
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 50
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 37
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Gérer des données": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Interagir": {
+          "niveau": 5,
+          "pix": 41
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        }
+      },
+      "lastUpdate": "2026-04-02T14:06:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-28T22:11:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.89,
+          "palier": 3
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-28T20:50:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.78,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "creuse_margaux_gabrielle",
+      "name": "CREUSE Margaux Gabrielle",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 320,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 81
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 82
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 62
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 2,
+          "pix": 63
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 32
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Interagir": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 16
+        }
+      },
+      "lastUpdate": "2026-04-09T14:01:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-17T11:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 3
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-05T09:40:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.68,
+          "palier": 2
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.93,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "rasolonirina_koloina_sarobidy",
+      "name": "RASOLONIRINA Koloina Sarobidy",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 310,
+      "certifiable": true,
+      "competencesCertifiables": 14,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 99
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 5,
+          "pix": 109
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 63
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 28
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 11
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 38
+        },
+        "Gérer des données": {
+          "niveau": 4,
+          "pix": 35
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Interagir": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Partager et publier": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Collaborer": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents multimedia": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        }
+      },
+      "lastUpdate": "2026-04-02T14:13:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-27T08:23:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.7,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "leung_cyanne_maelys",
+      "name": "LEUNG Cyanne Maelys",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 306,
+      "certifiable": true,
+      "competencesCertifiables": 14,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 71
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 5,
+          "pix": 97
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 2,
+          "pix": 43
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 68
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 27
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Interagir": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        }
+      },
+      "lastUpdate": "2026-04-02T14:25:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-31T08:47:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.78,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
       "id": "akbar_houssen_maelle_alana",
       "name": "AKBAR HOUSSEN Maëlle Alana",
       "classe": "1G2",
       "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
+      "pix": 305,
+      "certifiable": true,
+      "competencesCertifiables": 11,
       "domains": {
         "info": {
           "label": "Information et données",
-          "level": 0,
-          "pix": 0
+          "level": 4,
+          "pix": 100
         },
         "communication": {
           "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
+          "level": 5,
+          "pix": 80
         },
         "creation": {
           "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
+          "level": 3,
+          "pix": 76
         },
         "protection": {
           "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
+          "level": 1,
+          "pix": 29
         },
         "environnement": {
           "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
+          "level": 2,
+          "pix": 20
         }
       },
-      "competences": {},
-      "lastUpdate": "2025-10-16T17:29:00",
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 33
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Traiter des données": {
+          "niveau": 4,
+          "pix": 38
+        },
+        "Interagir": {
+          "niveau": 5,
+          "pix": 40
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 31
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Développer des documents multimedia": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 17
+        }
+      },
+      "lastUpdate": "2026-04-02T14:05:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 1ère",
@@ -60,7 +1440,1072 @@
           "maitrise": 0.84,
           "palier": 3
         }
-      ]
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "ramonjavelo_toavina_noah",
+      "name": "RAMONJAVELO Toavina Noah",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 289,
+      "certifiable": true,
+      "competencesCertifiables": 15,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 66
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 97
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 75
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 39
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 12
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Programmer": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        }
+      },
+      "lastUpdate": "2026-04-02T14:04:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-25T18:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "kocher_hannah_andriana",
+      "name": "KÖCHER Hannah Andriana",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 271,
+      "certifiable": true,
+      "competencesCertifiables": 14,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 75
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 94
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 38
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 50
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 14
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 30
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Interagir": {
+          "niveau": 4,
+          "pix": 38
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Collaborer": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 15
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 3,
+          "pix": 27
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        }
+      },
+      "lastUpdate": "2026-04-09T14:38:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-17T10:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.89,
+          "palier": 3
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "borr_judith_malia_tallavi",
+      "name": "BORR Judith Malia Tallavi",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 244,
+      "certifiable": true,
+      "competencesCertifiables": 13,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 3,
+          "pix": 72
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 4,
+          "pix": 77
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 36
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 3,
+          "pix": 48
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 11
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Partager et publier": {
+          "niveau": 4,
+          "pix": 36
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 3,
+          "pix": 29
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        }
+      },
+      "lastUpdate": "2026-04-02T14:08:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-17T08:47:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "mamodaly_yowan",
+      "name": "MAMODALY Yowan",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 231,
+      "certifiable": true,
+      "competencesCertifiables": 12,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 82
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 50
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 3,
+          "pix": 48
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 27
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 24
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Gérer des données": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Traiter des données": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Développer des documents textuels": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Programmer": {
+          "niveau": 3,
+          "pix": 28
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Construire un environnement numérique": {
+          "niveau": 2,
+          "pix": 16
+        }
+      },
+      "lastUpdate": "2026-04-09T14:03:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-11-03T17:48:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.71,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "randriamisata_fifaliana",
+      "name": "Randriamisata Fifaliana",
+      "classe": "",
+      "group": "1G2",
+      "pix": 212,
+      "certifiable": true,
+      "competencesCertifiables": 12,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 62
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 72
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 25
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 18
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 3,
+          "pix": 35
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 23
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 22
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 3,
+          "pix": 25
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 3,
+          "pix": 26
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        }
+      },
+      "lastUpdate": "2026-04-09T14:01:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-11-02T21:38:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.63,
+          "palier": 2
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": null,
+          "partage": false,
+          "progress": 0.72,
+          "maitrise": 0.0,
+          "palier": 0
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "mamod_rayan",
+      "name": "MAMOD Rayan",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 150,
+      "certifiable": true,
+      "competencesCertifiables": 11,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 52
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 34
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 31
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 25
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 8
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 8
+        }
+      },
+      "lastUpdate": "2026-04-09T14:05:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-11-02T18:44:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "monja_mamoriarivo_sarah",
+      "name": "Monja Mamoriarivo Sarah",
+      "classe": "",
+      "group": "1G2",
+      "pix": 149,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 52
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 39
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 29
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 22
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 7
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Traiter des données": {
+          "niveau": 2,
+          "pix": 21
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Partager et publier": {
+          "niveau": 2,
+          "pix": 16
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 7
+        }
+      },
+      "lastUpdate": "2026-04-09T14:03:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-30T13:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.82,
+          "palier": 3
+        },
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-10-27T09:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "rabary_bryan",
+      "name": "Rabary Bryan",
+      "classe": "",
+      "group": "1G2",
+      "pix": 147,
+      "certifiable": true,
+      "competencesCertifiables": 10,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 44
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 2,
+          "pix": 39
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 29
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 21
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 1,
+          "pix": 14
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 1
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 13
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 3
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 5
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        }
+      },
+      "lastUpdate": "2026-04-09T14:20:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-11-01T11:58:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.7,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "hassanaly_bourhanuddin",
+      "name": "HASSANALY Bourhanuddin",
+      "classe": "1G2",
+      "group": "1G2",
+      "pix": 129,
+      "certifiable": true,
+      "competencesCertifiables": 9,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 2,
+          "pix": 39
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 1,
+          "pix": 31
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 31
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 21
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 7
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 2,
+          "pix": 17
+        },
+        "Gérer des données": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Interagir": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Partager et publier": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Collaborer": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Développer des documents multimedia": {
+          "niveau": 0,
+          "pix": 2
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 0,
+          "pix": 6
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 12
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 0,
+          "pix": 7
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 0,
+          "pix": 4
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 0,
+          "pix": 0
+        },
+        "Construire un environnement numérique": {
+          "niveau": 0,
+          "pix": 7
+        }
+      },
+      "lastUpdate": "2026-04-02T14:04:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 1ère",
+          "code": "DDYNMT969",
+          "campaignName": "1G2 Parcours de Rentrée",
+          "date": "2025-11-02T20:28:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.65,
+          "palier": 2
+        }
+      ],
+      "status": "renseigne"
     },
     {
       "id": "alibay_shermina",
@@ -109,240 +2554,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.77,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "bhaidjy_lamia",
-      "name": "BHAIDJY Lamia",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-05T16:12:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-05T16:12:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.63,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "borr_judith_malia_tallavi",
-      "name": "BORR Judith Malia Tallavi",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-17T08:47:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-17T08:47:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.74,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "creuse_margaux_gabrielle",
-      "name": "CREUSE Margaux Gabrielle",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-17T11:28:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.88,
-          "palier": 3
-        },
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-05T09:40:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.68,
-          "palier": 2
-        },
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.93,
-          "maitrise": 0.0,
-          "palier": 0
-        }
-      ]
-    },
-    {
-      "id": "fidahoussene_hirdjee_maissa",
-      "name": "FIDAHOUSSENE HIRDJEE Maïssa",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-05T15:03:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-05T15:03:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.94,
-          "palier": 3
-        },
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-05T10:38:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.8,
           "palier": 2
         }
       ]
@@ -399,57 +2610,6 @@
       ]
     },
     {
-      "id": "hassanaly_bourhanuddin",
-      "name": "HASSANALY Bourhanuddin",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-02T20:28:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-11-02T20:28:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.65,
-          "palier": 2
-        }
-      ]
-    },
-    {
       "id": "iarivo_abdillah_yousra",
       "name": "Iarivo Abdillah Yousra",
       "classe": "",
@@ -497,57 +2657,6 @@
           "progress": 1.0,
           "maitrise": 0.56,
           "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "kocher_hannah_andriana",
-      "name": "KÖCHER Hannah Andriana",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-17T10:15:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-17T10:15:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.89,
-          "palier": 3
         }
       ]
     },
@@ -654,383 +2763,6 @@
       ]
     },
     {
-      "id": "leung_aaron",
-      "name": "LEUNG Aaron",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-28T22:11:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-28T22:11:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.89,
-          "palier": 3
-        },
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-28T20:50:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.78,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "leung_cyanne_maelys",
-      "name": "LEUNG Cyanne Maelys",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-31T08:47:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-31T08:47:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.78,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "mamod_rayan",
-      "name": "MAMOD Rayan",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-02T18:44:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-11-02T18:44:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.8,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "mamodaly_yowan",
-      "name": "MAMODALY Yowan",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-03T17:48:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-11-03T17:48:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.71,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "monja_mamoriarivo_sarah",
-      "name": "Monja Mamoriarivo Sarah",
-      "classe": "",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-30T13:05:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-30T13:05:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.82,
-          "palier": 3
-        },
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-27T09:59:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.76,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "rakotobe_vahina_kanto",
-      "name": "RAKOTOBE Vahina Kanto",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-07T16:06:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-07T16:06:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.86,
-          "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "ramonjavelo_toavina_noah",
-      "name": "RAMONJAVELO Toavina Noah",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-25T18:21:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-25T18:21:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.8,
-          "palier": 2
-        }
-      ]
-    },
-    {
       "id": "rasolondraibe_roch",
       "name": "RASOLONDRAIBE Roch",
       "classe": "1G2",
@@ -1078,373 +2810,6 @@
           "progress": 1.0,
           "maitrise": 0.54,
           "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "rasolondraibe_tina_maherisoa_fandresena",
-      "name": "RASOLONDRAIBE Tina Maherisoa Fandresena",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-06T17:57:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-06T17:57:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.73,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "rasolonirina_koloina_sarobidy",
-      "name": "RASOLONIRINA Koloina Sarobidy",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-27T08:23:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-27T08:23:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.7,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "rabary_bryan",
-      "name": "Rabary Bryan",
-      "classe": "",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-01T11:58:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-11-01T11:58:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.7,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "radaniela_mandala",
-      "name": "Radaniela Mandala",
-      "classe": "",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-21T09:52:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-21T09:52:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.67,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "ranaivomanana_manampitrisa_natolotriniavo",
-      "name": "Ranaivomanana Manampitrisa Natolotriniavo",
-      "classe": "",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-11-02T18:14:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-11-02T18:14:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.7,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "randriamanantena_miantsa",
-      "name": "Randriamanantena Miantsa",
-      "classe": "",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2025-10-08T17:25:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-10-08T17:25:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.79,
-          "palier": 2
-        }
-      ]
-    },
-    {
-      "id": "randriamisata_fifaliana",
-      "name": "Randriamisata Fifaliana",
-      "classe": "",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": "2025-11-02T21:38:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.63,
-          "palier": 2
-        },
-        {
-          "name": "Parcours de rentrée 1ère",
-          "code": "DDYNMT969",
-          "campaignName": "1G2 Parcours de Rentrée",
-          "date": null,
-          "partage": false,
-          "progress": 0.72,
-          "maitrise": 0.0,
-          "palier": 0
         }
       ]
     },
@@ -1500,50 +2865,8 @@
       ]
     },
     {
-      "id": "akbar_houssen_maelle_alana",
-      "name": "AKBAR HOUSSEN Maëlle Alana",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "alibay_aurelie_shermina",
       "name": "ALIBAY Aurélie Shermina",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "borr_judith_malia_tallavi",
-      "name": "BORR Judith Malia Tallavi",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "creuse_margaux_gabrielle",
-      "name": "CREUSE Margaux Gabrielle",
       "classe": "1G2",
       "group": "1G2",
       "pix": 0,
@@ -1572,20 +2895,6 @@
     {
       "id": "lestrelin_anais_dao",
       "name": "LESTRELIN Anaïs Dao",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "leung_cyanne_maelys",
-      "name": "LEUNG Cyanne Maelys",
       "classe": "1G2",
       "group": "1G2",
       "pix": 0,
@@ -1640,34 +2949,6 @@
       "parcours": []
     },
     {
-      "id": "rakotobe_vahina_kanto",
-      "name": "RAKOTOBE Vahina Kanto",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "ramonjavelo_toavina_noah",
-      "name": "RAMONJAVELO Toavina Noah",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
       "id": "ranaivomanana_natolotriniavo_manampitrisa",
       "name": "RANAIVOMANANA Natolotriniavo Manampitrisa",
       "classe": "1G2",
@@ -1698,34 +2979,6 @@
     {
       "id": "randriamisata_amboara_fifaliana",
       "name": "RANDRIAMISATA Amboara Fifaliana",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "rasolondraibe_tina_maherisoa_fandresena",
-      "name": "RASOLONDRAIBE Tina Maherisoa Fandresena",
-      "classe": "1G2",
-      "group": "1G2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "non_renseigne",
-      "domains": {},
-      "competences": {},
-      "lastUpdate": null,
-      "parcours": []
-    },
-    {
-      "id": "rasolonirina_koloina_sarobidy",
-      "name": "RASOLONIRINA Koloina Sarobidy",
       "classe": "1G2",
       "group": "1G2",
       "pix": 0,

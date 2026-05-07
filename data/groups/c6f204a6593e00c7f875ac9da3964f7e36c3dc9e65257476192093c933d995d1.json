@@ -13,7 +13,6 @@
     "Technologie - Début de cycle 4 : Manipuler les fichiers": "SVHVVK995",
     "Parcours de rentrée 5e": "VSESFV171",
     "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)": "ALCZRJ876",
-    "Technologie - Début de cycle 4 : Sécuriser son environnement numérique": "BVJHJP321",
     "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données": "MHTBVX416"
   },
   "students": [
@@ -128,16 +127,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.83,
-          "palier": 0
-        },
-        {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:18:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 1.0,
           "palier": 0
         },
         {
@@ -317,16 +306,6 @@
           "palier": 0
         },
         {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:18:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.83,
-          "palier": 0
-        },
-        {
           "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
           "code": "SVHVVK995",
           "campaignName": "5 TECHNO 2 -- Manipuler les fichiers",
@@ -490,16 +469,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.89,
-          "palier": 0
-        },
-        {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:12:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.92,
           "palier": 0
         },
         {
@@ -679,16 +648,6 @@
           "palier": 0
         },
         {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:18:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 1.0,
-          "palier": 0
-        },
-        {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "VNKVQU798",
           "campaignName": "5 TECHNO 2 -- Cybersécurité",
@@ -842,16 +801,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.61,
-          "palier": 0
-        },
-        {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:17:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.75,
           "palier": 0
         },
         {
@@ -1018,16 +967,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.5,
-          "palier": 0
-        },
-        {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:16:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.58,
           "palier": 0
         },
         {
@@ -1207,16 +1146,6 @@
           "palier": 0
         },
         {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T14:18:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.83,
-          "palier": 0
-        },
-        {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "VNKVQU798",
           "campaignName": "5 TECHNO 2 -- Cybersécurité",
@@ -1352,16 +1281,6 @@
       },
       "lastUpdate": "2026-04-10T15:04:00",
       "parcours": [
-        {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:19:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.83,
-          "palier": 0
-        },
         {
           "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
           "code": "SVHVVK995",
@@ -1528,16 +1447,6 @@
       },
       "lastUpdate": "2026-04-10T14:40:00",
       "parcours": [
-        {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-04-10T14:39:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.92,
-          "palier": 0
-        },
         {
           "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
           "code": "MHTBVX416",
@@ -1725,16 +1634,6 @@
           "palier": 0
         },
         {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:20:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.92,
-          "palier": 0
-        },
-        {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "VNKVQU798",
           "campaignName": "5 TECHNO 2 -- Cybersécurité",
@@ -1898,16 +1797,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.78,
-          "palier": 0
-        },
-        {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:24:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.75,
           "palier": 0
         },
         {
@@ -2233,16 +2122,6 @@
           "palier": 0
         },
         {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:27:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.83,
-          "palier": 0
-        },
-        {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "VNKVQU798",
           "campaignName": "5 TECHNO 2 -- Cybersécurité",
@@ -2378,16 +2257,6 @@
       },
       "lastUpdate": "2026-04-03T14:35:00",
       "parcours": [
-        {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-04-10T14:47:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.5,
-          "palier": 0
-        },
         {
           "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
           "code": "SVHVVK995",
@@ -2565,16 +2434,6 @@
           "palier": 0
         },
         {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:22:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.58,
-          "palier": 0
-        },
-        {
           "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
           "code": "SVHVVK995",
           "campaignName": "5 TECHNO 2 -- Manipuler les fichiers",
@@ -2738,16 +2597,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.39,
-          "palier": 0
-        },
-        {
-          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
-          "code": "BVJHJP321",
-          "campaignName": "5 TECHNO 2 -- Sécuriser son environnement numérique",
-          "date": "2026-03-06T13:34:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.33,
           "palier": 0
         },
         {

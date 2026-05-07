@@ -372,7 +372,7 @@
           "campaignName": "Sensibilisation PIX 6M5",
           "date": null,
           "partage": false,
-          "progress": 0.84,
+          "progress": 0.88,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -423,7 +423,7 @@
           "campaignName": "Sensibilisation PIX 6M5",
           "date": null,
           "partage": false,
-          "progress": 0.76,
+          "progress": 0.84,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -578,16 +578,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-05T09:29:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RDXHEY274",
           "campaignName": "Sensibilisation PIX 6M5",
-          "date": null,
-          "partage": false,
-          "progress": 0.28,
-          "maitrise": 0.0,
+          "date": "2026-05-05T09:29:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
           "palier": 0
         }
       ]
@@ -688,7 +688,7 @@
           "campaignName": "Sensibilisation PIX 6M5",
           "date": null,
           "partage": false,
-          "progress": 0.08,
+          "progress": 0.32,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -731,16 +731,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-05T09:25:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RDXHEY274",
           "campaignName": "Sensibilisation PIX 6M5",
-          "date": null,
-          "partage": false,
-          "progress": 0.4,
-          "maitrise": 0.0,
+          "date": "2026-05-05T09:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
           "palier": 0
         }
       ]
@@ -782,8 +782,18 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-05T09:04:00",
       "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RDXHEY274",
+          "campaignName": "Sensibilisation PIX 6M5",
+          "date": "2026-05-05T09:04:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
+          "palier": 0
+        },
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RDXHEY274",
@@ -812,16 +822,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.48,
-          "palier": 0
-        },
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "RDXHEY274",
-          "campaignName": "Sensibilisation PIX 6M5",
-          "date": null,
-          "partage": false,
-          "progress": 0.84,
-          "maitrise": 0.0,
           "palier": 0
         }
       ]
@@ -871,7 +871,7 @@
           "campaignName": "Sensibilisation PIX 6M5",
           "date": null,
           "partage": false,
-          "progress": 0.2,
+          "progress": 0.72,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -914,16 +914,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-05T09:24:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RDXHEY274",
           "campaignName": "Sensibilisation PIX 6M5",
-          "date": null,
-          "partage": false,
-          "progress": 0.32,
-          "maitrise": 0.0,
+          "date": "2026-05-05T09:24:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
           "palier": 0
         }
       ]
@@ -1024,7 +1024,7 @@
           "campaignName": "Sensibilisation PIX 6M5",
           "date": null,
           "partage": false,
-          "progress": 0.08,
+          "progress": 0.76,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -1067,8 +1067,28 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2026-03-31T10:09:00",
+      "lastUpdate": "2026-05-05T09:09:00",
       "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RDXHEY274",
+          "campaignName": "Sensibilisation PIX 6M5",
+          "date": "2026-05-05T09:09:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RDXHEY274",
+          "campaignName": "Sensibilisation PIX 6M5",
+          "date": "2026-05-05T08:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
+          "palier": 0
+        },
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RDXHEY274",
@@ -1227,7 +1247,7 @@
           "campaignName": "Sensibilisation PIX 6M5",
           "date": null,
           "partage": false,
-          "progress": 0.08,
+          "progress": 0.8,
           "maitrise": 0.0,
           "palier": 0
         }

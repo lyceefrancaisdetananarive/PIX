@@ -38,6 +38,14 @@
       "podium": [
         {
           "rank": 1,
+          "name": "RAKOTOBE Vahina Kanto",
+          "classe": "1G2",
+          "group": "1G2",
+          "pix": 821,
+          "level": "Expert 1"
+        },
+        {
+          "rank": 2,
           "name": "RAKOTOMALALA Maëlie",
           "classe": "TG6",
           "group": "TG6",
@@ -45,19 +53,11 @@
           "level": "Avancé 2"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "RALAMBOFIRINGA Ethan Tiavina Herizo",
           "classe": "TG4",
           "group": "TG4",
           "pix": 626,
-          "level": "Avancé 1"
-        },
-        {
-          "rank": 3,
-          "name": "LEONG NANE Maëlys Heidi Hoye-Tsing",
-          "classe": "TG6",
-          "group": "TG6",
-          "pix": 604,
           "level": "Avancé 1"
         }
       ]
@@ -65,23 +65,23 @@
   },
   "stats": {
     "totalGroups": 72,
-    "totalStudents": 2017,
-    "totalScored": 493,
-    "totalMissing": 1424,
-    "totalCertifiable": 481,
-    "averagePix": 194,
+    "totalStudents": 2010,
+    "totalScored": 512,
+    "totalMissing": 1400,
+    "totalCertifiable": 499,
+    "averagePix": 201,
     "byCycle": {
       "cycle3": {
         "label": "Cycle 3 · 6ème",
-        "students": 162
+        "students": 163
       },
       "cycle4": {
         "label": "Cycle 4 · 5e/4e/3e",
-        "students": 587
+        "students": 588
       },
       "lycee": {
         "label": "Lycée · 2nde/1e/Term.",
-        "students": 1122
+        "students": 1114
       }
     }
   }

@@ -779,8 +779,18 @@
         }
       },
       "competences": {},
-      "lastUpdate": "2026-04-30T07:50:00",
+      "lastUpdate": "2026-05-07T06:45:00",
       "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "GAUUTU454",
+          "campaignName": "Sensibilisation PIX 6M3",
+          "date": "2026-05-07T06:45:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
+          "palier": 0
+        },
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "GAUUTU454",

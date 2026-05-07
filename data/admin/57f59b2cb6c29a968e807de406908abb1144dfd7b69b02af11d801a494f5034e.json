@@ -1103,6 +1103,16 @@
       "lastUpdate": "2026-05-04T07:18:00",
       "parcours": [
         {
+          "name": "EMI - cycle 4",
+          "code": "UNNPCD266",
+          "campaignName": "5M2 TECHNO -- EMI",
+          "date": "2026-05-04T07:17:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.86,
+          "palier": 0
+        },
+        {
           "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
           "code": "NCZAXM121",
           "campaignName": "5M2 TECHNO -- Sécuriser son environnement numérique",
@@ -2426,7 +2436,7 @@
           "campaignName": "5M2 TECHNO -- Cybersécurité",
           "date": null,
           "partage": false,
-          "progress": 0.69,
+          "progress": 1.0,
           "maitrise": 0.0,
           "palier": 0
         },
@@ -2436,7 +2446,7 @@
           "campaignName": "5M2 TECHNO -- EMI",
           "date": null,
           "partage": false,
-          "progress": 0.92,
+          "progress": 1.0,
           "maitrise": 0.0,
           "palier": 0
         },
@@ -2446,7 +2456,7 @@
           "campaignName": "5M2 TECHNO -- Manipuler un fichier",
           "date": null,
           "partage": false,
-          "progress": 0.79,
+          "progress": 1.0,
           "maitrise": 0.0,
           "palier": 0
         },
@@ -2456,7 +2466,7 @@
           "campaignName": "5M2 TECHNO -- Protection & sécurité",
           "date": null,
           "partage": false,
-          "progress": 0.66,
+          "progress": 0.77,
           "maitrise": 0.0,
           "palier": 0
         }
