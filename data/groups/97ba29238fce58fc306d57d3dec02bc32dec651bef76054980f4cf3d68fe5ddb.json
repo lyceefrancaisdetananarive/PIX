@@ -795,6 +795,16 @@
       "lastUpdate": "2026-05-06T07:54:00",
       "parcours": [
         {
+          "name": "EMI - cycle 4",
+          "code": "VGBDZF671",
+          "campaignName": "3M4 SVT -- EMI",
+          "date": "2026-05-08T05:42:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
+          "palier": 0
+        },
+        {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "YTLYRX138",
           "campaignName": "3M4 SVT -- Cybersécurité",
@@ -823,16 +833,6 @@
           "progress": 1.0,
           "maitrise": 0.75,
           "palier": 2
-        },
-        {
-          "name": "EMI - cycle 4",
-          "code": "VGBDZF671",
-          "campaignName": "3M4 SVT -- EMI",
-          "date": null,
-          "partage": false,
-          "progress": 0.92,
-          "maitrise": 0.0,
-          "palier": 0
         }
       ],
       "status": "renseigne"

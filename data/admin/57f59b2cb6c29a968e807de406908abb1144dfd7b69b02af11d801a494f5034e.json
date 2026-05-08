@@ -449,6 +449,16 @@
       "lastUpdate": "2026-04-27T07:15:00",
       "parcours": [
         {
+          "name": "Protection et sécurité (focus cyberharcèlement) - Cycle 4 (MAJ 2025)",
+          "code": "NEQTMH744",
+          "campaignName": "5M2 TECHNO -- Protection & sécurité",
+          "date": "2026-05-08T13:15:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.74,
+          "palier": 0
+        },
+        {
           "name": "Parcours de rentrée 5e",
           "code": "QLSQAP417",
           "campaignName": "5M2 TECHNO -- Parcours de rentrée 5e",
