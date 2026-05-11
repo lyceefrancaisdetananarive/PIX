@@ -49,8 +49,18 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-11T15:22:00",
       "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-05-11T15:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
@@ -59,16 +69,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.52,
-          "palier": 0
-        },
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "RQAMHC693",
-          "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 0.76,
-          "maitrise": 0.0,
           "palier": 0
         }
       ]
@@ -493,6 +493,16 @@
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
           "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-05-11T15:25:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.84,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
           "date": "2026-03-23T13:20:00",
           "partage": true,
           "progress": 1.0,
@@ -505,7 +515,7 @@
           "campaignName": "Sensibilisation PIX 6M2",
           "date": null,
           "partage": false,
-          "progress": 0.84,
+          "progress": 1.0,
           "maitrise": 0.0,
           "palier": 0
         }

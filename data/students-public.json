@@ -65,15 +65,15 @@
   },
   "stats": {
     "totalGroups": 72,
-    "totalStudents": 2011,
+    "totalStudents": 2012,
     "totalScored": 510,
-    "totalMissing": 1401,
+    "totalMissing": 1402,
     "totalCertifiable": 505,
     "averagePix": 203,
     "byCycle": {
       "cycle3": {
         "label": "Cycle 3 · 6ème",
-        "students": 164
+        "students": 165
       },
       "cycle4": {
         "label": "Cycle 4 · 5e/4e/3e",
