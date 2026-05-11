@@ -2,9 +2,9 @@
   "name": "6M6",
   "level": "6e",
   "cycle": "cycle3",
-  "studentCount": 24,
+  "studentCount": 25,
   "scoredCount": 0,
-  "missingCount": 24,
+  "missingCount": 25,
   "certifiableCount": 0,
   "averagePix": 0,
   "parcoursCodes": {
@@ -321,7 +321,7 @@
           "campaignName": "Sensibilisation PIX 6M6",
           "date": null,
           "partage": false,
-          "progress": 0.08,
+          "progress": 0.28,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -372,7 +372,7 @@
           "campaignName": "Sensibilisation PIX 6M6",
           "date": null,
           "partage": false,
-          "progress": 0.28,
+          "progress": 0.88,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -496,6 +496,57 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.92,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "makela_nathanael",
+      "name": "MAKELA Nathanaël",
+      "classe": "6M3",
+      "group": "6M6",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": null,
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "WWZJHH691",
+          "campaignName": "Sensibilisation PIX 6M6",
+          "date": null,
+          "partage": false,
+          "progress": 0.96,
+          "maitrise": 0.0,
           "palier": 0
         }
       ]
@@ -1301,8 +1352,18 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-11T09:20:00",
       "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "WWZJHH691",
+          "campaignName": "Sensibilisation PIX 6M6",
+          "date": "2026-05-11T09:20:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.68,
+          "palier": 0
+        },
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "WWZJHH691",
@@ -1311,16 +1372,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.52,
-          "palier": 0
-        },
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "WWZJHH691",
-          "campaignName": "Sensibilisation PIX 6M6",
-          "date": null,
-          "partage": false,
-          "progress": 0.76,
-          "maitrise": 0.0,
           "palier": 0
         }
       ]
