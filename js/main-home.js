@@ -267,6 +267,50 @@ function initCodeToggle() {
   });
 }
 
+// ─── Dropdown « Accès classe » dans le header ───────────────────
+// Ouverture/fermeture animée, fermeture par Esc et clic extérieur,
+// focus automatique sur l'input à l'ouverture (UX type Apple/Stripe).
+function initHeaderAccess() {
+  const root = document.getElementById("header-access");
+  const trigger = document.getElementById("header-access-trigger");
+  const panel = document.getElementById("header-access-panel");
+  const input = document.getElementById("code-input");
+  if (!root || !trigger || !panel) return;
+
+  let open = false;
+  const setOpen = (next) => {
+    open = next;
+    root.setAttribute("data-open", String(open));
+    trigger.setAttribute("aria-expanded", String(open));
+    if (open) {
+      // Focus l'input après l'animation pour ne pas casser le scroll
+      setTimeout(() => input && input.focus(), 200);
+    }
+  };
+
+  trigger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    setOpen(!open);
+  });
+
+  // Esc → ferme
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && open) {
+      setOpen(false);
+      trigger.focus();
+    }
+  });
+
+  // Clic extérieur → ferme
+  document.addEventListener("click", (e) => {
+    if (!open) return;
+    if (!root.contains(e.target)) setOpen(false);
+  });
+
+  // Empêche que les clics dans le panel le ferment
+  panel.addEventListener("click", (e) => e.stopPropagation());
+}
+
 // ─── Boot ──────────────────────────────────────────────────────
 initPodium();
 initDemoGauge();
@@ -274,3 +318,4 @@ initVideoEmbeds();
 initReveal();
 initCodeForm();
 initCodeToggle();
+initHeaderAccess();

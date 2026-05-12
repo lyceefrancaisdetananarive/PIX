@@ -56,9 +56,82 @@
         <div class="site-header__subtitle">Tableau de bord pédagogique</div>
       </div>
     </a>
-    <div class="site-header__partners" aria-label="Partenaires institutionnels">
-      <img src="assets/logos/aefe.jpg" alt="AEFE" class="site-header__partner-logo" width="64" height="32" loading="lazy">
-      <img src="assets/logos/pix.svg" alt="Pix" class="site-header__partner-logo" width="42" height="32" loading="lazy">
+    <div class="site-header__right">
+      <div class="site-header__partners" aria-label="Partenaires institutionnels">
+        <img src="assets/logos/aefe.jpg" alt="AEFE" class="site-header__partner-logo" width="64" height="32" loading="lazy">
+        <img src="assets/logos/pix.svg" alt="Pix" class="site-header__partner-logo" width="42" height="32" loading="lazy">
+      </div>
+
+      <!-- ─── ACCÈS CLASSE (dropdown header) ──────────────────── -->
+      <div class="header-access" id="header-access">
+        <button type="button"
+                class="header-access__trigger"
+                id="header-access-trigger"
+                aria-expanded="false"
+                aria-controls="header-access-panel"
+                aria-haspopup="dialog">
+          <svg class="icon" aria-hidden="true"><use href="#ph-lock-key"/></svg>
+          <span class="header-access__trigger-label">Accès classe</span>
+          <svg class="header-access__chevron" aria-hidden="true" viewBox="0 0 16 16" width="14" height="14">
+            <path d="M3.5 6 8 10.5 12.5 6" stroke="currentColor" stroke-width="2"
+                  fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div class="header-access__panel glass"
+             id="header-access-panel"
+             role="dialog"
+             aria-labelledby="header-access-title"
+             aria-modal="false">
+          <div class="header-access__arrow" aria-hidden="true"></div>
+
+          <header class="header-access__head">
+            <div class="header-access__icon">
+              <svg class="icon icon--lg" aria-hidden="true"><use href="#ph-lock-key"/></svg>
+            </div>
+            <div>
+              <h3 class="header-access__title" id="header-access-title">Accès à votre classe</h3>
+              <p class="header-access__desc">
+                Saisissez le mot-clé que votre professeur vous a transmis pour voir
+                les résultats détaillés de votre classe.
+              </p>
+            </div>
+          </header>
+
+          <form id="code-form" class="header-access__form" autocomplete="off" novalidate>
+            <label for="code-input" class="sr-only">Code classe</label>
+            <div class="code-input-wrap">
+              <input
+                type="password"
+                id="code-input"
+                class="code-input"
+                placeholder="Votre mot-clé"
+                autocapitalize="characters"
+                spellcheck="false"
+                autocomplete="off"
+                inputmode="text"
+                aria-describedby="code-error code-hint"
+                required>
+              <button type="button" class="code-input__toggle" id="code-input-toggle"
+                      aria-label="Afficher le code en clair" aria-pressed="false">
+                <svg class="icon" aria-hidden="true"><use href="#ph-eye"/></svg>
+              </button>
+            </div>
+            <button type="submit" class="btn btn--primary header-access__submit">
+              <span>Déverrouiller</span>
+              <svg class="icon" aria-hidden="true"><use href="#ph-arrow-right"/></svg>
+            </button>
+          </form>
+
+          <p class="header-access__hint" id="code-hint">
+            <svg class="icon" aria-hidden="true"><use href="#ph-info"/></svg>
+            Un seul mot, en référence au programme de Technologie. <br>
+            <span class="header-access__hint-sub">Exemple : <code>MICROSCOPE</code>, <code>ARDUINO</code>…</span>
+          </p>
+
+          <div class="header-access__error" id="code-error" role="alert" aria-live="polite"></div>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -71,7 +144,8 @@
       <p class="hero__subtitle">
         Résultats, certifiabilité et progression de chaque élève,
         de la 6ème à la Terminale. Consultez les podiums par cycle, comprenez
-        votre niveau Pix et accédez à votre classe avec le code transmis par votre professeur.
+        votre niveau Pix et accédez à votre classe via le bouton
+        <strong>« Accès classe »</strong> en haut à droite.
       </p>
     </section>
 
@@ -426,45 +500,9 @@
     </section>
 
     <!-- ─── ACCÈS PAR CODE CLASSE ──────────────────────────── -->
-    <section class="container section reveal" aria-labelledby="access-title">
-      <header class="section-title">
-        <span class="section-title__eyebrow"><svg class="icon" aria-hidden="true"><use href="#ph-lock-key"/></svg> Accès classe</span>
-        <h2 class="section-title__heading" id="access-title">Consulter les résultats<br>de votre classe</h2>
-        <p class="section-title__sub">Saisissez le code unique de votre groupe (un mot, transmis par votre professeur) pour accéder aux résultats détaillés.</p>
-      </header>
-
-      <form class="code-form glass glass-bevel" id="code-form" autocomplete="off" novalidate>
-        <div class="code-form__lock" aria-hidden="true"><svg class="icon icon--xl" style="color: white;"><use href="#ph-lock-key"/></svg></div>
-        <h3 class="code-form__title">Entrez le code de votre classe</h3>
-        <p class="code-form__hint">Un seul mot, en référence au programme de Technologie.</p>
-
-        <div class="code-form__row">
-          <label for="code-input" class="sr-only">Code classe</label>
-          <div class="code-input-wrap">
-            <input
-              type="password"
-              id="code-input"
-              class="code-input"
-              placeholder="Mot clé"
-              autocapitalize="characters"
-              spellcheck="false"
-              autocomplete="off"
-              inputmode="text"
-              aria-describedby="code-error"
-              required>
-            <button type="button" class="code-input__toggle" id="code-input-toggle"
-                    aria-label="Afficher le code en clair" aria-pressed="false">
-              <svg class="icon" aria-hidden="true"><use href="#ph-eye"/></svg>
-            </button>
-          </div>
-          <button type="submit" class="btn btn--primary">Déverrouiller</button>
-        </div>
-
-        <div class="code-form__error" id="code-error" role="alert" aria-live="polite">
-          Code inconnu. Vérifiez auprès de votre professeur.
-        </div>
-      </form>
-    </section>
+    <!-- L'accès classe est désormais accessible en permanence dans le header
+         (bouton "Accès classe" en haut à droite, dropdown qui se déroule).
+         Cette section a été retirée pour éviter la duplication. -->
 
   </main>
 
