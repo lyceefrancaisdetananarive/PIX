@@ -587,16 +587,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-12T12:05:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "NUEXHF925",
           "campaignName": "Sensibilisation PIX 6M4",
-          "date": null,
-          "partage": false,
-          "progress": 0.72,
-          "maitrise": 0.0,
+          "date": "2026-05-12T12:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.8,
           "palier": 0
         }
       ]
@@ -1032,7 +1032,7 @@
           "campaignName": "Sensibilisation PIX 6M4",
           "date": null,
           "partage": false,
-          "progress": 0.32,
+          "progress": 0.28,
           "maitrise": 0.0,
           "palier": 0
         }
