@@ -883,16 +883,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-18T14:40:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
           "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 0.32,
-          "maitrise": 0.0,
+          "date": "2026-05-18T14:40:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.72,
           "palier": 0
         }
       ]
