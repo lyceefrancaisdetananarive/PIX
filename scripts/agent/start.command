@@ -49,6 +49,31 @@ echo "────────────────────────�
 echo "  Python : $LOCAL_VENV/bin/python"
 echo "  Repo   : $REPO_SITE"
 echo "──────────────────────────────────────────────"
+echo ""
+echo "  Garde cette fenêtre OUVERTE pendant la sync."
+echo "  Ctrl+C pour arrêter l'agent."
+echo "──────────────────────────────────────────────"
+echo ""
 
 export PIX_REPO="$REPO_SITE"
 "$LOCAL_VENV/bin/python" "$REPO_AGENT/pix-sync-agent.py"
+RC=$?
+
+# Si python sort (crash ou Ctrl+C), on garde la fenêtre ouverte pour voir l'erreur
+echo ""
+echo "──────────────────────────────────────────────"
+if [ $RC -eq 0 ]; then
+  echo "  Agent arrêté proprement."
+else
+  echo "  ⚠ Agent terminé avec le code $RC"
+  echo ""
+  echo "  Causes fréquentes :"
+  echo "    • Code 1 ou autre : exception Python (voir la trace ci-dessus)"
+  echo "    • Code 130        : Ctrl+C (arrêt normal)"
+  echo "    • [Errno 48]      : port 7777 déjà utilisé par un autre agent"
+  echo "      → pkill -9 -f 'pix-sync|agent.py' puis relance"
+fi
+echo "──────────────────────────────────────────────"
+echo ""
+echo "Appuie sur une touche pour fermer cette fenêtre…"
+read -n1
