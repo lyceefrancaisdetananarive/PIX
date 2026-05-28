@@ -42,7 +42,15 @@ KEYCHAIN_ACCOUNT = "pix-orga"
 _env_repo = os.environ.get("PIX_REPO")
 REPO_DIR = Path(_env_repo).resolve() if _env_repo else Path(__file__).resolve().parents[2]
 SOURCE_ROOT = REPO_DIR.parent                        # PIX/
-BUILD_SCRIPT = REPO_DIR / "scripts" / "build-data.py"
+
+# build-data.py : copie locale prioritaire (OneDrive peut "déloger" le fichier
+# en mode placeholder cloud → TimeoutError [Errno 60] à la lecture). On garde
+# une copie miroir dans ~/.local/share/pix-sync/build-data.py, rafraîchie au
+# besoin depuis OneDrive ou depuis GitHub.
+LOCAL_CACHE_DIR = Path.home() / ".local" / "share" / "pix-sync"
+LOCAL_BUILD_SCRIPT = LOCAL_CACHE_DIR / "build-data.py"
+BUILD_SCRIPT_ONEDRIVE = REPO_DIR / "scripts" / "build-data.py"
+BUILD_SCRIPT = LOCAL_BUILD_SCRIPT if LOCAL_BUILD_SCRIPT.exists() else BUILD_SCRIPT_ONEDRIVE
 
 # Sonde au démarrage : vérifie l'accès au dépôt (utile pour diagnostiquer TCC sous launchd)
 def _probe_repo_access():
@@ -333,13 +341,67 @@ def sync_worker(job_id: str):
         import io, contextlib, traceback
         build_stdout = io.StringIO()
         build_stderr = io.StringIO()
+        # Choix dynamique du script à exécuter (OneDrive peut être en panne).
+        # Stratégie : 1) copie locale si existe et lisible, 2) OneDrive,
+        # 3) fallback GitHub raw si tout le reste échoue.
+        chosen_script = None
+        chosen_src = None
+        # 1. Local cache
+        if LOCAL_BUILD_SCRIPT.exists():
+            try:
+                chosen_src = LOCAL_BUILD_SCRIPT.read_text(encoding="utf-8")
+                chosen_script = LOCAL_BUILD_SCRIPT
+            except Exception as e:
+                emit("build", f"Cache local inutilisable ({type(e).__name__}), bascule sur OneDrive…", 0.91)
+        # 2. OneDrive (avec retry léger pour le timeout cloud-on-demand)
+        if chosen_src is None:
+            last_err = None
+            for attempt in range(2):
+                try:
+                    chosen_src = BUILD_SCRIPT_ONEDRIVE.read_text(encoding="utf-8")
+                    chosen_script = BUILD_SCRIPT_ONEDRIVE
+                    # Synchro miroir : on rafraîchit le cache local pour la prochaine fois
+                    try:
+                        LOCAL_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+                        LOCAL_BUILD_SCRIPT.write_text(chosen_src, encoding="utf-8")
+                    except Exception:
+                        pass
+                    break
+                except Exception as e:
+                    last_err = e
+                    if attempt == 0:
+                        emit("build", f"OneDrive timeout ({type(e).__name__}), retry…", 0.91)
+                        time.sleep(2)
+            else:
+                emit("build", f"OneDrive inaccessible : {last_err}", 0.92)
+        # 3. Fallback GitHub raw
+        if chosen_src is None:
+            emit("build", "Fallback : téléchargement de build-data.py depuis GitHub…", 0.92)
+            try:
+                import urllib.request
+                url = "https://raw.githubusercontent.com/lyceefrancaisdetananarive/PIX/main/scripts/build-data.py"
+                with urllib.request.urlopen(url, timeout=15) as r:
+                    chosen_src = r.read().decode("utf-8")
+                LOCAL_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+                LOCAL_BUILD_SCRIPT.write_text(chosen_src, encoding="utf-8")
+                chosen_script = LOCAL_BUILD_SCRIPT
+                emit("build", "GitHub OK, copie locale rafraîchie", 0.93)
+            except Exception as e:
+                emit("error", f"Impossible de charger build-data.py "
+                              f"(OneDrive + GitHub KO) : {type(e).__name__}: {e}", -1)
+                JOBS[job_id]["status"] = "failed"
+                return
+
         prev_argv = sys.argv
-        sys.argv = [str(BUILD_SCRIPT)]
+        sys.argv = [str(chosen_script)]
         try:
-            script_src = BUILD_SCRIPT.read_text(encoding="utf-8")
+            script_src = chosen_src
+            # __file__ doit pointer vers OneDrive parce que build-data.py
+            # utilise Path(__file__).resolve().parent.parent pour trouver le
+            # dépôt (où sont CSVs, XLSX, data/, etc.).
             globals_ns = {
                 "__name__": "__main__",
-                "__file__": str(BUILD_SCRIPT),
+                "__file__": str(BUILD_SCRIPT_ONEDRIVE),
                 "__builtins__": __builtins__,
             }
             with contextlib.redirect_stdout(build_stdout), contextlib.redirect_stderr(build_stderr):
@@ -348,7 +410,7 @@ def sync_worker(job_id: str):
                 prev_cwd = os.getcwd()
                 os.chdir(str(REPO_DIR))
                 try:
-                    exec(compile(script_src, str(BUILD_SCRIPT), "exec"), globals_ns)
+                    exec(compile(script_src, str(BUILD_SCRIPT_ONEDRIVE), "exec"), globals_ns)
                 finally:
                     os.chdir(prev_cwd)
         except SystemExit as e:
