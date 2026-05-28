@@ -9,6 +9,14 @@
       "podium": [
         {
           "rank": 1,
+          "name": "RAZANAMALALA Jemilah Francine Safosy",
+          "classe": "3M4",
+          "group": "3M4 SVT",
+          "pix": 487,
+          "level": "Indépendant 2"
+        },
+        {
+          "rank": 2,
           "name": "TSHINKENKE Sacha Muyaya",
           "classe": "5M3",
           "group": "5M3 SVT",
@@ -16,19 +24,11 @@
           "level": "Indépendant 2"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "RANAIVOSOA Irina Marcelle",
           "classe": "3M2",
           "group": "3M2",
           "pix": 436,
-          "level": "Indépendant 2"
-        },
-        {
-          "rank": 3,
-          "name": "HASSANALY Husain",
-          "classe": "3M1",
-          "group": "3M1",
-          "pix": 400,
           "level": "Indépendant 2"
         }
       ]
@@ -66,9 +66,9 @@
   "stats": {
     "totalGroups": 72,
     "totalStudents": 2012,
-    "totalScored": 510,
-    "totalMissing": 1402,
-    "totalCertifiable": 505,
+    "totalScored": 528,
+    "totalMissing": 1390,
+    "totalCertifiable": 514,
     "averagePix": 203,
     "byCycle": {
       "cycle3": {
@@ -77,7 +77,7 @@
       },
       "cycle4": {
         "label": "Cycle 4 · 5e/4e/3e",
-        "students": 586
+        "students": 584
       },
       "lycee": {
         "label": "Lycée · 2nde/1e/Term.",

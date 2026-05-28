@@ -195,8 +195,8 @@
       "studentCount": 25,
       "scoredCount": 10,
       "missingCount": 15,
-      "certifiableCount": 8,
-      "averagePix": 133,
+      "certifiableCount": 9,
+      "averagePix": 135,
       "relatedGroups": [
         "3 TECHNO 2",
         "3M3"
@@ -238,10 +238,10 @@
       "level": "4e",
       "cycle": "cycle4",
       "studentCount": 28,
-      "scoredCount": 0,
-      "missingCount": 28,
-      "certifiableCount": 0,
-      "averagePix": 0,
+      "scoredCount": 5,
+      "missingCount": 23,
+      "certifiableCount": 3,
+      "averagePix": 181,
       "relatedGroups": [
         "4 TECHNO 1",
         "4M2 TECHNO"
@@ -283,10 +283,10 @@
       "level": "4e",
       "cycle": "cycle4",
       "studentCount": 28,
-      "scoredCount": 0,
-      "missingCount": 28,
-      "certifiableCount": 0,
-      "averagePix": 0,
+      "scoredCount": 7,
+      "missingCount": 21,
+      "certifiableCount": 4,
+      "averagePix": 155,
       "relatedGroups": [
         "4 TECHNO 3",
         "4M5 SVT"
@@ -360,7 +360,7 @@
       "scoredCount": 24,
       "missingCount": 0,
       "certifiableCount": 22,
-      "averagePix": 162,
+      "averagePix": 170,
       "relatedGroups": [
         "3M4 SVT"
       ],

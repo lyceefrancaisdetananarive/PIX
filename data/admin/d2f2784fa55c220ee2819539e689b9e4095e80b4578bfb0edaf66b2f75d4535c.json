@@ -283,16 +283,6 @@
       "lastUpdate": "2026-05-08T13:01:00",
       "parcours": [
         {
-          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
-          "code": "DTBMUF524",
-          "campaignName": "5M7 P.1 -- Sécuriser son environnement (Fin de cycle 4)",
-          "date": "2026-05-08T12:59:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.67,
-          "palier": 0
-        },
-        {
           "name": "EMI - cycle 4",
           "code": "FHTMJR285",
           "campaignName": "5M7 P.1 -- EMI",
@@ -300,6 +290,16 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.76,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T12:01:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
           "palier": 0
         },
         {
@@ -937,16 +937,6 @@
       "lastUpdate": "2026-05-08T13:21:00",
       "parcours": [
         {
-          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
-          "code": "DTBMUF524",
-          "campaignName": "5M7 P.1 -- Sécuriser son environnement (Fin de cycle 4)",
-          "date": "2026-04-10T13:11:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.89,
-          "palier": 0
-        },
-        {
           "name": "EMI - cycle 4",
           "code": "FHTMJR285",
           "campaignName": "5M7 P.1 -- EMI",
@@ -954,6 +944,16 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.74,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T11:57:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
           "palier": 0
         },
         {
@@ -1103,13 +1103,13 @@
       "lastUpdate": "2026-05-08T13:23:00",
       "parcours": [
         {
-          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
-          "code": "DTBMUF524",
-          "campaignName": "5M7 P.1 -- Sécuriser son environnement (Fin de cycle 4)",
-          "date": "2026-04-10T13:00:00",
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T11:54:00",
           "partage": true,
           "progress": 1.0,
-          "maitrise": 0.94,
+          "maitrise": 1.0,
           "palier": 0
         },
         {
@@ -1435,10 +1435,10 @@
           "palier": 0
         },
         {
-          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
-          "code": "DTBMUF524",
-          "campaignName": "5M7 P.1 -- Sécuriser son environnement (Fin de cycle 4)",
-          "date": "2026-04-10T13:00:00",
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T11:53:00",
           "partage": true,
           "progress": 1.0,
           "maitrise": 1.0,
@@ -1757,16 +1757,6 @@
           "palier": 0
         },
         {
-          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
-          "code": "DTBMUF524",
-          "campaignName": "5M7 P.1 -- Sécuriser son environnement (Fin de cycle 4)",
-          "date": "2026-04-10T12:58:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.78,
-          "palier": 0
-        },
-        {
           "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
           "code": "PPZKUX416",
           "campaignName": "5M7 P.1 – Manipuler les fichiers",
@@ -2079,10 +2069,10 @@
       "lastUpdate": "2026-05-08T13:29:00",
       "parcours": [
         {
-          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
-          "code": "DTBMUF524",
-          "campaignName": "5M7 P.1 -- Sécuriser son environnement (Fin de cycle 4)",
-          "date": "2026-04-10T13:03:00",
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T12:01:00",
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.83,
@@ -2411,16 +2401,6 @@
           "palier": 0
         },
         {
-          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
-          "code": "DTBMUF524",
-          "campaignName": "5M7 P.1 -- Sécuriser son environnement (Fin de cycle 4)",
-          "date": "2026-05-08T13:03:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.72,
-          "palier": 0
-        },
-        {
           "name": "Cybersécurité - Cycle 4 (MAJ 2025)",
           "code": "MWXLYX469",
           "campaignName": "5M7 P.1-- Cybersécurité",
@@ -2428,6 +2408,16 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.66,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T12:54:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
           "palier": 0
         },
         {
@@ -2889,16 +2879,6 @@
       "lastUpdate": "2026-05-08T13:25:00",
       "parcours": [
         {
-          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
-          "code": "DTBMUF524",
-          "campaignName": "5M7 P.1 -- Sécuriser son environnement (Fin de cycle 4)",
-          "date": "2026-05-08T13:09:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.94,
-          "palier": 0
-        },
-        {
           "name": "EMI - cycle 4",
           "code": "FHTMJR285",
           "campaignName": "5M7 P.1 -- EMI",
@@ -2906,6 +2886,16 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.86,
+          "palier": 0
+        },
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T12:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
           "palier": 0
         },
         {
@@ -3045,13 +3035,13 @@
       "lastUpdate": "2026-05-08T13:29:00",
       "parcours": [
         {
-          "name": "Technologie - Fin de cycle 4 : Sécuriser son environnement numérique et  protéger ses données",
-          "code": "DTBMUF524",
-          "campaignName": "5M7 P.1 -- Sécuriser son environnement (Fin de cycle 4)",
-          "date": "2026-04-10T13:14:00",
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T11:55:00",
           "partage": true,
           "progress": 1.0,
-          "maitrise": 0.67,
+          "maitrise": 0.83,
           "palier": 0
         },
         {
@@ -3201,6 +3191,16 @@
           "palier": 0
         },
         {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T11:58:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
+          "palier": 0
+        },
+        {
           "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
           "code": "PPZKUX416",
           "campaignName": "5M7 P.1 – Manipuler les fichiers",
@@ -3346,6 +3346,16 @@
       },
       "lastUpdate": "2026-05-08T13:27:00",
       "parcours": [
+        {
+          "name": "Technologie - Début de cycle 4 : Sécuriser son environnement numérique",
+          "code": "KATVMU349",
+          "campaignName": "5M7 P.1 -- Sécuriser son environnement numérique",
+          "date": "2026-03-06T12:00:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.83,
+          "palier": 0
+        },
         {
           "name": "Technologie - Début de cycle 4 : Manipuler les fichiers",
           "code": "PPZKUX416",
