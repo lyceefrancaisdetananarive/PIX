@@ -3,10 +3,10 @@
   "level": "4e",
   "cycle": "cycle4",
   "studentCount": 28,
-  "scoredCount": 12,
-  "missingCount": 16,
-  "certifiableCount": 1,
-  "averagePix": 59,
+  "scoredCount": 13,
+  "missingCount": 15,
+  "certifiableCount": 2,
+  "averagePix": 72,
   "relatedGroups": [
     "4M7 P.1",
     "4M7 P.2"
@@ -131,6 +131,122 @@
           "code": "EYRXWN983",
           "campaignName": "4M7 P.1 -- Parcours de rentrée 4e",
           "date": "2026-01-16T09:18:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.97,
+          "palier": 3
+        }
+      ],
+      "status": "renseigne"
+    },
+    {
+      "id": "rakotoarison_matthieu_marimpitiavana",
+      "name": "RAKOTOARISON Matthieu Marimpitiavana",
+      "classe": "4M7",
+      "group": "4M7 P.2",
+      "pix": 231,
+      "certifiable": true,
+      "competencesCertifiables": 16,
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 4,
+          "pix": 61
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 3,
+          "pix": 70
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 1,
+          "pix": 37
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 1,
+          "pix": 35
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 2,
+          "pix": 28
+        }
+      },
+      "competences": {
+        "Mener une recherche et une veille d’information": {
+          "niveau": 4,
+          "pix": 32
+        },
+        "Gérer des données": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Traiter des données": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Interagir": {
+          "niveau": 2,
+          "pix": 18
+        },
+        "Partager et publier": {
+          "niveau": 3,
+          "pix": 24
+        },
+        "Collaborer": {
+          "niveau": 2,
+          "pix": 20
+        },
+        "S’insérer dans le monde numérique": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents textuels": {
+          "niveau": 1,
+          "pix": 8
+        },
+        "Développer des documents multimedia": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Adapter les documents à leur finalité": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Programmer": {
+          "niveau": 1,
+          "pix": 9
+        },
+        "Sécuriser l’environnement numérique": {
+          "niveau": 1,
+          "pix": 10
+        },
+        "Protéger les données personnelles et la vie privée": {
+          "niveau": 1,
+          "pix": 11
+        },
+        "Protéger la santé, le bien-être et l’environnement": {
+          "niveau": 1,
+          "pix": 14
+        },
+        "Résoudre des problèmes techniques": {
+          "niveau": 2,
+          "pix": 19
+        },
+        "Construire un environnement numérique": {
+          "niveau": 1,
+          "pix": 9
+        }
+      },
+      "lastUpdate": "2026-06-01T07:17:00",
+      "parcours": [
+        {
+          "name": "Parcours de rentrée 4e",
+          "code": "KZALSE686",
+          "campaignName": "4M7 P.2 -- Parcours de rentrée 4e",
+          "date": "2026-03-16T06:52:00",
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.97,
@@ -1654,57 +1770,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.91,
-          "palier": 3
-        }
-      ]
-    },
-    {
-      "id": "rakotoarison_matthieu_marimpitiavana",
-      "name": "RAKOTOARISON Matthieu Marimpitiavana",
-      "classe": "4M7",
-      "group": "4M7 P.2",
-      "pix": 0,
-      "certifiable": false,
-      "competencesCertifiables": 0,
-      "status": "partiel",
-      "domains": {
-        "info": {
-          "label": "Information et données",
-          "level": 0,
-          "pix": 0
-        },
-        "communication": {
-          "label": "Communication et collaboration",
-          "level": 0,
-          "pix": 0
-        },
-        "creation": {
-          "label": "Création de contenu",
-          "level": 0,
-          "pix": 0
-        },
-        "protection": {
-          "label": "Protection et sécurité",
-          "level": 0,
-          "pix": 0
-        },
-        "environnement": {
-          "label": "Environnement numérique",
-          "level": 0,
-          "pix": 0
-        }
-      },
-      "competences": {},
-      "lastUpdate": "2026-03-16T06:52:00",
-      "parcours": [
-        {
-          "name": "Parcours de rentrée 4e",
-          "code": "KZALSE686",
-          "campaignName": "4M7 P.2 -- Parcours de rentrée 4e",
-          "date": "2026-03-16T06:52:00",
-          "partage": true,
-          "progress": 1.0,
-          "maitrise": 0.97,
           "palier": 3
         }
       ]

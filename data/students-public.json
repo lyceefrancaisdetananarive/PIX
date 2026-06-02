@@ -66,18 +66,18 @@
   "stats": {
     "totalGroups": 72,
     "totalStudents": 2012,
-    "totalScored": 528,
-    "totalMissing": 1390,
-    "totalCertifiable": 514,
+    "totalScored": 533,
+    "totalMissing": 1384,
+    "totalCertifiable": 520,
     "averagePix": 203,
     "byCycle": {
       "cycle3": {
         "label": "Cycle 3 · 6ème",
-        "students": 165
+        "students": 166
       },
       "cycle4": {
         "label": "Cycle 4 · 5e/4e/3e",
-        "students": 584
+        "students": 582
       },
       "lycee": {
         "label": "Lycée · 2nde/1e/Term.",

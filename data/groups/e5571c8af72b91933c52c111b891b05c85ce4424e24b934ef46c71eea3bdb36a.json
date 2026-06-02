@@ -2,9 +2,9 @@
   "name": "6M2",
   "level": "6e",
   "cycle": "cycle3",
-  "studentCount": 25,
+  "studentCount": 26,
   "scoredCount": 0,
-  "missingCount": 25,
+  "missingCount": 26,
   "certifiableCount": 0,
   "averagePix": 0,
   "parcoursCodes": {
@@ -227,9 +227,19 @@
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
           "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-06-01T14:07:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
           "date": null,
           "partage": false,
-          "progress": 0.6,
+          "progress": 0.96,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -384,16 +394,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-06-01T14:07:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
           "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 0.96,
-          "maitrise": 0.0,
+          "date": "2026-06-01T14:07:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
           "palier": 0
         }
       ]
@@ -486,8 +496,18 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-06-01T14:02:00",
       "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-06-01T14:02:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.88,
+          "palier": 0
+        },
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
@@ -506,16 +526,6 @@
           "partage": true,
           "progress": 1.0,
           "maitrise": 0.64,
-          "palier": 0
-        },
-        {
-          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
-          "code": "RQAMHC693",
-          "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 1.0,
-          "maitrise": 0.0,
           "palier": 0
         }
       ]
@@ -608,16 +618,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-06-01T14:22:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
           "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 0.2,
-          "maitrise": 0.0,
+          "date": "2026-06-01T14:22:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
           "palier": 0
         }
       ]
@@ -665,9 +675,19 @@
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
           "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-06-01T12:16:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 0
+        },
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
           "date": null,
           "partage": false,
-          "progress": 0.2,
+          "progress": 0.68,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -993,7 +1013,7 @@
           "campaignName": "Sensibilisation PIX 6M2",
           "date": null,
           "partage": false,
-          "progress": 0.32,
+          "progress": 1.0,
           "maitrise": 0.0,
           "palier": 0
         }
@@ -1117,16 +1137,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-06-01T12:05:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
           "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 0.36,
-          "maitrise": 0.0,
+          "date": "2026-06-01T12:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
           "palier": 0
         }
       ]
@@ -1219,16 +1239,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-06-01T12:13:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
           "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 0.16,
-          "maitrise": 0.0,
+          "date": "2026-06-01T12:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
           "palier": 0
         }
       ]
@@ -1270,16 +1290,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-06-01T11:51:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
           "campaignName": "Sensibilisation PIX 6M2",
-          "date": null,
-          "partage": false,
-          "progress": 0.8,
-          "maitrise": 0.0,
+          "date": "2026-06-01T11:51:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
           "palier": 0
         }
       ]
@@ -1321,8 +1341,18 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-06-01T12:21:00",
       "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-06-01T12:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.56,
+          "palier": 0
+        },
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "RQAMHC693",
@@ -1331,6 +1361,57 @@
           "partage": false,
           "progress": 0.48,
           "maitrise": 0.0,
+          "palier": 0
+        }
+      ]
+    },
+    {
+      "id": "tolojanahary_angelo_clement",
+      "name": "TOLOJANAHARY Angelo Clément",
+      "classe": "6M3",
+      "group": "6M2",
+      "pix": 0,
+      "certifiable": false,
+      "competencesCertifiables": 0,
+      "status": "partiel",
+      "domains": {
+        "info": {
+          "label": "Information et données",
+          "level": 0,
+          "pix": 0
+        },
+        "communication": {
+          "label": "Communication et collaboration",
+          "level": 0,
+          "pix": 0
+        },
+        "creation": {
+          "label": "Création de contenu",
+          "level": 0,
+          "pix": 0
+        },
+        "protection": {
+          "label": "Protection et sécurité",
+          "level": 0,
+          "pix": 0
+        },
+        "environnement": {
+          "label": "Environnement numérique",
+          "level": 0,
+          "pix": 0
+        }
+      },
+      "competences": {},
+      "lastUpdate": "2026-06-01T13:58:00",
+      "parcours": [
+        {
+          "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
+          "code": "RQAMHC693",
+          "campaignName": "Sensibilisation PIX 6M2",
+          "date": "2026-06-01T13:58:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 1.0,
           "palier": 0
         }
       ]

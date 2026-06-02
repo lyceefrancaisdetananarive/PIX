@@ -425,16 +425,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-29T12:13:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "AFWWNQ614",
           "campaignName": "Sensibilisation PIX 6M1",
-          "date": null,
-          "partage": false,
-          "progress": 0.24,
-          "maitrise": 0.0,
+          "date": "2026-05-29T12:13:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.64,
           "palier": 0
         }
       ]
@@ -608,16 +608,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-29T12:08:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "AFWWNQ614",
           "campaignName": "Sensibilisation PIX 6M1",
-          "date": null,
-          "partage": false,
-          "progress": 0.56,
-          "maitrise": 0.0,
+          "date": "2026-05-29T12:08:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
           "palier": 0
         }
       ]
@@ -659,16 +659,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-29T11:56:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "AFWWNQ614",
           "campaignName": "Sensibilisation PIX 6M1",
-          "date": null,
-          "partage": false,
-          "progress": 0.68,
-          "maitrise": 0.0,
+          "date": "2026-05-29T11:56:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.96,
           "palier": 0
         }
       ]
@@ -710,16 +710,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-29T12:05:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "AFWWNQ614",
           "campaignName": "Sensibilisation PIX 6M1",
-          "date": null,
-          "partage": false,
-          "progress": 0.68,
-          "maitrise": 0.0,
+          "date": "2026-05-29T12:05:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.76,
           "palier": 0
         }
       ]
@@ -761,16 +761,16 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-05-29T12:21:00",
       "parcours": [
         {
           "name": "Parcours 6e Initiation aux compétences numériques EFE 25",
           "code": "AFWWNQ614",
           "campaignName": "Sensibilisation PIX 6M1",
-          "date": null,
-          "partage": false,
-          "progress": 0.24,
-          "maitrise": 0.0,
+          "date": "2026-05-29T12:21:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.92,
           "palier": 0
         }
       ]
