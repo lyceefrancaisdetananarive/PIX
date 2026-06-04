@@ -458,17 +458,17 @@
         }
       },
       "competences": {},
-      "lastUpdate": null,
+      "lastUpdate": "2026-06-04T12:59:00",
       "parcours": [
         {
           "name": "Parcours de rentrée 4e",
           "code": "UHWSKR152",
           "campaignName": "4M6 TECHNO -- Parcours de rentrée 4e",
-          "date": null,
-          "partage": false,
-          "progress": 0.91,
-          "maitrise": 0.0,
-          "palier": 0
+          "date": "2026-06-04T12:59:00",
+          "partage": true,
+          "progress": 1.0,
+          "maitrise": 0.94,
+          "palier": 3
         }
       ]
     },
